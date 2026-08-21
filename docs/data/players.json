@@ -1666,11 +1666,11 @@
   },
   {
     "ep_next": "1.0",
-    "form": "1.0",
+    "form": "3.0",
     "id": 173,
     "now_cost": 40,
     "team": 7,
-    "total_points": 1,
+    "total_points": 3,
     "web_name": "Thomas"
   },
   {
