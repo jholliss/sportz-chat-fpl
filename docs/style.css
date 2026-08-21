@@ -336,10 +336,27 @@ ul.rank-list .rank-value {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
-.leaderboard-pair.good h4 { color: var(--good); }
-.leaderboard-pair.critical h4 { color: var(--critical); }
+.leaderboard-pair .good h4 { color: var(--good); }
+.leaderboard-pair .critical h4 { color: var(--critical); }
 
-.leaderboard-pair ul.rank-list li { padding: 6px 0; }
+.leaderboard-pair ul.rank-list li {
+  padding: 7px 8px;
+  border-bottom: none;
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+.leaderboard-pair .good ul.rank-list li {
+  background: color-mix(in srgb, var(--good) 10%, transparent);
+}
+.leaderboard-pair .critical ul.rank-list li {
+  background: color-mix(in srgb, var(--critical) 10%, transparent);
+}
+
+/* signed deltas: subtle color + arrow, used for jammy delta, transfer
+   net points, captain gain/loss, vs-average margins */
+.delta { font-weight: 700; }
+.delta.pos { color: var(--good); }
+.delta.neg { color: var(--critical); }
 
 /* ---------- charts ---------- */
 .chart-wrap {

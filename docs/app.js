@@ -55,6 +55,31 @@ function el(tag, props = {}, children = []) {
   return node;
 }
 
+// Subtle colored + arrowed treatment for signed deltas (jammy delta,
+// transfer net points, captain gain/loss, vs-average margins). Returns
+// a DOM node rather than a string -- appendContent() below knows how
+// to place either.
+function signedNode(n) {
+  if (n === null || n === undefined) return document.createTextNode("–");
+  const cls = n > 0 ? "pos" : n < 0 ? "neg" : "";
+  const arrow = n > 0 ? "▲ " : n < 0 ? "▼ " : "";
+  return el("span", { class: `delta ${cls}`.trim(), text: `${arrow}${fmtSigned(n)}` });
+}
+
+// Builds a DocumentFragment out of a mix of plain strings and nodes
+// (e.g. signedNode results), for sub/value slots that need both plain
+// text and a colored delta together.
+function mix(...parts) {
+  const frag = document.createDocumentFragment();
+  parts.forEach((p) => frag.appendChild(p instanceof Node ? p : document.createTextNode(p)));
+  return frag;
+}
+
+function appendContent(target, content) {
+  if (content instanceof Node) target.appendChild(content);
+  else target.textContent = content;
+}
+
 /* ---------- generic mobile-friendly rank list ---------- */
 function renderRankList(containerId, items, opts) {
   const container = document.getElementById(containerId);
@@ -72,12 +97,18 @@ function renderRankList(containerId, items, opts) {
     const nameWrap = el("div");
     nameWrap.appendChild(el("div", { class: "rank-name", text: opts.name(item) }));
     if (opts.sub) {
-      const subText = opts.sub(item);
-      if (subText) nameWrap.appendChild(el("div", { class: "rank-sub", text: subText }));
+      const subContent = opts.sub(item);
+      if (subContent) {
+        const subDiv = el("div", { class: "rank-sub" });
+        appendContent(subDiv, subContent);
+        nameWrap.appendChild(subDiv);
+      }
     }
     main.appendChild(nameWrap);
     li.appendChild(main);
-    li.appendChild(el("span", { class: "rank-value", text: opts.value(item) }));
+    const valueSpan = el("span", { class: "rank-value" });
+    appendContent(valueSpan, opts.value(item));
+    li.appendChild(valueSpan);
     container.appendChild(li);
   });
 }
@@ -229,7 +260,7 @@ function renderBench() {
   renderRankList("adjusted-table", DATA.derived.adjusted_table, {
     numbered: true,
     name: (r) => r.name,
-    sub: (r) => `Total ${fmtNum(r.total_points)} · Jammy ${fmtSigned(r.jammy_delta)}`,
+    sub: (r) => mix(`Total ${fmtNum(r.total_points)} · Jammy `, signedNode(r.jammy_delta)),
     value: (r) => fmtNum(r.total_plus_bench),
   });
 
@@ -246,13 +277,13 @@ function renderTransfers() {
   renderRankList("transfers-summary", DATA.derived.transfers_summary.summary, {
     name: (r) => r.name,
     sub: (r) => `${r.transfer_count} transfers`,
-    value: (r) => fmtSigned(r.total_net_points),
+    value: (r) => signedNode(r.total_net_points),
   });
 
   const transferOpts = {
     name: (r) => r.name,
     sub: (r) => `GW${r.gw}: ${r.player_in_name} for ${r.player_out_name}`,
-    value: (r) => fmtSigned(r.net_points),
+    value: (r) => signedNode(r.net_points),
     emptyMessage: "No transfer data yet.",
   };
   renderRankList("best-transfers", DATA.derived.transfers_summary.best_transfers, transferOpts);
@@ -297,7 +328,7 @@ function renderChips() {
 function renderCaptaincy() {
   renderRankList("captaincy-summary", DATA.derived.captaincy.summary, {
     name: (r) => r.name,
-    sub: (r) => `Picked best ${r.picked_best_captain_weeks}× · ${fmtSigned(r.gain_loss_vs_optimal)} vs optimal`,
+    sub: (r) => mix(`Picked best ${r.picked_best_captain_weeks}× · `, signedNode(r.gain_loss_vs_optimal), " vs optimal"),
     value: (r) => fmtNum(r.total_captain_points),
   });
 
@@ -323,12 +354,12 @@ function renderAverage() {
   const crushed = [...summary].sort((a, b) => b.weeks_lost_to_average - a.weeks_lost_to_average).slice(0, 5);
   renderRankList("average-crusher", crusher, {
     name: (r) => r.name,
-    sub: (r) => `Best ${fmtSigned(r.best_vs_average)}`,
+    sub: (r) => mix("Best ", signedNode(r.best_vs_average)),
     value: (r) => `${r.weeks_beat_average}wks`,
   });
   renderRankList("crushingly-average", crushed, {
     name: (r) => r.name,
-    sub: (r) => `Worst ${fmtSigned(r.worst_vs_average)}`,
+    sub: (r) => mix("Worst ", signedNode(r.worst_vs_average)),
     value: (r) => `${r.weeks_lost_to_average}wks`,
   });
 
@@ -357,7 +388,7 @@ function renderAverage() {
 function renderRecords() {
   const scoreOpts = {
     name: (r) => r.name,
-    sub: (r) => `GW${r.gw} · vs avg ${fmtSigned(r.vs_average)}${r.hits ? ` · ${r.hits} hits` : ""}`,
+    sub: (r) => mix(`GW${r.gw} · vs avg `, signedNode(r.vs_average), r.hits ? ` · ${r.hits} hits` : ""),
     value: (r) => fmtNum(r.points),
     emptyMessage: "No scores yet.",
   };
