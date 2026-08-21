@@ -418,6 +418,15 @@
     },
     {
       "league_rank": 1,
+      "manager_id": null,
+      "name": "Adam Beveridge",
+      "overall_percentage": 0.012527,
+      "overall_rank": 144065,
+      "points": 2493,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 1,
       "manager_id": "90676",
       "name": "Robbie Paton",
       "overall_percentage": 0.0184,
@@ -451,15 +460,6 @@
       "overall_rank": 298248,
       "points": 2416,
       "year": "2023/24"
-    },
-    {
-      "league_rank": 2,
-      "manager_id": null,
-      "name": "Andrew David",
-      "overall_percentage": 0.03083673233,
-      "overall_rank": 352996,
-      "points": 2453,
-      "year": "2022/23"
     }
   ],
   "transfers_summary": {
@@ -667,33 +667,33 @@
   ],
   "wins_and_podiums_alltime": [
     {
+      "name": "James Holliss",
+      "podiums": 5,
+      "wins": 3
+    },
+    {
+      "name": "Adam Beveridge",
+      "podiums": 4,
+      "wins": 3
+    },
+    {
       "name": "David Lewis",
       "podiums": 4,
       "wins": 3
     },
     {
-      "name": "James Holliss",
+      "name": "Oliver Dewdney",
       "podiums": 4,
       "wins": 2
     },
     {
-      "name": "Oliver Dewdney",
-      "podiums": 3,
-      "wins": 2
-    },
-    {
-      "name": "Adam Beveridge",
-      "podiums": 3,
-      "wins": 2
-    },
-    {
-      "name": "Robbie Paton",
+      "name": "James Cassidy",
       "podiums": 6,
       "wins": 1
     },
     {
-      "name": "James Cassidy",
-      "podiums": 5,
+      "name": "Robbie Paton",
+      "podiums": 6,
       "wins": 1
     },
     {
@@ -702,12 +702,12 @@
       "wins": 0
     },
     {
-      "name": "Tom Phillips",
-      "podiums": 1,
+      "name": "James Petrie",
+      "podiums": 3,
       "wins": 0
     },
     {
-      "name": "James Petrie",
+      "name": "Tom Phillips",
       "podiums": 1,
       "wins": 0
     }

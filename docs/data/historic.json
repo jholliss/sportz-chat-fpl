@@ -1,804 +1,948 @@
 {
-  "James Cassidy": [
+  "Adam Beveridge": [
     {
-      "year": "2013/14",
-      "points": null,
-      "overall_rank": null,
-      "overall_percentage": null,
-      "league_rank": null,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2014/15",
-      "points": null,
-      "overall_rank": null,
-      "overall_percentage": null,
-      "league_rank": null,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2015/16",
-      "points": 2005,
-      "overall_rank": 619457,
-      "overall_percentage": 0.1659,
-      "league_rank": 2,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2016/17",
-      "points": 2115,
-      "overall_rank": 203346,
-      "overall_percentage": 0.0452,
-      "league_rank": 2,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2017/18",
-      "points": 2279,
-      "overall_rank": 25110,
-      "overall_percentage": 0.0048,
-      "league_rank": 1,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2018/19",
-      "points": 2217,
-      "overall_rank": 215493,
-      "overall_percentage": 0.0342,
-      "league_rank": 3,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2019/20",
-      "points": 2030,
-      "overall_rank": 1573507,
-      "overall_percentage": 0.207,
-      "league_rank": 9,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2020/21",
-      "points": 2266,
-      "overall_rank": 518289,
-      "overall_percentage": 0.0629,
-      "league_rank": 4,
-      "manager_id": "2651638"
-    },
-    {
-      "year": "2021/22",
-      "points": 2333,
-      "overall_rank": 522922,
-      "overall_percentage": 0.05704142949,
-      "league_rank": 4,
-      "manager_id": null
-    },
-    {
-      "year": "2022/23",
-      "points": 2325,
-      "overall_rank": 1271583,
-      "overall_percentage": 0.111081895,
-      "league_rank": 6,
-      "manager_id": null
-    },
-    {
-      "year": "2023/24",
-      "points": 2396,
-      "overall_rank": 380497,
-      "overall_percentage": 0.0349,
-      "league_rank": 2,
-      "manager_id": "4878547"
-    }
-  ],
-  "Oliver Dewdney": [
-    {
-      "year": "2013/14",
-      "points": 1965,
-      "overall_rank": 1175053,
-      "overall_percentage": 0.365,
-      "league_rank": 4,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2014/15",
-      "points": 1962,
-      "overall_rank": 329702,
-      "overall_percentage": 0.0941,
-      "league_rank": 1,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2015/16",
-      "points": 2116,
-      "overall_rank": 179341,
-      "overall_percentage": 0.048,
-      "league_rank": 1,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2016/17",
-      "points": 2069,
-      "overall_rank": 331531,
-      "overall_percentage": 0.0736,
-      "league_rank": 4,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2017/18",
-      "points": 1858,
-      "overall_rank": 2359504,
-      "overall_percentage": 0.4546,
-      "league_rank": 9,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2018/19",
-      "points": 2177,
-      "overall_rank": 364261,
-      "overall_percentage": 0.0578,
-      "league_rank": 4,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2019/20",
-      "points": 2044,
-      "overall_rank": 1430652,
-      "overall_percentage": 0.1882,
-      "league_rank": 8,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2020/21",
-      "points": 2280,
-      "overall_rank": 451467,
-      "overall_percentage": 0.0548,
-      "league_rank": 2,
-      "manager_id": "1824518"
-    },
-    {
-      "year": "2021/22",
-      "points": 2023,
-      "overall_rank": 2584347,
-      "overall_percentage": 0.2819059959,
-      "league_rank": 9,
-      "manager_id": null
-    },
-    {
-      "year": "2023/24",
-      "points": 2271,
-      "overall_rank": 1332438,
-      "overall_percentage": 0.1222,
-      "league_rank": 6,
-      "manager_id": "4912043"
-    }
-  ],
-  "Robbie Paton": [
-    {
-      "year": "2013/14",
-      "points": 2036,
-      "overall_rank": 899194,
-      "overall_percentage": 0.2793,
-      "league_rank": 3,
-      "manager_id": "90676"
-    },
-    {
-      "year": "2014/15",
-      "points": 1917,
-      "overall_rank": 509475,
-      "overall_percentage": 0.1454,
-      "league_rank": 3,
-      "manager_id": "90676"
-    },
-    {
-      "year": "2015/16",
-      "points": 1948,
-      "overall_rank": 943175,
-      "overall_percentage": 0.2526,
-      "league_rank": 3,
-      "manager_id": "90676"
-    },
-    {
-      "year": "2016/17",
-      "points": 2186,
-      "overall_rank": 83079,
-      "overall_percentage": 0.0184,
-      "league_rank": 1,
-      "manager_id": "90676"
-    },
-    {
-      "year": "2017/18",
-      "points": 2175,
-      "overall_rank": 187737,
-      "overall_percentage": 0.0362,
-      "league_rank": 2,
-      "manager_id": "90676"
-    },
-    {
-      "year": "2018/19",
-      "points": 2139,
-      "overall_rank": 565175,
-      "overall_percentage": 0.0897,
       "league_rank": 5,
-      "manager_id": "90676"
+      "manager_id": "192953",
+      "overall_percentage": 0.3946,
+      "overall_rank": 1270283,
+      "points": 1939,
+      "year": "2013/14"
     },
     {
-      "year": "2019/20",
-      "points": 2078,
-      "overall_rank": 1103725,
-      "overall_percentage": 0.1452,
-      "league_rank": 6,
-      "manager_id": "90676"
+      "league_rank": 5,
+      "manager_id": "192953",
+      "overall_percentage": 0.3463,
+      "overall_rank": 1213260,
+      "points": 1781,
+      "year": "2014/15"
     },
     {
-      "year": "2020/21",
-      "points": 2216,
-      "overall_rank": 807107,
-      "overall_percentage": 0.0979,
-      "league_rank": 6,
-      "manager_id": "90676"
-    },
-    {
-      "year": "2021/22",
-      "points": 2384,
-      "overall_rank": 354859,
-      "overall_percentage": 0.03870876465,
-      "league_rank": 3,
-      "manager_id": null
-    },
-    {
-      "year": "2022/23",
-      "points": 2312,
-      "overall_rank": 1401776,
-      "overall_percentage": 0.1224551873,
       "league_rank": 7,
-      "manager_id": null
+      "manager_id": "192953",
+      "overall_percentage": 0.5133,
+      "overall_rank": 1916731,
+      "points": 1773,
+      "year": "2015/16"
     },
     {
-      "year": "2023/24",
-      "points": 2277,
-      "overall_rank": 1265178,
-      "overall_percentage": 0.116,
+      "league_rank": 7,
+      "manager_id": "192953",
+      "overall_percentage": 0.1924,
+      "overall_rank": 866588,
+      "points": 1950,
+      "year": "2016/17"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": "192953",
+      "overall_percentage": 0.0857,
+      "overall_rank": 444696,
+      "points": 2109,
+      "year": "2017/18"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": "192953",
+      "overall_percentage": 0.2042,
+      "overall_rank": 1286600,
+      "points": 2053,
+      "year": "2018/19"
+    },
+    {
       "league_rank": 5,
-      "manager_id": "587232"
+      "manager_id": "192953",
+      "overall_percentage": 0.1249,
+      "overall_rank": 949177,
+      "points": 2096,
+      "year": "2019/20"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": "192953",
+      "overall_percentage": 0.0531,
+      "overall_rank": 437872,
+      "points": 2283,
+      "year": "2020/21"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": null,
+      "overall_percentage": 0.258721032,
+      "overall_rank": 2371801,
+      "points": 2047,
+      "year": "2021/22"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": null,
+      "overall_percentage": 0.06931634364,
+      "overall_rank": 793482,
+      "points": 2381,
+      "year": "2022/23"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": "486278",
+      "overall_percentage": 0.0273,
+      "overall_rank": 298248,
+      "points": 2416,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": null,
+      "overall_percentage": 0.012527,
+      "overall_rank": 144065,
+      "points": 2493,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": null,
+      "overall_percentage": 0.283857,
+      "overall_rank": 3718522,
+      "points": 2018,
+      "year": "2025/26"
     }
   ],
   "Andrew David": [
     {
-      "year": "2013/14",
-      "points": 2060,
-      "overall_rank": 803625,
+      "league_rank": 2,
+      "manager_id": "234474",
       "overall_percentage": 0.2497,
-      "league_rank": 2,
-      "manager_id": "234474"
+      "overall_rank": 803625,
+      "points": 2060,
+      "year": "2013/14"
     },
     {
-      "year": "2014/15",
-      "points": 1940,
-      "overall_rank": 411629,
+      "league_rank": 2,
+      "manager_id": "234474",
       "overall_percentage": 0.1175,
-      "league_rank": 2,
-      "manager_id": "234474"
+      "overall_rank": 411629,
+      "points": 1940,
+      "year": "2014/15"
     },
     {
-      "year": "2015/16",
-      "points": 1899,
-      "overall_rank": 1236725,
+      "league_rank": 4,
+      "manager_id": "234474",
       "overall_percentage": 0.3312,
-      "league_rank": 4,
-      "manager_id": "234474"
+      "overall_rank": 1236725,
+      "points": 1899,
+      "year": "2015/16"
     },
     {
-      "year": "2016/17",
-      "points": 2076,
-      "overall_rank": 308313,
+      "league_rank": 3,
+      "manager_id": "234474",
       "overall_percentage": 0.0685,
-      "league_rank": 3,
-      "manager_id": "234474"
+      "overall_rank": 308313,
+      "points": 2076,
+      "year": "2016/17"
     },
     {
-      "year": "2017/18",
-      "points": 1995,
-      "overall_rank": 1219860,
+      "league_rank": 7,
+      "manager_id": "234474",
       "overall_percentage": 0.235,
-      "league_rank": 7,
-      "manager_id": "234474"
+      "overall_rank": 1219860,
+      "points": 1995,
+      "year": "2017/18"
     },
     {
-      "year": "2018/19",
-      "points": 2028,
-      "overall_rank": 1557145,
+      "league_rank": 7,
+      "manager_id": "234474",
       "overall_percentage": 0.2472,
-      "league_rank": 7,
-      "manager_id": "234474"
+      "overall_rank": 1557145,
+      "points": 2028,
+      "year": "2018/19"
     },
     {
-      "year": "2019/20",
-      "points": 2157,
-      "overall_rank": 510209,
+      "league_rank": 3,
+      "manager_id": "234474",
       "overall_percentage": 0.0671,
-      "league_rank": 3,
-      "manager_id": "234474"
+      "overall_rank": 510209,
+      "points": 2157,
+      "year": "2019/20"
     },
     {
-      "year": "2020/21",
-      "points": 2177,
-      "overall_rank": 1075236,
+      "league_rank": 7,
+      "manager_id": "234474",
       "overall_percentage": 0.1305,
-      "league_rank": 7,
-      "manager_id": "234474"
+      "overall_rank": 1075236,
+      "points": 2177,
+      "year": "2020/21"
     },
     {
-      "year": "2021/22",
-      "points": 2257,
-      "overall_rank": 866598,
+      "league_rank": 5,
+      "manager_id": null,
       "overall_percentage": 0.09453032902,
-      "league_rank": 5,
-      "manager_id": null
+      "overall_rank": 866598,
+      "points": 2257,
+      "year": "2021/22"
     },
     {
-      "year": "2022/23",
-      "points": 2453,
-      "overall_rank": 352996,
+      "league_rank": 2,
+      "manager_id": null,
       "overall_percentage": 0.03083673233,
-      "league_rank": 2,
-      "manager_id": null
+      "overall_rank": 352996,
+      "points": 2453,
+      "year": "2022/23"
     },
     {
-      "year": "2023/24",
-      "points": 2317,
-      "overall_rank": 890976,
+      "league_rank": 3,
+      "manager_id": "1347045",
       "overall_percentage": 0.0817,
-      "league_rank": 3,
-      "manager_id": "1347045"
-    }
-  ],
-  "James Holliss": [
-    {
-      "year": "2013/14",
-      "points": 2140,
-      "overall_rank": 493297,
-      "overall_percentage": 0.1532,
-      "league_rank": 1,
-      "manager_id": "1106667"
+      "overall_rank": 890976,
+      "points": 2317,
+      "year": "2023/24"
     },
     {
-      "year": "2014/15",
-      "points": 1871,
-      "overall_rank": 734086,
-      "overall_percentage": 0.2096,
+      "league_rank": 5,
+      "manager_id": null,
+      "overall_percentage": 0.105656,
+      "overall_rank": 1215049,
+      "points": 2326,
+      "year": "2024/25"
+    },
+    {
       "league_rank": 4,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2015/16",
-      "points": 1853,
-      "overall_rank": 1506677,
-      "overall_percentage": 0.4035,
-      "league_rank": 5,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2016/17",
-      "points": 2044,
-      "overall_rank": 419381,
-      "overall_percentage": 0.0931,
-      "league_rank": 5,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2017/18",
-      "points": 2051,
-      "overall_rank": 795030,
-      "overall_percentage": 0.1532,
-      "league_rank": 4,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2018/19",
-      "points": 2248,
-      "overall_rank": 138610,
-      "overall_percentage": 0.022,
-      "league_rank": 2,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2019/20",
-      "points": 2045,
-      "overall_rank": 1420548,
-      "overall_percentage": 0.1869,
-      "league_rank": 7,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2020/21",
-      "points": 2154,
-      "overall_rank": 1250851,
-      "overall_percentage": 0.1518,
-      "league_rank": 8,
-      "manager_id": "1106667"
-    },
-    {
-      "year": "2021/22",
-      "points": 2388,
-      "overall_rank": 342953,
-      "overall_percentage": 0.03741003318,
-      "league_rank": 2,
-      "manager_id": null
-    },
-    {
-      "year": "2022/23",
-      "points": 2543,
-      "overall_rank": 69950,
-      "overall_percentage": 0.006110634189,
-      "league_rank": 1,
-      "manager_id": null
-    },
-    {
-      "year": "2023/24",
-      "points": 2238,
-      "overall_rank": 1708179,
-      "overall_percentage": 0.1566,
-      "league_rank": 7,
-      "manager_id": "630247"
-    }
-  ],
-  "Adam Beveridge": [
-    {
-      "year": "2013/14",
-      "points": 1939,
-      "overall_rank": 1270283,
-      "overall_percentage": 0.3946,
-      "league_rank": 5,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2014/15",
-      "points": 1781,
-      "overall_rank": 1213260,
-      "overall_percentage": 0.3463,
-      "league_rank": 5,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2015/16",
-      "points": 1773,
-      "overall_rank": 1916731,
-      "overall_percentage": 0.5133,
-      "league_rank": 7,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2016/17",
-      "points": 1950,
-      "overall_rank": 866588,
-      "overall_percentage": 0.1924,
-      "league_rank": 7,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2017/18",
-      "points": 2109,
-      "overall_rank": 444696,
-      "overall_percentage": 0.0857,
-      "league_rank": 3,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2018/19",
-      "points": 2053,
-      "overall_rank": 1286600,
-      "overall_percentage": 0.2042,
-      "league_rank": 8,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2019/20",
-      "points": 2096,
-      "overall_rank": 949177,
-      "overall_percentage": 0.1249,
-      "league_rank": 5,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2020/21",
-      "points": 2283,
-      "overall_rank": 437872,
-      "overall_percentage": 0.0531,
-      "league_rank": 1,
-      "manager_id": "192953"
-    },
-    {
-      "year": "2021/22",
-      "points": 2047,
-      "overall_rank": 2371801,
-      "overall_percentage": 0.258721032,
-      "league_rank": 8,
-      "manager_id": null
-    },
-    {
-      "year": "2022/23",
-      "points": 2381,
-      "overall_rank": 793482,
-      "overall_percentage": 0.06931634364,
-      "league_rank": 5,
-      "manager_id": null
-    },
-    {
-      "year": "2023/24",
-      "points": 2416,
-      "overall_rank": 298248,
-      "overall_percentage": 0.0273,
-      "league_rank": 1,
-      "manager_id": "486278"
-    }
-  ],
-  "Tom Phillips": [
-    {
-      "year": "2013/14",
-      "points": 1661,
-      "overall_rank": 2136635,
-      "overall_percentage": 0.6638,
-      "league_rank": 7,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2014/15",
-      "points": 1699,
-      "overall_rank": 1627113,
-      "overall_percentage": 0.4645,
-      "league_rank": 7,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2015/16",
-      "points": 1852,
-      "overall_rank": 1508731,
-      "overall_percentage": 0.4041,
-      "league_rank": 6,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2016/17",
-      "points": 1975,
-      "overall_rank": 726943,
-      "overall_percentage": 0.1614,
-      "league_rank": 6,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2017/18",
-      "points": 2044,
-      "overall_rank": 840036,
-      "overall_percentage": 0.1619,
-      "league_rank": 5,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2018/19",
-      "points": 2039,
-      "overall_rank": 1434790,
-      "overall_percentage": 0.2277,
-      "league_rank": 9,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2019/20",
-      "points": 2227,
-      "overall_rank": 196160,
-      "overall_percentage": 0.0258,
-      "league_rank": 2,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2020/21",
-      "points": 2134,
-      "overall_rank": 1404179,
-      "overall_percentage": 0.1704,
-      "league_rank": 9,
-      "manager_id": "617922"
-    },
-    {
-      "year": "2021/22",
-      "points": 2127,
-      "overall_rank": 1709713,
-      "overall_percentage": 0.1864990831,
-      "league_rank": 7,
-      "manager_id": null
-    },
-    {
-      "year": "2022/23",
-      "points": 2187,
-      "overall_rank": 2859072,
-      "overall_percentage": 0.2497604448,
-      "league_rank": 8,
-      "manager_id": null
-    },
-    {
-      "year": "2023/24",
-      "points": 2179,
-      "overall_rank": 2462147,
-      "overall_percentage": 0.2258,
-      "league_rank": 9,
-      "manager_id": "723029"
+      "manager_id": null,
+      "overall_percentage": 0.072751,
+      "overall_rank": 953035,
+      "points": 2195,
+      "year": "2025/26"
     }
   ],
   "David Lewis": [
     {
-      "year": "2013/14",
-      "points": 1817,
-      "overall_rank": 1674858,
+      "league_rank": 6,
+      "manager_id": "651958",
       "overall_percentage": 0.5203,
-      "league_rank": 6,
-      "manager_id": "651958"
+      "overall_rank": 1674858,
+      "points": 1817,
+      "year": "2013/14"
     },
     {
-      "year": "2014/15",
-      "points": 1732,
-      "overall_rank": 1463334,
+      "league_rank": 6,
+      "manager_id": "651958",
       "overall_percentage": 0.4177,
-      "league_rank": 6,
-      "manager_id": "651958"
+      "overall_rank": 1463334,
+      "points": 1732,
+      "year": "2014/15"
     },
     {
-      "year": "2015/16",
-      "points": 1772,
-      "overall_rank": 1920389,
+      "league_rank": 8,
+      "manager_id": "651958",
       "overall_percentage": 0.5143,
-      "league_rank": 8,
-      "manager_id": "651958"
+      "overall_rank": 1920389,
+      "points": 1772,
+      "year": "2015/16"
     },
     {
-      "year": "2016/17",
-      "points": 1702,
-      "overall_rank": 2478702,
-      "overall_percentage": 0.5504,
       "league_rank": 9,
-      "manager_id": "651958"
+      "manager_id": "651958",
+      "overall_percentage": 0.5504,
+      "overall_rank": 2478702,
+      "points": 1702,
+      "year": "2016/17"
     },
     {
-      "year": "2017/18",
-      "points": 1900,
-      "overall_rank": 2013987,
+      "league_rank": 8,
+      "manager_id": "651958",
       "overall_percentage": 0.388,
-      "league_rank": 8,
-      "manager_id": "651958"
+      "overall_rank": 2013987,
+      "points": 1900,
+      "year": "2017/18"
     },
     {
-      "year": "2018/19",
-      "points": 2341,
-      "overall_rank": 26938,
+      "league_rank": 1,
+      "manager_id": "651958",
       "overall_percentage": 0.0043,
-      "league_rank": 1,
-      "manager_id": "651958"
+      "overall_rank": 26938,
+      "points": 2341,
+      "year": "2018/19"
     },
     {
-      "year": "2019/20",
-      "points": 2295,
-      "overall_rank": 54699,
+      "league_rank": 1,
+      "manager_id": "651958",
       "overall_percentage": 0.0072,
-      "league_rank": 1,
-      "manager_id": "651958"
+      "overall_rank": 54699,
+      "points": 2295,
+      "year": "2019/20"
     },
     {
-      "year": "2020/21",
-      "points": 2275,
-      "overall_rank": 474058,
-      "overall_percentage": 0.0575,
       "league_rank": 3,
-      "manager_id": "651958"
+      "manager_id": "651958",
+      "overall_percentage": 0.0575,
+      "overall_rank": 474058,
+      "points": 2275,
+      "year": "2020/21"
     },
     {
-      "year": "2021/22",
-      "points": 2500,
-      "overall_rank": 105971,
-      "overall_percentage": 0.01155953914,
       "league_rank": 1,
-      "manager_id": null
+      "manager_id": null,
+      "overall_percentage": 0.01155953914,
+      "overall_rank": 105971,
+      "points": 2500,
+      "year": "2021/22"
     },
     {
-      "year": "2022/23",
-      "points": 2414,
-      "overall_rank": 562408,
-      "overall_percentage": 0.04913037246,
       "league_rank": 4,
-      "manager_id": null
+      "manager_id": null,
+      "overall_percentage": 0.04913037246,
+      "overall_rank": 562408,
+      "points": 2414,
+      "year": "2022/23"
     },
     {
-      "year": "2023/24",
-      "points": 2209,
-      "overall_rank": 2066657,
-      "overall_percentage": 0.1895,
       "league_rank": 8,
-      "manager_id": "1264460"
+      "manager_id": "1264460",
+      "overall_percentage": 0.1895,
+      "overall_rank": 2066657,
+      "points": 2209,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": null,
+      "overall_percentage": 0.242478,
+      "overall_rank": 2788499,
+      "points": 2204,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": null,
+      "overall_percentage": 0.233235,
+      "overall_rank": 3055374,
+      "points": 2054,
+      "year": "2025/26"
+    }
+  ],
+  "James Cassidy": [
+    {
+      "league_rank": null,
+      "manager_id": "2651638",
+      "overall_percentage": null,
+      "overall_rank": null,
+      "points": null,
+      "year": "2013/14"
+    },
+    {
+      "league_rank": null,
+      "manager_id": "2651638",
+      "overall_percentage": null,
+      "overall_rank": null,
+      "points": null,
+      "year": "2014/15"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "2651638",
+      "overall_percentage": 0.1659,
+      "overall_rank": 619457,
+      "points": 2005,
+      "year": "2015/16"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "2651638",
+      "overall_percentage": 0.0452,
+      "overall_rank": 203346,
+      "points": 2115,
+      "year": "2016/17"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": "2651638",
+      "overall_percentage": 0.0048,
+      "overall_rank": 25110,
+      "points": 2279,
+      "year": "2017/18"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": "2651638",
+      "overall_percentage": 0.0342,
+      "overall_rank": 215493,
+      "points": 2217,
+      "year": "2018/19"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": "2651638",
+      "overall_percentage": 0.207,
+      "overall_rank": 1573507,
+      "points": 2030,
+      "year": "2019/20"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": "2651638",
+      "overall_percentage": 0.0629,
+      "overall_rank": 518289,
+      "points": 2266,
+      "year": "2020/21"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": null,
+      "overall_percentage": 0.05704142949,
+      "overall_rank": 522922,
+      "points": 2333,
+      "year": "2021/22"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": null,
+      "overall_percentage": 0.111081895,
+      "overall_rank": 1271583,
+      "points": 2325,
+      "year": "2022/23"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "4878547",
+      "overall_percentage": 0.0349,
+      "overall_rank": 380497,
+      "points": 2396,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": null,
+      "overall_percentage": 0.049653,
+      "overall_rank": 571008,
+      "points": 2400,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": null,
+      "overall_percentage": 0.144121,
+      "overall_rank": 1887991,
+      "points": 2124,
+      "year": "2025/26"
+    }
+  ],
+  "James Holliss": [
+    {
+      "league_rank": 1,
+      "manager_id": "1106667",
+      "overall_percentage": 0.1532,
+      "overall_rank": 493297,
+      "points": 2140,
+      "year": "2013/14"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": "1106667",
+      "overall_percentage": 0.2096,
+      "overall_rank": 734086,
+      "points": 1871,
+      "year": "2014/15"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": "1106667",
+      "overall_percentage": 0.4035,
+      "overall_rank": 1506677,
+      "points": 1853,
+      "year": "2015/16"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": "1106667",
+      "overall_percentage": 0.0931,
+      "overall_rank": 419381,
+      "points": 2044,
+      "year": "2016/17"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": "1106667",
+      "overall_percentage": 0.1532,
+      "overall_rank": 795030,
+      "points": 2051,
+      "year": "2017/18"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "1106667",
+      "overall_percentage": 0.022,
+      "overall_rank": 138610,
+      "points": 2248,
+      "year": "2018/19"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": "1106667",
+      "overall_percentage": 0.1869,
+      "overall_rank": 1420548,
+      "points": 2045,
+      "year": "2019/20"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": "1106667",
+      "overall_percentage": 0.1518,
+      "overall_rank": 1250851,
+      "points": 2154,
+      "year": "2020/21"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": null,
+      "overall_percentage": 0.03741003318,
+      "overall_rank": 342953,
+      "points": 2388,
+      "year": "2021/22"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": null,
+      "overall_percentage": 0.006110634189,
+      "overall_rank": 69950,
+      "points": 2543,
+      "year": "2022/23"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": "630247",
+      "overall_percentage": 0.1566,
+      "overall_rank": 1708179,
+      "points": 2238,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": null,
+      "overall_percentage": 0.069064,
+      "overall_rank": 794239,
+      "points": 2371,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": null,
+      "overall_percentage": 0.032818,
+      "overall_rank": 429922,
+      "points": 2254,
+      "year": "2025/26"
     }
   ],
   "James Petrie": [
     {
-      "year": "2013/14",
-      "points": null,
-      "overall_rank": null,
-      "overall_percentage": null,
       "league_rank": null,
-      "manager_id": "613395"
+      "manager_id": "613395",
+      "overall_percentage": null,
+      "overall_rank": null,
+      "points": null,
+      "year": "2013/14"
     },
     {
-      "year": "2014/15",
-      "points": null,
-      "overall_rank": null,
-      "overall_percentage": null,
       "league_rank": null,
-      "manager_id": "613395"
+      "manager_id": "613395",
+      "overall_percentage": null,
+      "overall_rank": null,
+      "points": null,
+      "year": "2014/15"
     },
     {
-      "year": "2015/16",
-      "points": null,
-      "overall_rank": null,
-      "overall_percentage": null,
       "league_rank": null,
-      "manager_id": "613395"
+      "manager_id": "613395",
+      "overall_percentage": null,
+      "overall_rank": null,
+      "points": null,
+      "year": "2015/16"
     },
     {
-      "year": "2016/17",
-      "points": 1753,
-      "overall_rank": 2147427,
-      "overall_percentage": 0.4769,
       "league_rank": 8,
-      "manager_id": "613395"
+      "manager_id": "613395",
+      "overall_percentage": 0.4769,
+      "overall_rank": 2147427,
+      "points": 1753,
+      "year": "2016/17"
     },
     {
-      "year": "2017/18",
-      "points": 2002,
-      "overall_rank": 1161256,
+      "league_rank": 6,
+      "manager_id": "613395",
       "overall_percentage": 0.2237,
-      "league_rank": 6,
-      "manager_id": "613395"
+      "overall_rank": 1161256,
+      "points": 2002,
+      "year": "2017/18"
     },
     {
-      "year": "2018/19",
-      "points": 2185,
-      "overall_rank": 329021,
+      "league_rank": 6,
+      "manager_id": "613395",
       "overall_percentage": 0.0522,
-      "league_rank": 6,
-      "manager_id": "613395"
+      "overall_rank": 329021,
+      "points": 2185,
+      "year": "2018/19"
     },
     {
-      "year": "2019/20",
-      "points": 2143,
-      "overall_rank": 597879,
+      "league_rank": 4,
+      "manager_id": "613395",
       "overall_percentage": 0.0787,
-      "league_rank": 4,
-      "manager_id": "613395"
+      "overall_rank": 597879,
+      "points": 2143,
+      "year": "2019/20"
     },
     {
-      "year": "2020/21",
-      "points": 2186,
-      "overall_rank": 1010194,
-      "overall_percentage": 0.1226,
       "league_rank": 5,
-      "manager_id": "613395"
+      "manager_id": "613395",
+      "overall_percentage": 0.1226,
+      "overall_rank": 1010194,
+      "points": 2186,
+      "year": "2020/21"
     },
     {
-      "year": "2021/22",
-      "points": 2262,
-      "overall_rank": 841983,
-      "overall_percentage": 0.09184527315,
       "league_rank": 6,
-      "manager_id": null
+      "manager_id": null,
+      "overall_percentage": 0.09184527315,
+      "overall_rank": 841983,
+      "points": 2262,
+      "year": "2021/22"
     },
     {
-      "year": "2022/23",
-      "points": 2435,
-      "overall_rank": 444105,
-      "overall_percentage": 0.03879575692,
       "league_rank": 3,
-      "manager_id": null
+      "manager_id": null,
+      "overall_percentage": 0.03879575692,
+      "overall_rank": 444105,
+      "points": 2435,
+      "year": "2022/23"
     },
     {
-      "year": "2023/24",
-      "points": 2309,
-      "overall_rank": 960991,
-      "overall_percentage": 0.0881,
       "league_rank": 4,
-      "manager_id": "478776"
+      "manager_id": "478776",
+      "overall_percentage": 0.0881,
+      "overall_rank": 960991,
+      "points": 2309,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": null,
+      "overall_percentage": 0.045329,
+      "overall_rank": 521278,
+      "points": 2408,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": null,
+      "overall_percentage": 0.072574,
+      "overall_rank": 950718,
+      "points": 2195,
+      "year": "2025/26"
+    }
+  ],
+  "Oliver Dewdney": [
+    {
+      "league_rank": 4,
+      "manager_id": "1824518",
+      "overall_percentage": 0.365,
+      "overall_rank": 1175053,
+      "points": 1965,
+      "year": "2013/14"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": "1824518",
+      "overall_percentage": 0.0941,
+      "overall_rank": 329702,
+      "points": 1962,
+      "year": "2014/15"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": "1824518",
+      "overall_percentage": 0.048,
+      "overall_rank": 179341,
+      "points": 2116,
+      "year": "2015/16"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": "1824518",
+      "overall_percentage": 0.0736,
+      "overall_rank": 331531,
+      "points": 2069,
+      "year": "2016/17"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": "1824518",
+      "overall_percentage": 0.4546,
+      "overall_rank": 2359504,
+      "points": 1858,
+      "year": "2017/18"
+    },
+    {
+      "league_rank": 4,
+      "manager_id": "1824518",
+      "overall_percentage": 0.0578,
+      "overall_rank": 364261,
+      "points": 2177,
+      "year": "2018/19"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": "1824518",
+      "overall_percentage": 0.1882,
+      "overall_rank": 1430652,
+      "points": 2044,
+      "year": "2019/20"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "1824518",
+      "overall_percentage": 0.0548,
+      "overall_rank": 451467,
+      "points": 2280,
+      "year": "2020/21"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": null,
+      "overall_percentage": 0.2819059959,
+      "overall_rank": 2584347,
+      "points": 2023,
+      "year": "2021/22"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": "4912043",
+      "overall_percentage": 0.1222,
+      "overall_rank": 1332438,
+      "points": 2271,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": null,
+      "overall_percentage": 0.159279,
+      "overall_rank": 1831714,
+      "points": 2274,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": null,
+      "overall_percentage": 0.039508,
+      "overall_rank": 517557,
+      "points": 2242,
+      "year": "2025/26"
+    }
+  ],
+  "Robbie Paton": [
+    {
+      "league_rank": 3,
+      "manager_id": "90676",
+      "overall_percentage": 0.2793,
+      "overall_rank": 899194,
+      "points": 2036,
+      "year": "2013/14"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": "90676",
+      "overall_percentage": 0.1454,
+      "overall_rank": 509475,
+      "points": 1917,
+      "year": "2014/15"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": "90676",
+      "overall_percentage": 0.2526,
+      "overall_rank": 943175,
+      "points": 1948,
+      "year": "2015/16"
+    },
+    {
+      "league_rank": 1,
+      "manager_id": "90676",
+      "overall_percentage": 0.0184,
+      "overall_rank": 83079,
+      "points": 2186,
+      "year": "2016/17"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "90676",
+      "overall_percentage": 0.0362,
+      "overall_rank": 187737,
+      "points": 2175,
+      "year": "2017/18"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": "90676",
+      "overall_percentage": 0.0897,
+      "overall_rank": 565175,
+      "points": 2139,
+      "year": "2018/19"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": "90676",
+      "overall_percentage": 0.1452,
+      "overall_rank": 1103725,
+      "points": 2078,
+      "year": "2019/20"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": "90676",
+      "overall_percentage": 0.0979,
+      "overall_rank": 807107,
+      "points": 2216,
+      "year": "2020/21"
+    },
+    {
+      "league_rank": 3,
+      "manager_id": null,
+      "overall_percentage": 0.03870876465,
+      "overall_rank": 354859,
+      "points": 2384,
+      "year": "2021/22"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": null,
+      "overall_percentage": 0.1224551873,
+      "overall_rank": 1401776,
+      "points": 2312,
+      "year": "2022/23"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": "587232",
+      "overall_percentage": 0.116,
+      "overall_rank": 1265178,
+      "points": 2277,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": null,
+      "overall_percentage": 0.189954,
+      "overall_rank": 2184466,
+      "points": 2247,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": null,
+      "overall_percentage": 0.271089,
+      "overall_rank": 3551270,
+      "points": 2027,
+      "year": "2025/26"
+    }
+  ],
+  "Tom Phillips": [
+    {
+      "league_rank": 7,
+      "manager_id": "617922",
+      "overall_percentage": 0.6638,
+      "overall_rank": 2136635,
+      "points": 1661,
+      "year": "2013/14"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": "617922",
+      "overall_percentage": 0.4645,
+      "overall_rank": 1627113,
+      "points": 1699,
+      "year": "2014/15"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": "617922",
+      "overall_percentage": 0.4041,
+      "overall_rank": 1508731,
+      "points": 1852,
+      "year": "2015/16"
+    },
+    {
+      "league_rank": 6,
+      "manager_id": "617922",
+      "overall_percentage": 0.1614,
+      "overall_rank": 726943,
+      "points": 1975,
+      "year": "2016/17"
+    },
+    {
+      "league_rank": 5,
+      "manager_id": "617922",
+      "overall_percentage": 0.1619,
+      "overall_rank": 840036,
+      "points": 2044,
+      "year": "2017/18"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": "617922",
+      "overall_percentage": 0.2277,
+      "overall_rank": 1434790,
+      "points": 2039,
+      "year": "2018/19"
+    },
+    {
+      "league_rank": 2,
+      "manager_id": "617922",
+      "overall_percentage": 0.0258,
+      "overall_rank": 196160,
+      "points": 2227,
+      "year": "2019/20"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": "617922",
+      "overall_percentage": 0.1704,
+      "overall_rank": 1404179,
+      "points": 2134,
+      "year": "2020/21"
+    },
+    {
+      "league_rank": 7,
+      "manager_id": null,
+      "overall_percentage": 0.1864990831,
+      "overall_rank": 1709713,
+      "points": 2127,
+      "year": "2021/22"
+    },
+    {
+      "league_rank": 8,
+      "manager_id": null,
+      "overall_percentage": 0.2497604448,
+      "overall_rank": 2859072,
+      "points": 2187,
+      "year": "2022/23"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": "723029",
+      "overall_percentage": 0.2258,
+      "overall_rank": 2462147,
+      "points": 2179,
+      "year": "2023/24"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": null,
+      "overall_percentage": 0.244976,
+      "overall_rank": 2817227,
+      "points": 2202,
+      "year": "2024/25"
+    },
+    {
+      "league_rank": 9,
+      "manager_id": null,
+      "overall_percentage": 0.307264,
+      "overall_rank": 4025155,
+      "points": 2001,
+      "year": "2025/26"
     }
   ]
 }

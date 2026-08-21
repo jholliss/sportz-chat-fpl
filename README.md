@@ -49,11 +49,20 @@ entry ID — this league's FPL entry IDs have changed at least twice in its hist
 but manager names (with `identity.py`'s `NAME_ALIASES` covering one legal name
 change) are stable.
 
-Known gap: no 2022/23 row exists for Oliver Dewdney in the source data — genuine
-gap in the original sheet, not a bug in the seeding script.
+Known gap: no 2022/23 row exists for Oliver Dewdney — confirmed genuine (his own
+FPL account has no entry for that season either, i.e. he didn't play), not a bug.
 
-To add a future season once it's no longer live-trackable via the API, append rows
-to the source CSV and re-run `scripts/seed_historic.py`.
+`scripts/backfill_historic.py` fills in seasons missing from `historic.json` using
+each *current* manager's own FPL entry history (`past` season summaries) — this
+group's current manager_ids turned out to be everyone's actual long-standing
+personal FPL accounts, so this recovered 2024/25 and 2025/26 in full. Re-run it
+whenever there's a new season to catch up on. It also derives each season's total
+FPL player count (needed for `overall_percentage`) from existing on-file
+(rank, percentage) pairs where possible, falling back to a hardcoded Wikipedia
+figure for brand-new seasons with nothing on file yet to derive from — see the
+script's docstring for details and caveats (notably: `league_rank` for backfilled
+seasons is this friend group's own points ranking among whoever has data, not a
+verified reconstruction of an actual league standings snapshot).
 
 ## Local development
 
