@@ -2,208 +2,207 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Sportz Chat Fantasy Football</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 </head>
 <body>
   <header class="site-header">
-    <h1>Sportz Chat Fantasy Football</h1>
-    <p class="subtitle" id="header-subtitle">Loading...</p>
+    <h1>Sportz Chat</h1>
+    <p class="subtitle" id="header-subtitle">Loading…</p>
   </header>
 
-  <nav class="tabs" id="tabs">
-    <button data-tab="home" class="active">Home</button>
-    <button data-tab="hall-of-fame">Hall of Fame</button>
-    <button data-tab="history">League by Year</button>
-    <button data-tab="bench">Bench</button>
-    <button data-tab="transfers">Transfers</button>
-    <button data-tab="chips">Chips</button>
-    <button data-tab="captaincy">Captaincy</button>
-    <button data-tab="fun">Fun Stuff</button>
-  </nav>
-
   <main>
+    <!-- ============ HOME ============ -->
     <section class="tab-panel active" id="tab-home">
       <div class="card-grid">
-        <div class="card wide">
+        <div class="card">
           <h3>League Table</h3>
-          <div id="league-table"></div>
-        </div>
-      </div>
-      <h2>Last 5 Weeks &mdash; The Insight</h2>
-      <div class="card-grid">
-        <div class="card">
-          <div class="leaderboard-pair">
-            <div class="good"><h4>In Form</h4><ul id="in-form"></ul></div>
-            <div class="critical"><h4>In Freefall</h4><ul id="in-freefall"></ul></div>
-          </div>
+          <ul class="rank-list" id="league-table"></ul>
         </div>
         <div class="card">
+          <h3>This Week's Movers</h3>
+          <p class="card-caption">Points over the last 5 gameweeks</p>
           <div class="leaderboard-pair">
-            <div class="good"><h4>Sound Spenders</h4><ul id="sound-spenders"></ul></div>
-            <div class="critical"><h4>Spend Thrifts</h4><ul id="spend-thrifts"></ul></div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="leaderboard-pair">
-            <div class="good"><h4>Tactical Masters</h4><ul id="tactical-masters"></ul></div>
-            <div class="critical"><h4>Rotation Losers</h4><ul id="rotation-losers"></ul></div>
+            <div class="good"><h4>In Form</h4><ul class="rank-list" id="home-in-form"></ul></div>
+            <div class="critical"><h4>In Freefall</h4><ul class="rank-list" id="home-in-freefall"></ul></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="tab-panel" id="tab-hall-of-fame">
-      <div class="card-grid">
-        <div class="card wide">
-          <h3>League Progression</h3>
-          <p class="card-caption">Cumulative points per manager, this season</p>
-          <div class="chart-wrap"><canvas id="chart-league-progression"></canvas></div>
+    <!-- ============ SEASON ============ -->
+    <section class="tab-panel" id="tab-season">
+      <nav class="pill-tabs" id="season-pills">
+        <button data-sub="form" class="active">Form</button>
+        <button data-sub="bench">Bench</button>
+        <button data-sub="transfers">Transfers</button>
+        <button data-sub="chips">Chips</button>
+        <button data-sub="captaincy">Captaincy</button>
+        <button data-sub="average">Vs Average</button>
+        <button data-sub="records">Records</button>
+      </nav>
+
+      <div class="sub-panel active" id="sub-form">
+        <div class="card">
+          <div class="leaderboard-pair">
+            <div class="good"><h4>Sound Spenders</h4><ul class="rank-list" id="sound-spenders"></ul></div>
+            <div class="critical"><h4>Spend Thrifts</h4><ul class="rank-list" id="spend-thrifts"></ul></div>
+          </div>
         </div>
         <div class="card">
-          <h3>Top 10 All Time</h3>
-          <p class="card-caption">Best individual season finishes across the league's whole history, by overall percentile</p>
-          <div id="top10-all-time"></div>
-        </div>
-        <div class="card">
-          <h3>Wins &amp; Podiums (All Time)</h3>
-          <div id="wins-podiums"></div>
-        </div>
-        <div class="card">
-          <h3>Weeks at the Top / Podium (This Season)</h3>
-          <div id="weeks-top-podium"></div>
-        </div>
-        <div class="card">
-          <h3>Consistency</h3>
-          <p class="card-caption">Lower = steadier week to week (std. dev. of gameweek points). Best-guess formula &mdash; may be tuned once compared against the old dashboard.</p>
-          <div id="consistency"></div>
-        </div>
-        <div class="card">
-          <h3>Average Position</h3>
-          <p class="card-caption">Mean league rank across the season. Best-guess formula.</p>
-          <div id="average-position"></div>
+          <div class="leaderboard-pair">
+            <div class="good"><h4>Tactical Masters</h4><ul class="rank-list" id="tactical-masters"></ul></div>
+            <div class="critical"><h4>Rotation Losers</h4><ul class="rank-list" id="rotation-losers"></ul></div>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="tab-panel" id="tab-history">
-      <p class="panel-note">Season-by-season standings, preserved from the old league (2013/14 onward) &mdash; this can't be re-derived from the FPL API once a season ends.</p>
-      <div id="history-tables"></div>
-    </section>
-
-    <section class="tab-panel" id="tab-bench">
-      <div class="card-grid">
-        <div class="card">
-          <h3>Points on Bench</h3>
-          <p class="card-caption">Total points left unused on the bench, this season</p>
-          <div id="bench-leaderboard"></div>
-        </div>
+      <div class="sub-panel" id="sub-bench">
         <div class="card">
           <h3>Adjusted Table</h3>
-          <p class="card-caption">Standings if bench points counted &mdash; and "Jammy" delta: positive means you're ranked better than your bench-adjusted rank deserves</p>
-          <div id="adjusted-table"></div>
+          <p class="card-caption">Standings if bench points counted. "Jammy" = ranked better than your bench-adjusted rank deserves.</p>
+          <ul class="rank-list" id="adjusted-table"></ul>
         </div>
-        <div class="card wide">
+        <div class="card">
           <h3>Points on Bench by Week</h3>
+          <div class="top-row"><span></span><select class="manager-picker" id="bench-manager-picker"></select></div>
           <div class="chart-wrap"><canvas id="chart-bench-by-week"></canvas></div>
         </div>
       </div>
-    </section>
 
-    <section class="tab-panel" id="tab-transfers">
-      <div class="card-grid">
-        <div class="card wide">
+      <div class="sub-panel" id="sub-transfers">
+        <div class="card">
           <h3>Transfers</h3>
-          <div id="transfers-summary"></div>
+          <ul class="rank-list" id="transfers-summary"></ul>
         </div>
         <div class="card">
           <h3>Best Transfers</h3>
-          <div id="best-transfers"></div>
+          <ul class="rank-list" id="best-transfers"></ul>
         </div>
         <div class="card">
           <h3>Worst Transfers</h3>
-          <div id="worst-transfers"></div>
+          <ul class="rank-list" id="worst-transfers"></ul>
         </div>
       </div>
-    </section>
 
-    <section class="tab-panel" id="tab-chips">
-      <div class="card-grid">
-        <div class="card wide">
-          <h3>Chip Score v Average Score That Week</h3>
-          <p class="card-caption">Points scored above/below that week's global FPL average, broken down by which chip was active</p>
-          <div class="chart-wrap"><canvas id="chart-chip-usage"></canvas></div>
+      <div class="sub-panel" id="sub-chips">
+        <div class="card">
+          <h3>Chip Score v Average</h3>
+          <p class="card-caption">Points above/below that week's global average, by chip</p>
+          <div class="chart-wrap tall"><canvas id="chart-chip-usage"></canvas></div>
         </div>
         <div class="card">
           <h3>Top 10 Chip Plays</h3>
-          <div id="top10-chips"></div>
+          <ul class="rank-list" id="top10-chips"></ul>
         </div>
         <div class="card">
           <h3>Triple Captain Points</h3>
-          <div id="tc-points"></div>
+          <ul class="rank-list" id="tc-points"></ul>
         </div>
       </div>
-    </section>
 
-    <section class="tab-panel" id="tab-captaincy">
-      <div class="card-grid">
-        <div class="card wide">
+      <div class="sub-panel" id="sub-captaincy">
+        <div class="card">
           <h3>Can You Captain?</h3>
-          <div id="captaincy-summary"></div>
+          <ul class="rank-list" id="captaincy-summary"></ul>
         </div>
-        <div class="card wide">
+        <div class="card">
           <div class="top-row">
             <h3 style="margin:0">Captain Points by Week</h3>
-            <select class="manager-picker" id="captaincy-manager-picker"></select>
           </div>
+          <select class="manager-picker" id="captaincy-manager-picker" style="margin-bottom:8px"></select>
           <div class="chart-wrap"><canvas id="chart-captaincy"></canvas></div>
         </div>
       </div>
-    </section>
 
-    <section class="tab-panel" id="tab-fun">
-      <div class="card-grid">
-        <div class="card wide">
+      <div class="sub-panel" id="sub-average">
+        <div class="card">
           <div class="top-row">
-            <div>
-              <h3 style="margin:0">Are You Average?</h3>
-              <p class="card-caption">Weekly score vs. this league's average, trended</p>
-            </div>
-            <select class="manager-picker" id="average-manager-picker"></select>
+            <h3 style="margin:0">Are You Average?</h3>
           </div>
+          <select class="manager-picker" id="average-manager-picker" style="margin-bottom:8px"></select>
           <div class="chart-wrap"><canvas id="chart-vs-average"></canvas></div>
-          <div class="leaderboard-pair" style="margin-top:16px">
-            <div><h4>Average Crusher</h4><div id="average-crusher"></div></div>
-            <div><h4>Crushingly Average</h4><div id="crushingly-average"></div></div>
-          </div>
-        </div>
-        <div class="card wide">
-          <h3>Sportz Chat v Average</h3>
-          <p class="card-caption">This league's average score vs. the whole-FPL average, by gameweek</p>
-          <div class="chart-wrap short"><canvas id="chart-league-vs-global"></canvas></div>
         </div>
         <div class="card">
+          <div class="leaderboard-pair">
+            <div><h4>Average Crusher</h4><ul class="rank-list" id="average-crusher"></ul></div>
+            <div><h4>Crushingly Average</h4><ul class="rank-list" id="crushingly-average"></ul></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Sportz Chat v Average</h3>
+          <p class="card-caption">This league's average score vs. the whole-FPL average</p>
+          <div class="chart-wrap"><canvas id="chart-league-vs-global"></canvas></div>
+        </div>
+      </div>
+
+      <div class="sub-panel" id="sub-records">
+        <div class="card">
           <h3>Best 10 Scores</h3>
-          <div id="best-10-scores"></div>
+          <ul class="rank-list" id="best-10-scores"></ul>
         </div>
         <div class="card">
           <h3>Worst 10 Scores</h3>
-          <div id="worst-10-scores"></div>
+          <ul class="rank-list" id="worst-10-scores"></ul>
         </div>
-        <div class="card wide">
-          <h3>Overall Rank by GW</h3>
+        <div class="card">
+          <div class="top-row">
+            <h3 style="margin:0">Overall Rank by GW</h3>
+          </div>
           <p class="card-caption">Whole-FPL rank (not just league rank), lower is better</p>
+          <select class="manager-picker" id="overallrank-manager-picker" style="margin-bottom:8px"></select>
           <div class="chart-wrap"><canvas id="chart-overall-rank"></canvas></div>
         </div>
       </div>
     </section>
+
+    <!-- ============ ALL-TIME ============ -->
+    <section class="tab-panel" id="tab-alltime">
+      <div class="card">
+        <h3>League Progression</h3>
+        <p class="card-caption">Cumulative points this season</p>
+        <select class="manager-picker" id="progression-manager-picker" style="margin-bottom:8px"></select>
+        <div class="chart-wrap"><canvas id="chart-league-progression"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Top 10 All Time</h3>
+        <p class="card-caption">Best individual season finishes across the league's whole history</p>
+        <ul class="rank-list" id="top10-all-time"></ul>
+      </div>
+      <div class="card">
+        <h3>Wins &amp; Podiums</h3>
+        <ul class="rank-list" id="wins-podiums"></ul>
+      </div>
+      <div class="card">
+        <h3>Weeks at the Top / Podium</h3>
+        <p class="card-caption">This season</p>
+        <ul class="rank-list" id="weeks-top-podium"></ul>
+      </div>
+      <div class="card">
+        <h3>Consistency</h3>
+        <p class="card-caption">Lower = steadier week to week. Best-guess formula.</p>
+        <ul class="rank-list" id="consistency"></ul>
+      </div>
+      <div class="card">
+        <h3>Average Position</h3>
+        <p class="card-caption">Mean league rank across the season. Best-guess formula.</p>
+        <ul class="rank-list" id="average-position"></ul>
+      </div>
+      <h2 class="section-title">Season by Season</h2>
+      <div class="card" id="history-tables"></div>
+    </section>
   </main>
 
+  <nav class="bottom-tabs" id="tabs">
+    <button data-tab="home" class="active"><span class="dot"></span>Home</button>
+    <button data-tab="season"><span class="dot"></span>Season</button>
+    <button data-tab="alltime"><span class="dot"></span>All-Time</button>
+  </nav>
+
   <footer class="site-footer">
-    Data from the official Fantasy Premier League API. Refreshed automatically &mdash;
-    <span id="footer-note"></span>
+    Data from the official Fantasy Premier League API · <span id="footer-note"></span>
   </footer>
 
   <script src="app.js"></script>

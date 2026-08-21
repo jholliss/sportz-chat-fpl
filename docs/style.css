@@ -1,93 +1,74 @@
 :root {
   color-scheme: light;
-  --surface-1: #fcfcfb;
-  --page-plane: #f9f9f7;
+  --surface-1: #ffffff;
+  --page-plane: #f7f7f5;
   --text-primary: #0b0b0b;
-  --text-secondary: #52514e;
-  --text-muted: #898781;
-  --gridline: #e1e0d9;
-  --baseline: #c3c2b7;
-  --border: rgba(11, 11, 11, 0.1);
+  --text-secondary: #56554f;
+  --text-muted: #8f8d85;
+  --gridline: #ebe9e3;
+  --border: rgba(11, 11, 11, 0.08);
 
   --good: #0ca30c;
   --critical: #d03b3b;
   --diverge-pos: #2a78d6;
   --diverge-neg: #e34948;
-  --diverge-mid: #f0efec;
 
   /* Categorical manager colors, fixed order -- slots 1-8 are the
      validated dataviz-skill palette; slot 9 is a pragmatic addition
-     since this league has 9 members (the palette validates 8 for
-     simultaneous multi-line use). Every manager keeps the same color
-     everywhere on the site. */
-  --m1: #2a78d6; /* blue */
-  --m2: #eb6834; /* orange */
-  --m3: #1baf7a; /* aqua */
-  --m4: #eda100; /* yellow */
-  --m5: #e87ba4; /* magenta */
-  --m6: #008300; /* green */
-  --m7: #4a3aa7; /* violet */
-  --m8: #e34948; /* red */
-  --m9: #8a5a2f; /* brown */
+     since this league has 9 members. Every manager keeps the same
+     color everywhere on the site. */
+  --m1: #2a78d6;
+  --m2: #eb6834;
+  --m3: #1baf7a;
+  --m4: #eda100;
+  --m5: #e87ba4;
+  --m6: #008300;
+  --m7: #4a3aa7;
+  --m8: #e34948;
+  --m9: #8a5a2f;
+
+  --radius: 14px;
+  --tap: 44px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --surface-1: #1a1a19;
-    --page-plane: #0d0d0d;
+    --surface-1: #171716;
+    --page-plane: #0c0c0b;
     --text-primary: #ffffff;
     --text-secondary: #c3c2b7;
-    --text-muted: #898781;
-    --gridline: #2c2c2a;
-    --baseline: #383835;
-    --border: rgba(255, 255, 255, 0.1);
+    --text-muted: #8f8d85;
+    --gridline: #2a2a28;
+    --border: rgba(255, 255, 255, 0.09);
     --good: #0ca30c;
     --critical: #e66767;
     --diverge-pos: #3987e5;
     --diverge-neg: #e66767;
-    --diverge-mid: #383835;
-    --m1: #3987e5;
-    --m2: #d95926;
-    --m3: #199e70;
-    --m4: #c98500;
-    --m5: #d55181;
-    --m6: #008300;
-    --m7: #9085e9;
-    --m8: #e66767;
-    --m9: #a9713f;
+    --m1: #3987e5; --m2: #d95926; --m3: #199e70; --m4: #c98500; --m5: #d55181;
+    --m6: #008300; --m7: #9085e9; --m8: #e66767; --m9: #a9713f;
   }
 }
-
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --surface-1: #1a1a19;
-  --page-plane: #0d0d0d;
+  --surface-1: #171716;
+  --page-plane: #0c0c0b;
   --text-primary: #ffffff;
   --text-secondary: #c3c2b7;
-  --text-muted: #898781;
-  --gridline: #2c2c2a;
-  --baseline: #383835;
-  --border: rgba(255, 255, 255, 0.1);
+  --text-muted: #8f8d85;
+  --gridline: #2a2a28;
+  --border: rgba(255, 255, 255, 0.09);
   --good: #0ca30c;
   --critical: #e66767;
   --diverge-pos: #3987e5;
   --diverge-neg: #e66767;
-  --diverge-mid: #383835;
-  --m1: #3987e5;
-  --m2: #d95926;
-  --m3: #199e70;
-  --m4: #c98500;
-  --m5: #d55181;
-  --m6: #008300;
-  --m7: #9085e9;
-  --m8: #e66767;
-  --m9: #a9713f;
+  --m1: #3987e5; --m2: #d95926; --m3: #199e70; --m4: #c98500; --m5: #d55181;
+  --m6: #008300; --m7: #9085e9; --m8: #e66767; --m9: #a9713f;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
 
 body {
   margin: 0;
@@ -95,117 +76,179 @@ body {
   color: var(--text-primary);
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: calc(var(--tap) + 24px + env(safe-area-inset-bottom));
 }
 
+/* ---------- header ---------- */
 header.site-header {
-  padding: 24px 20px 0;
-  max-width: 1100px;
-  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: color-mix(in srgb, var(--page-plane) 88%, transparent);
+  backdrop-filter: blur(10px);
+  padding: 14px 16px 10px;
 }
 
 header.site-header h1 {
-  margin: 0 0 4px;
-  font-size: 1.6rem;
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 header.site-header p.subtitle {
-  margin: 0 0 16px;
-  color: var(--text-secondary);
+  margin: 2px 0 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
 }
 
-nav.tabs {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  gap: 4px;
-  overflow-x: auto;
-  border-bottom: 1px solid var(--gridline);
-}
-
-nav.tabs button {
-  appearance: none;
-  border: none;
-  background: none;
-  color: var(--text-secondary);
-  font: inherit;
-  font-size: 0.9rem;
-  padding: 10px 14px;
-  border-bottom: 2px solid transparent;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-nav.tabs button:hover {
-  color: var(--text-primary);
-}
-
-nav.tabs button.active {
-  color: var(--text-primary);
-  border-bottom-color: var(--m1);
-  font-weight: 600;
-}
-
+/* ---------- layout ---------- */
 main {
-  max-width: 1100px;
+  max-width: 560px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 4px 16px 8px;
 }
 
-section.tab-panel {
-  display: none;
-}
-
-section.tab-panel.active {
-  display: block;
-}
+section.tab-panel { display: none; }
+section.tab-panel.active { display: block; }
 
 .panel-note {
   color: var(--text-muted);
-  font-size: 0.85rem;
-  margin: -8px 0 20px;
+  font-size: 0.8rem;
+  margin: 4px 0 16px;
+}
+
+h2.section-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 22px 0 10px;
+  letter-spacing: -0.01em;
 }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
-  margin-bottom: 24px;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .card-grid.two-col { grid-template-columns: 1fr 1fr; }
 }
 
 .card {
   background: var(--surface-1);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius);
   padding: 16px;
   overflow-x: auto;
 }
 
 .card h3 {
-  margin: 0 0 4px;
-  font-size: 1rem;
+  margin: 0 0 2px;
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
 .card .card-caption {
   margin: 0 0 12px;
   color: var(--text-muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+/* ---------- primary bottom nav ---------- */
+nav.bottom-tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  background: color-mix(in srgb, var(--surface-1) 92%, transparent);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid var(--border);
+  padding: 4px max(4px, env(safe-area-inset-left)) max(4px, env(safe-area-inset-bottom));
+}
+
+nav.bottom-tabs button {
+  flex: 1;
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 8px 4px 6px;
+  min-height: var(--tap);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+nav.bottom-tabs button .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+nav.bottom-tabs button.active {
+  color: var(--text-primary);
+}
+
+nav.bottom-tabs button.active .dot {
+  background: var(--m1);
+}
+
+/* ---------- secondary pill nav (within a tab) ---------- */
+nav.pill-tabs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 2px 0 12px;
+  scrollbar-width: none;
+}
+nav.pill-tabs::-webkit-scrollbar { display: none; }
+
+nav.pill-tabs button {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-secondary);
+  font: inherit;
   font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+  cursor: pointer;
+  min-height: 36px;
 }
 
-.card.wide {
-  grid-column: 1 / -1;
+nav.pill-tabs button.active {
+  background: var(--text-primary);
+  color: var(--surface-1);
+  border-color: var(--text-primary);
 }
 
+.sub-panel { display: none; }
+.sub-panel.active { display: block; }
+
+/* ---------- tables & lists ---------- */
 table {
   border-collapse: collapse;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
-table th,
-table td {
+table th, table td {
   text-align: left;
-  padding: 6px 8px;
+  padding: 8px 6px;
   border-bottom: 1px solid var(--gridline);
   white-space: nowrap;
 }
@@ -213,112 +256,175 @@ table td {
 table th {
   color: var(--text-muted);
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
-table td.num,
-table th.num {
+table td.num, table th.num {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-tr.good td.value {
-  color: var(--good);
-  font-weight: 600;
-}
-
-tr.critical td.value {
-  color: var(--critical);
-  font-weight: 600;
-}
-
-.leaderboard-pair {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-
-.leaderboard-pair h4 {
-  margin: 0 0 8px;
-  font-size: 0.9rem;
-}
-
-.leaderboard-pair ul {
+/* Rank-style list row: used for most leaderboards instead of dense
+   multi-column tables -- reads cleanly on a phone with no horizontal
+   scroll needed. */
+ul.rank-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.leaderboard-pair li {
+ul.rank-list li {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
-  padding: 6px 8px;
-  border-radius: 6px;
-  margin-bottom: 4px;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--gridline);
   font-size: 0.9rem;
 }
 
-.leaderboard-pair li span.value {
+ul.rank-list li:last-child { border-bottom: none; }
+
+ul.rank-list .rank-main {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+}
+
+ul.rank-list .rank-num {
+  color: var(--text-muted);
+  font-size: 0.75rem;
   font-variant-numeric: tabular-nums;
-  font-weight: 600;
+  width: 1.2em;
+  flex-shrink: 0;
 }
 
-.leaderboard-pair.good li {
-  background: color-mix(in srgb, var(--good) 12%, transparent);
+ul.rank-list .rank-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.leaderboard-pair.critical li {
-  background: color-mix(in srgb, var(--critical) 12%, transparent);
+ul.rank-list .rank-sub {
+  color: var(--text-muted);
+  font-size: 0.78rem;
 }
 
+ul.rank-list .rank-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* good/critical leaderboard pairs */
+.leaderboard-pair {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 480px) {
+  .leaderboard-pair { grid-template-columns: 1fr 1fr; }
+}
+
+.leaderboard-pair h4 {
+  margin: 0 0 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.leaderboard-pair.good h4 { color: var(--good); }
+.leaderboard-pair.critical h4 { color: var(--critical); }
+
+.leaderboard-pair ul.rank-list li { padding: 6px 0; }
+
+/* ---------- charts ---------- */
 .chart-wrap {
   position: relative;
-  height: 320px;
-}
-
-.chart-wrap.short {
   height: 220px;
 }
-
-select.manager-picker {
-  font: inherit;
-  padding: 6px 10px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--surface-1);
-  color: var(--text-primary);
-}
+.chart-wrap.tall { height: 280px; }
 
 .top-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
+}
+
+select.manager-picker {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--page-plane);
+  color: var(--text-primary);
+  min-height: 36px;
 }
 
 .empty-state {
   color: var(--text-muted);
   font-style: italic;
-  padding: 24px 0;
+  font-size: 0.85rem;
+  padding: 20px 0;
 }
 
-.legend-swatch {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 6px;
-  vertical-align: middle;
+/* ---------- hero stat ---------- */
+.hero-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
 }
+.hero-stat .value {
+  font-size: 2.1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.hero-stat .label {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* ---------- accordion (All-Time: League by Year) ---------- */
+details.accordion-item {
+  border-bottom: 1px solid var(--gridline);
+}
+details.accordion-item:last-child { border-bottom: none; }
+
+details.accordion-item summary {
+  padding: 12px 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+details.accordion-item summary::-webkit-details-marker { display: none; }
+details.accordion-item summary::after {
+  content: "+";
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+details.accordion-item[open] summary::after { content: "\2212"; }
+
+details.accordion-item .accordion-body { padding-bottom: 12px; }
 
 footer.site-footer {
-  max-width: 1100px;
+  max-width: 560px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 16px 16px 4px;
   color: var(--text-muted);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
+  text-align: center;
 }
