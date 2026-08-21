@@ -1,0 +1,324 @@
+:root {
+  color-scheme: light;
+  --surface-1: #fcfcfb;
+  --page-plane: #f9f9f7;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --gridline: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.1);
+
+  --good: #0ca30c;
+  --critical: #d03b3b;
+  --diverge-pos: #2a78d6;
+  --diverge-neg: #e34948;
+  --diverge-mid: #f0efec;
+
+  /* Categorical manager colors, fixed order -- slots 1-8 are the
+     validated dataviz-skill palette; slot 9 is a pragmatic addition
+     since this league has 9 members (the palette validates 8 for
+     simultaneous multi-line use). Every manager keeps the same color
+     everywhere on the site. */
+  --m1: #2a78d6; /* blue */
+  --m2: #eb6834; /* orange */
+  --m3: #1baf7a; /* aqua */
+  --m4: #eda100; /* yellow */
+  --m5: #e87ba4; /* magenta */
+  --m6: #008300; /* green */
+  --m7: #4a3aa7; /* violet */
+  --m8: #e34948; /* red */
+  --m9: #8a5a2f; /* brown */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page-plane: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --gridline: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.1);
+    --good: #0ca30c;
+    --critical: #e66767;
+    --diverge-pos: #3987e5;
+    --diverge-neg: #e66767;
+    --diverge-mid: #383835;
+    --m1: #3987e5;
+    --m2: #d95926;
+    --m3: #199e70;
+    --m4: #c98500;
+    --m5: #d55181;
+    --m6: #008300;
+    --m7: #9085e9;
+    --m8: #e66767;
+    --m9: #a9713f;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-1: #1a1a19;
+  --page-plane: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --gridline: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255, 255, 255, 0.1);
+  --good: #0ca30c;
+  --critical: #e66767;
+  --diverge-pos: #3987e5;
+  --diverge-neg: #e66767;
+  --diverge-mid: #383835;
+  --m1: #3987e5;
+  --m2: #d95926;
+  --m3: #199e70;
+  --m4: #c98500;
+  --m5: #d55181;
+  --m6: #008300;
+  --m7: #9085e9;
+  --m8: #e66767;
+  --m9: #a9713f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page-plane);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.4;
+}
+
+header.site-header {
+  padding: 24px 20px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header.site-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+header.site-header p.subtitle {
+  margin: 0 0 16px;
+  color: var(--text-secondary);
+}
+
+nav.tabs {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--gridline);
+}
+
+nav.tabs button {
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 10px 14px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+nav.tabs button:hover {
+  color: var(--text-primary);
+}
+
+nav.tabs button.active {
+  color: var(--text-primary);
+  border-bottom-color: var(--m1);
+  font-weight: 600;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section.tab-panel {
+  display: none;
+}
+
+section.tab-panel.active {
+  display: block;
+}
+
+.panel-note {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: -8px 0 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.card h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.card .card-caption {
+  margin: 0 0 12px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.card.wide {
+  grid-column: 1 / -1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--gridline);
+  white-space: nowrap;
+}
+
+table th {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+table td.num,
+table th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+tr.good td.value {
+  color: var(--good);
+  font-weight: 600;
+}
+
+tr.critical td.value {
+  color: var(--critical);
+  font-weight: 600;
+}
+
+.leaderboard-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.leaderboard-pair h4 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+}
+
+.leaderboard-pair ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leaderboard-pair li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
+
+.leaderboard-pair li span.value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.leaderboard-pair.good li {
+  background: color-mix(in srgb, var(--good) 12%, transparent);
+}
+
+.leaderboard-pair.critical li {
+  background: color-mix(in srgb, var(--critical) 12%, transparent);
+}
+
+.chart-wrap {
+  position: relative;
+  height: 320px;
+}
+
+.chart-wrap.short {
+  height: 220px;
+}
+
+select.manager-picker {
+  font: inherit;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-primary);
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.empty-state {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 24px 0;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+footer.site-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
