@@ -79,6 +79,16 @@
       "real_rank": 8,
       "total_plus_bench": 0,
       "total_points": 0
+    },
+    {
+      "adjusted_rank": 9,
+      "jammy_delta": 0,
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
+      "points_on_bench": 0,
+      "real_rank": 9,
+      "total_plus_bench": 0,
+      "total_points": 0
     }
   ],
   "average_position": [],
@@ -122,6 +132,11 @@
       "manager_id": "1004578",
       "name": "Adam Beveridge",
       "points_on_bench": 0
+    },
+    {
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
+      "points_on_bench": 0
     }
   ],
   "best_worst_scores": {
@@ -134,6 +149,7 @@
       "1212049": [],
       "3457548": [],
       "4177980": [],
+      "4279888": [],
       "6975918": [],
       "8011609": [],
       "817501": [],
@@ -195,6 +211,13 @@
         "name": "Adam Beveridge",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
+      },
+      {
+        "gain_loss_vs_optimal": 0,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "picked_best_captain_weeks": 0,
+        "total_captain_points": 0
       }
     ]
   },
@@ -224,6 +247,11 @@
     ],
     "in_freefall": [
       {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "value": 0
+      },
+      {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "value": 0
@@ -231,16 +259,16 @@
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 0
-      },
-      {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
         "value": 0
       }
     ],
     "rotation_losers": [
       {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "value": 0
+      },
+      {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "value": 0
@@ -248,11 +276,6 @@
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 0
-      },
-      {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
         "value": 0
       }
     ],
@@ -275,6 +298,11 @@
     ],
     "spend_thrifts": [
       {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "value": 0
+      },
+      {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "value": 0
@@ -282,11 +310,6 @@
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 0
-      },
-      {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
         "value": 0
       }
     ],
@@ -314,6 +337,7 @@
     "1212049": [],
     "3457548": [],
     "4177980": [],
+    "4279888": [],
     "6975918": [],
     "8011609": [],
     "817501": [],
@@ -328,6 +352,7 @@
     "1212049": [],
     "3457548": [],
     "4177980": [],
+    "4279888": [],
     "6975918": [],
     "8011609": [],
     "817501": [],
@@ -338,6 +363,7 @@
     "1212049": [],
     "3457548": [],
     "4177980": [],
+    "4279888": [],
     "6975918": [],
     "8011609": [],
     "817501": [],
@@ -486,6 +512,12 @@
         "name": "Adam Beveridge",
         "total_net_points": 0,
         "transfer_count": 0
+      },
+      {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "total_net_points": 0,
+        "transfer_count": 0
       }
     ],
     "worst_transfers": []
@@ -496,6 +528,7 @@
       "1212049": [],
       "3457548": [],
       "4177980": [],
+      "4279888": [],
       "6975918": [],
       "8011609": [],
       "817501": [],
@@ -565,6 +598,14 @@
         "weeks_beat_average": 0,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
+      },
+      {
+        "best_vs_average": 0,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "weeks_beat_average": 0,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
       }
     ]
   },
@@ -614,6 +655,12 @@
     {
       "manager_id": "1004578",
       "name": "Adam Beveridge",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
+    },
+    {
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     }

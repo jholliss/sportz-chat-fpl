@@ -84,6 +84,28 @@ def managers_from_standings(standings):
     return managers
 
 
+def add_extra_managers(managers, extra_managers):
+    """Merge in managers who aren't (yet) in the league itself -- e.g.
+    someone who hasn't accepted their invite -- so they still show up
+    everywhere. `extra_managers` is {manager_id: name} from config.json.
+    Team name is fetched live from their public FPL entry."""
+    for manager_id, name in (extra_managers or {}).items():
+        manager_id = str(manager_id)
+        if manager_id in managers:
+            continue
+        try:
+            entry = fpl_api.get_entry(manager_id)
+            team_name = entry.get("name", name)
+        except RuntimeError:
+            team_name = name
+        managers[manager_id] = {
+            "manager_id": manager_id,
+            "name": canonical_name(name),
+            "team_name": team_name,
+        }
+    return managers
+
+
 def fetch_gameweeks(manager_ids):
     """{manager_id: [{gw, points, total_points, overall_rank, bank,
     value, transfers, transfer_cost, points_on_bench}, ...]}
@@ -224,6 +246,7 @@ def fetch_all():
 
     standings = fetch_standings(league_id)
     managers = managers_from_standings(standings)
+    managers = add_extra_managers(managers, config.get("extra_managers"))
     manager_ids = list(managers.keys())
 
     gameweeks = fetch_gameweeks(manager_ids)

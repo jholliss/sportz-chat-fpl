@@ -27,6 +27,18 @@ Edit `docs/data/config.json` -> `league_id`. FPL classic league IDs are **not**
 guaranteed stable across seasons for this group (it's changed before) — check the
 league's actual ID in the FPL app if standings ever come back empty unexpectedly.
 
+### Tracking someone who isn't in the league (yet, or at all)
+
+`config.json` -> `extra_managers` is `{manager_id: name}` for anyone who should
+be tracked everywhere (form, bench, transfers, chips, captaincy, etc.) even
+though they have no row in the league's official standings — e.g. someone who
+hasn't accepted their invite. Their team name is pulled live from their public
+FPL entry. They will **not** appear in the League Table itself (there's no
+league rank to show for a non-member), but every other manager-indexed stat
+includes them. Remove the entry once they actually join the league — at that
+point they'll be picked up normally via standings and the override becomes
+redundant (harmless either way, since already-present manager_ids are skipped).
+
 ## Historic data
 
 `docs/data/historic.json` holds season-by-season standings from 2013/14 onward,

@@ -66,6 +66,13 @@ def get_standings(league_id):
     return {"league": league_meta, "results": all_results, "new_entries": new_entries}
 
 
+def get_entry(manager_id):
+    """Basic entry info: player_first_name, player_last_name, name
+    (team name). Used for managers we track outside the league
+    standings (e.g. someone who hasn't joined the league yet)."""
+    return _get(f"/entry/{manager_id}/")
+
+
 def get_entry_history(manager_id):
     """Full season gameweek-by-gameweek history for a manager, plus
     `past` (prior season summaries, per this FPL account) and `chips`

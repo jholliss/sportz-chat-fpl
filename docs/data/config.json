@@ -1,5 +1,8 @@
 {
   "league_id": 194021,
   "league_name": "Sportz Chat",
-  "season_start_year": 2025
+  "season_start_year": 2026,
+  "extra_managers": {
+    "4279888": "Oliver Dewdney"
+  }
 }
