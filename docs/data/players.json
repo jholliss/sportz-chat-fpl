@@ -234,6 +234,15 @@
     "web_name": "G.Jesus"
   },
   {
+    "ep_next": "1.7",
+    "form": "0.0",
+    "id": 31,
+    "now_cost": 45,
+    "team": 1,
+    "total_points": 100,
+    "web_name": "Konsa"
+  },
+  {
     "ep_next": "1.8",
     "form": "0.0",
     "id": 452,
@@ -277,15 +286,6 @@
     "team": 2,
     "total_points": 97,
     "web_name": "Digne"
-  },
-  {
-    "ep_next": "1.7",
-    "form": "0.0",
-    "id": 31,
-    "now_cost": 45,
-    "team": 2,
-    "total_points": 100,
-    "web_name": "Konsa"
   },
   {
     "ep_next": "1.7",
@@ -4950,7 +4950,7 @@
     "web_name": "Robertson"
   },
   {
-    "ep_next": "2.2",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 503,
     "now_cost": 50,
