@@ -1,11 +1,119 @@
 {
-  "1004578": [],
-  "1212049": [],
-  "3457548": [],
-  "4177980": [],
-  "4279888": [],
-  "6975918": [],
-  "8011609": [],
-  "817501": [],
-  "822375": []
+  "1004578": [
+    {
+      "bank": 0,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "1212049": [
+    {
+      "bank": 0,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "3457548": [
+    {
+      "bank": 5,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "4177980": [
+    {
+      "bank": 0,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "4279888": [
+    {
+      "bank": 0,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "6975918": [
+    {
+      "bank": 0,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "8011609": [
+    {
+      "bank": 0,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "817501": [
+    {
+      "bank": 15,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ],
+  "822375": [
+    {
+      "bank": 5,
+      "gw": 1,
+      "overall_rank": null,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 0,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1000
+    }
+  ]
 }
