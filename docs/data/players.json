@@ -73,20 +73,20 @@
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 9,
     "now_cost": 55,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Hincapie"
   },
   {
     "ep_next": "2.5",
-    "form": "10.0",
+    "form": "11.0",
     "id": 10,
     "now_cost": 55,
     "team": 1,
-    "total_points": 10,
+    "total_points": 11,
     "web_name": "White"
   },
   {
@@ -100,11 +100,11 @@
   },
   {
     "ep_next": "3.2",
-    "form": "10.0",
+    "form": "9.0",
     "id": 12,
     "now_cost": 95,
     "team": 1,
-    "total_points": 10,
+    "total_points": 9,
     "web_name": "Saka"
   },
   {
@@ -118,11 +118,11 @@
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 14,
     "now_cost": 65,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Eze"
   },
   {
@@ -145,11 +145,11 @@
   },
   {
     "ep_next": "2.1",
-    "form": "0.0",
+    "form": "1.0",
     "id": 17,
     "now_cost": 60,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Merino"
   },
   {
@@ -1909,11 +1909,11 @@
   },
   {
     "ep_next": "2.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 584,
     "now_cost": 55,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Hamer"
   },
   {
