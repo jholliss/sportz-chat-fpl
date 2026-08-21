@@ -1,11 +1,11 @@
 [
   {
     "ep_next": "4.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 1,
     "now_cost": 60,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Raya"
   },
   {
@@ -28,11 +28,11 @@
   },
   {
     "ep_next": "4.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 4,
     "now_cost": 80,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Gabriel"
   },
   {
@@ -55,20 +55,20 @@
   },
   {
     "ep_next": "2.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 7,
     "now_cost": 55,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Lewis-Skelly"
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "5.0",
     "id": 8,
     "now_cost": 55,
     "team": 1,
-    "total_points": 0,
+    "total_points": 5,
     "web_name": "Calafiori"
   },
   {
@@ -82,38 +82,38 @@
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 10,
     "now_cost": 55,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "White"
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 11,
     "now_cost": 55,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Mosquera"
   },
   {
     "ep_next": "3.2",
-    "form": "0.0",
+    "form": "8.0",
     "id": 12,
     "now_cost": 95,
     "team": 1,
-    "total_points": 0,
+    "total_points": 8,
     "web_name": "Saka"
   },
   {
     "ep_next": "2.6",
-    "form": "0.0",
+    "form": "1.0",
     "id": 13,
     "now_cost": 75,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Rice"
   },
   {
@@ -127,11 +127,11 @@
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 15,
     "now_cost": 65,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "\u00d8degaard"
   },
   {
@@ -217,11 +217,11 @@
   },
   {
     "ep_next": "2.4",
-    "form": "0.0",
+    "form": "8.0",
     "id": 26,
     "now_cost": 75,
     "team": 1,
-    "total_points": 0,
+    "total_points": 8,
     "web_name": "Havertz"
   },
   {
@@ -253,11 +253,11 @@
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 557,
     "now_cost": 65,
     "team": 1,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Tzolis"
   },
   {
@@ -1630,11 +1630,11 @@
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 104,
     "now_cost": 50,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Onyeka"
   },
   {
@@ -1765,11 +1765,11 @@
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 184,
     "now_cost": 50,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Grimes"
   },
   {
@@ -1819,11 +1819,11 @@
   },
   {
     "ep_next": "2.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 190,
     "now_cost": 55,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Tchaouna"
   },
   {
@@ -1855,20 +1855,20 @@
   },
   {
     "ep_next": "1.4",
-    "form": "0.0",
+    "form": "1.0",
     "id": 194,
     "now_cost": 50,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Thomas-Asante"
   },
   {
     "ep_next": "1.4",
-    "form": "0.0",
+    "form": "1.0",
     "id": 195,
     "now_cost": 50,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Simms"
   },
   {
@@ -1900,11 +1900,11 @@
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 575,
     "now_cost": 50,
     "team": 7,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Yirenkyi"
   },
   {
