@@ -2898,7 +2898,7 @@
     "web_name": "Targett"
   },
   {
-    "ep_next": "0.7",
+    "ep_next": "0.8",
     "form": "0.0",
     "id": 563,
     "now_cost": 50,
@@ -3258,6 +3258,15 @@
     "web_name": "Ouattara"
   },
   {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 602,
+    "now_cost": 45,
+    "team": 12,
+    "total_points": 0,
+    "web_name": "Humphreys"
+  },
+  {
     "ep_next": "2.3",
     "form": "3.0",
     "id": 260,
@@ -3481,6 +3490,24 @@
     "team": 13,
     "total_points": 0,
     "web_name": "Elvedi"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 603,
+    "now_cost": 40,
+    "team": 13,
+    "total_points": 0,
+    "web_name": "Lienou"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 604,
+    "now_cost": 45,
+    "team": 13,
+    "total_points": 0,
+    "web_name": "Cresswell"
   },
   {
     "ep_next": "3.3",
@@ -5173,6 +5200,15 @@
     "team": 19,
     "total_points": 0,
     "web_name": "Scarlett"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 601,
+    "now_cost": 45,
+    "team": 19,
+    "total_points": 0,
+    "web_name": "Williams-Barnett"
   },
   {
     "ep_next": "2.6",
