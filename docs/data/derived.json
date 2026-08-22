@@ -43,8 +43,8 @@
     {
       "adjusted_rank": 5,
       "jammy_delta": 0,
-      "manager_id": "6975918",
-      "name": "James Cassidy",
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
       "points_on_bench": 0,
       "real_rank": 5,
       "total_plus_bench": 15,
@@ -53,8 +53,8 @@
     {
       "adjusted_rank": 6,
       "jammy_delta": 0,
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
+      "manager_id": "6975918",
+      "name": "James Cassidy",
       "points_on_bench": 0,
       "real_rank": 6,
       "total_plus_bench": 15,
@@ -114,13 +114,13 @@
     },
     {
       "average_position": 5,
-      "manager_id": "6975918",
-      "name": "James Cassidy"
+      "manager_id": "1004578",
+      "name": "Adam Beveridge"
     },
     {
       "average_position": 6,
-      "manager_id": "1004578",
-      "name": "Adam Beveridge"
+      "manager_id": "6975918",
+      "name": "James Cassidy"
     },
     {
       "average_position": 7,
@@ -160,13 +160,13 @@
       "points_on_bench": 0
     },
     {
-      "manager_id": "6975918",
-      "name": "James Cassidy",
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
       "points_on_bench": 0
     },
     {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
+      "manager_id": "6975918",
+      "name": "James Cassidy",
       "points_on_bench": 0
     },
     {
@@ -222,16 +222,16 @@
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "points": 15,
         "vs_average": 3
       },
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "points": 15,
         "vs_average": 3
       },
@@ -296,16 +296,16 @@
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "points": 15,
         "vs_average": 3
       },
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "points": 15,
         "vs_average": 3
       },
@@ -378,15 +378,15 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -844,14 +844,14 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -968,16 +968,16 @@
       },
       {
         "best_vs_average": 3,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
       },
       {
         "best_vs_average": 3,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
@@ -1034,14 +1034,14 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "6975918",
-      "name": "James Cassidy",
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
+      "manager_id": "6975918",
+      "name": "James Cassidy",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
