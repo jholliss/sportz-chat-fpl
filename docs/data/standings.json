@@ -24,51 +24,51 @@
     "total": 27
   },
   {
-    "event_total": 22,
+    "event_total": 26,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 4,
     "team_name": "Kloppafeel",
-    "total": 22
+    "total": 26
   },
   {
-    "event_total": 21,
-    "manager_id": "1004578",
-    "name": "Adam Beveridge",
-    "rank": 5,
-    "team_name": "Ballack Sabbath",
-    "total": 21
-  },
-  {
-    "event_total": 21,
+    "event_total": 24,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 5,
     "team_name": "Jacquet Potato",
+    "total": 24
+  },
+  {
+    "event_total": 23,
+    "manager_id": "1004578",
+    "name": "Adam Beveridge",
+    "rank": 6,
+    "team_name": "Ballack Sabbath",
+    "total": 23
+  },
+  {
+    "event_total": 21,
+    "manager_id": "822375",
+    "name": "Robbie Paton",
+    "rank": 7,
+    "team_name": "Careless Wissa",
     "total": 21
   },
   {
     "event_total": 19,
     "manager_id": "8011609",
     "name": "Tom Phillips",
-    "rank": 7,
+    "rank": 8,
     "team_name": "ThunderStruijk",
     "total": 19
   },
   {
-    "event_total": 19,
-    "manager_id": "822375",
-    "name": "Robbie Paton",
-    "rank": 7,
-    "team_name": "Careless Wissa",
-    "total": 19
-  },
-  {
-    "event_total": 17,
+    "event_total": 18,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 9,
     "team_name": "Restart The Rutter",
-    "total": 17
+    "total": 18
   }
 ]
