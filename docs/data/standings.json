@@ -25,6 +25,14 @@
   },
   {
     "event_total": 15,
+    "manager_id": "1004578",
+    "name": "Adam Beveridge",
+    "rank": 4,
+    "team_name": "Ballack Sabbath",
+    "total": 15
+  },
+  {
+    "event_total": 15,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 4,
@@ -40,14 +48,6 @@
     "total": 15
   },
   {
-    "event_total": 15,
-    "manager_id": "1004578",
-    "name": "Adam Beveridge",
-    "rank": 4,
-    "team_name": "Ballack Sabbath",
-    "total": 15
-  },
-  {
     "event_total": 14,
     "manager_id": "3457548",
     "name": "David Lewis",
@@ -57,18 +57,18 @@
   },
   {
     "event_total": 9,
-    "manager_id": "4177980",
-    "name": "James Petrie",
-    "rank": 8,
-    "team_name": "Restart The Rutter",
-    "total": 9
-  },
-  {
-    "event_total": 9,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 8,
     "team_name": "Careless Wissa",
+    "total": 9
+  },
+  {
+    "event_total": 9,
+    "manager_id": "4177980",
+    "name": "James Petrie",
+    "rank": 8,
+    "team_name": "Restart The Rutter",
     "total": 9
   }
 ]
