@@ -1,19 +1,19 @@
 [
   {
+    "event_total": 44,
+    "manager_id": "4279888",
+    "name": "Oliver Dewdney",
+    "rank": 1,
+    "team_name": "Yoro Wizard Harry",
+    "total": 44
+  },
+  {
     "event_total": 43,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
-    "rank": 1,
+    "rank": 2,
     "team_name": "Ballack Sabbath",
     "total": 43
-  },
-  {
-    "event_total": 37,
-    "manager_id": "4279888",
-    "name": "Oliver Dewdney",
-    "rank": 2,
-    "team_name": "Yoro Wizard Harry",
-    "total": 37
   },
   {
     "event_total": 34,

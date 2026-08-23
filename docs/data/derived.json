@@ -350,15 +350,15 @@
     "summary": [
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -449,13 +449,13 @@
   "form": {
     "in_form": [
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "value": 0
       },
       {
@@ -500,13 +500,13 @@
     ],
     "sound_spenders": [
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "value": 0
       },
       {
@@ -534,13 +534,13 @@
     ],
     "tactical_masters": [
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "value": 0
       },
       {
@@ -820,14 +820,14 @@
     "best_transfers": [],
     "summary": [
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -935,18 +935,18 @@
     },
     "summary": [
       {
-        "best_vs_average": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "weeks_beat_average": 0,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
-      },
-      {
         "best_vs_average": 8,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "weeks_beat_average": 1,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
+      },
+      {
+        "best_vs_average": 0,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "weeks_beat_average": 0,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
       },
@@ -1010,16 +1010,16 @@
   },
   "weeks_at_top_and_podium": [
     {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
       "weeks_at_top": 1,
       "weeks_on_podium": 1
+    },
+    {
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
     },
     {
       "manager_id": "1212049",
