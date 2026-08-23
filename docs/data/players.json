@@ -3700,11 +3700,11 @@
   },
   {
     "ep_next": "2.5",
-    "form": "10.0",
+    "form": "12.0",
     "id": 367,
     "now_cost": 70,
     "team": 14,
-    "total_points": 10,
+    "total_points": 12,
     "web_name": "Gakpo"
   },
   {
@@ -4528,11 +4528,11 @@
   },
   {
     "ep_next": "2.2",
-    "form": "10.0",
+    "form": "9.0",
     "id": 454,
     "now_cost": 60,
     "team": 17,
-    "total_points": 10,
+    "total_points": 9,
     "web_name": "Elanga"
   },
   {
