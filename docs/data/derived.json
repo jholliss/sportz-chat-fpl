@@ -52,23 +52,23 @@
     },
     {
       "adjusted_rank": 6,
-      "jammy_delta": 2,
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "points_on_bench": 4,
-      "real_rank": 4,
-      "total_plus_bench": 30,
-      "total_points": 26
-    },
-    {
-      "adjusted_rank": 7,
-      "jammy_delta": 4,
+      "jammy_delta": 3,
       "manager_id": "3457548",
       "name": "David Lewis",
       "points_on_bench": 3,
       "real_rank": 3,
       "total_plus_bench": 30,
       "total_points": 27
+    },
+    {
+      "adjusted_rank": 7,
+      "jammy_delta": 3,
+      "manager_id": "817501",
+      "name": "Andrew David",
+      "points_on_bench": 4,
+      "real_rank": 4,
+      "total_plus_bench": 30,
+      "total_points": 26
     },
     {
       "adjusted_rank": 8,
@@ -364,6 +364,13 @@
       },
       {
         "gain_loss_vs_optimal": 0,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "picked_best_captain_weeks": 0,
+        "total_captain_points": 0
+      },
+      {
+        "gain_loss_vs_optimal": 0,
         "manager_id": "1212049",
         "name": "James Holliss",
         "picked_best_captain_weeks": 0,
@@ -385,8 +392,8 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -394,13 +401,6 @@
         "gain_loss_vs_optimal": 0,
         "manager_id": "6975918",
         "name": "James Cassidy",
-        "picked_best_captain_weeks": 0,
-        "total_captain_points": 0
-      },
-      {
-        "gain_loss_vs_optimal": 0,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -459,8 +459,8 @@
         "value": 0
       },
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "value": 0
       }
     ],
@@ -471,13 +471,13 @@
         "value": 0
       },
       {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "value": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "value": 0
       }
     ],
@@ -488,13 +488,13 @@
         "value": 0
       },
       {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "value": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "value": 0
       }
     ],
@@ -510,8 +510,8 @@
         "value": 0
       },
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "value": 0
       }
     ],
@@ -522,13 +522,13 @@
         "value": 0
       },
       {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "value": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "value": 0
       }
     ],
@@ -544,8 +544,8 @@
         "value": 0
       },
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "value": 0
       }
     ],
@@ -832,6 +832,12 @@
         "transfer_count": 0
       },
       {
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "total_net_points": 0,
+        "transfer_count": 0
+      },
+      {
         "manager_id": "1212049",
         "name": "James Holliss",
         "total_net_points": 0,
@@ -850,20 +856,14 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
         "manager_id": "6975918",
         "name": "James Cassidy",
-        "total_net_points": 0,
-        "transfer_count": 0
-      },
-      {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -951,6 +951,14 @@
         "worst_vs_average": 0
       },
       {
+        "best_vs_average": 4,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
+      },
+      {
         "best_vs_average": 5,
         "manager_id": "1212049",
         "name": "James Holliss",
@@ -975,12 +983,12 @@
         "worst_vs_average": -5
       },
       {
-        "best_vs_average": 4,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
+        "best_vs_average": 0,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "weeks_beat_average": 0,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -4
       },
       {
         "best_vs_average": 1,
@@ -989,14 +997,6 @@
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
-      },
-      {
-        "best_vs_average": 0,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "weeks_beat_average": 0,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -4
       },
       {
         "best_vs_average": 0,
@@ -1022,6 +1022,12 @@
       "weeks_on_podium": 0
     },
     {
+      "manager_id": "3457548",
+      "name": "David Lewis",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 1
+    },
+    {
       "manager_id": "1212049",
       "name": "James Holliss",
       "weeks_at_top": 0,
@@ -1040,20 +1046,14 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "3457548",
-      "name": "David Lewis",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 1
-    },
-    {
-      "manager_id": "6975918",
-      "name": "James Cassidy",
+      "manager_id": "8011609",
+      "name": "Tom Phillips",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "8011609",
-      "name": "Tom Phillips",
+      "manager_id": "6975918",
+      "name": "James Cassidy",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
