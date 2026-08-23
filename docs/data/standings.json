@@ -16,59 +16,59 @@
     "total": 43
   },
   {
-    "event_total": 34,
+    "event_total": 35,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 3,
     "team_name": "Hamann Overboard",
-    "total": 34
+    "total": 35
   },
   {
     "event_total": 34,
     "manager_id": "817501",
     "name": "Andrew David",
-    "rank": 3,
+    "rank": 4,
     "team_name": "Kloppafeel",
     "total": 34
   },
   {
-    "event_total": 30,
+    "event_total": 31,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 5,
     "team_name": "Restart The Rutter",
-    "total": 30
+    "total": 31
   },
   {
-    "event_total": 29,
+    "event_total": 30,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 6,
     "team_name": "All Hail Keylord",
-    "total": 29
+    "total": 30
   },
   {
-    "event_total": 28,
+    "event_total": 29,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 7,
     "team_name": "Jacquet Potato",
-    "total": 28
+    "total": 29
   },
   {
-    "event_total": 25,
+    "event_total": 28,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 8,
     "team_name": "ThunderStruijk",
-    "total": 25
+    "total": 28
   },
   {
-    "event_total": 23,
+    "event_total": 25,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 9,
     "team_name": "Careless Wissa",
-    "total": 23
+    "total": 25
   }
 ]
