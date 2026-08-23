@@ -271,11 +271,11 @@
   },
   {
     "ep_next": "1.9",
-    "form": "0.0",
+    "form": "-1.0",
     "id": 29,
     "now_cost": 45,
     "team": 2,
-    "total_points": 0,
+    "total_points": -1,
     "web_name": "M.Bizot"
   },
   {
@@ -289,11 +289,11 @@
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "-1.0",
     "id": 32,
     "now_cost": 45,
     "team": 2,
-    "total_points": 0,
+    "total_points": -1,
     "web_name": "Cash"
   },
   {
@@ -307,11 +307,11 @@
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "-1.0",
     "id": 34,
     "now_cost": 45,
     "team": 2,
-    "total_points": 0,
+    "total_points": -1,
     "web_name": "Pau"
   },
   {
@@ -325,20 +325,20 @@
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "-1.0",
     "id": 36,
     "now_cost": 45,
     "team": 2,
-    "total_points": 0,
+    "total_points": -1,
     "web_name": "Maatsen"
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "-3.0",
     "id": 37,
     "now_cost": 45,
     "team": 2,
-    "total_points": 0,
+    "total_points": -3,
     "web_name": "Lindel\u00f6f"
   },
   {
@@ -361,11 +361,11 @@
   },
   {
     "ep_next": "2.1",
-    "form": "0.0",
+    "form": "1.0",
     "id": 41,
     "now_cost": 60,
     "team": 2,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Buend\u00eda"
   },
   {
@@ -388,20 +388,20 @@
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 46,
     "now_cost": 50,
     "team": 2,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Barkley"
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 47,
     "now_cost": 50,
     "team": 2,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Kamara"
   },
   {
@@ -433,11 +433,11 @@
   },
   {
     "ep_next": "1.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 51,
     "now_cost": 45,
     "team": 2,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "George Hemmings"
   },
   {
@@ -459,7 +459,7 @@
     "web_name": "Manzambi"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "2.0",
     "form": "0.0",
     "id": 54,
     "now_cost": 55,
@@ -523,11 +523,11 @@
   },
   {
     "ep_next": "1.9",
-    "form": "0.0",
+    "form": "1.0",
     "id": 57,
     "now_cost": 45,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Petrovi\u0107"
   },
   {
@@ -550,20 +550,20 @@
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 60,
     "now_cost": 55,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Hill"
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 61,
     "now_cost": 55,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Truffert"
   },
   {
@@ -586,11 +586,11 @@
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "1.0",
     "id": 64,
     "now_cost": 45,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Smith"
   },
   {
@@ -613,47 +613,47 @@
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 67,
     "now_cost": 65,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Rayan"
   },
   {
     "ep_next": "2.1",
-    "form": "0.0",
+    "form": "9.0",
     "id": 68,
     "now_cost": 60,
     "team": 3,
-    "total_points": 0,
+    "total_points": 9,
     "web_name": "Tavernier"
   },
   {
     "ep_next": "2.1",
-    "form": "0.0",
+    "form": "1.0",
     "id": 69,
     "now_cost": 60,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Scott"
   },
   {
     "ep_next": "2.1",
-    "form": "0.0",
+    "form": "1.0",
     "id": 70,
     "now_cost": 60,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Kluivert"
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 71,
     "now_cost": 50,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Cook"
   },
   {
@@ -666,7 +666,7 @@
     "web_name": "Gannon-Doak"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "1.5",
     "form": "0.0",
     "id": 73,
     "now_cost": 50,
@@ -721,11 +721,11 @@
   },
   {
     "ep_next": "2.0",
-    "form": "0.0",
+    "form": "6.0",
     "id": 79,
     "now_cost": 60,
     "team": 3,
-    "total_points": 0,
+    "total_points": 6,
     "web_name": "Evanilson"
   },
   {
@@ -738,7 +738,7 @@
     "web_name": "Enes \u00dcnal"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "2.0",
     "form": "0.0",
     "id": 81,
     "now_cost": 60,
@@ -748,11 +748,11 @@
   },
   {
     "ep_next": "2.2",
-    "form": "0.0",
+    "form": "1.0",
     "id": 566,
     "now_cost": 50,
     "team": 3,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Silva"
   },
   {
@@ -1000,11 +1000,11 @@
   },
   {
     "ep_next": "1.9",
-    "form": "0.0",
+    "form": "1.0",
     "id": 109,
     "now_cost": 45,
     "team": 5,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Verbruggen"
   },
   {
@@ -1017,7 +1017,7 @@
     "web_name": "Steele"
   },
   {
-    "ep_next": "1.7",
+    "ep_next": "1.3",
     "form": "0.0",
     "id": 113,
     "now_cost": 45,
@@ -1027,29 +1027,29 @@
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "1.0",
     "id": 114,
     "now_cost": 45,
     "team": 5,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Boscagli"
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "12.0",
     "id": 115,
     "now_cost": 45,
     "team": 5,
-    "total_points": 0,
+    "total_points": 12,
     "web_name": "De Cuyper"
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "1.0",
     "id": 116,
     "now_cost": 45,
     "team": 5,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Dunk"
   },
   {
@@ -1108,11 +1108,11 @@
   },
   {
     "ep_next": "2.1",
-    "form": "0.0",
+    "form": "14.0",
     "id": 123,
     "now_cost": 60,
     "team": 5,
-    "total_points": 0,
+    "total_points": 14,
     "web_name": "Hinshelwood"
   },
   {
@@ -1126,11 +1126,11 @@
   },
   {
     "ep_next": "1.8",
-    "form": "0.0",
+    "form": "4.0",
     "id": 125,
     "now_cost": 55,
     "team": 5,
-    "total_points": 0,
+    "total_points": 4,
     "web_name": "Georginio"
   },
   {
@@ -1144,11 +1144,11 @@
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "5.0",
     "id": 127,
     "now_cost": 50,
     "team": 5,
-    "total_points": 0,
+    "total_points": 5,
     "web_name": "Gomez"
   },
   {
@@ -1171,11 +1171,11 @@
   },
   {
     "ep_next": "2.2",
-    "form": "0.0",
+    "form": "1.0",
     "id": 130,
     "now_cost": 50,
     "team": 5,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Wieffer"
   },
   {
@@ -1261,11 +1261,11 @@
   },
   {
     "ep_next": "2.2",
-    "form": "0.0",
+    "form": "1.0",
     "id": 504,
     "now_cost": 50,
     "team": 5,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Vuskovic"
   },
   {
@@ -3835,11 +3835,11 @@
   },
   {
     "ep_next": "3.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 384,
     "now_cost": 55,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Donnarumma"
   },
   {
@@ -3853,20 +3853,20 @@
   },
   {
     "ep_next": "3.1",
-    "form": "0.0",
+    "form": "1.0",
     "id": 387,
     "now_cost": 65,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "O'Reilly"
   },
   {
     "ep_next": "2.8",
-    "form": "0.0",
+    "form": "1.0",
     "id": 388,
     "now_cost": 60,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Gu\u00e9hi"
   },
   {
@@ -3880,20 +3880,20 @@
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 390,
     "now_cost": 55,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "R\u00faben"
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 391,
     "now_cost": 55,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Gvardiol"
   },
   {
@@ -3907,11 +3907,11 @@
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 393,
     "now_cost": 55,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Khusanov"
   },
   {
@@ -3925,11 +3925,11 @@
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "1.0",
     "id": 395,
     "now_cost": 45,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Lewis"
   },
   {
@@ -3943,20 +3943,20 @@
   },
   {
     "ep_next": "2.9",
-    "form": "0.0",
+    "form": "1.0",
     "id": 397,
     "now_cost": 85,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Semenyo"
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "2.0",
     "id": 398,
     "now_cost": 70,
     "team": 15,
-    "total_points": 0,
+    "total_points": 2,
     "web_name": "Foden"
   },
   {
@@ -4069,20 +4069,20 @@
   },
   {
     "ep_next": "4.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 411,
     "now_cost": 155,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Haaland"
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 481,
     "now_cost": 65,
     "team": 15,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Anderson"
   },
   {
