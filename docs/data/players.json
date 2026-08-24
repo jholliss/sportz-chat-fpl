@@ -1341,7 +1341,7 @@
     "web_name": "Henderson"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "2.0",
     "form": "0.0",
     "id": 136,
     "now_cost": 60,
@@ -1458,7 +1458,7 @@
     "web_name": "Acheampong"
   },
   {
-    "ep_next": "2.5",
+    "ep_next": "1.9",
     "form": "0.0",
     "id": 152,
     "now_cost": 55,
@@ -1521,7 +1521,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "1.5",
     "form": "0.0",
     "id": 159,
     "now_cost": 55,
