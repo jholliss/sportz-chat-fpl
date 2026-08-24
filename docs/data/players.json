@@ -1351,11 +1351,11 @@
   },
   {
     "ep_next": "2.6",
-    "form": "1.0",
+    "form": "2.0",
     "id": 140,
     "now_cost": 50,
     "team": 6,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "S\u00e1nchez"
   },
   {
@@ -1369,11 +1369,11 @@
   },
   {
     "ep_next": "2.5",
-    "form": "1.0",
+    "form": "0.0",
     "id": 142,
     "now_cost": 55,
     "team": 6,
-    "total_points": 1,
+    "total_points": 0,
     "web_name": "James"
   },
   {
@@ -1395,7 +1395,7 @@
     "web_name": "Gusto"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "2.2",
     "form": "0.0",
     "id": 145,
     "now_cost": 50,
@@ -1450,11 +1450,11 @@
   },
   {
     "ep_next": "1.7",
-    "form": "1.0",
+    "form": "3.0",
     "id": 151,
     "now_cost": 45,
     "team": 6,
-    "total_points": 1,
+    "total_points": 3,
     "web_name": "Acheampong"
   },
   {
@@ -1495,20 +1495,20 @@
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 156,
     "now_cost": 65,
     "team": 6,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Neto"
   },
   {
     "ep_next": "2.3",
-    "form": "0.0",
+    "form": "1.0",
     "id": 157,
     "now_cost": 65,
     "team": 6,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Est\u00eav\u00e3o"
   },
   {
@@ -1549,11 +1549,11 @@
   },
   {
     "ep_next": "2.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 164,
     "now_cost": 55,
     "team": 6,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Quenda"
   },
   {
@@ -2493,7 +2493,7 @@
     "web_name": "McNally"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "2.2",
     "form": "0.0",
     "id": 253,
     "now_cost": 50,
@@ -2530,20 +2530,20 @@
   },
   {
     "ep_next": "1.7",
-    "form": "1.0",
+    "form": "0.0",
     "id": 257,
     "now_cost": 45,
     "team": 10,
-    "total_points": 1,
+    "total_points": 0,
     "web_name": "Bassey"
   },
   {
     "ep_next": "1.7",
-    "form": "7.0",
+    "form": "6.0",
     "id": 258,
     "now_cost": 45,
     "team": 10,
-    "total_points": 7,
+    "total_points": 6,
     "web_name": "Castagne"
   },
   {
@@ -2629,11 +2629,11 @@
   },
   {
     "ep_next": "1.8",
-    "form": "0.0",
+    "form": "1.0",
     "id": 271,
     "now_cost": 55,
     "team": 10,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Muniz"
   },
   {

@@ -371,8 +371,8 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -385,8 +385,8 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -399,15 +399,15 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       }
@@ -466,13 +466,13 @@
     ],
     "in_freefall": [
       {
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "value": 0
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "value": 0
       },
       {
@@ -483,13 +483,13 @@
     ],
     "rotation_losers": [
       {
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "value": 0
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "value": 0
       },
       {
@@ -517,13 +517,13 @@
     ],
     "spend_thrifts": [
       {
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "value": 0
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "value": 0
       },
       {
@@ -838,8 +838,8 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -850,8 +850,8 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -862,14 +862,14 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "total_net_points": 0,
         "transfer_count": 0
       }
@@ -959,12 +959,12 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "weeks_beat_average": 0,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -2
+        "best_vs_average": 9,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
       },
       {
         "best_vs_average": 6,
@@ -975,12 +975,12 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 9,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
+        "best_vs_average": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "weeks_beat_average": 0,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -2
       },
       {
         "best_vs_average": 0,
@@ -991,20 +991,20 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 0,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "weeks_beat_average": 0,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -9
-      },
-      {
         "best_vs_average": 2,
         "manager_id": "4177980",
         "name": "James Petrie",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
+      },
+      {
+        "best_vs_average": 0,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "weeks_beat_average": 0,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -9
       }
     ]
   },
@@ -1028,10 +1028,10 @@
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
+      "manager_id": "3457548",
+      "name": "David Lewis",
+      "weeks_at_top": 1,
+      "weeks_on_podium": 1
     },
     {
       "manager_id": "1212049",
@@ -1040,10 +1040,10 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "3457548",
-      "name": "David Lewis",
-      "weeks_at_top": 1,
-      "weeks_on_podium": 1
+      "manager_id": "817501",
+      "name": "Andrew David",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
     },
     {
       "manager_id": "6975918",
@@ -1052,14 +1052,14 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "822375",
-      "name": "Robbie Paton",
+      "manager_id": "4177980",
+      "name": "James Petrie",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "4177980",
-      "name": "James Petrie",
+      "manager_id": "822375",
+      "name": "Robbie Paton",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     }
