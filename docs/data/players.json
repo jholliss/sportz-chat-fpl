@@ -1324,11 +1324,11 @@
   },
   {
     "ep_next": "2.6",
-    "form": "1.0",
+    "form": "8.0",
     "id": 40,
     "now_cost": 75,
     "team": 6,
-    "total_points": 1,
+    "total_points": 8,
     "web_name": "Rogers"
   },
   {
@@ -1477,20 +1477,20 @@
   },
   {
     "ep_next": "3.2",
-    "form": "5.0",
+    "form": "13.0",
     "id": 154,
     "now_cost": 95,
     "team": 6,
-    "total_points": 5,
+    "total_points": 13,
     "web_name": "Palmer"
   },
   {
     "ep_next": "2.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 155,
     "now_cost": 70,
     "team": 6,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Enzo"
   },
   {
@@ -1531,11 +1531,11 @@
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 161,
     "now_cost": 50,
     "team": 6,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Lavia"
   },
   {
@@ -1558,11 +1558,11 @@
   },
   {
     "ep_next": "2.4",
-    "form": "8.0",
+    "form": "11.0",
     "id": 165,
     "now_cost": 75,
     "team": 6,
-    "total_points": 8,
+    "total_points": 11,
     "web_name": "Jo\u00e3o Pedro"
   },
   {
@@ -1612,11 +1612,11 @@
   },
   {
     "ep_next": "2.8",
-    "form": "1.0",
+    "form": "6.0",
     "id": 200,
     "now_cost": 60,
     "team": 6,
-    "total_points": 1,
+    "total_points": 6,
     "web_name": "Lacroix"
   },
   {
@@ -1657,11 +1657,11 @@
   },
   {
     "ep_next": "2.2",
-    "form": "0.0",
+    "form": "1.0",
     "id": 583,
     "now_cost": 50,
     "team": 6,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Chavarria"
   },
   {
@@ -2467,11 +2467,11 @@
   },
   {
     "ep_next": "1.9",
-    "form": "1.0",
+    "form": "2.0",
     "id": 250,
     "now_cost": 45,
     "team": 10,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Leno"
   },
   {
@@ -2512,11 +2512,11 @@
   },
   {
     "ep_next": "1.7",
-    "form": "1.0",
+    "form": "3.0",
     "id": 255,
     "now_cost": 45,
     "team": 10,
-    "total_points": 1,
+    "total_points": 3,
     "web_name": "J.Cuenca"
   },
   {
@@ -2539,20 +2539,20 @@
   },
   {
     "ep_next": "1.7",
-    "form": "4.0",
+    "form": "7.0",
     "id": 258,
     "now_cost": 45,
     "team": 10,
-    "total_points": 4,
+    "total_points": 7,
     "web_name": "Castagne"
   },
   {
     "ep_next": "2.0",
-    "form": "1.0",
+    "form": "2.0",
     "id": 261,
     "now_cost": 55,
     "team": 10,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Iwobi"
   },
   {
@@ -2566,29 +2566,29 @@
   },
   {
     "ep_next": "2.0",
-    "form": "0.0",
+    "form": "1.0",
     "id": 263,
     "now_cost": 55,
     "team": 10,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Kevin"
   },
   {
     "ep_next": "2.0",
-    "form": "1.0",
+    "form": "2.0",
     "id": 264,
     "now_cost": 55,
     "team": 10,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Bobb"
   },
   {
     "ep_next": "1.5",
-    "form": "1.0",
+    "form": "2.0",
     "id": 265,
     "now_cost": 50,
     "team": 10,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Berge"
   },
   {
@@ -2602,20 +2602,20 @@
   },
   {
     "ep_next": "2.0",
-    "form": "8.0",
+    "form": "7.0",
     "id": 268,
     "now_cost": 55,
     "team": 10,
-    "total_points": 8,
+    "total_points": 7,
     "web_name": "King"
   },
   {
     "ep_next": "1.7",
-    "form": "0.0",
+    "form": "1.0",
     "id": 269,
     "now_cost": 45,
     "team": 10,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Sessegnon"
   },
   {
@@ -2647,29 +2647,29 @@
   },
   {
     "ep_next": "2.0",
-    "form": "1.0",
+    "form": "6.0",
     "id": 569,
     "now_cost": 60,
     "team": 10,
-    "total_points": 1,
+    "total_points": 6,
     "web_name": "Gonzalo"
   },
   {
     "ep_next": "2.0",
-    "form": "1.0",
+    "form": "2.0",
     "id": 570,
     "now_cost": 55,
     "team": 10,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Palacios"
   },
   {
     "ep_next": "1.5",
-    "form": "0.0",
+    "form": "1.0",
     "id": 580,
     "now_cost": 50,
     "team": 10,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Charles"
   },
   {
