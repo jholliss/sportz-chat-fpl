@@ -32,11 +32,11 @@
     },
     {
       "adjusted_rank": 4,
-      "jammy_delta": -1,
+      "jammy_delta": 0,
       "manager_id": "1212049",
       "name": "James Holliss",
       "points_on_bench": 5,
-      "real_rank": 5,
+      "real_rank": 4,
       "total_plus_bench": 58,
       "total_points": 53
     },
@@ -52,21 +52,21 @@
     },
     {
       "adjusted_rank": 6,
-      "jammy_delta": 2,
+      "jammy_delta": 0,
       "manager_id": "817501",
       "name": "Andrew David",
       "points_on_bench": 4,
-      "real_rank": 4,
+      "real_rank": 6,
       "total_plus_bench": 57,
       "total_points": 53
     },
     {
       "adjusted_rank": 7,
-      "jammy_delta": 1,
+      "jammy_delta": 2,
       "manager_id": "3457548",
       "name": "David Lewis",
       "points_on_bench": 3,
-      "real_rank": 6,
+      "real_rank": 5,
       "total_plus_bench": 56,
       "total_points": 53
     },
@@ -109,18 +109,18 @@
     },
     {
       "average_position": 4,
-      "manager_id": "817501",
-      "name": "Andrew David"
-    },
-    {
-      "average_position": 5,
       "manager_id": "1212049",
       "name": "James Holliss"
     },
     {
-      "average_position": 6,
+      "average_position": 5,
       "manager_id": "3457548",
       "name": "David Lewis"
+    },
+    {
+      "average_position": 6,
+      "manager_id": "817501",
+      "name": "Andrew David"
     },
     {
       "average_position": 7,
@@ -214,14 +214,6 @@
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "points": 53,
-        "vs_average": 5
-      },
-      {
-        "gw": 1,
-        "hits": 0,
         "manager_id": "1212049",
         "name": "James Holliss",
         "points": 53,
@@ -232,6 +224,14 @@
         "hits": 0,
         "manager_id": "3457548",
         "name": "David Lewis",
+        "points": 53,
+        "vs_average": 5
+      },
+      {
+        "gw": 1,
+        "hits": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
         "points": 53,
         "vs_average": 5
       },
@@ -288,14 +288,6 @@
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "points": 53,
-        "vs_average": 5
-      },
-      {
-        "gw": 1,
-        "hits": 0,
         "manager_id": "1212049",
         "name": "James Holliss",
         "points": 53,
@@ -306,6 +298,14 @@
         "hits": 0,
         "manager_id": "3457548",
         "name": "David Lewis",
+        "points": 53,
+        "vs_average": 5
+      },
+      {
+        "gw": 1,
+        "hits": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
         "points": 53,
         "vs_average": 5
       },
@@ -371,13 +371,6 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "picked_best_captain_weeks": 0,
-        "total_captain_points": 0
-      },
-      {
-        "gain_loss_vs_optimal": 0,
         "manager_id": "1212049",
         "name": "James Holliss",
         "picked_best_captain_weeks": 0,
@@ -387,6 +380,13 @@
         "gain_loss_vs_optimal": 0,
         "manager_id": "3457548",
         "name": "David Lewis",
+        "picked_best_captain_weeks": 0,
+        "total_captain_points": 0
+      },
+      {
+        "gain_loss_vs_optimal": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -838,12 +838,6 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "total_net_points": 0,
-        "transfer_count": 0
-      },
-      {
         "manager_id": "1212049",
         "name": "James Holliss",
         "total_net_points": 0,
@@ -852,6 +846,12 @@
       {
         "manager_id": "3457548",
         "name": "David Lewis",
+        "total_net_points": 0,
+        "transfer_count": 0
+      },
+      {
+        "manager_id": "817501",
+        "name": "Andrew David",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -960,14 +960,6 @@
       },
       {
         "best_vs_average": 5,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
-      },
-      {
-        "best_vs_average": 5,
         "manager_id": "1212049",
         "name": "James Holliss",
         "weeks_beat_average": 1,
@@ -978,6 +970,14 @@
         "best_vs_average": 5,
         "manager_id": "3457548",
         "name": "David Lewis",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
+      },
+      {
+        "best_vs_average": 5,
+        "manager_id": "817501",
+        "name": "Andrew David",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
@@ -1028,12 +1028,6 @@
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
       "manager_id": "1212049",
       "name": "James Holliss",
       "weeks_at_top": 0,
@@ -1042,6 +1036,12 @@
     {
       "manager_id": "3457548",
       "name": "David Lewis",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
+    },
+    {
+      "manager_id": "817501",
+      "name": "Andrew David",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
