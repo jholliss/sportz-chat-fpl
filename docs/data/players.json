@@ -1476,7 +1476,7 @@
     "web_name": "Disasi"
   },
   {
-    "ep_next": "3.2",
+    "ep_next": "2.4",
     "form": "13.0",
     "id": 154,
     "now_cost": 95,
@@ -2671,6 +2671,15 @@
     "team": 10,
     "total_points": 1,
     "web_name": "Charles"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 610,
+    "now_cost": 40,
+    "team": 10,
+    "total_points": 0,
+    "web_name": "De Fougerolles"
   },
   {
     "ep_next": "1.0",
