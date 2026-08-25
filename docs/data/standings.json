@@ -33,18 +33,18 @@
   },
   {
     "event_total": 53,
-    "manager_id": "817501",
-    "name": "Andrew David",
-    "rank": 4,
-    "team_name": "Kloppafeel",
-    "total": 53
-  },
-  {
-    "event_total": 53,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 4,
     "team_name": "All Hail Keylord",
+    "total": 53
+  },
+  {
+    "event_total": 53,
+    "manager_id": "817501",
+    "name": "Andrew David",
+    "rank": 4,
+    "team_name": "Kloppafeel",
     "total": 53
   },
   {

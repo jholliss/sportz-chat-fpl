@@ -52,21 +52,21 @@
     },
     {
       "adjusted_rank": 6,
-      "jammy_delta": 1,
+      "jammy_delta": 0,
       "manager_id": "817501",
       "name": "Andrew David",
       "points_on_bench": 4,
-      "real_rank": 5,
+      "real_rank": 6,
       "total_plus_bench": 57,
       "total_points": 53
     },
     {
       "adjusted_rank": 7,
-      "jammy_delta": 1,
+      "jammy_delta": 2,
       "manager_id": "3457548",
       "name": "David Lewis",
       "points_on_bench": 3,
-      "real_rank": 6,
+      "real_rank": 5,
       "total_plus_bench": 56,
       "total_points": 53
     },
@@ -114,13 +114,13 @@
     },
     {
       "average_position": 5,
-      "manager_id": "817501",
-      "name": "Andrew David"
+      "manager_id": "3457548",
+      "name": "David Lewis"
     },
     {
       "average_position": 6,
-      "manager_id": "3457548",
-      "name": "David Lewis"
+      "manager_id": "817501",
+      "name": "Andrew David"
     },
     {
       "average_position": 7,
@@ -193,7 +193,7 @@
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "points": 69,
-        "vs_average": 21
+        "vs_average": 19
       },
       {
         "gw": 1,
@@ -201,7 +201,7 @@
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "points": 55,
-        "vs_average": 7
+        "vs_average": 5
       },
       {
         "gw": 1,
@@ -209,7 +209,7 @@
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "points": 54,
-        "vs_average": 6
+        "vs_average": 4
       },
       {
         "gw": 1,
@@ -217,15 +217,7 @@
         "manager_id": "1212049",
         "name": "James Holliss",
         "points": 53,
-        "vs_average": 5
-      },
-      {
-        "gw": 1,
-        "hits": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "points": 53,
-        "vs_average": 5
+        "vs_average": 3
       },
       {
         "gw": 1,
@@ -233,7 +225,15 @@
         "manager_id": "3457548",
         "name": "David Lewis",
         "points": 53,
-        "vs_average": 5
+        "vs_average": 3
+      },
+      {
+        "gw": 1,
+        "hits": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "points": 53,
+        "vs_average": 3
       },
       {
         "gw": 1,
@@ -241,7 +241,7 @@
         "manager_id": "6975918",
         "name": "James Cassidy",
         "points": 47,
-        "vs_average": -1
+        "vs_average": -3
       },
       {
         "gw": 1,
@@ -249,7 +249,7 @@
         "manager_id": "4177980",
         "name": "James Petrie",
         "points": 38,
-        "vs_average": -10
+        "vs_average": -12
       },
       {
         "gw": 1,
@@ -257,7 +257,7 @@
         "manager_id": "822375",
         "name": "Robbie Paton",
         "points": 38,
-        "vs_average": -10
+        "vs_average": -12
       }
     ],
     "worst_10": [
@@ -267,7 +267,7 @@
         "manager_id": "4177980",
         "name": "James Petrie",
         "points": 38,
-        "vs_average": -10
+        "vs_average": -12
       },
       {
         "gw": 1,
@@ -275,7 +275,7 @@
         "manager_id": "822375",
         "name": "Robbie Paton",
         "points": 38,
-        "vs_average": -10
+        "vs_average": -12
       },
       {
         "gw": 1,
@@ -283,7 +283,7 @@
         "manager_id": "6975918",
         "name": "James Cassidy",
         "points": 47,
-        "vs_average": -1
+        "vs_average": -3
       },
       {
         "gw": 1,
@@ -291,15 +291,7 @@
         "manager_id": "1212049",
         "name": "James Holliss",
         "points": 53,
-        "vs_average": 5
-      },
-      {
-        "gw": 1,
-        "hits": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "points": 53,
-        "vs_average": 5
+        "vs_average": 3
       },
       {
         "gw": 1,
@@ -307,7 +299,15 @@
         "manager_id": "3457548",
         "name": "David Lewis",
         "points": 53,
-        "vs_average": 5
+        "vs_average": 3
+      },
+      {
+        "gw": 1,
+        "hits": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "points": 53,
+        "vs_average": 3
       },
       {
         "gw": 1,
@@ -315,7 +315,7 @@
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "points": 54,
-        "vs_average": 6
+        "vs_average": 4
       },
       {
         "gw": 1,
@@ -323,7 +323,7 @@
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "points": 55,
-        "vs_average": 7
+        "vs_average": 5
       },
       {
         "gw": 1,
@@ -331,7 +331,7 @@
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "points": 69,
-        "vs_average": 21
+        "vs_average": 19
       }
     ]
   },
@@ -378,15 +378,15 @@
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
       {
         "gain_loss_vs_optimal": 0,
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 0
       },
@@ -417,7 +417,7 @@
     "stacked_by_manager": {
       "817501": {
         "chips": {
-          "Triple Captain": 5
+          "Triple Captain": 3
         },
         "name": "Andrew David"
       }
@@ -430,7 +430,7 @@
         "manager_id": "817501",
         "name": "Andrew David",
         "points": 53,
-        "vs_average": 5
+        "vs_average": 3
       }
     ],
     "triple_captain_points": [
@@ -441,7 +441,7 @@
         "manager_id": "817501",
         "name": "Andrew David",
         "points": 53,
-        "vs_average": 5
+        "vs_average": 3
       }
     ]
   },
@@ -844,14 +844,14 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -881,61 +881,61 @@
       "1004578": [
         {
           "gw": 1,
-          "vs_average": 6
+          "vs_average": 4
         }
       ],
       "1212049": [
         {
           "gw": 1,
-          "vs_average": 5
+          "vs_average": 3
         }
       ],
       "3457548": [
         {
           "gw": 1,
-          "vs_average": 5
+          "vs_average": 3
         }
       ],
       "4177980": [
         {
           "gw": 1,
-          "vs_average": -10
+          "vs_average": -12
         }
       ],
       "4279888": [
         {
           "gw": 1,
-          "vs_average": 21
+          "vs_average": 19
         }
       ],
       "6975918": [
         {
           "gw": 1,
-          "vs_average": -1
+          "vs_average": -3
         }
       ],
       "8011609": [
         {
           "gw": 1,
-          "vs_average": 7
+          "vs_average": 5
         }
       ],
       "817501": [
         {
           "gw": 1,
-          "vs_average": 5
+          "vs_average": 3
         }
       ],
       "822375": [
         {
           "gw": 1,
-          "vs_average": -10
+          "vs_average": -12
         }
       ]
     },
     "summary": [
       {
-        "best_vs_average": 21,
+        "best_vs_average": 19,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "weeks_beat_average": 1,
@@ -943,7 +943,7 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 7,
+        "best_vs_average": 5,
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "weeks_beat_average": 1,
@@ -951,7 +951,7 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 6,
+        "best_vs_average": 4,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "weeks_beat_average": 1,
@@ -959,7 +959,7 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 5,
+        "best_vs_average": 3,
         "manager_id": "1212049",
         "name": "James Holliss",
         "weeks_beat_average": 1,
@@ -967,17 +967,17 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 5,
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "best_vs_average": 3,
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 5,
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "best_vs_average": 3,
+        "manager_id": "817501",
+        "name": "Andrew David",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
@@ -988,7 +988,7 @@
         "name": "James Cassidy",
         "weeks_beat_average": 0,
         "weeks_lost_to_average": 1,
-        "worst_vs_average": -1
+        "worst_vs_average": -3
       },
       {
         "best_vs_average": 0,
@@ -996,7 +996,7 @@
         "name": "James Petrie",
         "weeks_beat_average": 0,
         "weeks_lost_to_average": 1,
-        "worst_vs_average": -10
+        "worst_vs_average": -12
       },
       {
         "best_vs_average": 0,
@@ -1004,7 +1004,7 @@
         "name": "Robbie Paton",
         "weeks_beat_average": 0,
         "weeks_lost_to_average": 1,
-        "worst_vs_average": -10
+        "worst_vs_average": -12
       }
     ]
   },
@@ -1034,14 +1034,14 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "817501",
-      "name": "Andrew David",
+      "manager_id": "3457548",
+      "name": "David Lewis",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "3457548",
-      "name": "David Lewis",
+      "manager_id": "817501",
+      "name": "Andrew David",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
