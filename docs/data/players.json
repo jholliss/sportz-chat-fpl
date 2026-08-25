@@ -540,6 +540,15 @@
     "web_name": "Lynch"
   },
   {
+    "ep_next": "1.7",
+    "form": "0.0",
+    "id": 611,
+    "now_cost": 45,
+    "team": 2,
+    "total_points": 0,
+    "web_name": "Wan-Bissaka"
+  },
+  {
     "ep_next": "1.9",
     "form": "2.0",
     "id": 57,
@@ -1404,7 +1413,7 @@
     "web_name": "Fofana"
   },
   {
-    "ep_next": "1.7",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 146,
     "now_cost": 45,
@@ -3249,7 +3258,7 @@
     "web_name": "Mehmeti"
   },
   {
-    "ep_next": "1.9",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 554,
     "now_cost": 45,
@@ -4039,15 +4048,6 @@
     "team": 15,
     "total_points": 0,
     "web_name": "Rodrigo"
-  },
-  {
-    "ep_next": "2.3",
-    "form": "0.0",
-    "id": 403,
-    "now_cost": 65,
-    "team": 15,
-    "total_points": 0,
-    "web_name": "Savinho"
   },
   {
     "ep_next": "0.0",
@@ -4941,6 +4941,15 @@
     "web_name": "Van Hecke"
   },
   {
+    "ep_next": "2.3",
+    "form": "0.0",
+    "id": 403,
+    "now_cost": 65,
+    "team": 19,
+    "total_points": 0,
+    "web_name": "Savinho"
+  },
+  {
     "ep_next": "2.0",
     "form": "2.0",
     "id": 455,
@@ -4995,7 +5004,7 @@
     "web_name": "Senesi"
   },
   {
-    "ep_next": "1.9",
+    "ep_next": "2.5",
     "form": "0.0",
     "id": 499,
     "now_cost": 55,
@@ -5031,7 +5040,7 @@
     "web_name": "Robertson"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "2.2",
     "form": "0.0",
     "id": 503,
     "now_cost": 50,
@@ -5130,7 +5139,7 @@
     "web_name": "Tel"
   },
   {
-    "ep_next": "2.3",
+    "ep_next": "1.7",
     "form": "1.0",
     "id": 515,
     "now_cost": 65,
@@ -5488,5 +5497,14 @@
     "team": 20,
     "total_points": 1,
     "web_name": "Isidor"
+  },
+  {
+    "ep_next": "1.7",
+    "form": "0.0",
+    "id": 612,
+    "now_cost": 45,
+    "team": 20,
+    "total_points": 0,
+    "web_name": "Methalie"
   }
 ]
