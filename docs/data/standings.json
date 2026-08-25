@@ -25,18 +25,18 @@
   },
   {
     "event_total": 53,
-    "manager_id": "1212049",
-    "name": "James Holliss",
-    "rank": 4,
-    "team_name": "Hamann Overboard",
-    "total": 53
-  },
-  {
-    "event_total": 53,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 4,
     "team_name": "All Hail Keylord",
+    "total": 53
+  },
+  {
+    "event_total": 53,
+    "manager_id": "1212049",
+    "name": "James Holliss",
+    "rank": 4,
+    "team_name": "Hamann Overboard",
     "total": 53
   },
   {
