@@ -8,12 +8,12 @@
     "total": 69
   },
   {
-    "event_total": 55,
+    "event_total": 57,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 2,
     "team_name": "ThunderStruijk",
-    "total": 55
+    "total": 57
   },
   {
     "event_total": 54,
@@ -22,6 +22,14 @@
     "rank": 3,
     "team_name": "Ballack Sabbath",
     "total": 54
+  },
+  {
+    "event_total": 53,
+    "manager_id": "817501",
+    "name": "Andrew David",
+    "rank": 4,
+    "team_name": "Kloppafeel",
+    "total": 53
   },
   {
     "event_total": 53,
@@ -37,14 +45,6 @@
     "name": "David Lewis",
     "rank": 4,
     "team_name": "All Hail Keylord",
-    "total": 53
-  },
-  {
-    "event_total": 53,
-    "manager_id": "817501",
-    "name": "Andrew David",
-    "rank": 4,
-    "team_name": "Kloppafeel",
     "total": 53
   },
   {
