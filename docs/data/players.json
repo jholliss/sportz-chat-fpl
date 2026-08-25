@@ -2943,7 +2943,7 @@
     "web_name": "Targett"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "1.1",
     "form": "0.0",
     "id": 563,
     "now_cost": 50,
@@ -3186,7 +3186,7 @@
     "web_name": "Hirst"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 318,
     "now_cost": 55,
@@ -3276,7 +3276,7 @@
     "web_name": "Scherpen"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "1.1",
     "form": "0.0",
     "id": 571,
     "now_cost": 50,
@@ -3285,7 +3285,7 @@
     "web_name": "Florentino"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "2.0",
     "form": "5.0",
     "id": 591,
     "now_cost": 55,

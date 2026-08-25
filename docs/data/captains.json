@@ -1,11 +1,92 @@
 {
-  "1004578": {},
-  "1212049": {},
-  "3457548": {},
-  "4177980": {},
-  "4279888": {},
-  "6975918": {},
-  "8011609": {},
-  "817501": {},
-  "822375": {}
+  "1004578": {
+    "1": {
+      "best_element": 123,
+      "best_possible_points": 32,
+      "captain_delta": -28,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  },
+  "1212049": {
+    "1": {
+      "best_element": 165,
+      "best_possible_points": 22,
+      "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  },
+  "3457548": {
+    "1": {
+      "best_element": 385,
+      "best_possible_points": 18,
+      "captain_delta": -10,
+      "captain_element": 464,
+      "captain_points": 8,
+      "picked_best_captain": 0
+    }
+  },
+  "4177980": {
+    "1": {
+      "best_element": 8,
+      "best_possible_points": 18,
+      "captain_delta": -14,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  },
+  "4279888": {
+    "1": {
+      "best_element": 15,
+      "best_possible_points": 22,
+      "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  },
+  "6975918": {
+    "1": {
+      "best_element": 165,
+      "best_possible_points": 22,
+      "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  },
+  "8011609": {
+    "1": {
+      "best_element": 154,
+      "best_possible_points": 26,
+      "captain_delta": -22,
+      "captain_element": 379,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  },
+  "817501": {
+    "1": {
+      "best_element": 165,
+      "best_possible_points": 33,
+      "captain_delta": -27,
+      "captain_element": 411,
+      "captain_points": 6,
+      "picked_best_captain": 0
+    }
+  },
+  "822375": {
+    "1": {
+      "best_element": 165,
+      "best_possible_points": 22,
+      "captain_delta": -18,
+      "captain_element": 426,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    }
+  }
 }
