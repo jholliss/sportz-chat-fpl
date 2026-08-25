@@ -156,7 +156,7 @@
     "ep_next": "2.3",
     "form": "0.0",
     "id": 18,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 1,
     "total_points": 0,
     "web_name": "Martinelli"
@@ -207,10 +207,10 @@
     "web_name": "Nelson"
   },
   {
-    "ep_next": "2.4",
+    "ep_next": "2.3",
     "form": "0.0",
     "id": 25,
-    "now_cost": 75,
+    "now_cost": 74,
     "team": 1,
     "total_points": 0,
     "web_name": "Gy\u00f6keres"
@@ -1029,7 +1029,7 @@
     "ep_next": "2.0",
     "form": "14.0",
     "id": 565,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 4,
     "total_points": 14,
     "web_name": "M.Sangar\u00e9"
@@ -1071,10 +1071,10 @@
     "web_name": "Boscagli"
   },
   {
-    "ep_next": "1.7",
+    "ep_next": "1.9",
     "form": "17.0",
     "id": 115,
-    "now_cost": 45,
+    "now_cost": 46,
     "team": 5,
     "total_points": 17,
     "web_name": "De Cuyper"
