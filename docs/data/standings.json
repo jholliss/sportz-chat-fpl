@@ -25,6 +25,14 @@
   },
   {
     "event_total": 53,
+    "manager_id": "1212049",
+    "name": "James Holliss",
+    "rank": 4,
+    "team_name": "Hamann Overboard",
+    "total": 53
+  },
+  {
+    "event_total": 53,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 4,
@@ -40,14 +48,6 @@
     "total": 53
   },
   {
-    "event_total": 53,
-    "manager_id": "1212049",
-    "name": "James Holliss",
-    "rank": 4,
-    "team_name": "Hamann Overboard",
-    "total": 53
-  },
-  {
     "event_total": 47,
     "manager_id": "6975918",
     "name": "James Cassidy",
@@ -57,18 +57,18 @@
   },
   {
     "event_total": 38,
-    "manager_id": "822375",
-    "name": "Robbie Paton",
-    "rank": 8,
-    "team_name": "Careless Wissa",
-    "total": 38
-  },
-  {
-    "event_total": 38,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 8,
     "team_name": "Restart The Rutter",
+    "total": 38
+  },
+  {
+    "event_total": 38,
+    "manager_id": "822375",
+    "name": "Robbie Paton",
+    "rank": 8,
+    "team_name": "Careless Wissa",
     "total": 38
   }
 ]
