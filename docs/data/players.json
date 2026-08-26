@@ -1217,15 +1217,6 @@
   {
     "ep_next": "0.0",
     "form": "0.0",
-    "id": 131,
-    "now_cost": 50,
-    "team": 5,
-    "total_points": 0,
-    "web_name": "Baleba"
-  },
-  {
-    "ep_next": "0.0",
-    "form": "0.0",
     "id": 132,
     "now_cost": 45,
     "team": 5,
@@ -1330,6 +1321,15 @@
     "team": 5,
     "total_points": 1,
     "web_name": "Yalcouy\u00e9"
+  },
+  {
+    "ep_next": "1.7",
+    "form": "0.0",
+    "id": 614,
+    "now_cost": 45,
+    "team": 5,
+    "total_points": 0,
+    "web_name": "Hadjam"
   },
   {
     "ep_next": "2.6",
@@ -2043,7 +2043,7 @@
     "web_name": "Sosa"
   },
   {
-    "ep_next": "0.9",
+    "ep_next": "0.0",
     "form": "1.0",
     "id": 206,
     "now_cost": 45,
@@ -2061,7 +2061,7 @@
     "web_name": "Mingueza"
   },
   {
-    "ep_next": "1.7",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 208,
     "now_cost": 65,
@@ -3699,7 +3699,7 @@
     "web_name": "Tsimikas"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 365,
     "now_cost": 40,
@@ -4147,6 +4147,15 @@
     "team": 16,
     "total_points": 2,
     "web_name": "Tielemans"
+  },
+  {
+    "ep_next": "0.0",
+    "form": "0.0",
+    "id": 131,
+    "now_cost": 50,
+    "team": 16,
+    "total_points": 0,
+    "web_name": "Baleba"
   },
   {
     "ep_next": "1.5",
@@ -5506,5 +5515,14 @@
     "team": 20,
     "total_points": 0,
     "web_name": "Methalie"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 613,
+    "now_cost": 45,
+    "team": 20,
+    "total_points": 0,
+    "web_name": "Ahoka"
   }
 ]
