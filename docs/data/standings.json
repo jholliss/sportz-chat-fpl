@@ -57,18 +57,18 @@
   },
   {
     "event_total": 38,
-    "manager_id": "4177980",
-    "name": "James Petrie",
-    "rank": 8,
-    "team_name": "Restart The Rutter",
-    "total": 38
-  },
-  {
-    "event_total": 38,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 8,
     "team_name": "Careless Wissa",
+    "total": 38
+  },
+  {
+    "event_total": 38,
+    "manager_id": "4177980",
+    "name": "James Petrie",
+    "rank": 8,
+    "team_name": "Restart The Rutter",
     "total": 38
   }
 ]
