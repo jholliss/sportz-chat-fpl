@@ -72,10 +72,10 @@
     "web_name": "Calafiori"
   },
   {
-    "ep_next": "2.5",
+    "ep_next": "2.4",
     "form": "1.0",
     "id": 9,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 1,
     "total_points": 1,
     "web_name": "Hincapie"
@@ -129,7 +129,7 @@
     "ep_next": "2.3",
     "form": "11.0",
     "id": 15,
-    "now_cost": 65,
+    "now_cost": 66,
     "team": 1,
     "total_points": 11,
     "web_name": "\u00d8degaard"
@@ -138,7 +138,7 @@
     "ep_next": "2.3",
     "form": "1.0",
     "id": 16,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 1,
     "total_points": 1,
     "web_name": "Madueke"
@@ -246,7 +246,7 @@
     "ep_next": "1.8",
     "form": "0.0",
     "id": 452,
-    "now_cost": 70,
+    "now_cost": 69,
     "team": 1,
     "total_points": 0,
     "web_name": "Bruno G."
@@ -2073,7 +2073,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 208,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 8,
     "total_points": 0,
     "web_name": "Sarr"
@@ -4134,7 +4134,7 @@
     "ep_next": "2.3",
     "form": "2.0",
     "id": 481,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 15,
     "total_points": 2,
     "web_name": "Anderson"
@@ -5196,7 +5196,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 518,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 19,
     "total_points": 0,
     "web_name": "P.M.Sarr"
