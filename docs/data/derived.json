@@ -445,16 +445,16 @@
         "total_captain_points": 4
       },
       {
-        "gain_loss_vs_optimal": -18,
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "gain_loss_vs_optimal": -22,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 4
       },
       {
-        "gain_loss_vs_optimal": -22,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "gain_loss_vs_optimal": -18,
+        "manager_id": "1212049",
+        "name": "James Holliss",
         "picked_best_captain_weeks": 0,
         "total_captain_points": 4
       },
@@ -1086,14 +1086,14 @@
         "transfer_count": 1
       },
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "manager_id": "1212049",
+        "name": "James Holliss",
         "total_net_points": 0,
         "transfer_count": 0
       },
@@ -1245,20 +1245,20 @@
         "worst_vs_average": -3
       },
       {
-        "best_vs_average": 3,
-        "manager_id": "1212049",
-        "name": "James Holliss",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -5
-      },
-      {
         "best_vs_average": 7,
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 1,
         "worst_vs_average": -18
+      },
+      {
+        "best_vs_average": 3,
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -5
       },
       {
         "best_vs_average": 3,
@@ -1312,16 +1312,16 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "1212049",
-      "name": "James Holliss",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
       "manager_id": "8011609",
       "name": "Tom Phillips",
       "weeks_at_top": 0,
       "weeks_on_podium": 1
+    },
+    {
+      "manager_id": "1212049",
+      "name": "James Holliss",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
     },
     {
       "manager_id": "3457548",
