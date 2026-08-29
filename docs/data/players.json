@@ -666,12 +666,12 @@
     "web_name": "Rayan"
   },
   {
-    "ep_next": "6.5",
-    "form": "6.5",
+    "ep_next": "5.5",
+    "form": "5.5",
     "id": 68,
     "now_cost": 60,
     "team": 3,
-    "total_points": 13,
+    "total_points": 11,
     "web_name": "Tavernier"
   },
   {
@@ -1978,6 +1978,15 @@
     "team": 7,
     "total_points": 0,
     "web_name": "Cherif"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 623,
+    "now_cost": 40,
+    "team": 7,
+    "total_points": 0,
+    "web_name": "Bentley"
   },
   {
     "ep_next": "1.0",
@@ -4653,12 +4662,12 @@
     "web_name": "Willock"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.5",
+    "form": "0.5",
     "id": 461,
     "now_cost": 60,
     "team": 17,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Tour\u00e9"
   },
   {
