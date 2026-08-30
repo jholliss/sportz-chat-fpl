@@ -183,7 +183,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 22,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 1,
     "total_points": 0,
     "web_name": "Nwaneri"
@@ -453,7 +453,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 53,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 2,
     "total_points": 0,
     "web_name": "Manzambi"
@@ -1170,7 +1170,7 @@
     "web_name": "Minteh"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "4.0",
     "form": "8.0",
     "id": 123,
     "now_cost": 60,
@@ -1497,7 +1497,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 152,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 6,
     "total_points": 0,
     "web_name": "Palestra"
@@ -1515,7 +1515,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 155,
-    "now_cost": 70,
+    "now_cost": 69,
     "team": 6,
     "total_points": 1,
     "web_name": "Enzo"
@@ -1551,7 +1551,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 159,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 6,
     "total_points": 0,
     "web_name": "Caicedo"
@@ -3459,7 +3459,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 336,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 13,
     "total_points": 1,
     "web_name": "Okafor"
@@ -3990,7 +3990,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 391,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 15,
     "total_points": 14,
     "web_name": "Gvardiol"
@@ -4566,7 +4566,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 448,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 17,
     "total_points": 0,
     "web_name": "Burn"
@@ -4665,7 +4665,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 461,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 17,
     "total_points": 1,
     "web_name": "Tour\u00e9"
@@ -4962,7 +4962,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 490,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 18,
     "total_points": 1,
     "web_name": "Wood"
