@@ -56,19 +56,19 @@
     "total": 116
   },
   {
-    "event_total": 57,
-    "manager_id": "8011609",
-    "name": "Tom Phillips",
-    "rank": 8,
-    "team_name": "ThunderStruijk",
-    "total": 114
-  },
-  {
     "event_total": 61,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 8,
     "team_name": "Kloppafeel",
+    "total": 114
+  },
+  {
+    "event_total": 57,
+    "manager_id": "8011609",
+    "name": "Tom Phillips",
+    "rank": 8,
+    "team_name": "ThunderStruijk",
     "total": 114
   }
 ]
