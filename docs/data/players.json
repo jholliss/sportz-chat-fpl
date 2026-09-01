@@ -156,7 +156,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 18,
-    "now_cost": 64,
+    "now_cost": 63,
     "team": 1,
     "total_points": 0,
     "web_name": "Martinelli"
@@ -210,7 +210,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 25,
-    "now_cost": 74,
+    "now_cost": 73,
     "team": 1,
     "total_points": 0,
     "web_name": "Gy\u00f6keres"
@@ -1038,7 +1038,7 @@
     "ep_next": "9.0",
     "form": "9.0",
     "id": 565,
-    "now_cost": 56,
+    "now_cost": 57,
     "team": 4,
     "total_points": 18,
     "web_name": "M.Sangar\u00e9"
@@ -1596,7 +1596,7 @@
     "ep_next": "10.0",
     "form": "10.0",
     "id": 165,
-    "now_cost": 76,
+    "now_cost": 77,
     "team": 6,
     "total_points": 20,
     "web_name": "Jo\u00e3o Pedro"
@@ -1839,7 +1839,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 185,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 7,
     "total_points": 1,
     "web_name": "Sakamoto"
@@ -2082,7 +2082,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 207,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 8,
     "total_points": 1,
     "web_name": "Mingueza"
@@ -2091,7 +2091,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 208,
-    "now_cost": 64,
+    "now_cost": 63,
     "team": 8,
     "total_points": 0,
     "web_name": "Sarr"
@@ -2127,7 +2127,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 213,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 8,
     "total_points": 0,
     "web_name": "Lerma"
@@ -2289,7 +2289,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 21,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 9,
     "total_points": 0,
     "web_name": "N\u00f8rgaard"
@@ -3207,7 +3207,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 314,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 12,
     "total_points": 0,
     "web_name": "Ogbene"
@@ -3243,7 +3243,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 318,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 12,
     "total_points": 0,
     "web_name": "Philogene"
@@ -3297,7 +3297,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 324,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 12,
     "total_points": 0,
     "web_name": "Mehmeti"
@@ -3378,7 +3378,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 260,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 13,
     "total_points": 4,
     "web_name": "Wilson"
@@ -3945,7 +3945,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 579,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 14,
     "total_points": 1,
     "web_name": "Araujo"
@@ -4143,7 +4143,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 407,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 15,
     "total_points": 0,
     "web_name": "Echeverri"
@@ -4620,7 +4620,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 449,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 17,
     "total_points": 14,
     "web_name": "Hall"
@@ -4629,7 +4629,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 450,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 17,
     "total_points": 0,
     "web_name": "Livramento"
@@ -5025,7 +5025,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 491,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 18,
     "total_points": 3,
     "web_name": "Igor Jesus"
@@ -5142,7 +5142,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 498,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 19,
     "total_points": 3,
     "web_name": "Senesi"
@@ -5628,7 +5628,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 552,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 20,
     "total_points": 4,
     "web_name": "Brobbey"
