@@ -810,7 +810,7 @@
     "web_name": "Jebbison"
   },
   {
-    "ep_next": "1.9",
+    "ep_next": "2.0",
     "form": "0.0",
     "id": 615,
     "now_cost": 45,
@@ -2032,15 +2032,6 @@
     "team": 8,
     "total_points": 0,
     "web_name": "Benitez"
-  },
-  {
-    "ep_next": "0.0",
-    "form": "0.0",
-    "id": 201,
-    "now_cost": 54,
-    "team": 8,
-    "total_points": 0,
-    "web_name": "Mu\u00f1oz"
   },
   {
     "ep_next": "1.5",
@@ -3637,6 +3628,15 @@
   },
   {
     "ep_next": "1.0",
+    "form": "0.0",
+    "id": 629,
+    "now_cost": 40,
+    "team": 13,
+    "total_points": 0,
+    "web_name": "Zetterer"
+  },
+  {
+    "ep_next": "1.0",
     "form": "1.0",
     "id": 350,
     "now_cost": 55,
@@ -3951,6 +3951,15 @@
     "web_name": "Araujo"
   },
   {
+    "ep_next": "2.8",
+    "form": "0.0",
+    "id": 627,
+    "now_cost": 80,
+    "team": 14,
+    "total_points": 0,
+    "web_name": "Barcola"
+  },
+  {
     "ep_next": "0.5",
     "form": "0.5",
     "id": 238,
@@ -4219,6 +4228,15 @@
     "team": 15,
     "total_points": 1,
     "web_name": "Braithwaite"
+  },
+  {
+    "ep_next": "2.2",
+    "form": "0.0",
+    "id": 628,
+    "now_cost": 60,
+    "team": 15,
+    "total_points": 0,
+    "web_name": "Allan"
   },
   {
     "ep_next": "3.0",
@@ -4786,6 +4804,15 @@
     "team": 18,
     "total_points": 1,
     "web_name": "Delap"
+  },
+  {
+    "ep_next": "0.0",
+    "form": "0.0",
+    "id": 201,
+    "now_cost": 54,
+    "team": 18,
+    "total_points": 0,
+    "web_name": "Mu\u00f1oz"
   },
   {
     "ep_next": "1.5",
