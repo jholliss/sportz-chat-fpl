@@ -66,7 +66,7 @@
     "ep_next": "10.0",
     "form": "10.0",
     "id": 8,
-    "now_cost": 56,
+    "now_cost": 57,
     "team": 1,
     "total_points": 20,
     "web_name": "Calafiori"
@@ -138,7 +138,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 16,
-    "now_cost": 64,
+    "now_cost": 63,
     "team": 1,
     "total_points": 1,
     "web_name": "Madueke"
@@ -372,7 +372,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 45,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 2,
     "total_points": 2,
     "web_name": "McGinn"
@@ -1002,7 +1002,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 102,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 4,
     "total_points": 2,
     "web_name": "Yarmoliuk"
@@ -1236,7 +1236,7 @@
     "ep_next": "0.8",
     "form": "1.0",
     "id": 129,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 5,
     "total_points": 2,
     "web_name": "Ayari"
@@ -1857,7 +1857,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 186,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 7,
     "total_points": 1,
     "web_name": "Mason-Clark"
@@ -1875,7 +1875,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 188,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 7,
     "total_points": 2,
     "web_name": "Torp"
@@ -2982,7 +2982,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 292,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 11,
     "total_points": 0,
     "web_name": "\u00d6m\u00fcr"
@@ -3459,7 +3459,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 571,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 12,
     "total_points": 0,
     "web_name": "Florentino"
@@ -3945,7 +3945,7 @@
     "ep_next": "8.5",
     "form": "8.5",
     "id": 367,
-    "now_cost": 70,
+    "now_cost": 71,
     "team": 14,
     "total_points": 17,
     "web_name": "Gakpo"
@@ -4170,7 +4170,7 @@
     "ep_next": "0.4",
     "form": "0.5",
     "id": 389,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 15,
     "total_points": 1,
     "web_name": "Matheus N."
@@ -4602,7 +4602,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 430,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 16,
     "total_points": 0,
     "web_name": "Mount"
@@ -5205,7 +5205,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 493,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 18,
     "total_points": 1,
     "web_name": "Kalimuendo"
@@ -5223,7 +5223,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 581,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 18,
     "total_points": 0,
     "web_name": "Diomande"
@@ -5502,7 +5502,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 520,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 19,
     "total_points": 1,
     "web_name": "Bergvall"
