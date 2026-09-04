@@ -3186,12 +3186,12 @@
     "web_name": "Mouzakitis"
   },
   {
-    "ep_next": "1.7",
-    "form": "1.7",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 259,
     "now_cost": 40,
     "team": 12,
-    "total_points": 5,
+    "total_points": 7,
     "web_name": "Diop"
   },
   {
@@ -3411,12 +3411,12 @@
     "web_name": "Al-Hamadi"
   },
   {
-    "ep_next": "0.7",
-    "form": "0.7",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 323,
     "now_cost": 45,
     "team": 12,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "McAteer"
   },
   {
@@ -3474,12 +3474,12 @@
     "web_name": "Enciso"
   },
   {
-    "ep_next": "0.7",
-    "form": "0.7",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 592,
     "now_cost": 40,
     "team": 12,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Ouattara"
   },
   {
@@ -3843,12 +3843,12 @@
     "web_name": "Davies"
   },
   {
-    "ep_next": "3.3",
-    "form": "3.3",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 356,
     "now_cost": 65,
     "team": 14,
-    "total_points": 10,
+    "total_points": 9,
     "web_name": "Virgil"
   },
   {
@@ -4014,12 +4014,12 @@
     "web_name": "Endo"
   },
   {
-    "ep_next": "0.3",
-    "form": "0.3",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 375,
     "now_cost": 50,
     "team": 14,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Nyoni"
   },
   {
@@ -4068,12 +4068,12 @@
     "web_name": "Ekitik\u00e9"
   },
   {
-    "ep_next": "0.3",
-    "form": "0.3",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 381,
     "now_cost": 50,
     "team": 14,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Koumas"
   },
   {
