@@ -1,62 +1,62 @@
 [
   {
-    "event_total": 117,
+    "event_total": 3,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 1,
     "team_name": "Hamann Overboard",
-    "total": 170
+    "total": 173
   },
   {
-    "event_total": 105,
+    "event_total": 33,
+    "manager_id": "8011609",
+    "name": "Tom Phillips",
+    "rank": 2,
+    "team_name": "ThunderStruijk",
+    "total": 171
+  },
+  {
+    "event_total": 20,
+    "manager_id": "822375",
+    "name": "Robbie Paton",
+    "rank": 3,
+    "team_name": "Careless Wissa",
+    "total": 161
+  },
+  {
+    "event_total": 0,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
-    "rank": 2,
+    "rank": 4,
     "team_name": "Ballack Sabbath",
     "total": 159
   },
   {
-    "event_total": 99,
+    "event_total": 3,
     "manager_id": "3457548",
     "name": "David Lewis",
-    "rank": 3,
+    "rank": 5,
     "team_name": "All Hail Keylord",
-    "total": 152
+    "total": 155
   },
   {
-    "event_total": 75,
+    "event_total": 3,
+    "manager_id": "4177980",
+    "name": "James Petrie",
+    "rank": 6,
+    "team_name": "Restart The Rutter",
+    "total": 146
+  },
+  {
+    "event_total": 0,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
-    "rank": 4,
+    "rank": 7,
     "team_name": "Yoro Wizard Harry",
     "total": 144
   },
   {
-    "event_total": 105,
-    "manager_id": "4177980",
-    "name": "James Petrie",
-    "rank": 5,
-    "team_name": "Restart The Rutter",
-    "total": 143
-  },
-  {
-    "event_total": 103,
-    "manager_id": "822375",
-    "name": "Robbie Paton",
-    "rank": 6,
-    "team_name": "Careless Wissa",
-    "total": 141
-  },
-  {
-    "event_total": 81,
-    "manager_id": "8011609",
-    "name": "Tom Phillips",
-    "rank": 7,
-    "team_name": "ThunderStruijk",
-    "total": 138
-  },
-  {
-    "event_total": 79,
+    "event_total": 0,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 8,
@@ -64,11 +64,11 @@
     "total": 132
   },
   {
-    "event_total": 80,
+    "event_total": 3,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 9,
     "team_name": "Jacquet Potato",
-    "total": 127
+    "total": 130
   }
 ]

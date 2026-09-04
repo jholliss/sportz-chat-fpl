@@ -21,6 +21,17 @@
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1003
+    },
+    {
+      "bank": 1,
+      "gw": 3,
+      "overall_rank": 1133449,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 159,
+      "transfer_cost": 0,
+      "transfers": 2,
+      "value": 1005
     }
   ],
   "1212049": [
@@ -45,6 +56,17 @@
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1002
+    },
+    {
+      "bank": 4,
+      "gw": 3,
+      "overall_rank": 481842,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 170,
+      "transfer_cost": 0,
+      "transfers": 1,
+      "value": 1005
     }
   ],
   "3457548": [
@@ -69,6 +91,17 @@
       "transfer_cost": 0,
       "transfers": 1,
       "value": 1001
+    },
+    {
+      "bank": 13,
+      "gw": 3,
+      "overall_rank": 1833689,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 152,
+      "transfer_cost": 0,
+      "transfers": 1,
+      "value": 1002
     }
   ],
   "4177980": [
@@ -93,6 +126,17 @@
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1001
+    },
+    {
+      "bank": 12,
+      "gw": 3,
+      "overall_rank": 2815476,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 143,
+      "transfer_cost": 0,
+      "transfers": 2,
+      "value": 1000
     }
   ],
   "4279888": [
@@ -117,6 +161,17 @@
       "transfer_cost": 0,
       "transfers": 1,
       "value": 1004
+    },
+    {
+      "bank": 5,
+      "gw": 3,
+      "overall_rank": 2761818,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 144,
+      "transfer_cost": 0,
+      "transfers": 1,
+      "value": 1010
     }
   ],
   "6975918": [
@@ -141,6 +196,17 @@
       "transfer_cost": 0,
       "transfers": 1,
       "value": 1002
+    },
+    {
+      "bank": 25,
+      "gw": 3,
+      "overall_rank": 5100790,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 127,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1004
     }
   ],
   "8011609": [
@@ -165,6 +231,17 @@
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1002
+    },
+    {
+      "bank": 0,
+      "gw": 3,
+      "overall_rank": 3482015,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 138,
+      "transfer_cost": 0,
+      "transfers": 0,
+      "value": 1001
     }
   ],
   "817501": [
@@ -189,6 +266,17 @@
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1002
+    },
+    {
+      "bank": 13,
+      "gw": 3,
+      "overall_rank": 4321804,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 132,
+      "transfer_cost": 0,
+      "transfers": 1,
+      "value": 1000
     }
   ],
   "822375": [
@@ -213,6 +301,17 @@
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1002
+    },
+    {
+      "bank": 5,
+      "gw": 3,
+      "overall_rank": 3075903,
+      "points": 0,
+      "points_on_bench": 0,
+      "total_points": 141,
+      "transfer_cost": 0,
+      "transfers": 1,
+      "value": 1004
     }
   ]
 }

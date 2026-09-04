@@ -1,7 +1,53 @@
 {
-  "1004578": [],
-  "1212049": [],
+  "1004578": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 127,
+      "player_in_name": "Gomez",
+      "player_out": 565,
+      "player_out_name": "M.Sangar\u00e9",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-03T09:43:37.988961Z"
+    },
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 87,
+      "player_in_name": "Ajer",
+      "player_out": 305,
+      "player_out_name": "Davis",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-03T09:43:37.982027Z"
+    }
+  ],
+  "1212049": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 399,
+      "player_in_name": "Cherki",
+      "player_out": 427,
+      "player_out_name": "Mbeumo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-08-29T08:56:02.006069Z"
+    }
+  ],
   "3457548": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 399,
+      "player_in_name": "Cherki",
+      "player_out": 427,
+      "player_out_name": "Mbeumo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-01T02:31:43.371985Z"
+    },
     {
       "gw": 2,
       "net_points": -1,
@@ -14,8 +60,42 @@
       "time": "2026-08-21T19:38:37.518798Z"
     }
   ],
-  "4177980": [],
+  "4177980": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 279,
+      "player_in_name": "Ajayi",
+      "player_out": 469,
+      "player_out_name": "N.Williams",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-04T15:36:27.509576Z"
+    },
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 115,
+      "player_in_name": "De Cuyper",
+      "player_out": 418,
+      "player_out_name": "Maguire",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-04T15:36:27.503032Z"
+    }
+  ],
   "4279888": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 399,
+      "player_in_name": "Cherki",
+      "player_out": 480,
+      "player_out_name": "Gibbs-White",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-08-28T20:21:36.782872Z"
+    },
     {
       "gw": 2,
       "net_points": -1,
@@ -42,6 +122,30 @@
     }
   ],
   "8011609": [],
-  "817501": [],
-  "822375": []
+  "817501": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 464,
+      "player_in_name": "Wissa",
+      "player_out": 527,
+      "player_out_name": "Richarlison",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-03T19:55:18.551450Z"
+    }
+  ],
+  "822375": [
+    {
+      "gw": 3,
+      "net_points": null,
+      "player_in": 454,
+      "player_in_name": "Elanga",
+      "player_out": 68,
+      "player_out_name": "Tavernier",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-08-29T18:30:11.639679Z"
+    }
+  ]
 }
