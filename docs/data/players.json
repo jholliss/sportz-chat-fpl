@@ -1242,7 +1242,7 @@
     "web_name": "Ayari"
   },
   {
-    "ep_next": "3.5",
+    "ep_next": "0.0",
     "form": "3.5",
     "id": 130,
     "now_cost": 50,
@@ -1386,7 +1386,7 @@
     "web_name": "Andr\u00e9s"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 652,
     "now_cost": 55,
@@ -5526,7 +5526,7 @@
     "web_name": "Gray"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "0.0",
     "form": "1.5",
     "id": 523,
     "now_cost": 50,
@@ -5562,7 +5562,7 @@
     "web_name": "Solanke"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "1.0",
     "id": 527,
     "now_cost": 59,
