@@ -118,12 +118,12 @@
       "name": "David Lewis"
     },
     {
-      "average_position": 5.67,
+      "average_position": 6,
       "manager_id": "822375",
       "name": "Robbie Paton"
     },
     {
-      "average_position": 6.67,
+      "average_position": 6.33,
       "manager_id": "4177980",
       "name": "James Petrie"
     },
@@ -304,16 +304,16 @@
       {
         "gw": 3,
         "hits": 0,
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "points": 3,
         "vs_average": -4
       },
       {
         "gw": 3,
         "hits": 0,
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "points": 3,
         "vs_average": -4
       },
@@ -344,8 +344,8 @@
       {
         "gw": 1,
         "hits": 0,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "points": 38,
         "vs_average": -12
       }
@@ -460,16 +460,16 @@
         "total_captain_points": 50
       },
       {
-        "gain_loss_vs_optimal": -18,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "gain_loss_vs_optimal": -14,
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "picked_best_captain_weeks": 1,
         "total_captain_points": 50
       },
       {
-        "gain_loss_vs_optimal": -14,
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "gain_loss_vs_optimal": -18,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "picked_best_captain_weeks": 1,
         "total_captain_points": 50
       },
@@ -681,13 +681,13 @@
         "value": 0
       },
       {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "value": 0
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       }
     ],
@@ -703,8 +703,8 @@
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "value": 0
       }
     ],
@@ -1245,19 +1245,6 @@
     "best_transfers": [
       {
         "gw": 2,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "net_points": -1,
-        "player_in": 557,
-        "player_in_name": "Tzolis",
-        "player_out": 452,
-        "player_out_name": "Bruno G.",
-        "points_in": 0,
-        "points_out": 1,
-        "time": "2026-08-21T19:38:37.518798Z"
-      },
-      {
-        "gw": 2,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "net_points": -1,
@@ -1268,6 +1255,19 @@
         "points_in": 0,
         "points_out": 1,
         "time": "2026-08-23T17:28:16.324551Z"
+      },
+      {
+        "gw": 2,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "net_points": -1,
+        "player_in": 557,
+        "player_in_name": "Tzolis",
+        "player_out": 452,
+        "player_out_name": "Bruno G.",
+        "points_in": 0,
+        "points_out": 1,
+        "time": "2026-08-21T19:38:37.518798Z"
       },
       {
         "gw": 2,
@@ -1291,6 +1291,24 @@
         "transfer_count": 1
       },
       {
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "total_net_points": 0,
+        "transfer_count": 2
+      },
+      {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "total_net_points": -1,
+        "transfer_count": 2
+      },
+      {
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "total_net_points": 0,
+        "transfer_count": 2
+      },
+      {
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "total_net_points": 0,
@@ -1303,26 +1321,8 @@
         "transfer_count": 1
       },
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "total_net_points": 0,
-        "transfer_count": 2
-      },
-      {
         "manager_id": "3457548",
         "name": "David Lewis",
-        "total_net_points": -1,
-        "transfer_count": 2
-      },
-      {
-        "manager_id": "4177980",
-        "name": "James Petrie",
-        "total_net_points": 0,
-        "transfer_count": 2
-      },
-      {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
         "total_net_points": -1,
         "transfer_count": 2
       },
@@ -1355,19 +1355,6 @@
       },
       {
         "gw": 2,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "net_points": -1,
-        "player_in": 557,
-        "player_in_name": "Tzolis",
-        "player_out": 452,
-        "player_out_name": "Bruno G.",
-        "points_in": 0,
-        "points_out": 1,
-        "time": "2026-08-21T19:38:37.518798Z"
-      },
-      {
-        "gw": 2,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "net_points": -1,
@@ -1378,6 +1365,19 @@
         "points_in": 0,
         "points_out": 1,
         "time": "2026-08-23T17:28:16.324551Z"
+      },
+      {
+        "gw": 2,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "net_points": -1,
+        "player_in": 557,
+        "player_in_name": "Tzolis",
+        "player_out": 452,
+        "player_out_name": "Bruno G.",
+        "points_in": 0,
+        "points_out": 1,
+        "time": "2026-08-21T19:38:37.518798Z"
       }
     ]
   },
@@ -1520,6 +1520,30 @@
         "worst_vs_average": -4
       },
       {
+        "best_vs_average": 24,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "weeks_beat_average": 2,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -7
+      },
+      {
+        "best_vs_average": 19,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 2,
+        "worst_vs_average": -7
+      },
+      {
+        "best_vs_average": 24,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 2,
+        "worst_vs_average": -12
+      },
+      {
         "best_vs_average": 25,
         "manager_id": "8011609",
         "name": "Tom Phillips",
@@ -1536,36 +1560,12 @@
         "worst_vs_average": -12
       },
       {
-        "best_vs_average": 24,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "weeks_beat_average": 2,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -7
-      },
-      {
         "best_vs_average": 18,
         "manager_id": "3457548",
         "name": "David Lewis",
         "weeks_beat_average": 2,
         "weeks_lost_to_average": 1,
         "worst_vs_average": -4
-      },
-      {
-        "best_vs_average": 24,
-        "manager_id": "4177980",
-        "name": "James Petrie",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 2,
-        "worst_vs_average": -12
-      },
-      {
-        "best_vs_average": 19,
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 2,
-        "worst_vs_average": -7
       },
       {
         "best_vs_average": 3,
@@ -1593,6 +1593,24 @@
       "weeks_on_podium": 2
     },
     {
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 2
+    },
+    {
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
+      "weeks_at_top": 1,
+      "weeks_on_podium": 1
+    },
+    {
+      "manager_id": "4177980",
+      "name": "James Petrie",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
+    },
+    {
       "manager_id": "8011609",
       "name": "Tom Phillips",
       "weeks_at_top": 0,
@@ -1605,27 +1623,9 @@
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 2
-    },
-    {
       "manager_id": "3457548",
       "name": "David Lewis",
       "weeks_at_top": 0,
-      "weeks_on_podium": 1
-    },
-    {
-      "manager_id": "4177980",
-      "name": "James Petrie",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
-      "manager_id": "4279888",
-      "name": "Oliver Dewdney",
-      "weeks_at_top": 1,
       "weeks_on_podium": 1
     },
     {
