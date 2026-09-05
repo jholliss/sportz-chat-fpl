@@ -2052,12 +2052,12 @@
     "web_name": "Richards"
   },
   {
-    "ep_next": "1.3",
-    "form": "1.3",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 203,
     "now_cost": 49,
     "team": 8,
-    "total_points": 4,
+    "total_points": 2,
     "web_name": "Canvot"
   },
   {
@@ -2745,12 +2745,12 @@
     "web_name": "Palacios"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 580,
     "now_cost": 50,
     "team": 10,
-    "total_points": 6,
+    "total_points": 4,
     "web_name": "Charles"
   },
   {
@@ -4158,12 +4158,12 @@
     "web_name": "O'Reilly"
   },
   {
-    "ep_next": "6.3",
-    "form": "6.3",
+    "ep_next": "6.7",
+    "form": "6.7",
     "id": 388,
     "now_cost": 60,
     "team": 15,
-    "total_points": 19,
+    "total_points": 20,
     "web_name": "Gu\u00e9hi"
   },
   {
@@ -4399,6 +4399,15 @@
     "team": 15,
     "total_points": 0,
     "web_name": "Allan"
+  },
+  {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 653,
+    "now_cost": 45,
+    "team": 15,
+    "total_points": 0,
+    "web_name": "Samba"
   },
   {
     "ep_next": "2.0",
@@ -5004,12 +5013,12 @@
     "web_name": "John"
   },
   {
-    "ep_next": "4.7",
-    "form": "4.7",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 469,
     "now_cost": 50,
     "team": 18,
-    "total_points": 14,
+    "total_points": 15,
     "web_name": "N.Williams"
   },
   {
@@ -5031,12 +5040,12 @@
     "web_name": "Milenkovi\u0107"
   },
   {
-    "ep_next": "3.7",
-    "form": "3.7",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 472,
     "now_cost": 55,
     "team": 18,
-    "total_points": 11,
+    "total_points": 13,
     "web_name": "Murillo"
   },
   {
@@ -5328,12 +5337,12 @@
     "web_name": "Senesi"
   },
   {
-    "ep_next": "3.3",
-    "form": "3.3",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 499,
     "now_cost": 55,
     "team": 19,
-    "total_points": 10,
+    "total_points": 8,
     "web_name": "Pedro Porro"
   },
   {
@@ -5355,12 +5364,12 @@
     "web_name": "Robertson"
   },
   {
-    "ep_next": "2.3",
-    "form": "2.3",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 503,
     "now_cost": 50,
     "team": 19,
-    "total_points": 7,
+    "total_points": 9,
     "web_name": "Van de Ven"
   },
   {
