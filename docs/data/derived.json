@@ -686,8 +686,8 @@
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "value": 0
       }
     ],
@@ -1297,15 +1297,21 @@
         "transfer_count": 2
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
-        "total_net_points": -1,
-        "transfer_count": 2
-      },
-      {
         "manager_id": "4177980",
         "name": "James Petrie",
         "total_net_points": 0,
+        "transfer_count": 2
+      },
+      {
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "total_net_points": 0,
+        "transfer_count": 1
+      },
+      {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "total_net_points": -1,
         "transfer_count": 2
       },
       {
@@ -1313,12 +1319,6 @@
         "name": "Tom Phillips",
         "total_net_points": 0,
         "transfer_count": 0
-      },
-      {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "total_net_points": 0,
-        "transfer_count": 1
       },
       {
         "manager_id": "3457548",
@@ -1528,14 +1528,6 @@
         "worst_vs_average": -7
       },
       {
-        "best_vs_average": 19,
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 2,
-        "worst_vs_average": -7
-      },
-      {
         "best_vs_average": 24,
         "manager_id": "4177980",
         "name": "James Petrie",
@@ -1544,20 +1536,28 @@
         "worst_vs_average": -12
       },
       {
-        "best_vs_average": 25,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "weeks_beat_average": 2,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
-      },
-      {
         "best_vs_average": 22,
         "manager_id": "822375",
         "name": "Robbie Paton",
         "weeks_beat_average": 2,
         "weeks_lost_to_average": 1,
         "worst_vs_average": -12
+      },
+      {
+        "best_vs_average": 19,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 2,
+        "worst_vs_average": -7
+      },
+      {
+        "best_vs_average": 25,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "weeks_beat_average": 2,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
       },
       {
         "best_vs_average": 18,
@@ -1599,28 +1599,28 @@
       "weeks_on_podium": 2
     },
     {
-      "manager_id": "4279888",
-      "name": "Oliver Dewdney",
-      "weeks_at_top": 1,
-      "weeks_on_podium": 1
-    },
-    {
       "manager_id": "4177980",
       "name": "James Petrie",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "8011609",
-      "name": "Tom Phillips",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 2
-    },
-    {
       "manager_id": "822375",
       "name": "Robbie Paton",
       "weeks_at_top": 0,
       "weeks_on_podium": 1
+    },
+    {
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
+      "weeks_at_top": 1,
+      "weeks_on_podium": 1
+    },
+    {
+      "manager_id": "8011609",
+      "name": "Tom Phillips",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 2
     },
     {
       "manager_id": "3457548",

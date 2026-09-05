@@ -16,35 +16,35 @@
     "total": 194
   },
   {
-    "event_total": 34,
-    "manager_id": "4279888",
-    "name": "Oliver Dewdney",
+    "event_total": 38,
+    "manager_id": "4177980",
+    "name": "James Petrie",
     "rank": 3,
-    "team_name": "Yoro Wizard Harry",
-    "total": 178
+    "team_name": "Restart The Rutter",
+    "total": 181
+  },
+  {
+    "event_total": 39,
+    "manager_id": "822375",
+    "name": "Robbie Paton",
+    "rank": 4,
+    "team_name": "Careless Wissa",
+    "total": 180
   },
   {
     "event_total": 34,
-    "manager_id": "4177980",
-    "name": "James Petrie",
-    "rank": 4,
-    "team_name": "Restart The Rutter",
-    "total": 177
+    "manager_id": "4279888",
+    "name": "Oliver Dewdney",
+    "rank": 5,
+    "team_name": "Yoro Wizard Harry",
+    "total": 178
   },
   {
     "event_total": 37,
     "manager_id": "8011609",
     "name": "Tom Phillips",
-    "rank": 5,
-    "team_name": "ThunderStruijk",
-    "total": 175
-  },
-  {
-    "event_total": 34,
-    "manager_id": "822375",
-    "name": "Robbie Paton",
     "rank": 6,
-    "team_name": "Careless Wissa",
+    "team_name": "ThunderStruijk",
     "total": 175
   },
   {
