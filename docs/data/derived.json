@@ -693,18 +693,18 @@
     ],
     "spend_thrifts": [
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "value": 0
-      },
-      {
         "manager_id": "3457548",
         "name": "David Lewis",
         "value": 0
       },
       {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "value": 0
+      },
+      {
+        "manager_id": "817501",
+        "name": "Andrew David",
         "value": 0
       }
     ],
@@ -1315,28 +1315,28 @@
         "transfer_count": 2
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "total_net_points": 0,
-        "transfer_count": 1
-      },
-      {
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "total_net_points": 0,
         "transfer_count": 0
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "total_net_points": -1,
-        "transfer_count": 2
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "total_net_points": 0,
+        "transfer_count": 1
       },
       {
         "manager_id": "6975918",
         "name": "James Cassidy",
         "total_net_points": -16,
         "transfer_count": 1
+      },
+      {
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "total_net_points": -1,
+        "transfer_count": 2
       }
     ],
     "worst_transfers": [
@@ -1552,14 +1552,6 @@
         "worst_vs_average": -12
       },
       {
-        "best_vs_average": 3,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 2,
-        "worst_vs_average": -5
-      },
-      {
         "best_vs_average": 7,
         "manager_id": "8011609",
         "name": "Tom Phillips",
@@ -1568,12 +1560,12 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 18,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "weeks_beat_average": 2,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -24
+        "best_vs_average": 3,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 2,
+        "worst_vs_average": -5
       },
       {
         "best_vs_average": 0,
@@ -1582,6 +1574,14 @@
         "weeks_beat_average": 0,
         "weeks_lost_to_average": 2,
         "worst_vs_average": -3
+      },
+      {
+        "best_vs_average": 18,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "weeks_beat_average": 2,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -24
       }
     ]
   },
@@ -1617,28 +1617,28 @@
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
       "manager_id": "8011609",
       "name": "Tom Phillips",
       "weeks_at_top": 0,
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "3457548",
-      "name": "David Lewis",
+      "manager_id": "817501",
+      "name": "Andrew David",
       "weeks_at_top": 0,
-      "weeks_on_podium": 1
+      "weeks_on_podium": 0
     },
     {
       "manager_id": "6975918",
       "name": "James Cassidy",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
+    },
+    {
+      "manager_id": "3457548",
+      "name": "David Lewis",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 1
     }
   ],
   "wins_and_podiums_alltime": [
