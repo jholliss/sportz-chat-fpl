@@ -255,7 +255,7 @@
     "ep_next": "3.7",
     "form": "3.7",
     "id": 557,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 1,
     "total_points": 11,
     "web_name": "Tzolis"
@@ -354,7 +354,7 @@
     "ep_next": "2.3",
     "form": "2.3",
     "id": 41,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 2,
     "total_points": 7,
     "web_name": "Buend\u00eda"
@@ -1110,7 +1110,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 115,
-    "now_cost": 47,
+    "now_cost": 48,
     "team": 5,
     "total_points": 21,
     "web_name": "De Cuyper"
@@ -3306,7 +3306,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 310,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 12,
     "total_points": 0,
     "web_name": "Matusiwa"
@@ -4062,7 +4062,7 @@
     "ep_next": "7.7",
     "form": "7.7",
     "id": 379,
-    "now_cost": 90,
+    "now_cost": 91,
     "team": 14,
     "total_points": 23,
     "web_name": "Isak"
@@ -4206,7 +4206,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 392,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 15,
     "total_points": 0,
     "web_name": "A\u00eft-Nouri"
@@ -4485,7 +4485,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 415,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 16,
     "total_points": 2,
     "web_name": "Dorgu"
@@ -4512,7 +4512,7 @@
     "ep_next": "2.3",
     "form": "2.3",
     "id": 418,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 16,
     "total_points": 7,
     "web_name": "Maguire"
@@ -4665,7 +4665,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 435,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 16,
     "total_points": 1,
     "web_name": "Lacey"
