@@ -361,6 +361,10 @@
         {
           "captain_points": 26,
           "gw": 2
+        },
+        {
+          "captain_points": 27,
+          "gw": 3
         }
       ],
       "1212049": [
@@ -371,6 +375,10 @@
         {
           "captain_points": 46,
           "gw": 2
+        },
+        {
+          "captain_points": 18,
+          "gw": 3
         }
       ],
       "3457548": [
@@ -381,6 +389,10 @@
         {
           "captain_points": 46,
           "gw": 2
+        },
+        {
+          "captain_points": 4,
+          "gw": 3
         }
       ],
       "4177980": [
@@ -391,6 +403,10 @@
         {
           "captain_points": 46,
           "gw": 2
+        },
+        {
+          "captain_points": 18,
+          "gw": 3
         }
       ],
       "4279888": [
@@ -401,6 +417,10 @@
         {
           "captain_points": 6,
           "gw": 2
+        },
+        {
+          "captain_points": 18,
+          "gw": 3
         }
       ],
       "6975918": [
@@ -411,6 +431,10 @@
         {
           "captain_points": 26,
           "gw": 2
+        },
+        {
+          "captain_points": 18,
+          "gw": 3
         }
       ],
       "8011609": [
@@ -421,6 +445,10 @@
         {
           "captain_points": 16,
           "gw": 2
+        },
+        {
+          "captain_points": 26,
+          "gw": 3
         }
       ],
       "817501": [
@@ -431,6 +459,10 @@
         {
           "captain_points": 26,
           "gw": 2
+        },
+        {
+          "captain_points": 18,
+          "gw": 3
         }
       ],
       "822375": [
@@ -441,72 +473,76 @@
         {
           "captain_points": 46,
           "gw": 2
+        },
+        {
+          "captain_points": 4,
+          "gw": 3
         }
       ]
     },
     "summary": [
       {
-        "gain_loss_vs_optimal": -10,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "picked_best_captain_weeks": 1,
-        "total_captain_points": 54
-      },
-      {
         "gain_loss_vs_optimal": -18,
         "manager_id": "1212049",
         "name": "James Holliss",
-        "picked_best_captain_weeks": 1,
-        "total_captain_points": 50
-      },
-      {
-        "gain_loss_vs_optimal": -18,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "picked_best_captain_weeks": 1,
-        "total_captain_points": 50
+        "picked_best_captain_weeks": 2,
+        "total_captain_points": 68
       },
       {
         "gain_loss_vs_optimal": -14,
         "manager_id": "4177980",
         "name": "James Petrie",
-        "picked_best_captain_weeks": 1,
-        "total_captain_points": 50
+        "picked_best_captain_weeks": 2,
+        "total_captain_points": 68
       },
       {
-        "gain_loss_vs_optimal": -27,
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "gain_loss_vs_optimal": -18,
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "picked_best_captain_weeks": 1,
-        "total_captain_points": 32
+        "total_captain_points": 58
       },
       {
         "gain_loss_vs_optimal": -48,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
-        "picked_best_captain_weeks": 0,
-        "total_captain_points": 30
+        "picked_best_captain_weeks": 1,
+        "total_captain_points": 57
+      },
+      {
+        "gain_loss_vs_optimal": -40,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "picked_best_captain_weeks": 1,
+        "total_captain_points": 54
+      },
+      {
+        "gain_loss_vs_optimal": -27,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "picked_best_captain_weeks": 2,
+        "total_captain_points": 50
       },
       {
         "gain_loss_vs_optimal": -18,
         "manager_id": "6975918",
         "name": "James Cassidy",
-        "picked_best_captain_weeks": 1,
-        "total_captain_points": 30
+        "picked_best_captain_weeks": 2,
+        "total_captain_points": 48
       },
       {
         "gain_loss_vs_optimal": -52,
         "manager_id": "8011609",
         "name": "Tom Phillips",
-        "picked_best_captain_weeks": 0,
-        "total_captain_points": 20
+        "picked_best_captain_weeks": 1,
+        "total_captain_points": 46
       },
       {
-        "gain_loss_vs_optimal": -38,
+        "gain_loss_vs_optimal": -40,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "picked_best_captain_weeks": 0,
-        "total_captain_points": 10
+        "total_captain_points": 28
       }
     ]
   },
@@ -627,51 +663,51 @@
       {
         "manager_id": "1212049",
         "name": "James Holliss",
-        "value": 170
+        "value": 216
       },
       {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
-        "value": 159
+        "value": 214
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "value": 152
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "value": 208
       }
     ],
     "in_freefall": [
       {
         "manager_id": "6975918",
         "name": "James Cassidy",
-        "value": 127
+        "value": 184
+      },
+      {
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "value": 188
       },
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 132
-      },
-      {
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "value": 138
+        "value": 188
       }
     ],
     "rotation_losers": [
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "value": 35
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "value": 57
       },
       {
         "manager_id": "4177980",
         "name": "James Petrie",
-        "value": 33
+        "value": 55
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "value": 31
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "value": 45
       }
     ],
     "sound_spenders": [
@@ -717,17 +753,18 @@
       {
         "manager_id": "3457548",
         "name": "David Lewis",
-        "value": 6
+        "value": 13
       },
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 10
+        "value": 14
       }
     ],
     "window_gws": [
       1,
-      2
+      2,
+      3
     ]
   },
   "league_progression": {
@@ -868,6 +905,13 @@
         "vs_average": 12.8
       },
       {
+        "global_average": 51,
+        "gw": 3,
+        "league_average": 52.8,
+        "league_total": 475,
+        "vs_average": 1.8
+      },
+      {
         "global_average": 50,
         "gw": 1,
         "league_average": 51.3,
@@ -889,6 +933,13 @@
         "league_average": 93.8,
         "league_total": 844,
         "vs_average": 12.8
+      },
+      {
+        "global_average": 51,
+        "gw": 3,
+        "league_average": 52.8,
+        "league_total": 475,
+        "vs_average": 1.8
       }
     ]
   },
@@ -1244,6 +1295,71 @@
   "transfers_summary": {
     "best_transfers": [
       {
+        "gw": 3,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "net_points": 2,
+        "player_in": 127,
+        "player_in_name": "Gomez",
+        "player_out": 565,
+        "player_out_name": "M.Sangar\u00e9",
+        "points_in": 2,
+        "points_out": 0,
+        "time": "2026-09-03T09:43:37.988961Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "net_points": 2,
+        "player_in": 115,
+        "player_in_name": "De Cuyper",
+        "player_out": 418,
+        "player_out_name": "Maguire",
+        "points_in": 4,
+        "points_out": 2,
+        "time": "2026-09-04T15:36:27.503032Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "net_points": 1,
+        "player_in": 87,
+        "player_in_name": "Ajer",
+        "player_out": 305,
+        "player_out_name": "Davis",
+        "points_in": 2,
+        "points_out": 1,
+        "time": "2026-09-03T09:43:37.982027Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "net_points": 1,
+        "player_in": 464,
+        "player_in_name": "Wissa",
+        "player_out": 527,
+        "player_out_name": "Richarlison",
+        "points_in": 1,
+        "points_out": 0,
+        "time": "2026-09-03T19:55:18.551450Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "net_points": 0,
+        "player_in": 399,
+        "player_in_name": "Cherki",
+        "player_out": 480,
+        "player_out_name": "Gibbs-White",
+        "points_in": 3,
+        "points_out": 3,
+        "time": "2026-08-28T20:21:36.782872Z"
+      },
+      {
         "gw": 2,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
@@ -1270,30 +1386,56 @@
         "time": "2026-08-21T19:38:37.518798Z"
       },
       {
-        "gw": 2,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "net_points": -16,
-        "player_in": 154,
-        "player_in_name": "Palmer",
-        "player_out": 426,
-        "player_out_name": "B.Fernandes",
-        "points_in": 7,
-        "points_out": 23,
-        "time": "2026-08-28T17:22:21.711141Z"
+        "gw": 3,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "net_points": -2,
+        "player_in": 279,
+        "player_in_name": "Ajayi",
+        "player_out": 469,
+        "player_out_name": "N.Williams",
+        "points_in": 5,
+        "points_out": 7,
+        "time": "2026-09-04T15:36:27.509576Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "net_points": -5,
+        "player_in": 399,
+        "player_in_name": "Cherki",
+        "player_out": 427,
+        "player_out_name": "Mbeumo",
+        "points_in": 3,
+        "points_out": 8,
+        "time": "2026-08-29T08:56:02.006069Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "net_points": -5,
+        "player_in": 399,
+        "player_in_name": "Cherki",
+        "player_out": 427,
+        "player_out_name": "Mbeumo",
+        "points_in": 3,
+        "points_out": 8,
+        "time": "2026-09-01T02:31:43.371985Z"
       }
     ],
     "summary": [
       {
         "manager_id": "1212049",
         "name": "James Holliss",
-        "total_net_points": 0,
+        "total_net_points": -5,
         "transfer_count": 1
       },
       {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
-        "total_net_points": 0,
+        "total_net_points": 3,
         "transfer_count": 2
       },
       {
@@ -1311,7 +1453,7 @@
       {
         "manager_id": "822375",
         "name": "Robbie Paton",
-        "total_net_points": 0,
+        "total_net_points": -9,
         "transfer_count": 1
       },
       {
@@ -1323,13 +1465,13 @@
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "total_net_points": 0,
+        "total_net_points": 1,
         "transfer_count": 1
       },
       {
         "manager_id": "3457548",
         "name": "David Lewis",
-        "total_net_points": -1,
+        "total_net_points": -6,
         "transfer_count": 2
       },
       {
@@ -1354,6 +1496,58 @@
         "time": "2026-08-28T17:22:21.711141Z"
       },
       {
+        "gw": 3,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "net_points": -9,
+        "player_in": 454,
+        "player_in_name": "Elanga",
+        "player_out": 68,
+        "player_out_name": "Tavernier",
+        "points_in": 1,
+        "points_out": 10,
+        "time": "2026-08-29T18:30:11.639679Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "net_points": -5,
+        "player_in": 399,
+        "player_in_name": "Cherki",
+        "player_out": 427,
+        "player_out_name": "Mbeumo",
+        "points_in": 3,
+        "points_out": 8,
+        "time": "2026-08-29T08:56:02.006069Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "net_points": -5,
+        "player_in": 399,
+        "player_in_name": "Cherki",
+        "player_out": 427,
+        "player_out_name": "Mbeumo",
+        "points_in": 3,
+        "points_out": 8,
+        "time": "2026-09-01T02:31:43.371985Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "net_points": -2,
+        "player_in": 279,
+        "player_in_name": "Ajayi",
+        "player_out": 469,
+        "player_out_name": "N.Williams",
+        "points_in": 5,
+        "points_out": 7,
+        "time": "2026-09-04T15:36:27.509576Z"
+      },
+      {
         "gw": 2,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
@@ -1378,6 +1572,45 @@
         "points_in": 0,
         "points_out": 1,
         "time": "2026-08-21T19:38:37.518798Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "net_points": 0,
+        "player_in": 399,
+        "player_in_name": "Cherki",
+        "player_out": 480,
+        "player_out_name": "Gibbs-White",
+        "points_in": 3,
+        "points_out": 3,
+        "time": "2026-08-28T20:21:36.782872Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "net_points": 1,
+        "player_in": 87,
+        "player_in_name": "Ajer",
+        "player_out": 305,
+        "player_out_name": "Davis",
+        "points_in": 2,
+        "points_out": 1,
+        "time": "2026-09-03T09:43:37.982027Z"
+      },
+      {
+        "gw": 3,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "net_points": 1,
+        "player_in": 464,
+        "player_in_name": "Wissa",
+        "player_out": 527,
+        "player_out_name": "Richarlison",
+        "points_in": 1,
+        "points_out": 0,
+        "time": "2026-09-03T19:55:18.551450Z"
       }
     ]
   },
