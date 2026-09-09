@@ -2925,7 +2925,7 @@
     "web_name": "McCarthy"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 285,
     "now_cost": 40,
@@ -3078,7 +3078,7 @@
     "web_name": "Targett"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 563,
     "now_cost": 50,
@@ -3150,7 +3150,7 @@
     "web_name": "Cho"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 632,
     "now_cost": 50,
@@ -5787,7 +5787,7 @@
     "web_name": "Adingra"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 547,
     "now_cost": 49,
