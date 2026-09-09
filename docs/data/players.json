@@ -1191,7 +1191,7 @@
     "ep_next": "5.3",
     "form": "5.3",
     "id": 124,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 5,
     "total_points": 16,
     "web_name": "Gro\u00df"
@@ -2190,7 +2190,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 219,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 8,
     "total_points": 0,
     "web_name": "J.Rak-Sakyi"
@@ -4548,7 +4548,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 422,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 16,
     "total_points": 3,
     "web_name": "Mazraoui"
@@ -4656,7 +4656,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 434,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 16,
     "total_points": 0,
     "web_name": "J.Fletcher"
@@ -4890,7 +4890,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 461,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 17,
     "total_points": 1,
     "web_name": "Tour\u00e9"
@@ -5565,7 +5565,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 525,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 19,
     "total_points": 3,
     "web_name": "Fernandes"
@@ -5772,7 +5772,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 545,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 20,
     "total_points": 6,
     "web_name": "Sadiki"
