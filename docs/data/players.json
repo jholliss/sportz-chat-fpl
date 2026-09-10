@@ -1278,7 +1278,7 @@
     "web_name": "Oriola"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 135,
     "now_cost": 49,
@@ -1386,7 +1386,7 @@
     "web_name": "Andr\u00e9s"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "1.0",
     "form": "0.0",
     "id": 652,
     "now_cost": 55,
@@ -2925,7 +2925,7 @@
     "web_name": "McCarthy"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.3",
     "form": "0.3",
     "id": 285,
     "now_cost": 40,
