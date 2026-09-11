@@ -2016,6 +2016,15 @@
     "web_name": "Gboho"
   },
   {
+    "ep_next": "1.0",
+    "form": "0.0",
+    "id": 656,
+    "now_cost": 40,
+    "team": 7,
+    "total_points": 0,
+    "web_name": "Mfuni"
+  },
+  {
     "ep_next": "0.7",
     "form": "0.7",
     "id": 42,
@@ -5355,7 +5364,7 @@
     "web_name": "Senesi"
   },
   {
-    "ep_next": "2.7",
+    "ep_next": "2.0",
     "form": "2.7",
     "id": 499,
     "now_cost": 55,
@@ -5400,7 +5409,7 @@
     "web_name": "Spence"
   },
   {
-    "ep_next": "2.3",
+    "ep_next": "1.7",
     "form": "2.3",
     "id": 506,
     "now_cost": 45,
@@ -5607,7 +5616,7 @@
     "web_name": "Scarlett"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 578,
     "now_cost": 54,
