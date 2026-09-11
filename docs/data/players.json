@@ -855,7 +855,7 @@
     "web_name": "Valdimarsson"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "0.0",
     "form": "3.3",
     "id": 84,
     "now_cost": 55,
@@ -1575,7 +1575,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 159,
     "now_cost": 54,
@@ -4167,7 +4167,7 @@
     "web_name": "Bettinelli"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "1.3",
     "form": "1.3",
     "id": 387,
     "now_cost": 64,
@@ -4563,7 +4563,7 @@
     "web_name": "Mazraoui"
   },
   {
-    "ep_next": "2.3",
+    "ep_next": "1.7",
     "form": "2.3",
     "id": 423,
     "now_cost": 44,
@@ -5481,7 +5481,7 @@
     "web_name": "Tel"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.3",
     "form": "0.3",
     "id": 515,
     "now_cost": 63,
