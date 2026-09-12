@@ -1,6 +1,215 @@
 {
   "1004578": [
     {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 497,
+      "player_in_name": "Dubravka",
+      "player_out": 623,
+      "player_out_name": "Bentley",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:44.410143Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 377,
+      "player_in_name": "Munoz",
+      "player_out": 368,
+      "player_out_name": "Szoboszlai",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:12.445391Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 449,
+      "player_in_name": "Hall",
+      "player_out": 504,
+      "player_out_name": "Vuskovic",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:12.445156Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 379,
+      "player_in_name": "Isak",
+      "player_out": 249,
+      "player_out_name": "Barry",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:12.444946Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 290,
+      "player_in_name": "Slater",
+      "player_out": 605,
+      "player_out_name": "Yalcouy\u00e9",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:12.444729Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 15,
+      "player_in_name": "\u00d8degaard",
+      "player_out": 480,
+      "player_out_name": "Gibbs-White",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:12.444500Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 496,
+      "player_in_name": "Kinsky",
+      "player_out": 1,
+      "player_out_name": "Raya",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T12:28:12.444220Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 1,
+      "player_in_name": "Raya",
+      "player_out": 496,
+      "player_out_name": "Kinsky",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:48:27.707314Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 605,
+      "player_in_name": "Yalcouy\u00e9",
+      "player_out": 123,
+      "player_out_name": "Hinshelwood",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:48:27.707072Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 249,
+      "player_in_name": "Barry",
+      "player_out": 346,
+      "player_out_name": "Calvert-Lewin",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:48:27.706852Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 480,
+      "player_in_name": "Gibbs-White",
+      "player_out": 427,
+      "player_out_name": "Mbeumo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:48:27.706527Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 334,
+      "player_in_name": "Muharemovi\u0107",
+      "player_out": 532,
+      "player_out_name": "Ballard",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.788930Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 154,
+      "player_in_name": "Palmer",
+      "player_out": 426,
+      "player_out_name": "B.Fernandes",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.788581Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 40,
+      "player_in_name": "Rogers",
+      "player_out": 557,
+      "player_out_name": "Tzolis",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.788375Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 368,
+      "player_in_name": "Szoboszlai",
+      "player_out": 127,
+      "player_out_name": "Gomez",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.788153Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 586,
+      "player_in_name": "Mendy",
+      "player_out": 329,
+      "player_out_name": "Rodon",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.787882Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 31,
+      "player_in_name": "Konsa",
+      "player_out": 87,
+      "player_out_name": "Ajer",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.787628Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 504,
+      "player_in_name": "Vuskovic",
+      "player_out": 418,
+      "player_out_name": "Maguire",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.787280Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 623,
+      "player_in_name": "Bentley",
+      "player_out": 109,
+      "player_out_name": "Verbruggen",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T11:40:06.786790Z"
+    },
+    {
       "gw": 3,
       "net_points": 2,
       "player_in": 127,
@@ -24,6 +233,17 @@
     }
   ],
   "1212049": [
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 15,
+      "player_in_name": "\u00d8degaard",
+      "player_out": 557,
+      "player_out_name": "Tzolis",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T08:16:24.111982Z"
+    },
     {
       "gw": 3,
       "net_points": -5,
@@ -62,6 +282,116 @@
   ],
   "4177980": [
     {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 464,
+      "player_in_name": "Wissa",
+      "player_out": 552,
+      "player_out_name": "Brobbey",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.885956Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 165,
+      "player_in_name": "Jo\u00e3o Pedro",
+      "player_out": 346,
+      "player_out_name": "Calvert-Lewin",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.885745Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 40,
+      "player_in_name": "Rogers",
+      "player_out": 427,
+      "player_out_name": "Mbeumo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.885540Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 154,
+      "player_in_name": "Palmer",
+      "player_out": 426,
+      "player_out_name": "B.Fernandes",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.885281Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 127,
+      "player_in_name": "Gomez",
+      "player_out": 124,
+      "player_out_name": "Gro\u00df",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.885078Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 282,
+      "player_in_name": "Giles",
+      "player_out": 279,
+      "player_out_name": "Ajayi",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.884869Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 449,
+      "player_in_name": "Hall",
+      "player_out": 112,
+      "player_out_name": "Van Hecke",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.884651Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 10,
+      "player_in_name": "White",
+      "player_out": 32,
+      "player_out_name": "Cash",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.884437Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 1,
+      "player_in_name": "Raya",
+      "player_out": 496,
+      "player_out_name": "Kinsky",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.884183Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 497,
+      "player_in_name": "Dubravka",
+      "player_out": 109,
+      "player_out_name": "Verbruggen",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T11:23:03.883909Z"
+    },
+    {
       "gw": 3,
       "net_points": -2,
       "player_in": 279,
@@ -85,6 +415,17 @@
     }
   ],
   "4279888": [
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 98,
+      "player_in_name": "Janelt",
+      "player_out": 212,
+      "player_out_name": "Hughes",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-06T19:36:31.545678Z"
+    },
     {
       "gw": 3,
       "net_points": 0,
@@ -110,6 +451,17 @@
   ],
   "6975918": [
     {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 115,
+      "player_in_name": "De Cuyper",
+      "player_out": 423,
+      "player_out_name": "Shaw",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-12T10:14:12.158178Z"
+    },
+    {
       "gw": 2,
       "net_points": -16,
       "player_in": 154,
@@ -124,6 +476,28 @@
   "8011609": [],
   "817501": [
     {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 124,
+      "player_in_name": "Gro\u00df",
+      "player_out": 162,
+      "player_out_name": "Andrey Santos",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-11T07:23:57.616077Z"
+    },
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 15,
+      "player_in_name": "\u00d8degaard",
+      "player_out": 260,
+      "player_out_name": "Wilson",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-10T16:49:25.659314Z"
+    },
+    {
       "gw": 3,
       "net_points": 1,
       "player_in": 464,
@@ -136,6 +510,17 @@
     }
   ],
   "822375": [
+    {
+      "gw": 4,
+      "net_points": null,
+      "player_in": 154,
+      "player_in_name": "Palmer",
+      "player_out": 426,
+      "player_out_name": "B.Fernandes",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-09-11T14:10:45.557373Z"
+    },
     {
       "gw": 3,
       "net_points": -9,
