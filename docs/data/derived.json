@@ -272,16 +272,16 @@
       {
         "gw": 4,
         "hits": 0,
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "points": 0,
         "vs_average": 0
       },
       {
         "gw": 4,
         "hits": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "1212049",
+        "name": "James Holliss",
         "points": 0,
         "vs_average": 0
       },
@@ -320,16 +320,16 @@
       {
         "gw": 4,
         "hits": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "points": 0,
         "vs_average": 0
       },
       {
         "gw": 4,
         "hits": 0,
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "points": 0,
         "vs_average": 0
       },
@@ -737,13 +737,13 @@
     ],
     "sound_spenders": [
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "value": 0
       },
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "1212049",
+        "name": "James Holliss",
         "value": 0
       },
       {
@@ -759,13 +759,13 @@
         "value": 0
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "value": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "value": 0
       }
     ],
@@ -1560,16 +1560,16 @@
     ],
     "summary": [
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
-        "total_net_points": -5,
-        "transfer_count": 2
-      },
-      {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "total_net_points": 3,
         "transfer_count": 21
+      },
+      {
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "total_net_points": -5,
+        "transfer_count": 2
       },
       {
         "manager_id": "822375",
@@ -1596,15 +1596,15 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "total_net_points": -16,
-        "transfer_count": 2
-      },
-      {
         "manager_id": "3457548",
         "name": "David Lewis",
         "total_net_points": -6,
+        "transfer_count": 2
+      },
+      {
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "total_net_points": -16,
         "transfer_count": 2
       },
       {
@@ -1914,20 +1914,20 @@
     },
     "summary": [
       {
-        "best_vs_average": 36,
-        "manager_id": "1212049",
-        "name": "James Holliss",
-        "weeks_beat_average": 2,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -5
-      },
-      {
         "best_vs_average": 24,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "weeks_beat_average": 3,
         "weeks_lost_to_average": 0,
         "worst_vs_average": 0
+      },
+      {
+        "best_vs_average": 36,
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "weeks_beat_average": 2,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -5
       },
       {
         "best_vs_average": 22,
@@ -1962,20 +1962,20 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 6,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "weeks_beat_average": 1,
-        "weeks_lost_to_average": 2,
-        "worst_vs_average": -3
-      },
-      {
         "best_vs_average": 18,
         "manager_id": "3457548",
         "name": "David Lewis",
         "weeks_beat_average": 2,
         "weeks_lost_to_average": 1,
         "worst_vs_average": -15
+      },
+      {
+        "best_vs_average": 6,
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "weeks_beat_average": 1,
+        "weeks_lost_to_average": 2,
+        "worst_vs_average": -3
       },
       {
         "best_vs_average": 5,
@@ -1989,16 +1989,16 @@
   },
   "weeks_at_top_and_podium": [
     {
-      "manager_id": "1212049",
-      "name": "James Holliss",
-      "weeks_at_top": 3,
-      "weeks_on_podium": 3
-    },
-    {
       "manager_id": "1004578",
       "name": "Adam Beveridge",
       "weeks_at_top": 0,
       "weeks_on_podium": 4
+    },
+    {
+      "manager_id": "1212049",
+      "name": "James Holliss",
+      "weeks_at_top": 3,
+      "weeks_on_podium": 3
     },
     {
       "manager_id": "822375",
@@ -2025,16 +2025,16 @@
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "6975918",
-      "name": "James Cassidy",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
       "manager_id": "3457548",
       "name": "David Lewis",
       "weeks_at_top": 0,
       "weeks_on_podium": 1
+    },
+    {
+      "manager_id": "6975918",
+      "name": "James Cassidy",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
     },
     {
       "manager_id": "817501",
