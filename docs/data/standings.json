@@ -1,43 +1,43 @@
 [
   {
-    "event_total": 87,
+    "event_total": 88,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 1,
     "team_name": "Hamann Overboard",
-    "total": 303
+    "total": 304
   },
   {
-    "event_total": 63,
+    "event_total": 64,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
     "rank": 2,
     "team_name": "Ballack Sabbath",
-    "total": 277
+    "total": 278
   },
   {
-    "event_total": 66,
+    "event_total": 68,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 3,
     "team_name": "Yoro Wizard Harry",
-    "total": 274
+    "total": 276
   },
   {
-    "event_total": 83,
+    "event_total": 85,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 4,
     "team_name": "Kloppafeel",
-    "total": 271
+    "total": 273
   },
   {
-    "event_total": 76,
+    "event_total": 77,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 5,
     "team_name": "Restart The Rutter",
-    "total": 269
+    "total": 270
   },
   {
     "event_total": 66,
@@ -48,12 +48,12 @@
     "total": 262
   },
   {
-    "event_total": 72,
+    "event_total": 73,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 7,
     "team_name": "Jacquet Potato",
-    "total": 256
+    "total": 257
   },
   {
     "event_total": 54,
