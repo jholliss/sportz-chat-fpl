@@ -22,11 +22,11 @@
     },
     {
       "adjusted_rank": 3,
-      "jammy_delta": -2,
+      "jammy_delta": -3,
       "manager_id": "822375",
       "name": "Robbie Paton",
       "points_on_bench": 57,
-      "real_rank": 5,
+      "real_rank": 6,
       "total_plus_bench": 302,
       "total_points": 245
     },
@@ -42,11 +42,11 @@
     },
     {
       "adjusted_rank": 5,
-      "jammy_delta": -1,
+      "jammy_delta": 0,
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
       "points_on_bench": 50,
-      "real_rank": 6,
+      "real_rank": 5,
       "total_plus_bench": 295,
       "total_points": 245
     },
@@ -103,7 +103,7 @@
       "name": "Adam Beveridge"
     },
     {
-      "average_position": 3.5,
+      "average_position": 3.25,
       "manager_id": "4279888",
       "name": "Oliver Dewdney"
     },
@@ -118,17 +118,17 @@
       "name": "James Petrie"
     },
     {
-      "average_position": 5.5,
+      "average_position": 6,
       "manager_id": "3457548",
       "name": "David Lewis"
     },
     {
-      "average_position": 6.25,
+      "average_position": 6.5,
       "manager_id": "822375",
       "name": "Robbie Paton"
     },
     {
-      "average_position": 7.5,
+      "average_position": 7,
       "manager_id": "817501",
       "name": "Andrew David"
     },
@@ -326,20 +326,20 @@
         "vs_average": -5
       },
       {
-        "gw": 4,
-        "hits": 0,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "points": 47,
-        "vs_average": 5
-      },
-      {
         "gw": 1,
         "hits": 0,
         "manager_id": "6975918",
         "name": "James Cassidy",
         "points": 47,
         "vs_average": -3
+      },
+      {
+        "gw": 4,
+        "hits": 0,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "points": 47,
+        "vs_average": 5
       },
       {
         "gw": 3,
@@ -708,13 +708,13 @@
         "value": 184
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "3457548",
+        "name": "David Lewis",
         "value": 188
       },
       {
-        "manager_id": "3457548",
-        "name": "David Lewis",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "value": 188
       }
     ],
@@ -754,18 +754,18 @@
     ],
     "spend_thrifts": [
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "value": 0
-      },
-      {
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "value": 0
-      },
-      {
         "manager_id": "3457548",
         "name": "David Lewis",
+        "value": 0
+      },
+      {
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "value": 0
+      },
+      {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       }
     ],
@@ -1584,24 +1584,6 @@
         "transfer_count": 0
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "total_net_points": -9,
-        "transfer_count": 2
-      },
-      {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
-        "total_net_points": -1,
-        "transfer_count": 3
-      },
-      {
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "total_net_points": -6,
-        "transfer_count": 2
-      },
-      {
         "manager_id": "817501",
         "name": "Andrew David",
         "total_net_points": 1,
@@ -1611,6 +1593,24 @@
         "manager_id": "6975918",
         "name": "James Cassidy",
         "total_net_points": -16,
+        "transfer_count": 2
+      },
+      {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "total_net_points": -1,
+        "transfer_count": 3
+      },
+      {
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "total_net_points": -9,
+        "transfer_count": 2
+      },
+      {
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "total_net_points": -6,
         "transfer_count": 2
       }
     ],
@@ -1946,30 +1946,6 @@
         "worst_vs_average": 0
       },
       {
-        "best_vs_average": 22,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "weeks_beat_average": 3,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -12
-      },
-      {
-        "best_vs_average": 19,
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
-        "weeks_beat_average": 2,
-        "weeks_lost_to_average": 2,
-        "worst_vs_average": -6
-      },
-      {
-        "best_vs_average": 18,
-        "manager_id": "3457548",
-        "name": "David Lewis",
-        "weeks_beat_average": 3,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -15
-      },
-      {
         "best_vs_average": 5,
         "manager_id": "817501",
         "name": "Andrew David",
@@ -1984,6 +1960,30 @@
         "weeks_beat_average": 1,
         "weeks_lost_to_average": 2,
         "worst_vs_average": -3
+      },
+      {
+        "best_vs_average": 19,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "weeks_beat_average": 2,
+        "weeks_lost_to_average": 2,
+        "worst_vs_average": -6
+      },
+      {
+        "best_vs_average": 22,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "weeks_beat_average": 3,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -12
+      },
+      {
+        "best_vs_average": 18,
+        "manager_id": "3457548",
+        "name": "David Lewis",
+        "weeks_beat_average": 3,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -15
       }
     ]
   },
@@ -2013,24 +2013,6 @@
       "weeks_on_podium": 1
     },
     {
-      "manager_id": "822375",
-      "name": "Robbie Paton",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 0
-    },
-    {
-      "manager_id": "4279888",
-      "name": "Oliver Dewdney",
-      "weeks_at_top": 1,
-      "weeks_on_podium": 2
-    },
-    {
-      "manager_id": "3457548",
-      "name": "David Lewis",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 1
-    },
-    {
       "manager_id": "817501",
       "name": "Andrew David",
       "weeks_at_top": 0,
@@ -2041,6 +2023,24 @@
       "name": "James Cassidy",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
+    },
+    {
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
+      "weeks_at_top": 1,
+      "weeks_on_podium": 2
+    },
+    {
+      "manager_id": "822375",
+      "name": "Robbie Paton",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
+    },
+    {
+      "manager_id": "3457548",
+      "name": "David Lewis",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 1
     }
   ],
   "wins_and_podiums_alltime": [
