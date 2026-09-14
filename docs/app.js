@@ -139,6 +139,67 @@ function emptyChartMessage(canvasId, message) {
 }
 
 /* ---------- chart helpers ---------- */
+
+// Draws a small filled circle with initials at each line's rightmost
+// (most recent) data point, instead of a legend. Declutters: if two
+// series end close together vertically, their pills would overlap, so
+// end points are sorted by y and pushed apart to a minimum spacing.
+const endLabelsPlugin = {
+  id: "endLabels",
+  afterDatasetsDraw(chart) {
+    const { ctx, chartArea } = chart;
+    const radius = 9;
+    const gap = 4;
+    const minSpacing = radius * 2 + 2;
+
+    const points = [];
+    chart.data.datasets.forEach((ds, i) => {
+      const meta = chart.getDatasetMeta(i);
+      if (meta.hidden) return;
+      let lastIdx = ds.data.length - 1;
+      while (lastIdx >= 0 && (ds.data[lastIdx] === null || ds.data[lastIdx] === undefined)) lastIdx--;
+      if (lastIdx < 0) return;
+      const point = meta.data[lastIdx];
+      if (!point) return;
+      points.push({ x: point.x, y: point.y, color: ds.borderColor, text: ds.initials || ds.label });
+    });
+    if (!points.length) return;
+
+    points.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < points.length; i++) {
+      const minY = points[i - 1].y + minSpacing;
+      if (points[i].y < minY) points[i].y = minY;
+    }
+    // If the forward pass pushed the last pill(s) past the bottom of
+    // the chart, pull the whole stack back up from the bottom instead
+    // of letting them run off the edge.
+    const maxY = chartArea.bottom - radius;
+    if (points[points.length - 1].y > maxY) {
+      let y = maxY;
+      for (let i = points.length - 1; i >= 0; i--) {
+        if (points[i].y > y) points[i].y = y;
+        y = points[i].y - minSpacing;
+      }
+    }
+
+    const lineEndX = points[0].x;
+    const cx = lineEndX + gap + radius;
+    ctx.save();
+    ctx.font = "600 9px system-ui, -apple-system, sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    points.forEach((p) => {
+      ctx.beginPath();
+      ctx.arc(cx, p.y, radius, 0, Math.PI * 2);
+      ctx.fillStyle = p.color;
+      ctx.fill();
+      ctx.fillStyle = "#fff";
+      ctx.fillText(p.text, cx, p.y + 0.5);
+    });
+    ctx.restore();
+  },
+};
+
 function chartDefaults() {
   return {
     responsive: true,
@@ -160,32 +221,42 @@ function makeLineChart(canvasId, labels, datasets, opts = {}) {
   if (CHARTS[canvasId]) CHARTS[canvasId].destroy();
   const defaults = chartDefaults();
 
-  const showLegend = opts.forceLegend || (datasets.length > 1 && datasets.length <= 3);
-  const legend = { ...defaults.plugins.legend, display: showLegend };
-  if (opts.legendInitials) {
-    // Compact legend: show each series' initials (set on the dataset
-    // as `initials`) instead of its full label, so a 9-manager chart
-    // doesn't wrap into an unreadable multi-line legend. The tooltip
-    // still reads dataset.label (full name) untouched.
-    legend.labels = {
-      ...legend.labels,
-      generateLabels: (chart) =>
-        chart.data.datasets.map((ds, i) => ({
-          text: ds.initials || ds.label,
-          fillStyle: ds.borderColor,
-          strokeStyle: ds.borderColor,
-          lineWidth: 0,
-          hidden: !chart.isDatasetVisible(i),
-          datasetIndex: i,
-        })),
-    };
+  // End-labels (small initials pill at each line's rightmost point)
+  // replace the legend entirely when enabled -- no need for both.
+  let legend = { ...defaults.plugins.legend, display: false };
+  const plugins = [];
+  if (opts.endLabels) {
+    plugins.push(endLabelsPlugin);
+  } else {
+    const showLegend = opts.forceLegend || (datasets.length > 1 && datasets.length <= 3);
+    legend = { ...legend, display: showLegend };
+    if (opts.legendInitials) {
+      // Compact legend: show each series' initials (set on the dataset
+      // as `initials`) instead of its full label, so a 9-manager chart
+      // doesn't wrap into an unreadable multi-line legend. The tooltip
+      // still reads dataset.label (full name) untouched.
+      legend.labels = {
+        ...legend.labels,
+        generateLabels: (chart) =>
+          chart.data.datasets.map((ds, i) => ({
+            text: ds.initials || ds.label,
+            fillStyle: ds.borderColor,
+            strokeStyle: ds.borderColor,
+            lineWidth: 0,
+            hidden: !chart.isDatasetVisible(i),
+            datasetIndex: i,
+          })),
+      };
+    }
   }
 
   CHARTS[canvasId] = new Chart(ctx, {
     type: "line",
     data: { labels, datasets },
+    plugins,
     options: {
       ...defaults,
+      layout: opts.endLabels ? { padding: { right: 26 } } : defaults.layout,
       scales: { ...defaults.scales, y: { ...defaults.scales.y, reverse: !!opts.reverseY } },
       plugins: { ...defaults.plugins, legend },
     },
@@ -214,7 +285,7 @@ function resizeAllCharts() {
 }
 
 /* ---------- manager-picker line chart (shared pattern) ---------- */
-function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey, reverseY, initialsLegend }) {
+function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey, reverseY, initialsLegend, endLabels }) {
   const picker = document.getElementById(pickerId);
   const managerIds = sortedManagerIds().filter((mid) => seriesByManager[mid]);
   picker.innerHTML = '<option value="__all__">All managers</option>';
@@ -241,6 +312,7 @@ function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey
       reverseY,
       forceLegend: initialsLegend,
       legendInitials: initialsLegend,
+      endLabels,
     });
   }
   picker.addEventListener("change", draw);
@@ -424,7 +496,7 @@ function renderRank() {
     seriesByManager: DATA.derived.league_position_trend,
     valueKey: "position",
     reverseY: true,
-    initialsLegend: true,
+    endLabels: true,
   });
 
   setupManagerPickerChart({
@@ -433,7 +505,7 @@ function renderRank() {
     seriesByManager: DATA.derived.overall_rank_trend,
     valueKey: "overall_rank",
     reverseY: true,
-    initialsLegend: true,
+    endLabels: true,
   });
 }
 
