@@ -594,6 +594,44 @@ async function loadAll() {
   assignManagerColors();
 }
 
+// Rotating quote banner, top-right of the header. Independent of the
+// main data load (a missing/broken quotes.json just hides the banner
+// rather than breaking the site) and started once in main() -- the
+// header is shared markup outside the tab-panels, so this keeps
+// rotating no matter which tab is showing.
+async function loadQuotes() {
+  try {
+    return await fetchJSON("data/quotes.json");
+  } catch (err) {
+    console.warn("Could not load quotes.json:", err.message);
+    return [];
+  }
+}
+
+function startQuoteRotation(quotes) {
+  const banner = document.getElementById("quote-banner");
+  if (!quotes || quotes.length === 0) {
+    banner.style.display = "none";
+    return;
+  }
+  const textEl = document.getElementById("quote-text");
+  const attrEl = document.getElementById("quote-attribution");
+
+  let i = 0;
+  function show(index) {
+    const q = quotes[index];
+    textEl.textContent = `"${q.text}"`;
+    attrEl.textContent = q.attribution ? `— ${q.attribution}` : "";
+  }
+  show(i);
+  if (quotes.length > 1) {
+    setInterval(() => {
+      i = (i + 1) % quotes.length;
+      show(i);
+    }, 5000);
+  }
+}
+
 async function main() {
   initNav();
   try {
@@ -607,6 +645,8 @@ async function main() {
     ? `${Object.keys(DATA.managers).length} managers this season`
     : "Waiting for the season to start…";
   document.getElementById("footer-note").textContent = "sportz-chat-fpl, updated hourly.";
+
+  loadQuotes().then(startQuoteRotation);
 
   renderHome();
   renderRank();

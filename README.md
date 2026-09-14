@@ -82,6 +82,15 @@ script's docstring for details and caveats (notably: `league_rank` for backfille
 seasons is this friend group's own points ranking among whoever has data, not a
 verified reconstruction of an actual league standings snapshot).
 
+## Quote banner
+
+`docs/data/quotes.json` is a static, hand-curated list of in-jokes shown in the
+top-right of the header, rotating every 5 seconds -- same category as
+`historic.json`: never touched by the recurring pipeline, just edit the file
+directly. Each entry is `{"text": "...", "attribution": "..."}` (attribution is
+optional). Fetched independently of the rest of the site's data -- a missing or
+malformed `quotes.json` just hides the banner, it won't break anything else.
+
 ## Local development
 
 ```

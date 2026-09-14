@@ -85,9 +85,17 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
   background: color-mix(in srgb, var(--page-plane) 88%, transparent);
   backdrop-filter: blur(10px);
   padding: 14px 16px 10px;
+}
+
+header.site-header .header-main {
+  flex-shrink: 0;
 }
 
 header.site-header h1 {
@@ -101,6 +109,30 @@ header.site-header p.subtitle {
   margin: 2px 0 0;
   color: var(--text-muted);
   font-size: 0.8rem;
+}
+
+.quote-banner {
+  flex: 1;
+  min-width: 0;
+  max-width: 62%;
+  text-align: right;
+  padding-top: 1px;
+}
+
+.quote-banner .quote-text {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.quote-banner .quote-attribution {
+  margin: 2px 0 0;
+  color: var(--text-muted);
+  font-size: 0.66rem;
+  line-height: 1.3;
 }
 
 /* ---------- layout ---------- */
