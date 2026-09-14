@@ -28,6 +28,16 @@ function colorFor(managerId) {
   return MANAGER_COLORS[managerId] || cssVar("--text-muted");
 }
 
+// "James Holliss" -> "JH" -- used for compact chart legends where a
+// full name per series (up to 9 managers) would be too cluttered.
+function initials(name) {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((part) => part[0].toUpperCase())
+    .join("");
+}
+
 function fmtNum(n) {
   if (n === null || n === undefined) return "–";
   return Number(n).toLocaleString();
@@ -149,13 +159,35 @@ function makeLineChart(canvasId, labels, datasets, opts = {}) {
   const ctx = document.getElementById(canvasId);
   if (CHARTS[canvasId]) CHARTS[canvasId].destroy();
   const defaults = chartDefaults();
+
+  const showLegend = opts.forceLegend || (datasets.length > 1 && datasets.length <= 3);
+  const legend = { ...defaults.plugins.legend, display: showLegend };
+  if (opts.legendInitials) {
+    // Compact legend: show each series' initials (set on the dataset
+    // as `initials`) instead of its full label, so a 9-manager chart
+    // doesn't wrap into an unreadable multi-line legend. The tooltip
+    // still reads dataset.label (full name) untouched.
+    legend.labels = {
+      ...legend.labels,
+      generateLabels: (chart) =>
+        chart.data.datasets.map((ds, i) => ({
+          text: ds.initials || ds.label,
+          fillStyle: ds.borderColor,
+          strokeStyle: ds.borderColor,
+          lineWidth: 0,
+          hidden: !chart.isDatasetVisible(i),
+          datasetIndex: i,
+        })),
+    };
+  }
+
   CHARTS[canvasId] = new Chart(ctx, {
     type: "line",
     data: { labels, datasets },
     options: {
       ...defaults,
       scales: { ...defaults.scales, y: { ...defaults.scales.y, reverse: !!opts.reverseY } },
-      plugins: { ...defaults.plugins, legend: { ...defaults.plugins.legend, display: datasets.length > 1 && datasets.length <= 3 } },
+      plugins: { ...defaults.plugins, legend },
     },
   });
 }
@@ -182,7 +214,7 @@ function resizeAllCharts() {
 }
 
 /* ---------- manager-picker line chart (shared pattern) ---------- */
-function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey, reverseY }) {
+function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey, reverseY, initialsLegend }) {
   const picker = document.getElementById(pickerId);
   const managerIds = sortedManagerIds().filter((mid) => seriesByManager[mid]);
   picker.innerHTML = '<option value="__all__">All managers</option>';
@@ -198,13 +230,18 @@ function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey
     const labels = seriesByManager[ids[0]].map((p) => `GW${p.gw}`);
     const datasets = ids.map((mid) => ({
       label: DATA.managers[mid].name,
+      initials: initials(DATA.managers[mid].name),
       data: seriesByManager[mid].map((p) => p[valueKey]),
       borderColor: colorFor(mid),
       backgroundColor: colorFor(mid),
       borderWidth: 2,
       pointRadius: 0,
     }));
-    makeLineChart(canvasId, labels, datasets, { reverseY });
+    makeLineChart(canvasId, labels, datasets, {
+      reverseY,
+      forceLegend: initialsLegend,
+      legendInitials: initialsLegend,
+    });
   }
   picker.addEventListener("change", draw);
   if (managerIds.length) draw();
@@ -387,6 +424,7 @@ function renderRank() {
     seriesByManager: DATA.derived.league_position_trend,
     valueKey: "position",
     reverseY: true,
+    initialsLegend: true,
   });
 
   setupManagerPickerChart({
@@ -395,6 +433,7 @@ function renderRank() {
     seriesByManager: DATA.derived.overall_rank_trend,
     valueKey: "overall_rank",
     reverseY: true,
+    initialsLegend: true,
   });
 }
 

@@ -49,27 +49,33 @@
     <!-- ============ SEASON ============ -->
     <section class="tab-panel" id="tab-season">
       <nav class="pill-tabs" id="season-pills">
-        <button data-sub="rank" class="active">Rank</button>
+        <button data-sub="transfers" class="active">Transfers</button>
         <button data-sub="bench">Bench</button>
-        <button data-sub="transfers">Transfers</button>
+        <button data-sub="rank">Rank</button>
         <button data-sub="chips">Chips</button>
         <button data-sub="captaincy">Captaincy</button>
         <button data-sub="average">Vs Average</button>
         <button data-sub="records">Records</button>
       </nav>
 
-      <div class="sub-panel active" id="sub-rank">
+      <div class="sub-panel active" id="sub-transfers">
         <div class="card">
-          <h3>League Position by Week</h3>
-          <p class="card-caption">This league's own rank (1-9) each gameweek</p>
-          <select class="manager-picker" id="league-position-manager-picker" style="margin-bottom:8px"></select>
-          <div class="chart-wrap"><canvas id="chart-league-position"></canvas></div>
+          <h3>Net Points from Transfers</h3>
+          <p class="card-caption">Points gained or lost from the actual player swaps</p>
+          <ul class="rank-list" id="net-points-summary"></ul>
         </div>
         <div class="card">
-          <h3>Overall Rank by GW</h3>
-          <p class="card-caption">Whole-FPL rank (not just league rank), lower is better</p>
-          <select class="manager-picker" id="overallrank-manager-picker" style="margin-bottom:8px"></select>
-          <div class="chart-wrap"><canvas id="chart-overall-rank"></canvas></div>
+          <h3>Total Transfers &amp; Hits</h3>
+          <p class="card-caption">Points lost to -4/-8 hits taken across the season</p>
+          <ul class="rank-list" id="transfers-and-hits"></ul>
+        </div>
+        <div class="card">
+          <h3>Best Transfers</h3>
+          <ul class="rank-list" id="best-transfers"></ul>
+        </div>
+        <div class="card">
+          <h3>Worst Transfers</h3>
+          <ul class="rank-list" id="worst-transfers"></ul>
         </div>
       </div>
 
@@ -90,24 +96,18 @@
         </div>
       </div>
 
-      <div class="sub-panel" id="sub-transfers">
+      <div class="sub-panel" id="sub-rank">
         <div class="card">
-          <h3>Net Points from Transfers</h3>
-          <p class="card-caption">Points gained or lost from the actual player swaps</p>
-          <ul class="rank-list" id="net-points-summary"></ul>
+          <h3>League Position by Week</h3>
+          <p class="card-caption">This league's own rank (1-9) each gameweek</p>
+          <select class="manager-picker" id="league-position-manager-picker" style="margin-bottom:8px"></select>
+          <div class="chart-wrap"><canvas id="chart-league-position"></canvas></div>
         </div>
         <div class="card">
-          <h3>Total Transfers &amp; Hits</h3>
-          <p class="card-caption">Points lost to -4/-8 hits taken across the season</p>
-          <ul class="rank-list" id="transfers-and-hits"></ul>
-        </div>
-        <div class="card">
-          <h3>Best Transfers</h3>
-          <ul class="rank-list" id="best-transfers"></ul>
-        </div>
-        <div class="card">
-          <h3>Worst Transfers</h3>
-          <ul class="rank-list" id="worst-transfers"></ul>
+          <h3>Overall Rank by GW</h3>
+          <p class="card-caption">Whole-FPL rank (not just league rank), lower is better</p>
+          <select class="manager-picker" id="overallrank-manager-picker" style="margin-bottom:8px"></select>
+          <div class="chart-wrap"><canvas id="chart-overall-rank"></canvas></div>
         </div>
       </div>
 
@@ -200,8 +200,8 @@
       Home
     </button>
     <button data-tab="season">
-      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2" /><path d="M3 9h18M8 2v4M16 2v4" /></svg></span>
-      Season
+      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10" /><path d="M12 20V4" /><path d="M20 20v-7" /></svg></span>
+      Statz
     </button>
     <button data-tab="alltime">
       <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 01-10 0V4z" /><path d="M7 6H4a2 2 0 002 4M17 6h3a2 2 0 01-2 4" /></svg></span>
