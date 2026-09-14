@@ -60,13 +60,22 @@
       <div class="sub-panel active" id="sub-bench">
         <div class="card">
           <h3>Adjusted Table</h3>
-          <p class="card-caption">Standings if bench points counted. "Jammy" = ranked better than your bench-adjusted rank deserves.</p>
+          <p class="card-caption">Standings if bench points counted</p>
           <ul class="rank-list" id="adjusted-table"></ul>
         </div>
         <div class="card">
           <h3>Points on Bench by Week</h3>
           <div class="top-row"><span></span><select class="manager-picker" id="bench-manager-picker"></select></div>
           <div class="chart-wrap"><canvas id="chart-bench-by-week"></canvas></div>
+        </div>
+        <div class="card">
+          <h3>Jammy</h3>
+          <p class="card-caption">Points scored by bench players who came on via an automatic substitution (a starter blanked, so a bench player you didn't intend to start got the nod)</p>
+          <ul class="rank-list" id="jammy-leaderboard"></ul>
+        </div>
+        <div class="card">
+          <h3>Best Auto-Sub Moments</h3>
+          <ul class="rank-list" id="jammy-best-subs"></ul>
         </div>
       </div>
 

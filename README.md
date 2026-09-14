@@ -21,6 +21,24 @@ GitHub Actions (hourly)  ->  scripts/update.py  ->  docs/data/*.json  ->  GitHub
 - `docs/` is a plain HTML/CSS/JS site (Chart.js via CDN, no build step) that reads
   those JSON files directly.
 
+### "Jammy" vs the Adjusted Table — two different concepts, don't conflate them
+
+- **Adjusted Table** (`compute_adjusted_table`): a hypothetical — standings re-ranked
+  by `total_points + points_on_bench`, i.e. "what if every point you ever left on
+  the bench had actually counted." Never really happened; just a what-if.
+- **Jammy** (`compute_jammy_leaderboard`): real, already-happened points — the sum of
+  what bench players scored when they came on via an FPL **automatic substitution**
+  (a starter blanked with 0 minutes, so the game auto-promoted a bench player who
+  wasn't meant to start that week). Genuinely unearned, lucky points.
+
+These two used to be conflated (an early version mislabeled the Adjusted Table's
+rank-delta as "Jammy"/"Unlucky", which didn't hold up under scrutiny). Autosub data
+comes from the FPL API's `automatic_subs` field on the `/entry/{id}/event/{gw}/picks/`
+endpoint — the same call already made for captain results, so `fetch_picks_derived()`
+extracts both captain and autosub data from one API call per manager per gameweek,
+cached incrementally in `docs/data/captains.json` and `docs/data/autosubs.json`
+respectively (both keyed manager → finished gameweek, never refetched once cached).
+
 ## Changing the league
 
 Edit `docs/data/config.json` -> `league_id`. FPL classic league IDs are **not**

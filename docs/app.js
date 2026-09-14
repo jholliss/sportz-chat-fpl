@@ -255,13 +255,7 @@ function renderBench() {
   renderRankList("adjusted-table", DATA.derived.adjusted_table, {
     numbered: true,
     name: (r) => r.name,
-    sub: (r) => {
-      // jammy_delta > 0 = ranked better than bench-adjusted rank
-      // deserves (jammy); < 0 = ranked worse (unlucky) -- the label
-      // must track the sign, not just say "Jammy" for every row.
-      const label = r.jammy_delta > 0 ? "Jammy" : r.jammy_delta < 0 ? "Unlucky" : "Even";
-      return mix(`Total ${fmtNum(r.total_points)} · ${label} `, signedNode(r.jammy_delta));
-    },
+    sub: (r) => `Total ${fmtNum(r.total_points)}`,
     value: (r) => fmtNum(r.total_plus_bench),
   });
 
@@ -270,6 +264,20 @@ function renderBench() {
     canvasId: "chart-bench-by-week",
     seriesByManager: DATA.derived.points_on_bench_by_week,
     valueKey: "points_on_bench",
+  });
+
+  renderRankList("jammy-leaderboard", DATA.derived.jammy.summary, {
+    name: (r) => r.name,
+    sub: (r) => `${r.sub_count} auto-sub${r.sub_count === 1 ? "" : "s"}`,
+    value: (r) => fmtNum(r.total_jammy_points),
+    emptyMessage: "No automatic substitutions yet.",
+  });
+
+  renderRankList("jammy-best-subs", DATA.derived.jammy.best_subs, {
+    name: (r) => r.name,
+    sub: (r) => `GW${r.gw}: ${r.player_in_name}`,
+    value: (r) => fmtNum(r.points_in),
+    emptyMessage: "No automatic substitutions yet.",
   });
 }
 

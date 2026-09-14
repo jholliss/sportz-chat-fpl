@@ -150,17 +150,29 @@ def fetch_live_points(finished_gws, cache):
     return live_points
 
 
-def fetch_captains(manager_ids, finished_gws, live_points, cache):
-    """{manager_id: {gw (str): {captain_points, best_possible_points,
-    picked_best_captain, captain_delta}}}. Only computes gameweeks not
-    already cached per manager -- captain results for a finished
-    gameweek never change, so once cached they're never refetched."""
-    captains = {mid: dict(cache.get(mid, {})) for mid in manager_ids}
+def fetch_picks_derived(manager_ids, finished_gws, live_points, captains_cache, autosubs_cache):
+    """Single pass over each manager's /event/{gw}/picks/ per finished
+    gameweek, producing both `captains` and `autosubs` results from
+    the same API call -- no need to fetch picks twice for two
+    different stats. Only fetches gameweeks missing from BOTH caches;
+    results for a finished gameweek never change once cached.
+
+    captains: {manager_id: {gw (str): {captain_points,
+    best_possible_points, picked_best_captain, captain_delta}}}
+
+    autosubs: {manager_id: {gw (str): [{element_in, element_out,
+    points_in}]}} -- the FPL API's own `automatic_subs` list: a
+    bench player who wasn't meant to start, but did because a
+    starter blanked (0 minutes). points_in is what that auto-subbed
+    player scored -- the "Jammy" stat: unearned points from a bench
+    player who lucked into a start."""
+    captains = {mid: dict(captains_cache.get(mid, {})) for mid in manager_ids}
+    autosubs = {mid: dict(autosubs_cache.get(mid, {})) for mid in manager_ids}
 
     for manager_id in manager_ids:
         for gw in finished_gws:
             key = str(gw)
-            if key in captains[manager_id]:
+            if key in captains[manager_id] and key in autosubs[manager_id]:
                 continue
 
             picks_data = fpl_api.get_picks(manager_id, gw)
@@ -168,34 +180,36 @@ def fetch_captains(manager_ids, finished_gws, live_points, cache):
             gw_points = live_points.get(key, {})
 
             starters = [p for p in picks if p["position"] <= 11]
-            if not starters:
-                continue
+            captain_pick = next((p for p in picks if p["multiplier"] in (2, 3)), None)
+            if starters and captain_pick is not None:
+                captain_base = gw_points.get(str(captain_pick["element"]), 0)
+                captain_points = captain_base * captain_pick["multiplier"]
 
-            captain_pick = next(
-                (p for p in picks if p["multiplier"] in (2, 3)), None
-            )
-            if captain_pick is None:
-                continue
+                best_element, best_base = max(
+                    ((p["element"], gw_points.get(str(p["element"]), 0)) for p in starters),
+                    key=lambda pair: pair[1],
+                )
+                best_possible_points = best_base * captain_pick["multiplier"]
 
-            captain_base = gw_points.get(str(captain_pick["element"]), 0)
-            captain_points = captain_base * captain_pick["multiplier"]
+                captains[manager_id][key] = {
+                    "captain_element": captain_pick["element"],
+                    "captain_points": captain_points,
+                    "best_element": best_element,
+                    "best_possible_points": best_possible_points,
+                    "picked_best_captain": int(captain_pick["element"] == best_element),
+                    "captain_delta": captain_points - best_possible_points,
+                }
 
-            best_element, best_base = max(
-                ((p["element"], gw_points.get(str(p["element"]), 0)) for p in starters),
-                key=lambda pair: pair[1],
-            )
-            best_possible_points = best_base * captain_pick["multiplier"]
+            autosubs[manager_id][key] = [
+                {
+                    "element_in": sub["element_in"],
+                    "element_out": sub["element_out"],
+                    "points_in": gw_points.get(str(sub["element_in"]), 0),
+                }
+                for sub in picks_data.get("automatic_subs", [])
+            ]
 
-            captains[manager_id][key] = {
-                "captain_element": captain_pick["element"],
-                "captain_points": captain_points,
-                "best_element": best_element,
-                "best_possible_points": best_possible_points,
-                "picked_best_captain": int(captain_pick["element"] == best_element),
-                "captain_delta": captain_points - best_possible_points,
-            }
-
-    return captains
+    return captains, autosubs
 
 
 def fetch_transfers(manager_ids, live_points, players_by_id):
@@ -255,7 +269,10 @@ def fetch_all():
     live_points = fetch_live_points(finished_gws, live_points_cache)
 
     captains_cache = load_json("captains.json", {})
-    captains = fetch_captains(manager_ids, finished_gws, live_points, captains_cache)
+    autosubs_cache = load_json("autosubs.json", {})
+    captains, autosubs = fetch_picks_derived(
+        manager_ids, finished_gws, live_points, captains_cache, autosubs_cache
+    )
 
     transfers = fetch_transfers(manager_ids, live_points, players_by_id)
 
@@ -267,6 +284,7 @@ def fetch_all():
         "gameweeks": gameweeks,
         "live_points": live_points,
         "captains": captains,
+        "autosubs": autosubs,
         "transfers": transfers,
         "players_by_id": players_by_id,
     }

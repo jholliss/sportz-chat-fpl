@@ -82,6 +82,7 @@ def main():
         {k: v for k, v in fetched["gameweeks"].items() if not k.endswith(":chips")},
     )
     write_json("captains.json", fetched["captains"])
+    write_json("autosubs.json", fetched["autosubs"])
     write_json("transfers.json", fetched["transfers"])
     write_json("live_points.json", fetched["live_points"])
     write_json("players.json", simplify_players(fetched["bootstrap"]))

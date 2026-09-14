@@ -95,10 +95,11 @@ def compute_bench_leaderboard(gameweeks, managers):
 
 
 def compute_adjusted_table(gameweeks, managers):
-    """Adjusted Table + "Jammy Bastards": standings re-ranked by
-    Total Pts + Total Bench Points, and the delta between real rank and
-    this adjusted rank (positive = ranked better than bench-adjusted
-    rank deserves = jammy)."""
+    """Adjusted Table: standings re-ranked by Total Pts + Total Bench
+    Points, i.e. as if every point left unused on the bench had
+    actually counted. (NOT the "Jammy" stat -- that's a separate
+    concept, see compute_jammy_leaderboard: the points scored by
+    players who came on via an automatic substitution.)"""
     rows = []
     for mid, gws in gameweeks.items():
         if ":chips" in mid:
@@ -114,21 +115,6 @@ def compute_adjusted_table(gameweeks, managers):
                 "total_plus_bench": total_pts + pob,
             }
         )
-
-    real_rank = {
-        r["manager_id"]: i + 1
-        for i, r in enumerate(sorted(rows, key=lambda r: r["total_points"], reverse=True))
-    }
-    adjusted_rank = {
-        r["manager_id"]: i + 1
-        for i, r in enumerate(sorted(rows, key=lambda r: r["total_plus_bench"], reverse=True))
-    }
-
-    for r in rows:
-        r["real_rank"] = real_rank[r["manager_id"]]
-        r["adjusted_rank"] = adjusted_rank[r["manager_id"]]
-        # Positive => real rank number is worse than adjusted => jammy (benefited from luck).
-        r["jammy_delta"] = adjusted_rank[r["manager_id"]] - real_rank[r["manager_id"]]
 
     rows.sort(key=lambda r: r["total_plus_bench"], reverse=True)
     return rows
@@ -402,6 +388,47 @@ def compute_captaincy_summary(captains, gameweeks, managers):
     return {"summary": summary, "series": series}
 
 
+def compute_jammy_leaderboard(autosubs, managers, players_by_id):
+    """Jammy: total points scored by players who came on via an
+    automatic substitution -- a bench player you didn't intend to
+    start, who scored, because someone in your starting XI blanked
+    (0 minutes). Genuinely lucky, unearned points -- distinct from
+    the Adjusted Table's "what if bench points counted" hypothetical,
+    which never actually happened."""
+    summary = []
+    all_subs = []
+    for mid, gws in autosubs.items():
+        name = _name(managers, mid)
+        total_points = 0
+        sub_count = 0
+        for gw, subs in gws.items():
+            for sub in subs:
+                total_points += sub["points_in"]
+                sub_count += 1
+                if sub["points_in"] > 0:
+                    all_subs.append(
+                        {
+                            "manager_id": mid,
+                            "name": name,
+                            "gw": int(gw),
+                            "player_in_name": players_by_id.get(sub["element_in"], "?"),
+                            "points_in": sub["points_in"],
+                        }
+                    )
+        summary.append(
+            {
+                "manager_id": mid,
+                "name": name,
+                "total_jammy_points": total_points,
+                "sub_count": sub_count,
+            }
+        )
+
+    summary.sort(key=lambda r: r["total_jammy_points"], reverse=True)
+    best_subs = sorted(all_subs, key=lambda s: s["points_in"], reverse=True)[:10]
+    return {"summary": summary, "best_subs": best_subs}
+
+
 def compute_transfers_summary(transfers, gameweeks, managers):
     """Total Transfers & Hits (transfer count + points lost to -4/-8/etc
     hits, as points not hit-count), Net Points from Transfers (net
@@ -504,6 +531,7 @@ def compute_all(fetched, historic):
         "best_worst_scores": compute_best_worst_scores(gameweeks, managers, bootstrap_events),
         "chip_usage": compute_chip_usage(gameweeks, managers, bootstrap_events),
         "captaincy": compute_captaincy_summary(fetched["captains"], gameweeks, managers),
+        "jammy": compute_jammy_leaderboard(fetched["autosubs"], managers, fetched["players_by_id"]),
         "transfers_summary": compute_transfers_summary(fetched["transfers"], gameweeks, managers),
         "top10_all_time": compute_top10_all_time(historic),
         "wins_and_podiums_alltime": compute_wins_and_podiums_alltime(historic),
