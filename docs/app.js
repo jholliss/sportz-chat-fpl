@@ -244,11 +244,6 @@ function renderHome() {
   const f = DATA.derived.form;
   renderRankList("home-in-form", f.in_form, { name: (r) => r.name, value: (r) => fmtNum(r.value) });
   renderRankList("home-in-freefall", f.in_freefall, { name: (r) => r.name, value: (r) => fmtNum(r.value) });
-}
-
-/* ---------- Season: Form ---------- */
-function renderForm() {
-  const f = DATA.derived.form;
   renderRankList("sound-spenders", f.sound_spenders, { name: (r) => r.name, value: (r) => fmtNum(r.value) });
   renderRankList("spend-thrifts", f.spend_thrifts, { name: (r) => r.name, value: (r) => fmtNum(r.value) });
   renderRankList("tactical-masters", f.tactical_masters, { name: (r) => r.name, value: (r) => fmtNum(r.value) });
@@ -260,7 +255,13 @@ function renderBench() {
   renderRankList("adjusted-table", DATA.derived.adjusted_table, {
     numbered: true,
     name: (r) => r.name,
-    sub: (r) => mix(`Total ${fmtNum(r.total_points)} · Jammy `, signedNode(r.jammy_delta)),
+    sub: (r) => {
+      // jammy_delta > 0 = ranked better than bench-adjusted rank
+      // deserves (jammy); < 0 = ranked worse (unlucky) -- the label
+      // must track the sign, not just say "Jammy" for every row.
+      const label = r.jammy_delta > 0 ? "Jammy" : r.jammy_delta < 0 ? "Unlucky" : "Even";
+      return mix(`Total ${fmtNum(r.total_points)} · ${label} `, signedNode(r.jammy_delta));
+    },
     value: (r) => fmtNum(r.total_plus_bench),
   });
 
@@ -274,9 +275,14 @@ function renderBench() {
 
 /* ---------- Season: Transfers ---------- */
 function renderTransfers() {
-  renderRankList("transfers-summary", DATA.derived.transfers_summary.summary, {
+  renderRankList("transfers-and-hits", DATA.derived.transfers_summary.transfers_and_hits, {
     name: (r) => r.name,
     sub: (r) => `${r.transfer_count} transfers`,
+    value: (r) => signedNode(r.hit_points),
+  });
+
+  renderRankList("net-points-summary", DATA.derived.transfers_summary.net_points_summary, {
+    name: (r) => r.name,
     value: (r) => signedNode(r.total_net_points),
   });
 
@@ -342,13 +348,6 @@ function renderCaptaincy() {
 
 /* ---------- Season: Vs Average ---------- */
 function renderAverage() {
-  setupManagerPickerChart({
-    pickerId: "average-manager-picker",
-    canvasId: "chart-vs-average",
-    seriesByManager: DATA.derived.vs_average.series,
-    valueKey: "vs_average",
-  });
-
   const summary = DATA.derived.vs_average.summary;
   const crusher = [...summary].sort((a, b) => b.weeks_beat_average - a.weeks_beat_average).slice(0, 5);
   const crushed = [...summary].sort((a, b) => b.weeks_lost_to_average - a.weeks_lost_to_average).slice(0, 5);
@@ -362,26 +361,6 @@ function renderAverage() {
     sub: (r) => mix("Worst ", signedNode(r.worst_vs_average)),
     value: (r) => `${r.weeks_lost_to_average}wks`,
   });
-
-  const leagueVsGlobal = DATA.derived.league_vs_global_average;
-  if (leagueVsGlobal.series.length) {
-    makeLineChart(
-      "chart-league-vs-global",
-      leagueVsGlobal.series.map((p) => `GW${p.gw}`),
-      [
-        {
-          label: "League v Average",
-          data: leagueVsGlobal.series.map((p) => p.vs_average),
-          borderColor: cssVar("--diverge-pos"),
-          backgroundColor: cssVar("--diverge-pos"),
-          borderWidth: 2,
-          pointRadius: 0,
-        },
-      ]
-    );
-  } else {
-    emptyChartMessage("chart-league-vs-global", "No gameweeks played yet.");
-  }
 }
 
 /* ---------- Season: Records ---------- */
@@ -504,7 +483,6 @@ async function main() {
   document.getElementById("footer-note").textContent = "sportz-chat-fpl, updated hourly.";
 
   renderHome();
-  renderForm();
   renderBench();
   renderTransfers();
   renderChips();

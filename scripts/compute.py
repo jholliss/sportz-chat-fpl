@@ -402,29 +402,55 @@ def compute_captaincy_summary(captains, gameweeks, managers):
     return {"summary": summary, "series": series}
 
 
-def compute_transfers_summary(transfers, managers):
-    """Total Transfers / Total Points from Transfers + Best/Worst
+def compute_transfers_summary(transfers, gameweeks, managers):
+    """Total Transfers & Hits (transfer count + points lost to -4/-8/etc
+    hits, as points not hit-count), Net Points from Transfers (net
+    points gained/lost from the actual player swaps), and Best/Worst
     individual transfer swaps by net points."""
-    summary = []
+    hit_points_by_manager = {
+        mid: -sum(row["transfer_cost"] for row in rows)
+        for mid, rows in gameweeks.items()
+        if ":chips" not in mid
+    }
+
+    transfers_and_hits = []
+    net_points_summary = []
     all_transfers = []
     for mid, entries in transfers.items():
+        name = _name(managers, mid)
         total_net_points = sum(e["net_points"] for e in entries if e["net_points"] is not None)
-        summary.append(
+
+        transfers_and_hits.append(
             {
                 "manager_id": mid,
-                "name": _name(managers, mid),
+                "name": name,
                 "transfer_count": len(entries),
+                "hit_points": hit_points_by_manager.get(mid, 0),
+            }
+        )
+        net_points_summary.append(
+            {
+                "manager_id": mid,
+                "name": name,
                 "total_net_points": total_net_points,
             }
         )
         for e in entries:
             if e["net_points"] is None:
                 continue
-            all_transfers.append({**e, "manager_id": mid, "name": _name(managers, mid)})
+            all_transfers.append({**e, "manager_id": mid, "name": name})
+
+    transfers_and_hits.sort(key=lambda r: r["hit_points"])
+    net_points_summary.sort(key=lambda r: r["total_net_points"], reverse=True)
 
     best = sorted(all_transfers, key=lambda t: t["net_points"], reverse=True)[:10]
     worst = sorted(all_transfers, key=lambda t: t["net_points"])[:10]
-    return {"summary": summary, "best_transfers": best, "worst_transfers": worst}
+    return {
+        "transfers_and_hits": transfers_and_hits,
+        "net_points_summary": net_points_summary,
+        "best_transfers": best,
+        "worst_transfers": worst,
+    }
 
 
 def compute_top10_all_time(historic):
@@ -478,7 +504,7 @@ def compute_all(fetched, historic):
         "best_worst_scores": compute_best_worst_scores(gameweeks, managers, bootstrap_events),
         "chip_usage": compute_chip_usage(gameweeks, managers, bootstrap_events),
         "captaincy": compute_captaincy_summary(fetched["captains"], gameweeks, managers),
-        "transfers_summary": compute_transfers_summary(fetched["transfers"], managers),
+        "transfers_summary": compute_transfers_summary(fetched["transfers"], gameweeks, managers),
         "top10_all_time": compute_top10_all_time(historic),
         "wins_and_podiums_alltime": compute_wins_and_podiums_alltime(historic),
         "predicted_points": None,  # TODO: deferred feature, not built yet
