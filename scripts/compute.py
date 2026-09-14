@@ -33,11 +33,24 @@ def _name(managers, manager_id):
     return managers[manager_id]["name"]
 
 
-def compute_form(gameweeks, managers, finished_gws, window=5):
+def compute_form(gameweeks, managers, window=5):
     """In Form/In Freefall, Sound Spenders/Spend Thrifts, Tactical
     Masters/Rotation Losers -- top-3/bottom-3 over the last `window`
-    finished gameweeks."""
-    recent_gws = finished_gws[-window:]
+    gameweeks with any recorded data. Deliberately NOT restricted to
+    "finished" gameweeks per bootstrap-static -- the FPL API's entry
+    history already carries live, partially-accumulated numbers for
+    the current in-progress gameweek before it's marked finished, so
+    excluding it here would silently drop this week's numbers from
+    "last 5 weeks" until the following Monday."""
+    all_gws = sorted(
+        {
+            row["gw"]
+            for mid, rows in gameweeks.items()
+            if ":chips" not in mid
+            for row in rows
+        }
+    )
+    recent_gws = all_gws[-window:]
 
     def totals(field):
         result = {}
@@ -97,9 +110,12 @@ def compute_bench_leaderboard(gameweeks, managers):
 def compute_adjusted_table(gameweeks, managers):
     """Adjusted Table: standings re-ranked by Total Pts + Total Bench
     Points, i.e. as if every point left unused on the bench had
-    actually counted. (NOT the "Jammy" stat -- that's a separate
-    concept, see compute_jammy_leaderboard: the points scored by
-    players who came on via an automatic substitution.)"""
+    actually counted. Also includes rank_change: real_rank minus
+    adjusted_rank, i.e. how many places you'd move if bench points
+    counted -- positive = up (green), negative = down (red). (NOT the
+    "Jammy" stat -- that's a separate, real concept, see
+    compute_jammy_leaderboard: points scored by players who came on
+    via an automatic substitution.)"""
     rows = []
     for mid, gws in gameweeks.items():
         if ":chips" in mid:
@@ -115,6 +131,19 @@ def compute_adjusted_table(gameweeks, managers):
                 "total_plus_bench": total_pts + pob,
             }
         )
+
+    real_rank = {
+        r["manager_id"]: i + 1
+        for i, r in enumerate(sorted(rows, key=lambda r: r["total_points"], reverse=True))
+    }
+    adjusted_rank = {
+        r["manager_id"]: i + 1
+        for i, r in enumerate(sorted(rows, key=lambda r: r["total_plus_bench"], reverse=True))
+    }
+    for r in rows:
+        r["real_rank"] = real_rank[r["manager_id"]]
+        r["adjusted_rank"] = adjusted_rank[r["manager_id"]]
+        r["rank_change"] = real_rank[r["manager_id"]] - adjusted_rank[r["manager_id"]]
 
     rows.sort(key=lambda r: r["total_plus_bench"], reverse=True)
     return rows
@@ -515,13 +544,14 @@ def compute_all(fetched, historic):
     league_positions = compute_league_positions(gameweeks)
 
     return {
-        "form": compute_form(gameweeks, managers, finished_gws),
+        "form": compute_form(gameweeks, managers),
         "bench_leaderboard": compute_bench_leaderboard(gameweeks, managers),
         "adjusted_table": compute_adjusted_table(gameweeks, managers),
         "points_on_bench_by_week": compute_points_on_bench_by_week(gameweeks, managers),
         "consistency": compute_consistency(gameweeks, managers),
         "average_position": compute_average_position(league_positions, managers),
         "weeks_at_top_and_podium": compute_weeks_at_top_and_podium(league_positions, managers),
+        "league_position_trend": league_positions,
         "overall_rank_trend": compute_overall_rank_trend(gameweeks, managers),
         "league_progression": compute_league_progression(gameweeks, managers),
         "vs_average": compute_vs_average(gameweeks, managers, bootstrap_events),

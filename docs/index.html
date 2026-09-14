@@ -49,7 +49,8 @@
     <!-- ============ SEASON ============ -->
     <section class="tab-panel" id="tab-season">
       <nav class="pill-tabs" id="season-pills">
-        <button data-sub="bench" class="active">Bench</button>
+        <button data-sub="rank" class="active">Rank</button>
+        <button data-sub="bench">Bench</button>
         <button data-sub="transfers">Transfers</button>
         <button data-sub="chips">Chips</button>
         <button data-sub="captaincy">Captaincy</button>
@@ -57,16 +58,26 @@
         <button data-sub="records">Records</button>
       </nav>
 
-      <div class="sub-panel active" id="sub-bench">
+      <div class="sub-panel active" id="sub-rank">
+        <div class="card">
+          <h3>League Position by Week</h3>
+          <p class="card-caption">This league's own rank (1-9) each gameweek</p>
+          <select class="manager-picker" id="league-position-manager-picker" style="margin-bottom:8px"></select>
+          <div class="chart-wrap"><canvas id="chart-league-position"></canvas></div>
+        </div>
+        <div class="card">
+          <h3>Overall Rank by GW</h3>
+          <p class="card-caption">Whole-FPL rank (not just league rank), lower is better</p>
+          <select class="manager-picker" id="overallrank-manager-picker" style="margin-bottom:8px"></select>
+          <div class="chart-wrap"><canvas id="chart-overall-rank"></canvas></div>
+        </div>
+      </div>
+
+      <div class="sub-panel" id="sub-bench">
         <div class="card">
           <h3>Adjusted Table</h3>
           <p class="card-caption">Standings if bench points counted</p>
           <ul class="rank-list" id="adjusted-table"></ul>
-        </div>
-        <div class="card">
-          <h3>Points on Bench by Week</h3>
-          <div class="top-row"><span></span><select class="manager-picker" id="bench-manager-picker"></select></div>
-          <div class="chart-wrap"><canvas id="chart-bench-by-week"></canvas></div>
         </div>
         <div class="card">
           <h3>Jammy</h3>
@@ -81,14 +92,14 @@
 
       <div class="sub-panel" id="sub-transfers">
         <div class="card">
-          <h3>Total Transfers &amp; Hits</h3>
-          <p class="card-caption">Points lost to -4/-8 hits taken across the season</p>
-          <ul class="rank-list" id="transfers-and-hits"></ul>
-        </div>
-        <div class="card">
           <h3>Net Points from Transfers</h3>
           <p class="card-caption">Points gained or lost from the actual player swaps</p>
           <ul class="rank-list" id="net-points-summary"></ul>
+        </div>
+        <div class="card">
+          <h3>Total Transfers &amp; Hits</h3>
+          <p class="card-caption">Points lost to -4/-8 hits taken across the season</p>
+          <ul class="rank-list" id="transfers-and-hits"></ul>
         </div>
         <div class="card">
           <h3>Best Transfers</h3>
@@ -121,13 +132,6 @@
           <h3>Can You Captain?</h3>
           <ul class="rank-list" id="captaincy-summary"></ul>
         </div>
-        <div class="card">
-          <div class="top-row">
-            <h3 style="margin:0">Captain Points by Week</h3>
-          </div>
-          <select class="manager-picker" id="captaincy-manager-picker" style="margin-bottom:8px"></select>
-          <div class="chart-wrap"><canvas id="chart-captaincy"></canvas></div>
-        </div>
       </div>
 
       <div class="sub-panel" id="sub-average">
@@ -149,14 +153,6 @@
         <div class="card">
           <h3>Worst 10 Scores</h3>
           <ul class="rank-list" id="worst-10-scores"></ul>
-        </div>
-        <div class="card">
-          <div class="top-row">
-            <h3 style="margin:0">Overall Rank by GW</h3>
-          </div>
-          <p class="card-caption">Whole-FPL rank (not just league rank), lower is better</p>
-          <select class="manager-picker" id="overallrank-manager-picker" style="margin-bottom:8px"></select>
-          <div class="chart-wrap"><canvas id="chart-overall-rank"></canvas></div>
         </div>
       </div>
     </section>

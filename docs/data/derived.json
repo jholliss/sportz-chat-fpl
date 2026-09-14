@@ -1,65 +1,92 @@
 {
   "adjusted_table": [
     {
+      "adjusted_rank": 1,
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
       "points_on_bench": 62,
+      "rank_change": 2,
+      "real_rank": 3,
       "total_plus_bench": 336,
       "total_points": 274
     },
     {
+      "adjusted_rank": 2,
       "manager_id": "4177980",
       "name": "James Petrie",
       "points_on_bench": 60,
+      "rank_change": 3,
+      "real_rank": 5,
       "total_plus_bench": 329,
       "total_points": 269
     },
     {
+      "adjusted_rank": 3,
       "manager_id": "1004578",
       "name": "Adam Beveridge",
       "points_on_bench": 48,
+      "rank_change": -1,
+      "real_rank": 2,
       "total_plus_bench": 325,
       "total_points": 277
     },
     {
+      "adjusted_rank": 4,
       "manager_id": "1212049",
       "name": "James Holliss",
       "points_on_bench": 21,
+      "rank_change": -3,
+      "real_rank": 1,
       "total_plus_bench": 324,
       "total_points": 303
     },
     {
+      "adjusted_rank": 5,
       "manager_id": "822375",
       "name": "Robbie Paton",
       "points_on_bench": 67,
+      "rank_change": 3,
+      "real_rank": 8,
       "total_plus_bench": 315,
       "total_points": 248
     },
     {
+      "adjusted_rank": 6,
       "manager_id": "6975918",
       "name": "James Cassidy",
       "points_on_bench": 46,
+      "rank_change": 1,
+      "real_rank": 7,
       "total_plus_bench": 302,
       "total_points": 256
     },
     {
+      "adjusted_rank": 7,
       "manager_id": "817501",
       "name": "Andrew David",
       "points_on_bench": 27,
+      "rank_change": -3,
+      "real_rank": 4,
       "total_plus_bench": 298,
       "total_points": 271
     },
     {
+      "adjusted_rank": 8,
       "manager_id": "8011609",
       "name": "Tom Phillips",
       "points_on_bench": 15,
+      "rank_change": -2,
+      "real_rank": 6,
       "total_plus_bench": 277,
       "total_points": 262
     },
     {
+      "adjusted_rank": 9,
       "manager_id": "3457548",
       "name": "David Lewis",
       "points_on_bench": 16,
+      "rank_change": 0,
+      "real_rank": 9,
       "total_plus_bench": 254,
       "total_points": 238
     }
@@ -661,51 +688,51 @@
       {
         "manager_id": "1212049",
         "name": "James Holliss",
-        "value": 216
+        "value": 303
       },
       {
         "manager_id": "1004578",
         "name": "Adam Beveridge",
-        "value": 214
+        "value": 277
       },
       {
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
-        "value": 208
+        "value": 274
       }
     ],
     "in_freefall": [
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "value": 184
-      },
-      {
         "manager_id": "3457548",
         "name": "David Lewis",
-        "value": 188
+        "value": 238
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "value": 188
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "value": 248
+      },
+      {
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "value": 256
       }
     ],
     "rotation_losers": [
       {
         "manager_id": "822375",
         "name": "Robbie Paton",
-        "value": 57
+        "value": 67
+      },
+      {
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "value": 62
       },
       {
         "manager_id": "4177980",
         "name": "James Petrie",
-        "value": 55
-      },
-      {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "value": 45
+        "value": 60
       }
     ],
     "sound_spenders": [
@@ -746,23 +773,24 @@
       {
         "manager_id": "8011609",
         "name": "Tom Phillips",
-        "value": 3
+        "value": 15
       },
       {
         "manager_id": "3457548",
         "name": "David Lewis",
-        "value": 13
+        "value": 16
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "value": 14
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "value": 21
       }
     ],
     "window_gws": [
       1,
       2,
-      3
+      3,
+      4
     ]
   },
   "jammy": {
@@ -864,6 +892,170 @@
         "name": "Robbie Paton",
         "sub_count": 0,
         "total_jammy_points": 0
+      }
+    ]
+  },
+  "league_position_trend": {
+    "1004578": [
+      {
+        "gw": 1,
+        "position": 3
+      },
+      {
+        "gw": 2,
+        "position": 2
+      },
+      {
+        "gw": 3,
+        "position": 2
+      },
+      {
+        "gw": 4,
+        "position": 2
+      }
+    ],
+    "1212049": [
+      {
+        "gw": 1,
+        "position": 4
+      },
+      {
+        "gw": 2,
+        "position": 1
+      },
+      {
+        "gw": 3,
+        "position": 1
+      },
+      {
+        "gw": 4,
+        "position": 1
+      }
+    ],
+    "3457548": [
+      {
+        "gw": 1,
+        "position": 6
+      },
+      {
+        "gw": 2,
+        "position": 3
+      },
+      {
+        "gw": 3,
+        "position": 8
+      },
+      {
+        "gw": 4,
+        "position": 9
+      }
+    ],
+    "4177980": [
+      {
+        "gw": 1,
+        "position": 8
+      },
+      {
+        "gw": 2,
+        "position": 5
+      },
+      {
+        "gw": 3,
+        "position": 6
+      },
+      {
+        "gw": 4,
+        "position": 5
+      }
+    ],
+    "4279888": [
+      {
+        "gw": 1,
+        "position": 1
+      },
+      {
+        "gw": 2,
+        "position": 4
+      },
+      {
+        "gw": 3,
+        "position": 3
+      },
+      {
+        "gw": 4,
+        "position": 3
+      }
+    ],
+    "6975918": [
+      {
+        "gw": 1,
+        "position": 7
+      },
+      {
+        "gw": 2,
+        "position": 9
+      },
+      {
+        "gw": 3,
+        "position": 9
+      },
+      {
+        "gw": 4,
+        "position": 7
+      }
+    ],
+    "8011609": [
+      {
+        "gw": 1,
+        "position": 2
+      },
+      {
+        "gw": 2,
+        "position": 7
+      },
+      {
+        "gw": 3,
+        "position": 4
+      },
+      {
+        "gw": 4,
+        "position": 6
+      }
+    ],
+    "817501": [
+      {
+        "gw": 1,
+        "position": 5
+      },
+      {
+        "gw": 2,
+        "position": 8
+      },
+      {
+        "gw": 3,
+        "position": 7
+      },
+      {
+        "gw": 4,
+        "position": 4
+      }
+    ],
+    "822375": [
+      {
+        "gw": 1,
+        "position": 9
+      },
+      {
+        "gw": 2,
+        "position": 6
+      },
+      {
+        "gw": 3,
+        "position": 5
+      },
+      {
+        "gw": 4,
+        "position": 8
       }
     ]
   },

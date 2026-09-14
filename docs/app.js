@@ -55,15 +55,25 @@ function el(tag, props = {}, children = []) {
   return node;
 }
 
-// Subtle colored + arrowed treatment for signed deltas (jammy delta,
-// transfer net points, captain gain/loss, vs-average margins). Returns
-// a DOM node rather than a string -- appendContent() below knows how
-// to place either.
+// Subtle colored + arrowed treatment for signed deltas (transfer net
+// points, captain gain/loss, vs-average margins). Returns a DOM node
+// rather than a string -- appendContent() below knows how to place
+// either.
 function signedNode(n) {
   if (n === null || n === undefined) return document.createTextNode("–");
   const cls = n > 0 ? "pos" : n < 0 ? "neg" : "";
   const arrow = n > 0 ? "▲ " : n < 0 ? "▼ " : "";
   return el("span", { class: `delta ${cls}`.trim(), text: `${arrow}${fmtSigned(n)}` });
+}
+
+// Same treatment, but for a rank-position change rather than a points
+// delta -- shows the number of places moved (no +/- sign, the arrow
+// already carries direction) e.g. "▲ 2" / "▼ 3" / "–" for no change.
+function rankChangeNode(n) {
+  if (n === null || n === undefined || n === 0) return document.createTextNode("–");
+  const cls = n > 0 ? "pos" : "neg";
+  const arrow = n > 0 ? "▲ " : "▼ ";
+  return el("span", { class: `delta ${cls}`, text: `${arrow}${Math.abs(n)}` });
 }
 
 // Builds a DocumentFragment out of a mix of plain strings and nodes
@@ -255,15 +265,8 @@ function renderBench() {
   renderRankList("adjusted-table", DATA.derived.adjusted_table, {
     numbered: true,
     name: (r) => r.name,
-    sub: (r) => `Total ${fmtNum(r.total_points)}`,
+    sub: (r) => mix(`Total ${fmtNum(r.total_points)} `, rankChangeNode(r.rank_change)),
     value: (r) => fmtNum(r.total_plus_bench),
-  });
-
-  setupManagerPickerChart({
-    pickerId: "bench-manager-picker",
-    canvasId: "chart-bench-by-week",
-    seriesByManager: DATA.derived.points_on_bench_by_week,
-    valueKey: "points_on_bench",
   });
 
   renderRankList("jammy-leaderboard", DATA.derived.jammy.summary, {
@@ -283,15 +286,15 @@ function renderBench() {
 
 /* ---------- Season: Transfers ---------- */
 function renderTransfers() {
+  renderRankList("net-points-summary", DATA.derived.transfers_summary.net_points_summary, {
+    name: (r) => r.name,
+    value: (r) => signedNode(r.total_net_points),
+  });
+
   renderRankList("transfers-and-hits", DATA.derived.transfers_summary.transfers_and_hits, {
     name: (r) => r.name,
     sub: (r) => `${r.transfer_count} transfers`,
     value: (r) => signedNode(r.hit_points),
-  });
-
-  renderRankList("net-points-summary", DATA.derived.transfers_summary.net_points_summary, {
-    name: (r) => r.name,
-    value: (r) => signedNode(r.total_net_points),
   });
 
   const transferOpts = {
@@ -345,13 +348,6 @@ function renderCaptaincy() {
     sub: (r) => mix(`Picked best ${r.picked_best_captain_weeks}× · `, signedNode(r.gain_loss_vs_optimal), " vs optimal"),
     value: (r) => fmtNum(r.total_captain_points),
   });
-
-  setupManagerPickerChart({
-    pickerId: "captaincy-manager-picker",
-    canvasId: "chart-captaincy",
-    seriesByManager: DATA.derived.captaincy.series,
-    valueKey: "captain_points",
-  });
 }
 
 /* ---------- Season: Vs Average ---------- */
@@ -381,6 +377,17 @@ function renderRecords() {
   };
   renderRankList("best-10-scores", DATA.derived.best_worst_scores.best_10, scoreOpts);
   renderRankList("worst-10-scores", DATA.derived.best_worst_scores.worst_10, scoreOpts);
+}
+
+/* ---------- Season: Rank ---------- */
+function renderRank() {
+  setupManagerPickerChart({
+    pickerId: "league-position-manager-picker",
+    canvasId: "chart-league-position",
+    seriesByManager: DATA.derived.league_position_trend,
+    valueKey: "position",
+    reverseY: true,
+  });
 
   setupManagerPickerChart({
     pickerId: "overallrank-manager-picker",
@@ -491,6 +498,7 @@ async function main() {
   document.getElementById("footer-note").textContent = "sportz-chat-fpl, updated hourly.";
 
   renderHome();
+  renderRank();
   renderBench();
   renderTransfers();
   renderChips();
