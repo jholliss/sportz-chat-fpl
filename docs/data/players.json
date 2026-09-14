@@ -678,7 +678,7 @@
     "ep_next": "7.2",
     "form": "7.2",
     "id": 68,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 3,
     "total_points": 29,
     "web_name": "Tavernier"
@@ -813,7 +813,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 573,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 3,
     "total_points": 0,
     "web_name": "Sanchez"
@@ -903,7 +903,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 89,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 4,
     "total_points": 1,
     "web_name": "Henry"
@@ -1191,7 +1191,7 @@
     "ep_next": "0.0",
     "form": "4.0",
     "id": 123,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 5,
     "total_points": 16,
     "web_name": "Hinshelwood"
@@ -1623,7 +1623,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 164,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 6,
     "total_points": 1,
     "web_name": "Quenda"
@@ -2415,7 +2415,7 @@
     "ep_next": "7.2",
     "form": "7.2",
     "id": 229,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 9,
     "total_points": 29,
     "web_name": "Tarkowski"
@@ -2541,7 +2541,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 246,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 9,
     "total_points": 6,
     "web_name": "R\u00f6hl"
@@ -2748,7 +2748,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 270,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 10,
     "total_points": 0,
     "web_name": "Reed"
@@ -2784,7 +2784,7 @@
     "ep_next": "2.8",
     "form": "2.8",
     "id": 570,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 10,
     "total_points": 11,
     "web_name": "Palacios"
@@ -3279,7 +3279,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 303,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 12,
     "total_points": 0,
     "web_name": "Kipr\u00e9"
@@ -3918,7 +3918,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 359,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 14,
     "total_points": 0,
     "web_name": "Gomez"
@@ -4233,7 +4233,7 @@
     "ep_next": "8.2",
     "form": "8.2",
     "id": 391,
-    "now_cost": 56,
+    "now_cost": 57,
     "team": 15,
     "total_points": 33,
     "web_name": "Gvardiol"
@@ -4467,7 +4467,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 131,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 16,
     "total_points": 0,
     "web_name": "Baleba"
@@ -4476,7 +4476,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 162,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 4,
     "web_name": "Andrey Santos"
@@ -5142,7 +5142,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 478,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 18,
     "total_points": 2,
     "web_name": "Netz"
@@ -5664,7 +5664,7 @@
     "ep_next": "2.8",
     "form": "2.8",
     "id": 529,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 20,
     "total_points": 11,
     "web_name": "Roefs"
@@ -5700,7 +5700,7 @@
     "ep_next": "3.2",
     "form": "3.2",
     "id": 533,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 20,
     "total_points": 13,
     "web_name": "Mukiele"
@@ -5844,7 +5844,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 549,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 20,
     "total_points": 1,
     "web_name": "Talbi"
