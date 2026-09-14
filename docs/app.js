@@ -608,6 +608,15 @@ async function loadQuotes() {
   }
 }
 
+// Lightweight markdown-ish convention for quotes.json: ~~word~~ renders
+// struck-through (e.g. a joke correction, "kids" crossed out and
+// replaced by the next word). Escapes HTML first since this ends up in
+// innerHTML -- defense in depth even though the content is our own.
+function renderQuoteText(raw) {
+  const escaped = raw.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return escaped.replace(/~~(.+?)~~/g, '<span class="quote-strike">$1</span>');
+}
+
 function startQuoteRotation(quotes) {
   const banner = document.getElementById("quote-banner");
   if (!quotes || quotes.length === 0) {
@@ -620,7 +629,7 @@ function startQuoteRotation(quotes) {
   let i = 0;
   function show(index) {
     const q = quotes[index];
-    textEl.textContent = `"${q.text}"`;
+    textEl.innerHTML = `"${renderQuoteText(q.text)}"`;
     attrEl.textContent = q.attribution ? `— ${q.attribution}` : "";
   }
   show(i);

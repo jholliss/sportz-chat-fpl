@@ -90,6 +90,8 @@ top-right of the header, rotating every 5 seconds -- same category as
 directly. Each entry is `{"text": "...", "attribution": "..."}` (attribution is
 optional). Fetched independently of the rest of the site's data -- a missing or
 malformed `quotes.json` just hides the banner, it won't break anything else.
+Wrap a word in `~~word~~` for a struck-through joke-correction (e.g. "with
+~~kids~~ Brighton players") -- the only bit of markup the text supports.
 
 ## Local development
 
