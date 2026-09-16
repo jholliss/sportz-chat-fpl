@@ -279,7 +279,7 @@
     "web_name": "Digne"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "1.8",
     "form": "1.8",
     "id": 32,
     "now_cost": 44,
@@ -450,7 +450,7 @@
     "web_name": "Manzambi"
   },
   {
-    "ep_next": "-0.5",
+    "ep_next": "-0.4",
     "form": "-0.5",
     "id": 54,
     "now_cost": 55,
@@ -1629,7 +1629,7 @@
     "web_name": "Quenda"
   },
   {
-    "ep_next": "8.2",
+    "ep_next": "6.1",
     "form": "8.2",
     "id": 165,
     "now_cost": 78,
@@ -1719,7 +1719,7 @@
     "web_name": "Pinnock"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "1.5",
     "form": "1.5",
     "id": 104,
     "now_cost": 49,
@@ -2538,7 +2538,7 @@
     "web_name": "Dibling"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "1.1",
     "form": "1.5",
     "id": 246,
     "now_cost": 49,
