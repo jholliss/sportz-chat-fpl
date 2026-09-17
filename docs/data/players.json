@@ -1593,7 +1593,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.1",
     "form": "0.2",
     "id": 159,
     "now_cost": 53,
@@ -3159,7 +3159,7 @@
     "web_name": "Herrington"
   },
   {
-    "ep_next": "3.1",
+    "ep_next": "0.0",
     "form": "6.2",
     "id": 586,
     "now_cost": 41,
@@ -4761,7 +4761,7 @@
     "web_name": "Obi"
   },
   {
-    "ep_next": "0.6",
+    "ep_next": "0.0",
     "form": "1.2",
     "id": 405,
     "now_cost": 55,
@@ -4878,7 +4878,7 @@
     "web_name": "Elanga"
   },
   {
-    "ep_next": "0.5",
+    "ep_next": "0.0",
     "form": "1.8",
     "id": 456,
     "now_cost": 49,
@@ -4995,7 +4995,7 @@
     "web_name": "Horn\u00ed\u010dek"
   },
   {
-    "ep_next": "3.2",
+    "ep_next": "0.0",
     "form": "3.2",
     "id": 593,
     "now_cost": 45,
@@ -5112,7 +5112,7 @@
     "web_name": "Aina"
   },
   {
-    "ep_next": "1.2",
+    "ep_next": "1.9",
     "form": "2.5",
     "id": 474,
     "now_cost": 45,
