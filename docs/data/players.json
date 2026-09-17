@@ -1836,7 +1836,7 @@
     "web_name": "Brau"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.2",
     "form": "1.0",
     "id": 182,
     "now_cost": 40,
@@ -2520,7 +2520,7 @@
     "web_name": "Alcaraz"
   },
   {
-    "ep_next": "3.5",
+    "ep_next": "2.6",
     "form": "3.5",
     "id": 244,
     "now_cost": 50,
