@@ -81,7 +81,7 @@
     "web_name": "Hincapie"
   },
   {
-    "ep_next": "3.9",
+    "ep_next": "5.2",
     "form": "5.2",
     "id": 10,
     "now_cost": 55,
@@ -90,7 +90,7 @@
     "web_name": "White"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "3.0",
     "form": "3.0",
     "id": 11,
     "now_cost": 53,
@@ -1467,7 +1467,7 @@
     "web_name": "J\u00f6rgensen"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "0.6",
     "form": "0.8",
     "id": 142,
     "now_cost": 54,
@@ -2538,7 +2538,7 @@
     "web_name": "Dibling"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "0.0",
     "form": "1.5",
     "id": 246,
     "now_cost": 49,
@@ -3555,7 +3555,7 @@
     "web_name": "Flemming"
   },
   {
-    "ep_next": "1.2",
+    "ep_next": "0.0",
     "form": "1.2",
     "id": 260,
     "now_cost": 62,
@@ -4590,7 +4590,7 @@
     "web_name": "Mazraoui"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "0.9",
     "form": "1.8",
     "id": 423,
     "now_cost": 44,
@@ -5337,7 +5337,7 @@
     "web_name": "S\u00e1vio"
   },
   {
-    "ep_next": "2.2",
+    "ep_next": "3.0",
     "form": "3.0",
     "id": 455,
     "now_cost": 54,
@@ -5391,7 +5391,7 @@
     "web_name": "Senesi"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "2.0",
     "form": "2.0",
     "id": 499,
     "now_cost": 54,
