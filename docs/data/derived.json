@@ -312,6 +312,14 @@
       {
         "gw": 5,
         "hits": 0,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "points": 4,
+        "vs_average": 1
+      },
+      {
+        "gw": 5,
+        "hits": 0,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "points": 4,
@@ -322,14 +330,6 @@
         "hits": 0,
         "manager_id": "4177980",
         "name": "James Petrie",
-        "points": 4,
-        "vs_average": 1
-      },
-      {
-        "gw": 5,
-        "hits": 0,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
         "points": 4,
         "vs_average": 1
       },
@@ -778,13 +778,13 @@
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
         "value": 0
       },
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       }
     ],
@@ -882,13 +882,6 @@
         "points_in": 2
       },
       {
-        "gw": 2,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "player_in_name": "Andrey Santos",
-        "points_in": 1
-      },
-      {
         "gw": 1,
         "manager_id": "8011609",
         "name": "Tom Phillips",
@@ -900,6 +893,13 @@
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "player_in_name": "Yarmoliuk",
+        "points_in": 1
+      },
+      {
+        "gw": 2,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "player_in_name": "Andrey Santos",
         "points_in": 1
       }
     ],
@@ -2104,6 +2104,12 @@
       },
       {
         "hit_points": 0,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "transfer_count": 4
+      },
+      {
+        "hit_points": 0,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "transfer_count": 4
@@ -2125,12 +2131,6 @@
         "manager_id": "817501",
         "name": "Andrew David",
         "transfer_count": 3
-      },
-      {
-        "hit_points": 0,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "transfer_count": 4
       },
       {
         "hit_points": 0,
@@ -2495,6 +2495,14 @@
         "worst_vs_average": -5
       },
       {
+        "best_vs_average": 7,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "weeks_beat_average": 4,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
+      },
+      {
         "best_vs_average": 20,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
@@ -2525,14 +2533,6 @@
         "weeks_beat_average": 3,
         "weeks_lost_to_average": 2,
         "worst_vs_average": -2
-      },
-      {
-        "best_vs_average": 7,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "weeks_beat_average": 4,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
       },
       {
         "best_vs_average": 14,
@@ -2568,6 +2568,12 @@
       "weeks_on_podium": 4
     },
     {
+      "manager_id": "8011609",
+      "name": "Tom Phillips",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 1
+    },
+    {
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
       "weeks_at_top": 1,
@@ -2590,12 +2596,6 @@
       "name": "Andrew David",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
-    },
-    {
-      "manager_id": "8011609",
-      "name": "Tom Phillips",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 1
     },
     {
       "manager_id": "6975918",
