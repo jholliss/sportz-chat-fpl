@@ -237,7 +237,7 @@
     "ep_next": "2.2",
     "form": "2.2",
     "id": 31,
-    "now_cost": 45,
+    "now_cost": 46,
     "team": 1,
     "total_points": 11,
     "web_name": "Konsa"
@@ -669,7 +669,7 @@
     "ep_next": "1.6",
     "form": "1.6",
     "id": 67,
-    "now_cost": 64,
+    "now_cost": 63,
     "team": 3,
     "total_points": 8,
     "web_name": "Rayan"
@@ -1047,7 +1047,7 @@
     "ep_next": "0.6",
     "form": "0.6",
     "id": 108,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 4,
     "total_points": 3,
     "web_name": "Wilson"
@@ -1056,7 +1056,7 @@
     "ep_next": "4.4",
     "form": "4.4",
     "id": 565,
-    "now_cost": 57,
+    "now_cost": 56,
     "team": 4,
     "total_points": 22,
     "web_name": "M.Sangar\u00e9"
@@ -1362,7 +1362,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 594,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 5,
     "total_points": 1,
     "web_name": "David"
@@ -1542,7 +1542,7 @@
     "ep_next": "0.6",
     "form": "0.6",
     "id": 149,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 6,
     "total_points": 3,
     "web_name": "Colwill"
@@ -1686,7 +1686,7 @@
     "ep_next": "2.6",
     "form": "2.6",
     "id": 200,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 6,
     "total_points": 13,
     "web_name": "Lacroix"
@@ -1821,7 +1821,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 177,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 7,
     "total_points": 0,
     "web_name": "Kesler-Hayden"
@@ -1920,7 +1920,7 @@
     "ep_next": "0.6",
     "form": "0.6",
     "id": 188,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 7,
     "total_points": 3,
     "web_name": "Torp"
@@ -2010,7 +2010,7 @@
     "ep_next": "0.0",
     "form": "0.6",
     "id": 492,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 7,
     "total_points": 3,
     "web_name": "Awoniyi"
@@ -2118,7 +2118,7 @@
     "ep_next": "0.4",
     "form": "0.4",
     "id": 203,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 8,
     "total_points": 2,
     "web_name": "Canvot"
@@ -2145,7 +2145,7 @@
     "ep_next": "0.0",
     "form": "0.2",
     "id": 206,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 8,
     "total_points": 1,
     "web_name": "Chadi Riad"
@@ -2478,7 +2478,7 @@
     "ep_next": "4.4",
     "form": "4.4",
     "id": 233,
-    "now_cost": 45,
+    "now_cost": 46,
     "team": 9,
     "total_points": 22,
     "web_name": "Mykolenko"
@@ -2505,7 +2505,7 @@
     "ep_next": "3.4",
     "form": "3.4",
     "id": 236,
-    "now_cost": 65,
+    "now_cost": 66,
     "team": 9,
     "total_points": 17,
     "web_name": "Dewsbury-Hall"
@@ -3027,7 +3027,7 @@
     "ep_next": "0.6",
     "form": "0.6",
     "id": 289,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 11,
     "total_points": 3,
     "web_name": "Crooks"
@@ -3612,7 +3612,7 @@
     "ep_next": "0.0",
     "form": "1.4",
     "id": 329,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 13,
     "total_points": 7,
     "web_name": "Rodon"
@@ -4035,7 +4035,7 @@
     "ep_next": "0.8",
     "form": "0.8",
     "id": 369,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 14,
     "total_points": 4,
     "web_name": "Ngumoha"
@@ -4044,7 +4044,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 370,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 14,
     "total_points": 0,
     "web_name": "Chiesa"
@@ -4053,7 +4053,7 @@
     "ep_next": "1.6",
     "form": "1.6",
     "id": 371,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 14,
     "total_points": 8,
     "web_name": "Gravenberch"
@@ -4197,7 +4197,7 @@
     "ep_next": "3.4",
     "form": "3.4",
     "id": 237,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 15,
     "total_points": 17,
     "web_name": "Ndiaye"
@@ -4593,7 +4593,7 @@
     "ep_next": "0.4",
     "form": "0.4",
     "id": 420,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 2,
     "web_name": "Yoro"
@@ -4620,7 +4620,7 @@
     "ep_next": "0.7",
     "form": "1.4",
     "id": 423,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 16,
     "total_points": 7,
     "web_name": "Shaw"
@@ -4773,7 +4773,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 440,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 16,
     "total_points": 1,
     "web_name": "Zirkzee"
@@ -4818,7 +4818,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 444,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 17,
     "total_points": 0,
     "web_name": "Jaouen"
@@ -4890,7 +4890,7 @@
     "ep_next": "3.8",
     "form": "3.8",
     "id": 453,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 17,
     "total_points": 19,
     "web_name": "Barnes"
@@ -4899,7 +4899,7 @@
     "ep_next": "0.0",
     "form": "3.6",
     "id": 454,
-    "now_cost": 62,
+    "now_cost": 61,
     "team": 17,
     "total_points": 18,
     "web_name": "Elanga"
@@ -4989,7 +4989,7 @@
     "ep_next": "0.0",
     "form": "0.8",
     "id": 465,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 17,
     "total_points": 4,
     "web_name": "Osula"
@@ -5061,7 +5061,7 @@
     "ep_next": "1.6",
     "form": "1.6",
     "id": 167,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 18,
     "total_points": 8,
     "web_name": "Delap"
@@ -5115,7 +5115,7 @@
     "ep_next": "0.0",
     "form": "2.4",
     "id": 471,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 18,
     "total_points": 12,
     "web_name": "Milenkovi\u0107"
@@ -5367,7 +5367,7 @@
     "ep_next": "2.4",
     "form": "2.4",
     "id": 455,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 19,
     "total_points": 12,
     "web_name": "Tonali"
@@ -5484,7 +5484,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 508,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 19,
     "total_points": 0,
     "web_name": "Davies"
@@ -5538,7 +5538,7 @@
     "ep_next": "1.6",
     "form": "1.6",
     "id": 514,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 19,
     "total_points": 8,
     "web_name": "Tel"
@@ -5745,7 +5745,7 @@
     "ep_next": "1.8",
     "form": "1.8",
     "id": 534,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 20,
     "total_points": 9,
     "web_name": "Hume"
@@ -5790,7 +5790,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 539,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 20,
     "total_points": 1,
     "web_name": "O'Nien"
@@ -5817,7 +5817,7 @@
     "ep_next": "2.6",
     "form": "2.6",
     "id": 542,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 20,
     "total_points": 13,
     "web_name": "E.Le F\u00e9e"
@@ -5907,7 +5907,7 @@
     "ep_next": "1.4",
     "form": "1.4",
     "id": 552,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 20,
     "total_points": 7,
     "web_name": "Brobbey"
