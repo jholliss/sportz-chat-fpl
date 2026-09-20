@@ -57,7 +57,7 @@
     "ep_next": "1.8",
     "form": "1.8",
     "id": 7,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 1,
     "total_points": 9,
     "web_name": "Lewis-Skelly"
@@ -210,7 +210,7 @@
     "ep_next": "0.4",
     "form": "0.4",
     "id": 25,
-    "now_cost": 72,
+    "now_cost": 71,
     "team": 1,
     "total_points": 2,
     "web_name": "Gy\u00f6keres"
@@ -255,7 +255,7 @@
     "ep_next": "3.2",
     "form": "3.2",
     "id": 557,
-    "now_cost": 64,
+    "now_cost": 63,
     "team": 1,
     "total_points": 16,
     "web_name": "Tzolis"
@@ -930,7 +930,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 92,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 4,
     "total_points": 0,
     "web_name": "Ji-soo"
@@ -1209,7 +1209,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 122,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 5,
     "total_points": 0,
     "web_name": "Minteh"
@@ -1227,7 +1227,7 @@
     "ep_next": "9.4",
     "form": "9.4",
     "id": 124,
-    "now_cost": 57,
+    "now_cost": 58,
     "team": 5,
     "total_points": 47,
     "web_name": "Gro\u00df"
@@ -1236,7 +1236,7 @@
     "ep_next": "1.2",
     "form": "1.2",
     "id": 125,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 5,
     "total_points": 6,
     "web_name": "Georginio"
@@ -1920,7 +1920,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 187,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 7,
     "total_points": 0,
     "web_name": "Eccles"
@@ -3279,7 +3279,7 @@
     "ep_next": "2.2",
     "form": "2.2",
     "id": 267,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 12,
     "total_points": 11,
     "web_name": "Luki\u0107"
@@ -3396,7 +3396,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 312,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 12,
     "total_points": 0,
     "web_name": "Taylor"
@@ -3504,7 +3504,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 324,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 12,
     "total_points": 0,
     "web_name": "Mehmeti"
@@ -3522,7 +3522,7 @@
     "ep_next": "1.6",
     "form": "1.6",
     "id": 562,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 12,
     "total_points": 8,
     "web_name": "Maeda"
@@ -5718,7 +5718,7 @@
     "ep_next": "0.0",
     "form": "0.2",
     "id": 578,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 19,
     "total_points": 1,
     "web_name": "Mudryk"
@@ -5799,7 +5799,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 535,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 20,
     "total_points": 1,
     "web_name": "Alderete"
@@ -5808,7 +5808,7 @@
     "ep_next": "0.0",
     "form": "1.4",
     "id": 536,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 20,
     "total_points": 7,
     "web_name": "Reinildo"
