@@ -1,19 +1,19 @@
 [
   {
-    "event_total": 51,
+    "event_total": 52,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 1,
     "team_name": "Hamann Overboard",
-    "total": 355
+    "total": 356
   },
   {
-    "event_total": 40,
+    "event_total": 41,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 2,
     "team_name": "Yoro Wizard Harry",
-    "total": 337
+    "total": 338
   },
   {
     "event_total": 49,
@@ -24,20 +24,20 @@
     "total": 334
   },
   {
-    "event_total": 58,
+    "event_total": 59,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 4,
     "team_name": "ThunderStruijk",
-    "total": 328
+    "total": 329
   },
   {
-    "event_total": 42,
+    "event_total": 43,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 5,
     "team_name": "Kloppafeel",
-    "total": 321
+    "total": 322
   },
   {
     "event_total": 44,
@@ -48,27 +48,27 @@
     "total": 316
   },
   {
-    "event_total": 46,
+    "event_total": 47,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 7,
     "team_name": "Careless Wissa",
-    "total": 306
+    "total": 307
   },
   {
-    "event_total": 36,
+    "event_total": 37,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 8,
     "team_name": "Jacquet Potato",
-    "total": 303
+    "total": 304
   },
   {
-    "event_total": 37,
+    "event_total": 38,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
     "team_name": "All Hail Keylord",
-    "total": 277
+    "total": 278
   }
 ]
