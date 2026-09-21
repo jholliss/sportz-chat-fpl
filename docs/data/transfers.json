@@ -235,13 +235,13 @@
   "1212049": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 6,
       "player_in": 649,
       "player_in_name": "Maitland-Niles",
       "player_out": 423,
       "player_out_name": "Shaw",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": 2,
       "time": "2026-09-17T21:14:09.212266Z"
     },
     {
@@ -270,24 +270,24 @@
   "3457548": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": -2,
       "player_in": 165,
       "player_in_name": "Jo\u00e3o Pedro",
       "player_out": 401,
       "player_out_name": "Marmoush",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 0,
+      "points_out": 2,
       "time": "2026-09-13T16:25:46.766471Z"
     },
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 2,
       "player_in": 504,
       "player_in_name": "Vuskovic",
       "player_out": 358,
       "player_out_name": "Kerkez",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": 6,
       "time": "2026-09-13T16:25:46.758937Z"
     },
     {
@@ -316,13 +316,13 @@
   "4177980": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 6,
       "player_in": 249,
       "player_in_name": "Barry",
       "player_out": 165,
       "player_out_name": "Jo\u00e3o Pedro",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 6,
+      "points_out": 0,
       "time": "2026-09-18T17:22:14.545829Z"
     },
     {
@@ -461,13 +461,13 @@
   "4279888": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 9,
       "player_in": 649,
       "player_in_name": "Maitland-Niles",
       "player_out": 32,
       "player_out_name": "Cash",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": -1,
       "time": "2026-09-13T19:39:15.391108Z"
     },
     {
@@ -507,24 +507,24 @@
   "6975918": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 0,
       "player_in": 480,
       "player_in_name": "Gibbs-White",
       "player_out": 368,
       "player_out_name": "Szoboszlai",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 2,
+      "points_out": 2,
       "time": "2026-09-18T15:32:21.485649Z"
     },
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 1,
       "player_in": 277,
       "player_in_name": "Egan",
       "player_out": 329,
       "player_out_name": "Rodon",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 1,
+      "points_out": 0,
       "time": "2026-09-18T15:32:21.480195Z"
     },
     {
@@ -553,46 +553,46 @@
   "8011609": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 2,
       "player_in": 316,
       "player_in_name": "Emersonn",
       "player_out": 594,
       "player_out_name": "David",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 2,
+      "points_out": 0,
       "time": "2026-09-18T11:57:12.227217Z"
     },
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 3,
       "player_in": 649,
       "player_in_name": "Maitland-Niles",
       "player_out": 113,
       "player_out_name": "F.Kad\u0131o\u011flu",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": 5,
       "time": "2026-09-18T11:57:12.226838Z"
     },
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 14,
       "player_in": 124,
       "player_in_name": "Gro\u00df",
       "player_out": 159,
       "player_out_name": "Caicedo",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 14,
+      "points_out": 0,
       "time": "2026-09-18T11:57:12.226564Z"
     },
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 0,
       "player_in": 115,
       "player_in_name": "De Cuyper",
       "player_out": 112,
       "player_out_name": "Van Hecke",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 6,
+      "points_out": 6,
       "time": "2026-09-18T11:57:12.221346Z"
     }
   ],
@@ -634,13 +634,13 @@
   "822375": [
     {
       "gw": 5,
-      "net_points": null,
+      "net_points": 2,
       "player_in": 40,
       "player_in_name": "Rogers",
       "player_out": 454,
       "player_out_name": "Elanga",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 2,
+      "points_out": 0,
       "time": "2026-09-14T19:56:04.278402Z"
     },
     {
