@@ -3,7 +3,7 @@
     "ep_next": "6.0",
     "form": "6.0",
     "id": 1,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 1,
     "total_points": 30,
     "web_name": "Raya"
@@ -75,7 +75,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 9,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 1,
     "total_points": 2,
     "web_name": "Hincapie"
@@ -633,7 +633,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 62,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 3,
     "total_points": 0,
     "web_name": "Diakit\u00e9"
@@ -1335,7 +1335,7 @@
     "ep_next": "5.6",
     "form": "5.6",
     "id": 138,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 5,
     "total_points": 28,
     "web_name": "Kostoulas"
@@ -1614,7 +1614,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 158,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 6,
     "total_points": 0,
     "web_name": "Gittens"
@@ -2028,7 +2028,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 575,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 7,
     "total_points": 9,
     "web_name": "Yirenkyi"
@@ -2478,7 +2478,7 @@
     "ep_next": "0.4",
     "form": "0.4",
     "id": 232,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 9,
     "total_points": 2,
     "web_name": "O'Brien"
@@ -2586,7 +2586,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 247,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 9,
     "total_points": 10,
     "web_name": "Hackney"
@@ -2775,7 +2775,7 @@
     "ep_next": "0.6",
     "form": "0.6",
     "id": 269,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 10,
     "total_points": 3,
     "web_name": "Sessegnon"
@@ -3540,7 +3540,7 @@
     "ep_next": "0.4",
     "form": "0.4",
     "id": 571,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 12,
     "total_points": 2,
     "web_name": "Florentino"
@@ -3693,7 +3693,7 @@
     "ep_next": "1.4",
     "form": "1.4",
     "id": 337,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 13,
     "total_points": 7,
     "web_name": "Aaronson"
@@ -4863,7 +4863,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 448,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 17,
     "total_points": 0,
     "web_name": "Burn"
@@ -5682,7 +5682,7 @@
     "ep_next": "1.4",
     "form": "1.4",
     "id": 525,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 19,
     "total_points": 7,
     "web_name": "Fernandes"
