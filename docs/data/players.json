@@ -318,7 +318,7 @@
     "ep_next": "0.0",
     "form": "2.2",
     "id": 36,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 2,
     "total_points": 9,
     "web_name": "Maatsen"
@@ -2181,7 +2181,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 210,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 8,
     "total_points": 12,
     "web_name": "Wharton"
@@ -3108,7 +3108,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 297,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 11,
     "total_points": 0,
     "web_name": "Gyabi"
@@ -4584,7 +4584,7 @@
     "ep_next": "2.2",
     "form": "2.2",
     "id": 418,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 10,
     "web_name": "Maguire"
@@ -4755,7 +4755,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 437,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 16,
     "total_points": 0,
     "web_name": "Bendito Mantato"
