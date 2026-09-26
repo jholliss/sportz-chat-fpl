@@ -120,7 +120,7 @@
     "ep_next": "0.8",
     "form": "0.8",
     "id": 14,
-    "now_cost": 63,
+    "now_cost": 62,
     "team": 1,
     "total_points": 4,
     "web_name": "Eze"
@@ -1146,7 +1146,7 @@
     "ep_next": "5.2",
     "form": "5.2",
     "id": 115,
-    "now_cost": 49,
+    "now_cost": 50,
     "team": 5,
     "total_points": 38,
     "web_name": "De Cuyper"
@@ -1317,7 +1317,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 135,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 5,
     "total_points": 1,
     "web_name": "Yohanna"
@@ -2361,7 +2361,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 595,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 8,
     "total_points": 2,
     "web_name": "Gozo"
