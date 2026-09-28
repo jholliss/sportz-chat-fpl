@@ -1686,7 +1686,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 170,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 6,
     "total_points": 0,
     "web_name": "Emegha"
@@ -2604,7 +2604,7 @@
     "ep_next": "3.0",
     "form": "3.0",
     "id": 249,
-    "now_cost": 56,
+    "now_cost": 57,
     "team": 9,
     "total_points": 20,
     "web_name": "Barry"
