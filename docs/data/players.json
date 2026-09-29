@@ -2406,7 +2406,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 21,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 9,
     "total_points": 0,
     "web_name": "N\u00f8rgaard"
@@ -3153,7 +3153,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 563,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 11,
     "total_points": 1,
     "web_name": "Morita"
@@ -5763,7 +5763,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 531,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 20,
     "total_points": 0,
     "web_name": "Ellborg"
@@ -5871,7 +5871,7 @@
     "ep_next": "0.0",
     "form": "1.0",
     "id": 543,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 20,
     "total_points": 5,
     "web_name": "Diarra"
