@@ -1227,7 +1227,7 @@
     "ep_next": "10.7",
     "form": "10.7",
     "id": 124,
-    "now_cost": 58,
+    "now_cost": 59,
     "team": 5,
     "total_points": 47,
     "web_name": "Gro\u00df"
@@ -1497,7 +1497,7 @@
     "ep_next": "0.5",
     "form": "0.7",
     "id": 142,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 6,
     "total_points": 3,
     "web_name": "James"
@@ -1857,7 +1857,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 180,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 7,
     "total_points": 0,
     "web_name": "Woolfenden"
@@ -2325,7 +2325,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 241,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 8,
     "total_points": 3,
     "web_name": "McNeil"
@@ -3027,7 +3027,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 288,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 11,
     "total_points": 0,
     "web_name": "Dowell"
@@ -4377,7 +4377,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 406,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 15,
     "total_points": 2,
     "web_name": "Kova\u010di\u0107"
@@ -4593,7 +4593,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 419,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 16,
     "total_points": 6,
     "web_name": "Martinez"
