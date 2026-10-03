@@ -2100,7 +2100,7 @@
     "ep_next": "0.0",
     "form": "0.7",
     "id": 198,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 8,
     "total_points": 5,
     "web_name": "Henderson"
@@ -3711,7 +3711,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 339,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 13,
     "total_points": 2,
     "web_name": "Longstaff"
@@ -3882,7 +3882,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 351,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 14,
     "total_points": 0,
     "web_name": "Mamardashvili"
@@ -4035,7 +4035,7 @@
     "ep_next": "2.7",
     "form": "2.7",
     "id": 368,
-    "now_cost": 70,
+    "now_cost": 69,
     "team": 14,
     "total_points": 20,
     "web_name": "Szoboszlai"
@@ -4278,7 +4278,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 392,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 15,
     "total_points": 0,
     "web_name": "A\u00eft-Nouri"
@@ -5304,7 +5304,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 488,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 18,
     "total_points": 4,
     "web_name": "I.Sangar\u00e9"
