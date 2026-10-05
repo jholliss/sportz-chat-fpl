@@ -2280,7 +2280,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 221,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 8,
     "total_points": 0,
     "web_name": "Drakes-Thomas"
@@ -2349,7 +2349,7 @@
     "web_name": "Tomiyasu"
   },
   {
-    "ep_next": "5.3",
+    "ep_next": "4.0",
     "form": "5.3",
     "id": 588,
     "now_cost": 50,
@@ -4566,7 +4566,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 416,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 16,
     "total_points": 0,
     "web_name": "De Ligt"
@@ -4617,7 +4617,7 @@
     "web_name": "Heaven"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 422,
     "now_cost": 44,
