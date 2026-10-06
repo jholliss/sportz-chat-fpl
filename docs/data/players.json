@@ -66,7 +66,7 @@
     "ep_next": "3.0",
     "form": "3.0",
     "id": 8,
-    "now_cost": 58,
+    "now_cost": 59,
     "team": 1,
     "total_points": 29,
     "web_name": "Calafiori"
@@ -102,7 +102,7 @@
     "ep_next": "4.0",
     "form": "4.0",
     "id": 12,
-    "now_cost": 95,
+    "now_cost": 96,
     "team": 1,
     "total_points": 32,
     "web_name": "Saka"
@@ -3978,7 +3978,7 @@
     "web_name": "Lucky"
   },
   {
-    "ep_next": "7.5",
+    "ep_next": "5.6",
     "form": "7.5",
     "id": 362,
     "now_cost": 50,
@@ -4917,7 +4917,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 456,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 17,
     "total_points": 7,
     "web_name": "J.Ramsey"
