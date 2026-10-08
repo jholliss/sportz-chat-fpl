@@ -693,7 +693,7 @@
     "web_name": "Tavernier"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "0.0",
     "form": "3.0",
     "id": 69,
     "now_cost": 61,
@@ -3591,7 +3591,7 @@
     "web_name": "Flemming"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.4",
     "form": "0.5",
     "id": 260,
     "now_cost": 62,
@@ -3735,7 +3735,7 @@
     "web_name": "Harrison"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "1.0",
     "id": 343,
     "now_cost": 49,
@@ -3861,7 +3861,7 @@
     "web_name": "Bard"
   },
   {
-    "ep_next": "0.5",
+    "ep_next": "0.4",
     "form": "0.5",
     "id": 648,
     "now_cost": 50,
@@ -5769,7 +5769,7 @@
     "web_name": "Ellborg"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "0.0",
     "form": "1.0",
     "id": 532,
     "now_cost": 49,
@@ -5949,7 +5949,7 @@
     "web_name": "N.Angulo"
   },
   {
-    "ep_next": "6.8",
+    "ep_next": "0.0",
     "form": "9.0",
     "id": 552,
     "now_cost": 57,
