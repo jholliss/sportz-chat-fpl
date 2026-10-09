@@ -81,7 +81,7 @@
     "web_name": "Hincapie"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.5",
     "form": "0.5",
     "id": 10,
     "now_cost": 55,
@@ -171,7 +171,7 @@
     "web_name": "Zubimendi"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.5",
     "form": "0.5",
     "id": 20,
     "now_cost": 53,
@@ -252,7 +252,7 @@
     "web_name": "Bruno G."
   },
   {
-    "ep_next": "1.9",
+    "ep_next": "0.0",
     "form": "2.5",
     "id": 557,
     "now_cost": 63,
@@ -297,7 +297,7 @@
     "web_name": "Mings"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.4",
     "form": "0.5",
     "id": 34,
     "now_cost": 44,
@@ -1152,7 +1152,7 @@
     "web_name": "De Cuyper"
   },
   {
-    "ep_next": "4.5",
+    "ep_next": "6.0",
     "form": "6.0",
     "id": 116,
     "now_cost": 45,
@@ -1494,7 +1494,7 @@
     "web_name": "J\u00f6rgensen"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.5",
     "form": "0.5",
     "id": 142,
     "now_cost": 53,
@@ -1584,7 +1584,7 @@
     "web_name": "Palestra"
   },
   {
-    "ep_next": "2.6",
+    "ep_next": "3.5",
     "form": "3.5",
     "id": 154,
     "now_cost": 97,
@@ -1656,7 +1656,7 @@
     "web_name": "Quenda"
   },
   {
-    "ep_next": "4.5",
+    "ep_next": "6.0",
     "form": "6.0",
     "id": 165,
     "now_cost": 77,
@@ -2340,7 +2340,7 @@
     "web_name": "Matthews"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 577,
     "now_cost": 44,
@@ -2349,7 +2349,7 @@
     "web_name": "Tomiyasu"
   },
   {
-    "ep_next": "4.9",
+    "ep_next": "6.5",
     "form": "6.5",
     "id": 588,
     "now_cost": 50,
@@ -2664,7 +2664,7 @@
     "web_name": "Andersen"
   },
   {
-    "ep_next": "4.0",
+    "ep_next": "3.0",
     "form": "4.0",
     "id": 254,
     "now_cost": 45,
@@ -3978,7 +3978,7 @@
     "web_name": "Lucky"
   },
   {
-    "ep_next": "5.6",
+    "ep_next": "7.5",
     "form": "7.5",
     "id": 362,
     "now_cost": 50,
@@ -4023,7 +4023,7 @@
     "web_name": "Wirtz"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "0.0",
     "form": "2.0",
     "id": 367,
     "now_cost": 72,
@@ -4131,7 +4131,7 @@
     "web_name": "McConnell"
   },
   {
-    "ep_next": "3.8",
+    "ep_next": "0.0",
     "form": "5.0",
     "id": 379,
     "now_cost": 91,
@@ -4554,7 +4554,7 @@
     "web_name": "Heaton"
   },
   {
-    "ep_next": "3.0",
+    "ep_next": "0.0",
     "form": "4.0",
     "id": 415,
     "now_cost": 58,
@@ -4770,7 +4770,7 @@
     "web_name": "Fletcher"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 439,
     "now_cost": 70,
@@ -5139,7 +5139,7 @@
     "web_name": "John"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "1.0",
     "form": "2.0",
     "id": 469,
     "now_cost": 50,
@@ -5328,7 +5328,7 @@
     "web_name": "Wood"
   },
   {
-    "ep_next": "4.0",
+    "ep_next": "0.0",
     "form": "4.0",
     "id": 491,
     "now_cost": 58,
@@ -5373,7 +5373,7 @@
     "web_name": "Benda"
   },
   {
-    "ep_next": "5.2",
+    "ep_next": "7.0",
     "form": "7.0",
     "id": 112,
     "now_cost": 49,
@@ -5463,7 +5463,7 @@
     "web_name": "Senesi"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 499,
     "now_cost": 54,
