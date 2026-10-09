@@ -2163,7 +2163,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 207,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 8,
     "total_points": 2,
     "web_name": "Mingueza"
@@ -2568,7 +2568,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 245,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 9,
     "total_points": 1,
     "web_name": "Dibling"
@@ -4683,7 +4683,7 @@
     "ep_next": "1.5",
     "form": "2.0",
     "id": 429,
-    "now_cost": 70,
+    "now_cost": 69,
     "team": 16,
     "total_points": 10,
     "web_name": "Rashford"
@@ -5313,7 +5313,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 489,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 18,
     "total_points": 0,
     "web_name": "Yates"
