@@ -198,16 +198,16 @@
       {
         "gw": 2,
         "hits": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "points": 105,
         "vs_average": 24
       },
       {
         "gw": 2,
         "hits": 0,
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "points": 105,
         "vs_average": 24
       },
@@ -296,14 +296,6 @@
       {
         "gw": 6,
         "hits": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "points": 0,
-        "vs_average": 0
-      },
-      {
-        "gw": 6,
-        "hits": 0,
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "points": 0,
@@ -320,6 +312,14 @@
       {
         "gw": 6,
         "hits": 0,
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "points": 0,
+        "vs_average": 0
+      },
+      {
+        "gw": 6,
+        "hits": 0,
         "manager_id": "822375",
         "name": "Robbie Paton",
         "points": 0,
@@ -328,8 +328,8 @@
       {
         "gw": 6,
         "hits": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "points": 0,
         "vs_average": 0
       },
@@ -871,8 +871,8 @@
         "value": 0
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
         "value": 0
       },
       {
@@ -945,16 +945,16 @@
       },
       {
         "gw": 5,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "player_in_name": "Isak",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "player_in_name": "Gomez",
         "points_in": 8
       },
       {
         "gw": 5,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "player_in_name": "Gomez",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "player_in_name": "Isak",
         "points_in": 8
       },
       {
@@ -2218,6 +2218,19 @@
       },
       {
         "gw": 4,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "net_points": 7,
+        "player_in": 1,
+        "player_in_name": "Raya",
+        "player_out": 496,
+        "player_out_name": "Kinsky",
+        "points_in": 14,
+        "points_out": 7,
+        "time": "2026-09-12T11:23:03.884183Z"
+      },
+      {
+        "gw": 4,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "net_points": 7,
@@ -2243,19 +2256,6 @@
         "time": "2026-09-10T11:40:06.788930Z"
       },
       {
-        "gw": 4,
-        "manager_id": "4177980",
-        "name": "James Petrie",
-        "net_points": 7,
-        "player_in": 1,
-        "player_in_name": "Raya",
-        "player_out": 496,
-        "player_out_name": "Kinsky",
-        "points_in": 14,
-        "points_out": 7,
-        "time": "2026-09-12T11:23:03.884183Z"
-      },
-      {
         "gw": 5,
         "manager_id": "1212049",
         "name": "James Holliss",
@@ -2269,17 +2269,17 @@
         "time": "2026-09-17T21:14:09.212266Z"
       },
       {
-        "gw": 4,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
+        "gw": 5,
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "net_points": 6,
-        "player_in": 480,
-        "player_in_name": "Gibbs-White",
-        "player_out": 427,
-        "player_out_name": "Mbeumo",
-        "points_in": 8,
-        "points_out": 2,
-        "time": "2026-09-10T11:48:27.706527Z"
+        "player_in": 249,
+        "player_in_name": "Barry",
+        "player_out": 165,
+        "player_out_name": "Jo\u00e3o Pedro",
+        "points_in": 6,
+        "points_out": 0,
+        "time": "2026-09-18T17:22:14.545829Z"
       }
     ],
     "net_points_summary": [
@@ -2314,13 +2314,13 @@
         "total_net_points": -1
       },
       {
-        "manager_id": "822375",
-        "name": "Robbie Paton",
+        "manager_id": "6975918",
+        "name": "James Cassidy",
         "total_net_points": -4
       },
       {
-        "manager_id": "6975918",
-        "name": "James Cassidy",
+        "manager_id": "822375",
+        "name": "Robbie Paton",
         "total_net_points": -4
       },
       {
@@ -2350,12 +2350,6 @@
       },
       {
         "hit_points": 0,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "transfer_count": 21
-      },
-      {
-        "hit_points": 0,
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "transfer_count": 5
@@ -2368,15 +2362,21 @@
       },
       {
         "hit_points": 0,
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "transfer_count": 5
+      },
+      {
+        "hit_points": 0,
         "manager_id": "822375",
         "name": "Robbie Paton",
         "transfer_count": 4
       },
       {
         "hit_points": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "transfer_count": 5
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "transfer_count": 21
       },
       {
         "hit_points": 0,
@@ -2427,32 +2427,6 @@
       },
       {
         "gw": 4,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "net_points": -8,
-        "player_in": 249,
-        "player_in_name": "Barry",
-        "player_out": 346,
-        "player_out_name": "Calvert-Lewin",
-        "points_in": 2,
-        "points_out": 10,
-        "time": "2026-09-10T11:48:27.706852Z"
-      },
-      {
-        "gw": 4,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "net_points": -8,
-        "player_in": 623,
-        "player_in_name": "Bentley",
-        "player_out": 109,
-        "player_out_name": "Verbruggen",
-        "points_in": 0,
-        "points_out": 8,
-        "time": "2026-09-10T11:40:06.786790Z"
-      },
-      {
-        "gw": 4,
         "manager_id": "4177980",
         "name": "James Petrie",
         "net_points": -8,
@@ -2476,6 +2450,32 @@
         "points_in": 0,
         "points_out": 8,
         "time": "2026-09-12T11:23:03.883909Z"
+      },
+      {
+        "gw": 4,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "net_points": -8,
+        "player_in": 249,
+        "player_in_name": "Barry",
+        "player_out": 346,
+        "player_out_name": "Calvert-Lewin",
+        "points_in": 2,
+        "points_out": 10,
+        "time": "2026-09-10T11:48:27.706852Z"
+      },
+      {
+        "gw": 4,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "net_points": -8,
+        "player_in": 623,
+        "player_in_name": "Bentley",
+        "player_out": 109,
+        "player_out_name": "Verbruggen",
+        "points_in": 0,
+        "points_out": 8,
+        "time": "2026-09-10T11:40:06.786790Z"
       },
       {
         "gw": 4,
@@ -2781,14 +2781,6 @@
         "worst_vs_average": -2
       },
       {
-        "best_vs_average": 24,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "weeks_beat_average": 5,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
-      },
-      {
         "best_vs_average": 11,
         "manager_id": "8011609",
         "name": "Tom Phillips",
@@ -2805,6 +2797,14 @@
         "worst_vs_average": -12
       },
       {
+        "best_vs_average": 14,
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "weeks_beat_average": 2,
+        "weeks_lost_to_average": 3,
+        "worst_vs_average": -3
+      },
+      {
         "best_vs_average": 22,
         "manager_id": "822375",
         "name": "Robbie Paton",
@@ -2813,12 +2813,12 @@
         "worst_vs_average": -12
       },
       {
-        "best_vs_average": 14,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "weeks_beat_average": 2,
-        "weeks_lost_to_average": 3,
-        "worst_vs_average": -3
+        "best_vs_average": 24,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "weeks_beat_average": 5,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
       },
       {
         "best_vs_average": 18,
@@ -2850,12 +2850,6 @@
       "weeks_on_podium": 2
     },
     {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 4
-    },
-    {
       "manager_id": "8011609",
       "name": "Tom Phillips",
       "weeks_at_top": 0,
@@ -2868,16 +2862,22 @@
       "weeks_on_podium": 0
     },
     {
+      "manager_id": "6975918",
+      "name": "James Cassidy",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 0
+    },
+    {
       "manager_id": "822375",
       "name": "Robbie Paton",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "6975918",
-      "name": "James Cassidy",
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
       "weeks_at_top": 0,
-      "weeks_on_podium": 0
+      "weeks_on_podium": 4
     },
     {
       "manager_id": "3457548",
