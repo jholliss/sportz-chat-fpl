@@ -84,7 +84,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 10,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 1,
     "total_points": 21,
     "web_name": "White"
@@ -705,7 +705,7 @@
     "ep_next": "0.0",
     "form": "4.0",
     "id": 70,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 3,
     "total_points": 15,
     "web_name": "Kluivert"
@@ -1308,7 +1308,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 134,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 5,
     "total_points": 0,
     "web_name": "Oriola"
@@ -1947,7 +1947,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 190,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 7,
     "total_points": 5,
     "web_name": "Tchaouna"
@@ -2037,7 +2037,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 584,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 7,
     "total_points": 3,
     "web_name": "Hamer"
@@ -2811,7 +2811,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 569,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 10,
     "total_points": 14,
     "web_name": "Gonzalo"
@@ -3405,7 +3405,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 313,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 12,
     "total_points": 11,
     "web_name": "Clarke"
@@ -3432,7 +3432,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 316,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 12,
     "total_points": 26,
     "web_name": "Emersonn"
@@ -4098,7 +4098,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 375,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 14,
     "total_points": 3,
     "web_name": "Nyoni"
@@ -5907,7 +5907,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 547,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 20,
     "total_points": 1,
     "web_name": "Mundle"
@@ -5934,7 +5934,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 550,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 20,
     "total_points": 0,
     "web_name": "Jocelin.T"
