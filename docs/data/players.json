@@ -1,11 +1,11 @@
 [
   {
-    "ep_next": "7.5",
-    "form": "7.5",
+    "ep_next": "6.0",
+    "form": "6.0",
     "id": 1,
     "now_cost": 61,
     "team": 1,
-    "total_points": 30,
+    "total_points": 33,
     "web_name": "Raya"
   },
   {
@@ -27,21 +27,21 @@
     "web_name": "Meslier"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 4,
     "now_cost": 80,
     "team": 1,
-    "total_points": 25,
+    "total_points": 27,
     "web_name": "Gabriel"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 5,
     "now_cost": 65,
     "team": 1,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "J.Timber"
   },
   {
@@ -54,39 +54,39 @@
     "web_name": "Saliba"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 7,
     "now_cost": 54,
     "team": 1,
-    "total_points": 9,
+    "total_points": 11,
     "web_name": "Lewis-Skelly"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "5.3",
+    "form": "5.3",
     "id": 8,
     "now_cost": 59,
     "team": 1,
-    "total_points": 29,
+    "total_points": 38,
     "web_name": "Calafiori"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 9,
     "now_cost": 52,
     "team": 1,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Hincapie"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 10,
     "now_cost": 54,
     "team": 1,
-    "total_points": 21,
+    "total_points": 26,
     "web_name": "White"
   },
   {
@@ -99,26 +99,26 @@
     "web_name": "Mosquera"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 12,
     "now_cost": 96,
     "team": 1,
-    "total_points": 32,
+    "total_points": 34,
     "web_name": "Saka"
   },
   {
-    "ep_next": "2.6",
-    "form": "3.5",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 13,
     "now_cost": 74,
     "team": 1,
-    "total_points": 20,
+    "total_points": 27,
     "web_name": "Rice"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 14,
     "now_cost": 62,
     "team": 1,
@@ -126,21 +126,21 @@
     "web_name": "Eze"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 15,
     "now_cost": 68,
     "team": 1,
-    "total_points": 29,
+    "total_points": 30,
     "web_name": "\u00d8degaard"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 16,
     "now_cost": 62,
     "team": 1,
-    "total_points": 2,
+    "total_points": 4,
     "web_name": "Madueke"
   },
   {
@@ -149,7 +149,7 @@
     "id": 17,
     "now_cost": 57,
     "team": 1,
-    "total_points": 4,
+    "total_points": 5,
     "web_name": "Merino"
   },
   {
@@ -162,8 +162,8 @@
     "web_name": "Martinelli"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 19,
     "now_cost": 53,
     "team": 1,
@@ -171,8 +171,8 @@
     "web_name": "Zubimendi"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 20,
     "now_cost": 53,
     "team": 1,
@@ -207,21 +207,21 @@
     "web_name": "Nelson"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 25,
     "now_cost": 71,
     "team": 1,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Gy\u00f6keres"
   },
   {
-    "ep_next": "1.1",
-    "form": "1.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 26,
     "now_cost": 76,
     "team": 1,
-    "total_points": 19,
+    "total_points": 21,
     "web_name": "Havertz"
   },
   {
@@ -234,26 +234,26 @@
     "web_name": "G.Jesus"
   },
   {
-    "ep_next": "2.6",
-    "form": "3.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 31,
     "now_cost": 46,
     "team": 1,
-    "total_points": 12,
+    "total_points": 16,
     "web_name": "Konsa"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "5.7",
+    "form": "5.7",
     "id": 452,
     "now_cost": 67,
     "team": 1,
-    "total_points": 9,
+    "total_points": 18,
     "web_name": "Bruno G."
   },
   {
     "ep_next": "0.0",
-    "form": "2.5",
+    "form": "1.7",
     "id": 557,
     "now_cost": 63,
     "team": 1,
@@ -279,26 +279,26 @@
     "web_name": "Digne"
   },
   {
-    "ep_next": "-0.5",
-    "form": "-0.5",
+    "ep_next": "0.0",
+    "form": "0.0",
     "id": 32,
     "now_cost": 44,
     "team": 2,
-    "total_points": 6,
+    "total_points": 7,
     "web_name": "Cash"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 33,
     "now_cost": 45,
     "team": 2,
-    "total_points": 10,
+    "total_points": 11,
     "web_name": "Mings"
   },
   {
-    "ep_next": "0.4",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 34,
     "now_cost": 44,
     "team": 2,
@@ -316,7 +316,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "0.5",
+    "form": "0.3",
     "id": 36,
     "now_cost": 44,
     "team": 2,
@@ -329,7 +329,7 @@
     "id": 37,
     "now_cost": 45,
     "team": 2,
-    "total_points": 8,
+    "total_points": 9,
     "web_name": "Lindel\u00f6f"
   },
   {
@@ -351,12 +351,12 @@
     "web_name": "Nedeljkovic"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "6.0",
+    "form": "6.0",
     "id": 41,
     "now_cost": 59,
     "team": 2,
-    "total_points": 21,
+    "total_points": 25,
     "web_name": "Buend\u00eda"
   },
   {
@@ -369,17 +369,17 @@
     "web_name": "Bailey"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 45,
     "now_cost": 54,
     "team": 2,
-    "total_points": 17,
+    "total_points": 18,
     "web_name": "McGinn"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 46,
     "now_cost": 50,
     "team": 2,
@@ -387,12 +387,12 @@
     "web_name": "Barkley"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 47,
     "now_cost": 50,
     "team": 2,
-    "total_points": 15,
+    "total_points": 16,
     "web_name": "Kamara"
   },
   {
@@ -423,8 +423,8 @@
     "web_name": "Burrowes"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 51,
     "now_cost": 45,
     "team": 2,
@@ -432,8 +432,8 @@
     "web_name": "George Hemmings"
   },
   {
-    "ep_next": "2.2",
-    "form": "3.0",
+    "ep_next": "1.5",
+    "form": "2.0",
     "id": 52,
     "now_cost": 50,
     "team": 2,
@@ -441,21 +441,21 @@
     "web_name": "Alysson"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 53,
     "now_cost": 59,
     "team": 2,
-    "total_points": 14,
+    "total_points": 15,
     "web_name": "Manzambi"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 54,
     "now_cost": 55,
     "team": 2,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Gomes"
   },
   {
@@ -468,8 +468,8 @@
     "web_name": "Watkins"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 56,
     "now_cost": 55,
     "team": 2,
@@ -486,12 +486,12 @@
     "web_name": "Garnacho"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 166,
     "now_cost": 65,
     "team": 2,
-    "total_points": 10,
+    "total_points": 18,
     "web_name": "N.Jackson"
   },
   {
@@ -504,21 +504,21 @@
     "web_name": "Madjo"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 596,
     "now_cost": 45,
     "team": 2,
-    "total_points": 5,
+    "total_points": 6,
     "web_name": "Ruggeri"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 597,
     "now_cost": 50,
     "team": 2,
-    "total_points": 16,
+    "total_points": 17,
     "web_name": "Suzuki"
   },
   {
@@ -540,8 +540,8 @@
     "web_name": "Lynch"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 611,
     "now_cost": 45,
     "team": 2,
@@ -567,8 +567,8 @@
     "web_name": "Harwood-Bellis"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 631,
     "now_cost": 60,
     "team": 2,
@@ -576,7 +576,7 @@
     "web_name": "Mbaye"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 667,
     "now_cost": 40,
@@ -585,8 +585,8 @@
     "web_name": "Wright"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 57,
     "now_cost": 45,
     "team": 3,
@@ -612,8 +612,8 @@
     "web_name": "Dennis"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 60,
     "now_cost": 55,
     "team": 3,
@@ -621,12 +621,12 @@
     "web_name": "Hill"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 61,
     "now_cost": 54,
     "team": 3,
-    "total_points": 10,
+    "total_points": 9,
     "web_name": "Truffert"
   },
   {
@@ -648,8 +648,8 @@
     "web_name": "Milosavljevi\u0107"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 64,
     "now_cost": 45,
     "team": 3,
@@ -675,17 +675,17 @@
     "web_name": "Soler"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 67,
     "now_cost": 63,
     "team": 3,
-    "total_points": 10,
+    "total_points": 11,
     "web_name": "Rayan"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 68,
     "now_cost": 61,
     "team": 3,
@@ -694,7 +694,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "3.0",
+    "form": "2.0",
     "id": 69,
     "now_cost": 61,
     "team": 3,
@@ -703,7 +703,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "4.0",
+    "form": "2.7",
     "id": 70,
     "now_cost": 59,
     "team": 3,
@@ -711,8 +711,8 @@
     "web_name": "Kluivert"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 71,
     "now_cost": 50,
     "team": 3,
@@ -725,39 +725,39 @@
     "id": 72,
     "now_cost": 49,
     "team": 3,
-    "total_points": 4,
+    "total_points": 5,
     "web_name": "Gannon-Doak"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 73,
     "now_cost": 50,
     "team": 3,
-    "total_points": 12,
+    "total_points": 13,
     "web_name": "Adams"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 74,
     "now_cost": 50,
     "team": 3,
-    "total_points": 3,
+    "total_points": 4,
     "web_name": "Brooks"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 75,
     "now_cost": 50,
     "team": 3,
-    "total_points": 5,
+    "total_points": 6,
     "web_name": "Christie"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 76,
     "now_cost": 49,
     "team": 3,
@@ -783,12 +783,12 @@
     "web_name": "Kroupi.Jr"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 79,
     "now_cost": 60,
     "team": 3,
-    "total_points": 18,
+    "total_points": 19,
     "web_name": "Evanilson"
   },
   {
@@ -801,8 +801,8 @@
     "web_name": "Enes \u00dcnal"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 81,
     "now_cost": 60,
     "team": 3,
@@ -810,8 +810,8 @@
     "web_name": "Rodr\u00edguez"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 566,
     "now_cost": 50,
     "team": 3,
@@ -828,8 +828,8 @@
     "web_name": "Sanchez"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 608,
     "now_cost": 50,
     "team": 3,
@@ -846,12 +846,12 @@
     "web_name": "Di Gregorio"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 82,
     "now_cost": 50,
     "team": 4,
-    "total_points": 20,
+    "total_points": 22,
     "web_name": "Kelleher"
   },
   {
@@ -882,30 +882,30 @@
     "web_name": "Van den Berg"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 86,
     "now_cost": 55,
     "team": 4,
-    "total_points": 22,
+    "total_points": 23,
     "web_name": "Lewis-Potter"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 87,
     "now_cost": 45,
     "team": 4,
-    "total_points": 21,
+    "total_points": 22,
     "web_name": "Ajer"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 88,
     "now_cost": 46,
     "team": 4,
-    "total_points": 23,
+    "total_points": 24,
     "web_name": "Kayode"
   },
   {
@@ -918,8 +918,8 @@
     "web_name": "Henry"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 90,
     "now_cost": 45,
     "team": 4,
@@ -936,26 +936,26 @@
     "web_name": "Ji-soo"
   },
   {
-    "ep_next": "8.5",
-    "form": "8.5",
+    "ep_next": "6.0",
+    "form": "6.0",
     "id": 93,
     "now_cost": 45,
     "team": 4,
-    "total_points": 21,
+    "total_points": 22,
     "web_name": "Schuster"
   },
   {
-    "ep_next": "12.0",
-    "form": "12.0",
+    "ep_next": "8.3",
+    "form": "8.3",
     "id": 94,
     "now_cost": 62,
     "team": 4,
-    "total_points": 39,
+    "total_points": 40,
     "web_name": "Schade"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 95,
     "now_cost": 63,
     "team": 4,
@@ -963,8 +963,8 @@
     "web_name": "O.Dango"
   },
   {
-    "ep_next": "1.5",
-    "form": "2.0",
+    "ep_next": "1.0",
+    "form": "1.3",
     "id": 96,
     "now_cost": 54,
     "team": 4,
@@ -981,12 +981,12 @@
     "web_name": "Jensen"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 98,
     "now_cost": 50,
     "team": 4,
-    "total_points": 28,
+    "total_points": 29,
     "web_name": "Janelt"
   },
   {
@@ -999,8 +999,8 @@
     "web_name": "Milambo"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 100,
     "now_cost": 50,
     "team": 4,
@@ -1008,12 +1008,12 @@
     "web_name": "Carvalho"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 102,
     "now_cost": 48,
     "team": 4,
-    "total_points": 9,
+    "total_points": 17,
     "web_name": "Yarmoliuk"
   },
   {
@@ -1026,12 +1026,12 @@
     "web_name": "Dasilva"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 105,
     "now_cost": 59,
     "team": 4,
-    "total_points": 15,
+    "total_points": 16,
     "web_name": "Anthony"
   },
   {
@@ -1040,7 +1040,7 @@
     "id": 106,
     "now_cost": 78,
     "team": 4,
-    "total_points": 10,
+    "total_points": 13,
     "web_name": "Thiago"
   },
   {
@@ -1062,8 +1062,8 @@
     "web_name": "Wilson"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 565,
     "now_cost": 56,
     "team": 4,
@@ -1076,7 +1076,7 @@
     "id": 620,
     "now_cost": 45,
     "team": 4,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Diouf"
   },
   {
@@ -1089,7 +1089,7 @@
     "web_name": "Nunes"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 660,
     "now_cost": 40,
@@ -1098,7 +1098,7 @@
     "web_name": "Fredrick"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 661,
     "now_cost": 40,
@@ -1107,12 +1107,12 @@
     "web_name": "Balcombe"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 109,
     "now_cost": 45,
     "team": 5,
-    "total_points": 23,
+    "total_points": 24,
     "web_name": "Verbruggen"
   },
   {
@@ -1125,17 +1125,17 @@
     "web_name": "Steele"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 113,
     "now_cost": 44,
     "team": 5,
-    "total_points": 13,
+    "total_points": 14,
     "web_name": "F.Kad\u0131o\u011flu"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 114,
     "now_cost": 45,
     "team": 5,
@@ -1143,17 +1143,17 @@
     "web_name": "Boscagli"
   },
   {
-    "ep_next": "8.5",
-    "form": "8.5",
+    "ep_next": "6.0",
+    "form": "6.0",
     "id": 115,
     "now_cost": 50,
     "team": 5,
-    "total_points": 38,
+    "total_points": 39,
     "web_name": "De Cuyper"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 116,
     "now_cost": 45,
     "team": 5,
@@ -1179,8 +1179,8 @@
     "web_name": "Igor"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 119,
     "now_cost": 45,
     "team": 5,
@@ -1188,8 +1188,8 @@
     "web_name": "Costinha"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 120,
     "now_cost": 50,
     "team": 5,
@@ -1224,17 +1224,17 @@
     "web_name": "Hinshelwood"
   },
   {
-    "ep_next": "15.5",
-    "form": "15.5",
+    "ep_next": "10.7",
+    "form": "10.7",
     "id": 124,
     "now_cost": 59,
     "team": 5,
-    "total_points": 47,
+    "total_points": 48,
     "web_name": "Gro\u00df"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 125,
     "now_cost": 53,
     "team": 5,
@@ -1242,8 +1242,8 @@
     "web_name": "Georginio"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 126,
     "now_cost": 54,
     "team": 5,
@@ -1251,12 +1251,12 @@
     "web_name": "O'Riley"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "5.3",
+    "form": "5.3",
     "id": 127,
     "now_cost": 50,
     "team": 5,
-    "total_points": 24,
+    "total_points": 29,
     "web_name": "Gomez"
   },
   {
@@ -1269,12 +1269,12 @@
     "web_name": "Buonanotte"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 129,
     "now_cost": 54,
     "team": 5,
-    "total_points": 15,
+    "total_points": 16,
     "web_name": "Ayari"
   },
   {
@@ -1332,12 +1332,12 @@
     "web_name": "Tzimas"
   },
   {
-    "ep_next": "10.0",
-    "form": "10.0",
+    "ep_next": "7.0",
+    "form": "7.0",
     "id": 138,
     "now_cost": 56,
     "team": 5,
-    "total_points": 28,
+    "total_points": 29,
     "web_name": "Kostoulas"
   },
   {
@@ -1350,21 +1350,21 @@
     "web_name": "Ferguson"
   },
   {
-    "ep_next": "2.2",
-    "form": "3.0",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 328,
     "now_cost": 49,
     "team": 5,
-    "total_points": 7,
+    "total_points": 8,
     "web_name": "Struijk"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 504,
     "now_cost": 50,
     "team": 5,
-    "total_points": 32,
+    "total_points": 33,
     "web_name": "Vuskovic"
   },
   {
@@ -1377,8 +1377,8 @@
     "web_name": "David"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 600,
     "now_cost": 50,
     "team": 5,
@@ -1386,8 +1386,8 @@
     "web_name": "Osman"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 605,
     "now_cost": 45,
     "team": 5,
@@ -1413,12 +1413,12 @@
     "web_name": "Cozier-Duberry"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 639,
     "now_cost": 55,
     "team": 5,
-    "total_points": 12,
+    "total_points": 13,
     "web_name": "Andr\u00e9s"
   },
   {
@@ -1445,30 +1445,30 @@
     "id": 28,
     "now_cost": 50,
     "team": 6,
-    "total_points": 9,
+    "total_points": 11,
     "web_name": "Martinez"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "6.0",
+    "form": "6.0",
     "id": 40,
     "now_cost": 78,
     "team": 6,
-    "total_points": 29,
+    "total_points": 37,
     "web_name": "Rogers"
+  },
+  {
+    "ep_next": "4.7",
+    "form": "4.7",
+    "id": 101,
+    "now_cost": 49,
+    "team": 6,
+    "total_points": 14,
+    "web_name": "Henderson"
   },
   {
     "ep_next": "1.0",
     "form": "1.0",
-    "id": 101,
-    "now_cost": 49,
-    "team": 6,
-    "total_points": 2,
-    "web_name": "Henderson"
-  },
-  {
-    "ep_next": "1.5",
-    "form": "1.5",
     "id": 136,
     "now_cost": 59,
     "team": 6,
@@ -1494,8 +1494,8 @@
     "web_name": "J\u00f6rgensen"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.1",
+    "form": "0.3",
     "id": 142,
     "now_cost": 53,
     "team": 6,
@@ -1512,8 +1512,8 @@
     "web_name": "Chalobah"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 144,
     "now_cost": 49,
     "team": 6,
@@ -1521,8 +1521,8 @@
     "web_name": "Gusto"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 145,
     "now_cost": 50,
     "team": 6,
@@ -1553,7 +1553,7 @@
     "id": 149,
     "now_cost": 48,
     "team": 6,
-    "total_points": 3,
+    "total_points": 4,
     "web_name": "Colwill"
   },
   {
@@ -1566,12 +1566,12 @@
     "web_name": "M.Sarr"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 151,
     "now_cost": 45,
     "team": 6,
-    "total_points": 5,
+    "total_points": 6,
     "web_name": "Acheampong"
   },
   {
@@ -1584,26 +1584,26 @@
     "web_name": "Palestra"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 154,
     "now_cost": 97,
     "team": 6,
-    "total_points": 28,
+    "total_points": 33,
     "web_name": "Palmer"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 156,
     "now_cost": 65,
     "team": 6,
-    "total_points": 14,
+    "total_points": 15,
     "web_name": "Neto"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 157,
     "now_cost": 63,
     "team": 6,
@@ -1620,17 +1620,17 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 159,
     "now_cost": 53,
     "team": 6,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Caicedo"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 161,
     "now_cost": 50,
     "team": 6,
@@ -1647,8 +1647,8 @@
     "web_name": "D.Essugo"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 164,
     "now_cost": 53,
     "team": 6,
@@ -1656,12 +1656,12 @@
     "web_name": "Quenda"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 165,
     "now_cost": 77,
     "team": 6,
-    "total_points": 33,
+    "total_points": 34,
     "web_name": "Jo\u00e3o Pedro"
   },
   {
@@ -1692,12 +1692,12 @@
     "web_name": "Emegha"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 200,
     "now_cost": 59,
     "team": 6,
-    "total_points": 13,
+    "total_points": 14,
     "web_name": "Lacroix"
   },
   {
@@ -1719,8 +1719,8 @@
     "web_name": "Anselmino"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 568,
     "now_cost": 54,
     "team": 6,
@@ -1733,12 +1733,12 @@
     "id": 583,
     "now_cost": 49,
     "team": 6,
-    "total_points": 5,
+    "total_points": 6,
     "web_name": "Chavarria"
   },
   {
-    "ep_next": "1.1",
-    "form": "1.0",
+    "ep_next": "0.5",
+    "form": "0.5",
     "id": 662,
     "now_cost": 45,
     "team": 6,
@@ -1746,8 +1746,8 @@
     "web_name": "Nicoll-Jazuli"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 91,
     "now_cost": 45,
     "team": 7,
@@ -1755,8 +1755,8 @@
     "web_name": "Pinnock"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 104,
     "now_cost": 49,
     "team": 7,
@@ -1764,8 +1764,8 @@
     "web_name": "Onyeka"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 110,
     "now_cost": 45,
     "team": 7,
@@ -1791,8 +1791,8 @@
     "web_name": "Wilson"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 173,
     "now_cost": 40,
     "team": 7,
@@ -1818,8 +1818,8 @@
     "web_name": "van Ewijk"
   },
   {
-    "ep_next": "7.5",
-    "form": "7.5",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 176,
     "now_cost": 40,
     "team": 7,
@@ -1845,8 +1845,8 @@
     "web_name": "Bidwell"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 179,
     "now_cost": 40,
     "team": 7,
@@ -1881,8 +1881,8 @@
     "web_name": "Amenda"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 183,
     "now_cost": 49,
     "team": 7,
@@ -1890,8 +1890,8 @@
     "web_name": "Rudoni"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 184,
     "now_cost": 49,
     "team": 7,
@@ -1908,8 +1908,8 @@
     "web_name": "Sakamoto"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 186,
     "now_cost": 53,
     "team": 7,
@@ -1926,8 +1926,8 @@
     "web_name": "Eccles"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 188,
     "now_cost": 53,
     "team": 7,
@@ -1944,8 +1944,8 @@
     "web_name": "Shepherd"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 190,
     "now_cost": 53,
     "team": 7,
@@ -1980,8 +1980,8 @@
     "web_name": "Wright"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 194,
     "now_cost": 50,
     "team": 7,
@@ -1989,8 +1989,8 @@
     "web_name": "Thomas-Asante"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 195,
     "now_cost": 49,
     "team": 7,
@@ -2017,7 +2017,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "-1.0",
+    "form": "-0.7",
     "id": 492,
     "now_cost": 54,
     "team": 7,
@@ -2025,8 +2025,8 @@
     "web_name": "Awoniyi"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 575,
     "now_cost": 48,
     "team": 7,
@@ -2043,8 +2043,8 @@
     "web_name": "Hamer"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 599,
     "now_cost": 50,
     "team": 7,
@@ -2070,8 +2070,8 @@
     "web_name": "Gboho"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 656,
     "now_cost": 40,
     "team": 7,
@@ -2089,7 +2089,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "-1.5",
+    "form": "-1.0",
     "id": 153,
     "now_cost": 45,
     "team": 8,
@@ -2106,8 +2106,8 @@
     "web_name": "Henderson"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 199,
     "now_cost": 45,
     "team": 8,
@@ -2115,8 +2115,8 @@
     "web_name": "Benitez"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 202,
     "now_cost": 49,
     "team": 8,
@@ -2124,8 +2124,8 @@
     "web_name": "Richards"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 203,
     "now_cost": 48,
     "team": 8,
@@ -2133,8 +2133,8 @@
     "web_name": "Canvot"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 204,
     "now_cost": 45,
     "team": 8,
@@ -2169,8 +2169,8 @@
     "web_name": "Mingueza"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 208,
     "now_cost": 62,
     "team": 8,
@@ -2178,8 +2178,8 @@
     "web_name": "Sarr"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 210,
     "now_cost": 54,
     "team": 8,
@@ -2187,8 +2187,8 @@
     "web_name": "Wharton"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 211,
     "now_cost": 55,
     "team": 8,
@@ -2196,8 +2196,8 @@
     "web_name": "Yeremy"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 212,
     "now_cost": 44,
     "team": 8,
@@ -2205,8 +2205,8 @@
     "web_name": "Hughes"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 213,
     "now_cost": 48,
     "team": 8,
@@ -2214,8 +2214,8 @@
     "web_name": "Lerma"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 214,
     "now_cost": 50,
     "team": 8,
@@ -2286,8 +2286,8 @@
     "web_name": "Drakes-Thomas"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 222,
     "now_cost": 60,
     "team": 8,
@@ -2304,8 +2304,8 @@
     "web_name": "Mateta"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 224,
     "now_cost": 55,
     "team": 8,
@@ -2341,7 +2341,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "0.5",
+    "form": "0.3",
     "id": 577,
     "now_cost": 44,
     "team": 8,
@@ -2349,8 +2349,8 @@
     "web_name": "Tomiyasu"
   },
   {
-    "ep_next": "6.5",
-    "form": "6.5",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 588,
     "now_cost": 50,
     "team": 8,
@@ -2358,8 +2358,8 @@
     "web_name": "Khalaili"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 595,
     "now_cost": 49,
     "team": 8,
@@ -2367,8 +2367,8 @@
     "web_name": "Gozo"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 633,
     "now_cost": 45,
     "team": 8,
@@ -2376,8 +2376,8 @@
     "web_name": "Ahanor"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 643,
     "now_cost": 45,
     "team": 8,
@@ -2385,8 +2385,8 @@
     "web_name": "Chilwell"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 644,
     "now_cost": 50,
     "team": 8,
@@ -2412,8 +2412,8 @@
     "web_name": "N\u00f8rgaard"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 209,
     "now_cost": 59,
     "team": 9,
@@ -2421,8 +2421,8 @@
     "web_name": "Johnson"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 226,
     "now_cost": 55,
     "team": 9,
@@ -2448,8 +2448,8 @@
     "web_name": "King"
   },
   {
-    "ep_next": "11.0",
-    "form": "11.0",
+    "ep_next": "7.3",
+    "form": "7.3",
     "id": 229,
     "now_cost": 62,
     "team": 9,
@@ -2457,8 +2457,8 @@
     "web_name": "Tarkowski"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 230,
     "now_cost": 55,
     "team": 9,
@@ -2475,8 +2475,8 @@
     "web_name": "Keane"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 232,
     "now_cost": 48,
     "team": 9,
@@ -2484,8 +2484,8 @@
     "web_name": "O'Brien"
   },
   {
-    "ep_next": "6.0",
-    "form": "8.0",
+    "ep_next": "4.0",
+    "form": "5.3",
     "id": 233,
     "now_cost": 46,
     "team": 9,
@@ -2511,8 +2511,8 @@
     "web_name": "Aznou"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 236,
     "now_cost": 66,
     "team": 9,
@@ -2520,8 +2520,8 @@
     "web_name": "Dewsbury-Hall"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 238,
     "now_cost": 65,
     "team": 9,
@@ -2529,8 +2529,8 @@
     "web_name": "Grealish"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 239,
     "now_cost": 60,
     "team": 9,
@@ -2538,8 +2538,8 @@
     "web_name": "Garner"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 242,
     "now_cost": 55,
     "team": 9,
@@ -2556,8 +2556,8 @@
     "web_name": "Alcaraz"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 244,
     "now_cost": 50,
     "team": 9,
@@ -2565,8 +2565,8 @@
     "web_name": "Armstrong"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 245,
     "now_cost": 53,
     "team": 9,
@@ -2583,8 +2583,8 @@
     "web_name": "R\u00f6hl"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 247,
     "now_cost": 54,
     "team": 9,
@@ -2601,8 +2601,8 @@
     "web_name": "Beto"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 249,
     "now_cost": 57,
     "team": 9,
@@ -2610,8 +2610,8 @@
     "web_name": "Barry"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 649,
     "now_cost": 45,
     "team": 9,
@@ -2628,12 +2628,12 @@
     "web_name": "Graham"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 250,
     "now_cost": 45,
     "team": 10,
-    "total_points": 18,
+    "total_points": 19,
     "web_name": "Leno"
   },
   {
@@ -2655,8 +2655,8 @@
     "web_name": "McNally"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 253,
     "now_cost": 50,
     "team": 10,
@@ -2664,8 +2664,8 @@
     "web_name": "Andersen"
   },
   {
-    "ep_next": "3.0",
-    "form": "4.0",
+    "ep_next": "2.0",
+    "form": "2.7",
     "id": 254,
     "now_cost": 45,
     "team": 10,
@@ -2682,26 +2682,26 @@
     "web_name": "J.Cuenca"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 256,
     "now_cost": 44,
     "team": 10,
-    "total_points": 0,
+    "total_points": 1,
     "web_name": "Tete"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 257,
     "now_cost": 45,
     "team": 10,
-    "total_points": 15,
+    "total_points": 17,
     "web_name": "Bassey"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 258,
     "now_cost": 45,
     "team": 10,
@@ -2714,12 +2714,12 @@
     "id": 261,
     "now_cost": 54,
     "team": 10,
-    "total_points": 14,
+    "total_points": 18,
     "web_name": "Iwobi"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 262,
     "now_cost": 53,
     "team": 10,
@@ -2727,8 +2727,8 @@
     "web_name": "Smith Rowe"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 263,
     "now_cost": 53,
     "team": 10,
@@ -2736,12 +2736,12 @@
     "web_name": "Kevin"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 264,
     "now_cost": 55,
     "team": 10,
-    "total_points": 13,
+    "total_points": 14,
     "web_name": "Bobb"
   },
   {
@@ -2750,7 +2750,7 @@
     "id": 265,
     "now_cost": 49,
     "team": 10,
-    "total_points": 11,
+    "total_points": 14,
     "web_name": "Berge"
   },
   {
@@ -2763,8 +2763,8 @@
     "web_name": "Cairney"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 268,
     "now_cost": 56,
     "team": 10,
@@ -2772,12 +2772,12 @@
     "web_name": "King"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 269,
     "now_cost": 43,
     "team": 10,
-    "total_points": 3,
+    "total_points": 4,
     "web_name": "Sessegnon"
   },
   {
@@ -2790,8 +2790,8 @@
     "web_name": "Reed"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 271,
     "now_cost": 54,
     "team": 10,
@@ -2808,17 +2808,17 @@
     "web_name": "Kusi-Asare"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 569,
     "now_cost": 61,
     "team": 10,
-    "total_points": 14,
+    "total_points": 15,
     "web_name": "Gonzalo"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 570,
     "now_cost": 54,
     "team": 10,
@@ -2826,12 +2826,12 @@
     "web_name": "Palacios"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 580,
     "now_cost": 50,
     "team": 10,
-    "total_points": 13,
+    "total_points": 15,
     "web_name": "Charles"
   },
   {
@@ -2853,8 +2853,8 @@
     "web_name": "Zepa"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 635,
     "now_cost": 50,
     "team": 10,
@@ -2871,17 +2871,17 @@
     "web_name": "\u00c1ngel"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 650,
     "now_cost": 45,
     "team": 10,
-    "total_points": 12,
+    "total_points": 13,
     "web_name": "Affengruber"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 240,
     "now_cost": 50,
     "team": 11,
@@ -2925,8 +2925,8 @@
     "web_name": "Lo-Tutala"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 277,
     "now_cost": 41,
     "team": 11,
@@ -2943,8 +2943,8 @@
     "web_name": "Hughes"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 279,
     "now_cost": 42,
     "team": 11,
@@ -2952,8 +2952,8 @@
     "web_name": "Ajayi"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 280,
     "now_cost": 40,
     "team": 11,
@@ -2970,8 +2970,8 @@
     "web_name": "Drameh"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 282,
     "now_cost": 40,
     "team": 11,
@@ -3006,8 +3006,8 @@
     "web_name": "McNair"
   },
   {
-    "ep_next": "8.5",
-    "form": "8.5",
+    "ep_next": "5.7",
+    "form": "5.7",
     "id": 286,
     "now_cost": 51,
     "team": 11,
@@ -3033,8 +3033,8 @@
     "web_name": "Dowell"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 289,
     "now_cost": 44,
     "team": 11,
@@ -3042,8 +3042,8 @@
     "web_name": "Crooks"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 290,
     "now_cost": 45,
     "team": 11,
@@ -3087,8 +3087,8 @@
     "web_name": "Zambrano"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 295,
     "now_cost": 55,
     "team": 11,
@@ -3132,8 +3132,8 @@
     "web_name": "Burstow"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 340,
     "now_cost": 50,
     "team": 11,
@@ -3159,8 +3159,8 @@
     "web_name": "Morita"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 572,
     "now_cost": 47,
     "team": 11,
@@ -3177,8 +3177,8 @@
     "web_name": "Hjert\u00f8-Dahl"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 576,
     "now_cost": 50,
     "team": 11,
@@ -3186,8 +3186,8 @@
     "web_name": "Stroud"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 585,
     "now_cost": 40,
     "team": 11,
@@ -3195,8 +3195,8 @@
     "web_name": "Herrington"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 586,
     "now_cost": 41,
     "team": 11,
@@ -3204,8 +3204,8 @@
     "web_name": "Mendy"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 589,
     "now_cost": 50,
     "team": 11,
@@ -3213,8 +3213,8 @@
     "web_name": "Gourna-Douath"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 617,
     "now_cost": 50,
     "team": 11,
@@ -3231,8 +3231,8 @@
     "web_name": "Ansah"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 637,
     "now_cost": 50,
     "team": 11,
@@ -3249,8 +3249,8 @@
     "web_name": "Norton-Cuffy"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 642,
     "now_cost": 55,
     "team": 11,
@@ -3267,21 +3267,21 @@
     "web_name": "Mouzakitis"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 259,
     "now_cost": 40,
     "team": 12,
-    "total_points": 12,
+    "total_points": 13,
     "web_name": "Diop"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 267,
     "now_cost": 49,
     "team": 12,
-    "total_points": 11,
+    "total_points": 12,
     "web_name": "Luki\u0107"
   },
   {
@@ -3290,7 +3290,7 @@
     "id": 300,
     "now_cost": 44,
     "team": 12,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Walton"
   },
   {
@@ -3321,17 +3321,17 @@
     "web_name": "Kipr\u00e9"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 304,
     "now_cost": 40,
     "team": 12,
-    "total_points": 10,
+    "total_points": 11,
     "web_name": "O'Shea"
   },
   {
-    "ep_next": "8.0",
-    "form": "8.0",
+    "ep_next": "5.3",
+    "form": "5.3",
     "id": 305,
     "now_cost": 40,
     "team": 12,
@@ -3339,8 +3339,8 @@
     "web_name": "Davis"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 306,
     "now_cost": 39,
     "team": 12,
@@ -3402,8 +3402,8 @@
     "web_name": "Taylor"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 313,
     "now_cost": 53,
     "team": 12,
@@ -3429,12 +3429,12 @@
     "web_name": "Fatawu"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 316,
     "now_cost": 56,
     "team": 12,
-    "total_points": 26,
+    "total_points": 27,
     "web_name": "Emersonn"
   },
   {
@@ -3452,7 +3452,7 @@
     "id": 318,
     "now_cost": 54,
     "team": 12,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Philogene"
   },
   {
@@ -3465,8 +3465,8 @@
     "web_name": "Szmodics"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 320,
     "now_cost": 50,
     "team": 12,
@@ -3524,12 +3524,12 @@
     "id": 562,
     "now_cost": 53,
     "team": 12,
-    "total_points": 8,
+    "total_points": 9,
     "web_name": "Maeda"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 564,
     "now_cost": 45,
     "team": 12,
@@ -3542,25 +3542,25 @@
     "id": 571,
     "now_cost": 48,
     "team": 12,
-    "total_points": 2,
+    "total_points": 3,
     "web_name": "Florentino"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 591,
     "now_cost": 55,
     "team": 12,
-    "total_points": 15,
+    "total_points": 16,
     "web_name": "Enciso"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 592,
     "now_cost": 40,
     "team": 12,
-    "total_points": 6,
+    "total_points": 7,
     "web_name": "Ouattara"
   },
   {
@@ -3573,8 +3573,8 @@
     "web_name": "Humphreys"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 619,
     "now_cost": 50,
     "team": 12,
@@ -3582,8 +3582,8 @@
     "web_name": "Palacios"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 640,
     "now_cost": 55,
     "team": 12,
@@ -3591,12 +3591,12 @@
     "web_name": "Flemming"
   },
   {
-    "ep_next": "0.4",
-    "form": "0.5",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 260,
     "now_cost": 62,
     "team": 13,
-    "total_points": 5,
+    "total_points": 6,
     "web_name": "Wilson"
   },
   {
@@ -3609,12 +3609,12 @@
     "web_name": "Perri"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 327,
     "now_cost": 50,
     "team": 13,
-    "total_points": 12,
+    "total_points": 13,
     "web_name": "Bijol"
   },
   {
@@ -3627,30 +3627,30 @@
     "web_name": "Rodon"
   },
   {
-    "ep_next": "10.0",
-    "form": "10.0",
+    "ep_next": "7.0",
+    "form": "7.0",
     "id": 330,
     "now_cost": 46,
     "team": 13,
-    "total_points": 42,
+    "total_points": 43,
     "web_name": "Bogle"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "5.3",
+    "form": "5.3",
     "id": 331,
     "now_cost": 45,
     "team": 13,
-    "total_points": 14,
+    "total_points": 18,
     "web_name": "Gudmundsson"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "5.3",
+    "form": "5.3",
     "id": 332,
     "now_cost": 45,
     "team": 13,
-    "total_points": 26,
+    "total_points": 32,
     "web_name": "Justin"
   },
   {
@@ -3663,8 +3663,8 @@
     "web_name": "Bornauw"
   },
   {
-    "ep_next": "6.5",
-    "form": "6.5",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 334,
     "now_cost": 50,
     "team": 13,
@@ -3672,21 +3672,21 @@
     "web_name": "Muharemovi\u0107"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 335,
     "now_cost": 60,
     "team": 13,
-    "total_points": 27,
+    "total_points": 29,
     "web_name": "Stach"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 336,
     "now_cost": 58,
     "team": 13,
-    "total_points": 18,
+    "total_points": 20,
     "web_name": "Okafor"
   },
   {
@@ -3695,21 +3695,21 @@
     "id": 337,
     "now_cost": 53,
     "team": 13,
-    "total_points": 7,
+    "total_points": 8,
     "web_name": "Aaronson"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 338,
     "now_cost": 54,
     "team": 13,
-    "total_points": 21,
+    "total_points": 22,
     "web_name": "Ampadu"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 339,
     "now_cost": 48,
     "team": 13,
@@ -3736,7 +3736,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "1.0",
+    "form": "0.7",
     "id": 343,
     "now_cost": 49,
     "team": 13,
@@ -3753,21 +3753,21 @@
     "web_name": "Gruev"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 345,
     "now_cost": 49,
     "team": 13,
-    "total_points": 14,
+    "total_points": 15,
     "web_name": "Tanaka"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 346,
     "now_cost": 60,
     "team": 13,
-    "total_points": 22,
+    "total_points": 24,
     "web_name": "Calvert-Lewin"
   },
   {
@@ -3776,7 +3776,7 @@
     "id": 347,
     "now_cost": 54,
     "team": 13,
-    "total_points": 7,
+    "total_points": 8,
     "web_name": "Nmecha"
   },
   {
@@ -3798,21 +3798,21 @@
     "web_name": "Mateo Joseph"
   },
   {
-    "ep_next": "6.5",
-    "form": "6.5",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 385,
     "now_cost": 50,
     "team": 13,
-    "total_points": 28,
+    "total_points": 30,
     "web_name": "Trafford"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 598,
     "now_cost": 45,
     "team": 13,
-    "total_points": 13,
+    "total_points": 14,
     "web_name": "Elvedi"
   },
   {
@@ -3852,8 +3852,8 @@
     "web_name": "Zetterer"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 641,
     "now_cost": 45,
     "team": 13,
@@ -3861,17 +3861,17 @@
     "web_name": "Bard"
   },
   {
-    "ep_next": "0.4",
-    "form": "0.5",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 648,
     "now_cost": 50,
     "team": 13,
-    "total_points": 1,
+    "total_points": 2,
     "web_name": "Bahoya"
   },
   {
-    "ep_next": "8.5",
-    "form": "8.5",
+    "ep_next": "5.7",
+    "form": "5.7",
     "id": 350,
     "now_cost": 55,
     "team": 14,
@@ -3924,8 +3924,8 @@
     "web_name": "Davies"
   },
   {
-    "ep_next": "8.0",
-    "form": "8.0",
+    "ep_next": "5.3",
+    "form": "5.3",
     "id": 356,
     "now_cost": 65,
     "team": 14,
@@ -3933,8 +3933,8 @@
     "web_name": "Virgil"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 357,
     "now_cost": 53,
     "team": 14,
@@ -3942,8 +3942,8 @@
     "web_name": "Frimpong"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 358,
     "now_cost": 53,
     "team": 14,
@@ -3978,8 +3978,8 @@
     "web_name": "Lucky"
   },
   {
-    "ep_next": "7.5",
-    "form": "7.5",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 362,
     "now_cost": 50,
     "team": 14,
@@ -3996,8 +3996,8 @@
     "web_name": "Leoni"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 364,
     "now_cost": 49,
     "team": 14,
@@ -4014,8 +4014,8 @@
     "web_name": "Ramsay"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 366,
     "now_cost": 73,
     "team": 14,
@@ -4024,7 +4024,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "2.0",
+    "form": "1.3",
     "id": 367,
     "now_cost": 72,
     "team": 14,
@@ -4032,8 +4032,8 @@
     "web_name": "Gakpo"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 368,
     "now_cost": 69,
     "team": 14,
@@ -4041,8 +4041,8 @@
     "web_name": "Szoboszlai"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 369,
     "now_cost": 57,
     "team": 14,
@@ -4059,8 +4059,8 @@
     "web_name": "Chiesa"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 371,
     "now_cost": 58,
     "team": 14,
@@ -4068,8 +4068,8 @@
     "web_name": "Gravenberch"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 372,
     "now_cost": 54,
     "team": 14,
@@ -4095,8 +4095,8 @@
     "web_name": "Endo"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 375,
     "now_cost": 48,
     "team": 14,
@@ -4113,8 +4113,8 @@
     "web_name": "Bajcetic"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 377,
     "now_cost": 65,
     "team": 14,
@@ -4132,7 +4132,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "5.0",
+    "form": "3.3",
     "id": 379,
     "now_cost": 91,
     "team": 14,
@@ -4149,8 +4149,8 @@
     "web_name": "Ekitik\u00e9"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 381,
     "now_cost": 50,
     "team": 14,
@@ -4176,8 +4176,8 @@
     "web_name": "Elliott"
   },
   {
-    "ep_next": "6.5",
-    "form": "6.5",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 579,
     "now_cost": 54,
     "team": 14,
@@ -4185,8 +4185,8 @@
     "web_name": "Araujo"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 627,
     "now_cost": 80,
     "team": 14,
@@ -4194,8 +4194,8 @@
     "web_name": "Barcola"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 155,
     "now_cost": 69,
     "team": 15,
@@ -4203,8 +4203,8 @@
     "web_name": "Enzo"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 237,
     "now_cost": 58,
     "team": 15,
@@ -4212,8 +4212,8 @@
     "web_name": "Ndiaye"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 384,
     "now_cost": 55,
     "team": 15,
@@ -4230,8 +4230,8 @@
     "web_name": "Bettinelli"
   },
   {
-    "ep_next": "0.8",
-    "form": "1.0",
+    "ep_next": "0.5",
+    "form": "0.7",
     "id": 387,
     "now_cost": 63,
     "team": 15,
@@ -4239,8 +4239,8 @@
     "web_name": "O'Reilly"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 388,
     "now_cost": 60,
     "team": 15,
@@ -4248,8 +4248,8 @@
     "web_name": "Gu\u00e9hi"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 389,
     "now_cost": 59,
     "team": 15,
@@ -4257,8 +4257,8 @@
     "web_name": "Matheus N."
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 390,
     "now_cost": 55,
     "team": 15,
@@ -4266,8 +4266,8 @@
     "web_name": "R\u00faben"
   },
   {
-    "ep_next": "7.5",
-    "form": "7.5",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 391,
     "now_cost": 57,
     "team": 15,
@@ -4320,8 +4320,8 @@
     "web_name": "Vitor Reis"
   },
   {
-    "ep_next": "7.5",
-    "form": "10.0",
+    "ep_next": "5.0",
+    "form": "6.7",
     "id": 397,
     "now_cost": 84,
     "team": 15,
@@ -4330,7 +4330,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "-1.0",
+    "form": "-0.7",
     "id": 398,
     "now_cost": 69,
     "team": 15,
@@ -4338,8 +4338,8 @@
     "web_name": "Foden"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 399,
     "now_cost": 78,
     "team": 15,
@@ -4347,8 +4347,8 @@
     "web_name": "Cherki"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 400,
     "now_cost": 74,
     "team": 15,
@@ -4419,8 +4419,8 @@
     "web_name": "Monga"
   },
   {
-    "ep_next": "7.5",
-    "form": "7.5",
+    "ep_next": "5.0",
+    "form": "5.0",
     "id": 411,
     "now_cost": 156,
     "team": 15,
@@ -4428,8 +4428,8 @@
     "web_name": "Haaland"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 481,
     "now_cost": 63,
     "team": 15,
@@ -4491,8 +4491,8 @@
     "web_name": "Samba"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 43,
     "now_cost": 58,
     "team": 16,
@@ -4527,8 +4527,8 @@
     "web_name": "Darlow"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 412,
     "now_cost": 49,
     "team": 16,
@@ -4555,7 +4555,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "4.0",
+    "form": "2.7",
     "id": 415,
     "now_cost": 58,
     "team": 16,
@@ -4572,8 +4572,8 @@
     "web_name": "De Ligt"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 417,
     "now_cost": 49,
     "team": 16,
@@ -4581,8 +4581,8 @@
     "web_name": "Dalot"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 418,
     "now_cost": 48,
     "team": 16,
@@ -4590,8 +4590,8 @@
     "web_name": "Maguire"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 419,
     "now_cost": 49,
     "team": 16,
@@ -4626,8 +4626,8 @@
     "web_name": "Mazraoui"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 423,
     "now_cost": 43,
     "team": 16,
@@ -4653,8 +4653,8 @@
     "web_name": "Fredricson"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 426,
     "now_cost": 119,
     "team": 16,
@@ -4662,8 +4662,8 @@
     "web_name": "B.Fernandes"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 427,
     "now_cost": 79,
     "team": 16,
@@ -4671,8 +4671,8 @@
     "web_name": "Mbeumo"
   },
   {
-    "ep_next": "6.0",
-    "form": "6.0",
+    "ep_next": "4.0",
+    "form": "4.0",
     "id": 428,
     "now_cost": 79,
     "team": 16,
@@ -4680,8 +4680,8 @@
     "web_name": "Cunha"
   },
   {
-    "ep_next": "1.5",
-    "form": "2.0",
+    "ep_next": "1.0",
+    "form": "1.3",
     "id": 429,
     "now_cost": 69,
     "team": 16,
@@ -4689,8 +4689,8 @@
     "web_name": "Rashford"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 430,
     "now_cost": 54,
     "team": 16,
@@ -4707,8 +4707,8 @@
     "web_name": "Amad"
   },
   {
-    "ep_next": "3.0",
-    "form": "4.0",
+    "ep_next": "2.0",
+    "form": "2.7",
     "id": 432,
     "now_cost": 55,
     "team": 16,
@@ -4771,7 +4771,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "0.5",
+    "form": "0.3",
     "id": 439,
     "now_cost": 70,
     "team": 16,
@@ -4779,8 +4779,8 @@
     "web_name": "\u0160e\u0161ko"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 440,
     "now_cost": 53,
     "team": 16,
@@ -4797,8 +4797,8 @@
     "web_name": "Obi"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 405,
     "now_cost": 55,
     "team": 17,
@@ -4833,8 +4833,8 @@
     "web_name": "Jaouen"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 445,
     "now_cost": 50,
     "team": 17,
@@ -4842,8 +4842,8 @@
     "web_name": "Thiaw"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 446,
     "now_cost": 49,
     "team": 17,
@@ -4851,8 +4851,8 @@
     "web_name": "Sch\u00e4r"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 447,
     "now_cost": 50,
     "team": 17,
@@ -4869,8 +4869,8 @@
     "web_name": "Burn"
   },
   {
-    "ep_next": "6.5",
-    "form": "6.5",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 449,
     "now_cost": 53,
     "team": 17,
@@ -4878,8 +4878,8 @@
     "web_name": "Hall"
   },
   {
-    "ep_next": "0.8",
-    "form": "1.5",
+    "ep_next": "0.5",
+    "form": "1.0",
     "id": 450,
     "now_cost": 49,
     "team": 17,
@@ -4896,8 +4896,8 @@
     "web_name": "A.Murphy"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 453,
     "now_cost": 61,
     "team": 17,
@@ -4923,8 +4923,8 @@
     "web_name": "J.Ramsey"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 457,
     "now_cost": 59,
     "team": 17,
@@ -4941,8 +4941,8 @@
     "web_name": "Joelinton"
   },
   {
-    "ep_next": "1.5",
-    "form": "2.0",
+    "ep_next": "1.0",
+    "form": "1.3",
     "id": 459,
     "now_cost": 55,
     "team": 17,
@@ -4950,8 +4950,8 @@
     "web_name": "L.Miley"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 460,
     "now_cost": 50,
     "team": 17,
@@ -4959,8 +4959,8 @@
     "web_name": "Willock"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 461,
     "now_cost": 58,
     "team": 17,
@@ -4968,8 +4968,8 @@
     "web_name": "Tour\u00e9"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 462,
     "now_cost": 49,
     "team": 17,
@@ -4986,8 +4986,8 @@
     "web_name": "Woltemade"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 464,
     "now_cost": 62,
     "team": 17,
@@ -5013,8 +5013,8 @@
     "web_name": "Neave"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 559,
     "now_cost": 49,
     "team": 17,
@@ -5022,8 +5022,8 @@
     "web_name": "Bamba"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 567,
     "now_cost": 50,
     "team": 17,
@@ -5049,8 +5049,8 @@
     "web_name": "Shahar"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 634,
     "now_cost": 60,
     "team": 17,
@@ -5067,7 +5067,7 @@
     "web_name": "Miley"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 663,
     "now_cost": 40,
@@ -5076,7 +5076,7 @@
     "web_name": "Pivas"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 664,
     "now_cost": 45,
@@ -5085,7 +5085,7 @@
     "web_name": "Salia"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 665,
     "now_cost": 45,
@@ -5094,7 +5094,7 @@
     "web_name": "Mills"
   },
   {
-    "ep_next": "1.1",
+    "ep_next": "0.0",
     "form": "0.0",
     "id": 666,
     "now_cost": 45,
@@ -5103,8 +5103,8 @@
     "web_name": "Thompson"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 167,
     "now_cost": 56,
     "team": 18,
@@ -5112,8 +5112,8 @@
     "web_name": "Delap"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 201,
     "now_cost": 54,
     "team": 18,
@@ -5121,8 +5121,8 @@
     "web_name": "Mu\u00f1oz"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 467,
     "now_cost": 50,
     "team": 18,
@@ -5139,8 +5139,8 @@
     "web_name": "John"
   },
   {
-    "ep_next": "1.0",
-    "form": "2.0",
+    "ep_next": "0.7",
+    "form": "1.3",
     "id": 469,
     "now_cost": 50,
     "team": 18,
@@ -5166,8 +5166,8 @@
     "web_name": "Milenkovi\u0107"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 472,
     "now_cost": 55,
     "team": 18,
@@ -5175,8 +5175,8 @@
     "web_name": "Murillo"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 473,
     "now_cost": 44,
     "team": 18,
@@ -5184,8 +5184,8 @@
     "web_name": "Aina"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 474,
     "now_cost": 45,
     "team": 18,
@@ -5220,8 +5220,8 @@
     "web_name": "Abbott"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 478,
     "now_cost": 44,
     "team": 18,
@@ -5238,8 +5238,8 @@
     "web_name": "Bindon"
   },
   {
-    "ep_next": "5.0",
-    "form": "5.0",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 480,
     "now_cost": 80,
     "team": 18,
@@ -5256,8 +5256,8 @@
     "web_name": "Hudson-Odoi"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 483,
     "now_cost": 55,
     "team": 18,
@@ -5283,8 +5283,8 @@
     "web_name": "Bakwa"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 486,
     "now_cost": 55,
     "team": 18,
@@ -5301,8 +5301,8 @@
     "web_name": "Dominguez"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 488,
     "now_cost": 48,
     "team": 18,
@@ -5319,8 +5319,8 @@
     "web_name": "Yates"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 490,
     "now_cost": 58,
     "team": 18,
@@ -5329,7 +5329,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "4.0",
+    "form": "2.7",
     "id": 491,
     "now_cost": 58,
     "team": 18,
@@ -5346,8 +5346,8 @@
     "web_name": "Kalimuendo"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 558,
     "now_cost": 50,
     "team": 18,
@@ -5355,8 +5355,8 @@
     "web_name": "Schlager"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 581,
     "now_cost": 54,
     "team": 18,
@@ -5373,8 +5373,8 @@
     "web_name": "Benda"
   },
   {
-    "ep_next": "7.0",
-    "form": "7.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 112,
     "now_cost": 49,
     "team": 19,
@@ -5382,8 +5382,8 @@
     "web_name": "Van Hecke"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 147,
     "now_cost": 44,
     "team": 19,
@@ -5391,8 +5391,8 @@
     "web_name": "Tosin"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 401,
     "now_cost": 70,
     "team": 19,
@@ -5400,8 +5400,8 @@
     "web_name": "Marmoush"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 403,
     "now_cost": 65,
     "team": 19,
@@ -5409,8 +5409,8 @@
     "web_name": "S\u00e1vio"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 455,
     "now_cost": 53,
     "team": 19,
@@ -5436,8 +5436,8 @@
     "web_name": "Austin"
   },
   {
-    "ep_next": "4.5",
-    "form": "4.5",
+    "ep_next": "3.0",
+    "form": "3.0",
     "id": 496,
     "now_cost": 45,
     "team": 19,
@@ -5464,7 +5464,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "0.5",
+    "form": "0.3",
     "id": 499,
     "now_cost": 54,
     "team": 19,
@@ -5481,8 +5481,8 @@
     "web_name": "Romero"
   },
   {
-    "ep_next": "5.5",
-    "form": "5.5",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 502,
     "now_cost": 44,
     "team": 19,
@@ -5490,8 +5490,8 @@
     "web_name": "Robertson"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 503,
     "now_cost": 50,
     "team": 19,
@@ -5562,8 +5562,8 @@
     "web_name": "Souza"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 512,
     "now_cost": 65,
     "team": 19,
@@ -5580,8 +5580,8 @@
     "web_name": "Xavi"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.3",
+    "form": "0.3",
     "id": 514,
     "now_cost": 57,
     "team": 19,
@@ -5589,8 +5589,8 @@
     "web_name": "Tel"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 515,
     "now_cost": 63,
     "team": 19,
@@ -5598,8 +5598,8 @@
     "web_name": "Maddison"
   },
   {
-    "ep_next": "3.5",
-    "form": "3.5",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 516,
     "now_cost": 55,
     "team": 19,
@@ -5625,8 +5625,8 @@
     "web_name": "P.M.Sarr"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 519,
     "now_cost": 53,
     "team": 19,
@@ -5634,8 +5634,8 @@
     "web_name": "Gallagher"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 520,
     "now_cost": 53,
     "team": 19,
@@ -5652,8 +5652,8 @@
     "web_name": "Kulusevski"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 522,
     "now_cost": 49,
     "team": 19,
@@ -5679,8 +5679,8 @@
     "web_name": "Olusesi"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 525,
     "now_cost": 57,
     "team": 19,
@@ -5688,8 +5688,8 @@
     "web_name": "Fernandes"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 526,
     "now_cost": 58,
     "team": 19,
@@ -5733,12 +5733,12 @@
     "web_name": "Williams-Barnett"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "0.7",
+    "form": "0.7",
     "id": 501,
     "now_cost": 50,
     "team": 20,
-    "total_points": 3,
+    "total_points": 4,
     "web_name": "Danso"
   },
   {
@@ -5747,7 +5747,7 @@
     "id": 529,
     "now_cost": 49,
     "team": 20,
-    "total_points": 11,
+    "total_points": 12,
     "web_name": "Roefs"
   },
   {
@@ -5770,7 +5770,7 @@
   },
   {
     "ep_next": "0.0",
-    "form": "1.0",
+    "form": "0.7",
     "id": 532,
     "now_cost": 49,
     "team": 20,
@@ -5778,21 +5778,21 @@
     "web_name": "Ballard"
   },
   {
-    "ep_next": "0.0",
-    "form": "0.0",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 533,
     "now_cost": 54,
     "team": 20,
-    "total_points": 13,
+    "total_points": 17,
     "web_name": "Mukiele"
   },
   {
-    "ep_next": "0.5",
-    "form": "0.5",
+    "ep_next": "1.0",
+    "form": "1.0",
     "id": 534,
     "now_cost": 43,
     "team": 20,
-    "total_points": 10,
+    "total_points": 12,
     "web_name": "Hume"
   },
   {
@@ -5805,12 +5805,12 @@
     "web_name": "Alderete"
   },
   {
-    "ep_next": "-1.0",
-    "form": "-1.0",
+    "ep_next": "-0.3",
+    "form": "-0.3",
     "id": 536,
     "now_cost": 44,
     "team": 20,
-    "total_points": 7,
+    "total_points": 8,
     "web_name": "Reinildo"
   },
   {
@@ -5850,21 +5850,21 @@
     "web_name": "Masuaku"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 541,
     "now_cost": 45,
     "team": 20,
-    "total_points": 14,
+    "total_points": 15,
     "web_name": "Meunier"
   },
   {
-    "ep_next": "2.5",
-    "form": "2.5",
+    "ep_next": "2.0",
+    "form": "2.0",
     "id": 542,
     "now_cost": 57,
     "team": 20,
-    "total_points": 18,
+    "total_points": 19,
     "web_name": "E.Le F\u00e9e"
   },
   {
@@ -5877,21 +5877,21 @@
     "web_name": "Diarra"
   },
   {
-    "ep_next": "1.5",
-    "form": "1.5",
+    "ep_next": "1.3",
+    "form": "1.3",
     "id": 544,
     "now_cost": 55,
     "team": 20,
-    "total_points": 21,
+    "total_points": 22,
     "web_name": "Xhaka"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "1.7",
+    "form": "1.7",
     "id": 545,
     "now_cost": 49,
     "team": 20,
-    "total_points": 10,
+    "total_points": 11,
     "web_name": "Sadiki"
   },
   {
@@ -5940,17 +5940,17 @@
     "web_name": "Jocelin.T"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "2.3",
+    "form": "2.3",
     "id": 551,
     "now_cost": 50,
     "team": 20,
-    "total_points": 16,
+    "total_points": 17,
     "web_name": "N.Angulo"
   },
   {
     "ep_next": "0.0",
-    "form": "9.0",
+    "form": "6.0",
     "id": 552,
     "now_cost": 57,
     "team": 20,
@@ -5963,12 +5963,12 @@
     "id": 553,
     "now_cost": 55,
     "team": 20,
-    "total_points": 15,
+    "total_points": 16,
     "web_name": "Isidor"
   },
   {
-    "ep_next": "-0.5",
-    "form": "-0.5",
+    "ep_next": "-0.3",
+    "form": "-0.3",
     "id": 612,
     "now_cost": 45,
     "team": 20,
@@ -5990,7 +5990,7 @@
     "id": 646,
     "now_cost": 55,
     "team": 20,
-    "total_points": 3,
+    "total_points": 4,
     "web_name": "Fofana"
   },
   {

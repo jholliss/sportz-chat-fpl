@@ -234,6 +234,138 @@
   ],
   "1212049": [
     {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 259,
+      "player_in_name": "Diop",
+      "player_out": 277,
+      "player_out_name": "Egan",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:59:17.357840Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 230,
+      "player_in_name": "Branthwaite",
+      "player_out": 449,
+      "player_out_name": "Hall",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:59:17.357734Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 94,
+      "player_in_name": "Schade",
+      "player_out": 368,
+      "player_out_name": "Szoboszlai",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:59:17.357623Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 1,
+      "player_in_name": "Raya",
+      "player_out": 226,
+      "player_out_name": "Pickford",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:59:17.357480Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 277,
+      "player_in_name": "Egan",
+      "player_out": 649,
+      "player_out_name": "Maitland-Niles",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441975Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 226,
+      "player_in_name": "Pickford",
+      "player_out": 1,
+      "player_out_name": "Raya",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441875Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 449,
+      "player_in_name": "Hall",
+      "player_out": 259,
+      "player_out_name": "Diop",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441772Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 605,
+      "player_in_name": "Yalcouy\u00e9",
+      "player_out": 15,
+      "player_out_name": "\u00d8degaard",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441660Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 31,
+      "player_in_name": "Konsa",
+      "player_out": 502,
+      "player_out_name": "Robertson",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441558Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 115,
+      "player_in_name": "De Cuyper",
+      "player_out": 469,
+      "player_out_name": "N.Williams",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441455Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 40,
+      "player_in_name": "Rogers",
+      "player_out": 399,
+      "player_out_name": "Cherki",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441344Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 569,
+      "player_in_name": "Gonzalo",
+      "player_out": 272,
+      "player_out_name": "Kusi-Asare",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T07:43:15.441198Z"
+    },
+    {
       "gw": 5,
       "net_points": 6,
       "player_in": 649,
@@ -268,6 +400,105 @@
     }
   ],
   "3457548": [
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 569,
+      "player_in_name": "Gonzalo",
+      "player_out": 321,
+      "player_out_name": "Walle Egeli",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773625Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 115,
+      "player_in_name": "De Cuyper",
+      "player_out": 387,
+      "player_out_name": "O'Reilly",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773524Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 1,
+      "player_in_name": "Raya",
+      "player_out": 496,
+      "player_out_name": "Kinsky",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773423Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 427,
+      "player_in_name": "Mbeumo",
+      "player_out": 368,
+      "player_out_name": "Szoboszlai",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773322Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 12,
+      "player_in_name": "Saka",
+      "player_out": 557,
+      "player_out_name": "Tzolis",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773219Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 124,
+      "player_in_name": "Gro\u00df",
+      "player_out": 399,
+      "player_out_name": "Cherki",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773122Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 418,
+      "player_in_name": "Maguire",
+      "player_out": 4,
+      "player_out_name": "Gabriel",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.773013Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 229,
+      "player_in_name": "Tarkowski",
+      "player_out": 201,
+      "player_out_name": "Mu\u00f1oz",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.772891Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 661,
+      "player_in_name": "Balcombe",
+      "player_out": 385,
+      "player_out_name": "Trafford",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T21:39:15.772745Z"
+    },
     {
       "gw": 5,
       "net_points": -2,
@@ -314,6 +545,17 @@
     }
   ],
   "4177980": [
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 165,
+      "player_in_name": "Jo\u00e3o Pedro",
+      "player_out": 249,
+      "player_out_name": "Barry",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T09:18:36.885633Z"
+    },
     {
       "gw": 5,
       "net_points": 6,
@@ -460,6 +702,17 @@
   ],
   "4279888": [
     {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 138,
+      "player_in_name": "Kostoulas",
+      "player_out": 346,
+      "player_out_name": "Calvert-Lewin",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T09:25:04.899501Z"
+    },
+    {
       "gw": 5,
       "net_points": 9,
       "player_in": 649,
@@ -505,6 +758,17 @@
     }
   ],
   "6975918": [
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 124,
+      "player_in_name": "Gro\u00df",
+      "player_out": 127,
+      "player_out_name": "Gomez",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T09:09:25.413292Z"
+    },
     {
       "gw": 5,
       "net_points": 0,
@@ -552,6 +816,17 @@
   ],
   "8011609": [
     {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 106,
+      "player_in_name": "Thiago",
+      "player_out": 379,
+      "player_out_name": "Isak",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-09T15:31:13.403495Z"
+    },
+    {
       "gw": 5,
       "net_points": 2,
       "player_in": 316,
@@ -598,6 +873,105 @@
   ],
   "817501": [
     {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 464,
+      "player_in_name": "Wissa",
+      "player_out": 379,
+      "player_out_name": "Isak",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-09T13:38:36.846126Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 12,
+      "player_in_name": "Saka",
+      "player_out": 367,
+      "player_out_name": "Gakpo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-09T13:38:36.845903Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 379,
+      "player_in_name": "Isak",
+      "player_out": 464,
+      "player_out_name": "Wissa",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.227053Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 290,
+      "player_in_name": "Slater",
+      "player_out": 427,
+      "player_out_name": "Mbeumo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.226951Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 68,
+      "player_in_name": "Tavernier",
+      "player_out": 397,
+      "player_out_name": "Semenyo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.226848Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 367,
+      "player_in_name": "Gakpo",
+      "player_out": 15,
+      "player_out_name": "\u00d8degaard",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.226742Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 305,
+      "player_in_name": "Davis",
+      "player_out": 502,
+      "player_out_name": "Robertson",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.226621Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 229,
+      "player_in_name": "Tarkowski",
+      "player_out": 423,
+      "player_out_name": "Shaw",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.226509Z"
+    },
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 115,
+      "player_in_name": "De Cuyper",
+      "player_out": 113,
+      "player_out_name": "F.Kad\u0131o\u011flu",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-08T07:33:12.226361Z"
+    },
+    {
       "gw": 4,
       "net_points": 17,
       "player_in": 124,
@@ -632,6 +1006,17 @@
     }
   ],
   "822375": [
+    {
+      "gw": 6,
+      "net_points": null,
+      "player_in": 138,
+      "player_in_name": "Kostoulas",
+      "player_out": 379,
+      "player_out_name": "Isak",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-10T06:36:01.005842Z"
+    },
     {
       "gw": 5,
       "net_points": 2,
