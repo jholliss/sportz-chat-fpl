@@ -480,7 +480,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 160,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 2,
     "total_points": 3,
     "web_name": "Garnacho"
@@ -489,7 +489,7 @@
     "ep_next": "5.0",
     "form": "5.0",
     "id": 166,
-    "now_cost": 65,
+    "now_cost": 66,
     "team": 2,
     "total_points": 19,
     "web_name": "N.Jackson"
@@ -696,7 +696,7 @@
     "ep_next": "0.0",
     "form": "2.0",
     "id": 69,
-    "now_cost": 61,
+    "now_cost": 60,
     "team": 3,
     "total_points": 30,
     "web_name": "Scott"
@@ -723,7 +723,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 72,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 3,
     "total_points": 5,
     "web_name": "Gannon-Doak"
@@ -768,7 +768,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 77,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 3,
     "total_points": 0,
     "web_name": "Adli"
@@ -1146,7 +1146,7 @@
     "ep_next": "10.7",
     "form": "10.7",
     "id": 115,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 5,
     "total_points": 53,
     "web_name": "De Cuyper"
@@ -1452,7 +1452,7 @@
     "ep_next": "6.3",
     "form": "6.3",
     "id": 40,
-    "now_cost": 78,
+    "now_cost": 79,
     "team": 6,
     "total_points": 38,
     "web_name": "Rogers"
@@ -1659,7 +1659,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 165,
-    "now_cost": 77,
+    "now_cost": 78,
     "team": 6,
     "total_points": 45,
     "web_name": "Jo\u00e3o Pedro"
@@ -3009,7 +3009,7 @@
     "ep_next": "7.7",
     "form": "7.7",
     "id": 286,
-    "now_cost": 51,
+    "now_cost": 52,
     "team": 11,
     "total_points": 37,
     "web_name": "Belloumi"
@@ -3225,7 +3225,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 632,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 11,
     "total_points": 0,
     "web_name": "Ansah"
@@ -3630,7 +3630,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 330,
-    "now_cost": 46,
+    "now_cost": 47,
     "team": 13,
     "total_points": 43,
     "web_name": "Bogle"
@@ -4026,7 +4026,7 @@
     "ep_next": "0.0",
     "form": "1.3",
     "id": 367,
-    "now_cost": 72,
+    "now_cost": 71,
     "team": 14,
     "total_points": 32,
     "web_name": "Gakpo"
@@ -4224,7 +4224,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 386,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 15,
     "total_points": 0,
     "web_name": "Bettinelli"
@@ -4314,7 +4314,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 396,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 15,
     "total_points": 1,
     "web_name": "Vitor Reis"
@@ -4323,7 +4323,7 @@
     "ep_next": "7.7",
     "form": "7.7",
     "id": 397,
-    "now_cost": 84,
+    "now_cost": 83,
     "team": 15,
     "total_points": 36,
     "web_name": "Semenyo"
@@ -4512,7 +4512,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 162,
-    "now_cost": 48,
+    "now_cost": 47,
     "team": 16,
     "total_points": 4,
     "web_name": "Andrey Santos"
@@ -4575,7 +4575,7 @@
     "ep_next": "1.3",
     "form": "1.3",
     "id": 417,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 8,
     "web_name": "Dalot"
@@ -5016,7 +5016,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 559,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 17,
     "total_points": 3,
     "web_name": "Bamba"
@@ -5295,7 +5295,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 487,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 18,
     "total_points": 1,
     "web_name": "Dominguez"
