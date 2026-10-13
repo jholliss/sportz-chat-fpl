@@ -39,6 +39,14 @@
       "captain_element": 411,
       "captain_points": 12,
       "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 165,
+      "best_possible_points": 24,
+      "captain_delta": -12,
+      "captain_element": 411,
+      "captain_points": 12,
+      "picked_best_captain": 0
     }
   },
   "1212049": {
@@ -80,6 +88,14 @@
       "captain_delta": -16,
       "captain_element": 411,
       "captain_points": 12,
+      "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -28,
+      "captain_element": 426,
+      "captain_points": 2,
       "picked_best_captain": 0
     }
   },
@@ -123,6 +139,14 @@
       "captain_element": 399,
       "captain_points": 16,
       "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -26,
+      "captain_element": 12,
+      "captain_points": 4,
+      "picked_best_captain": 0
     }
   },
   "4177980": {
@@ -164,6 +188,14 @@
       "captain_delta": -14,
       "captain_element": 411,
       "captain_points": 12,
+      "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -14,
+      "captain_element": 154,
+      "captain_points": 16,
       "picked_best_captain": 0
     }
   },
@@ -207,6 +239,14 @@
       "captain_element": 411,
       "captain_points": 12,
       "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -6,
+      "captain_element": 165,
+      "captain_points": 24,
+      "picked_best_captain": 0
     }
   },
   "6975918": {
@@ -246,6 +286,14 @@
       "best_element": 127,
       "best_possible_points": 16,
       "captain_delta": -4,
+      "captain_element": 411,
+      "captain_points": 12,
+      "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -18,
       "captain_element": 411,
       "captain_points": 12,
       "picked_best_captain": 0
@@ -291,6 +339,14 @@
       "captain_element": 154,
       "captain_points": 4,
       "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -14,
+      "captain_element": 154,
+      "captain_points": 16,
+      "picked_best_captain": 0
     }
   },
   "817501": {
@@ -333,6 +389,14 @@
       "captain_element": 411,
       "captain_points": 12,
       "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 115,
+      "best_possible_points": 30,
+      "captain_delta": -6,
+      "captain_element": 165,
+      "captain_points": 24,
+      "picked_best_captain": 0
     }
   },
   "822375": {
@@ -374,6 +438,14 @@
       "captain_delta": -30,
       "captain_element": 427,
       "captain_points": 4,
+      "picked_best_captain": 0
+    },
+    "6": {
+      "best_element": 165,
+      "best_possible_points": 24,
+      "captain_delta": -8,
+      "captain_element": 427,
+      "captain_points": 16,
       "picked_best_captain": 0
     }
   }
