@@ -957,7 +957,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 95,
-    "now_cost": 63,
+    "now_cost": 62,
     "team": 4,
     "total_points": 8,
     "web_name": "O.Dango"
@@ -1110,7 +1110,7 @@
     "ep_next": "7.5",
     "form": "7.5",
     "id": 109,
-    "now_cost": 45,
+    "now_cost": 46,
     "team": 5,
     "total_points": 32,
     "web_name": "Verbruggen"
@@ -1362,7 +1362,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 504,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 5,
     "total_points": 40,
     "web_name": "Vuskovic"
@@ -1875,7 +1875,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 182,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 7,
     "total_points": 4,
     "web_name": "Amenda"
@@ -2802,7 +2802,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 272,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 10,
     "total_points": 0,
     "web_name": "Kusi-Asare"
@@ -4305,7 +4305,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 395,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 15,
     "total_points": 1,
     "web_name": "Lewis"
@@ -4341,7 +4341,7 @@
     "ep_next": "9.0",
     "form": "9.0",
     "id": 399,
-    "now_cost": 78,
+    "now_cost": 79,
     "team": 15,
     "total_points": 44,
     "web_name": "Cherki"
