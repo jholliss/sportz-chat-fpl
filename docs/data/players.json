@@ -1020,7 +1020,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 103,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 4,
     "total_points": 0,
     "web_name": "Dasilva"
@@ -4620,7 +4620,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 422,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 16,
     "total_points": 3,
     "web_name": "Mazraoui"
@@ -5115,7 +5115,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 201,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 18,
     "total_points": 6,
     "web_name": "Mu\u00f1oz"
@@ -5457,7 +5457,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 498,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 19,
     "total_points": 5,
     "web_name": "Senesi"
@@ -5466,7 +5466,7 @@
     "ep_next": "0.0",
     "form": "0.5",
     "id": 499,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 19,
     "total_points": 9,
     "web_name": "Pedro Porro"
