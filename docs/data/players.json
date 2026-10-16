@@ -2457,7 +2457,7 @@
     "web_name": "Tarkowski"
   },
   {
-    "ep_next": "5.5",
+    "ep_next": "4.1",
     "form": "5.5",
     "id": 230,
     "now_cost": 55,
@@ -2484,7 +2484,7 @@
     "web_name": "O'Brien"
   },
   {
-    "ep_next": "1.9",
+    "ep_next": "1.2",
     "form": "2.5",
     "id": 233,
     "now_cost": 46,
@@ -3195,7 +3195,7 @@
     "web_name": "Herrington"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "0.0",
     "form": "1.5",
     "id": 586,
     "now_cost": 41,
@@ -3204,7 +3204,7 @@
     "web_name": "Mendy"
   },
   {
-    "ep_next": "0.5",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 589,
     "now_cost": 49,
