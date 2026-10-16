@@ -72,7 +72,7 @@
     "web_name": "Calafiori"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 9,
     "now_cost": 52,
@@ -378,7 +378,7 @@
     "web_name": "McGinn"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.8",
     "form": "1.0",
     "id": 46,
     "now_cost": 50,
@@ -1350,7 +1350,7 @@
     "web_name": "Ferguson"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "1.1",
     "form": "1.5",
     "id": 328,
     "now_cost": 49,
@@ -2853,7 +2853,7 @@
     "web_name": "Zepa"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.2",
     "form": "1.0",
     "id": 635,
     "now_cost": 50,
@@ -3213,7 +3213,7 @@
     "web_name": "Gourna-Douath"
   },
   {
-    "ep_next": "3.0",
+    "ep_next": "0.0",
     "form": "3.0",
     "id": 617,
     "now_cost": 50,
@@ -3735,7 +3735,7 @@
     "web_name": "Harrison"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.2",
     "form": "0.5",
     "id": 343,
     "now_cost": 49,
@@ -5238,7 +5238,7 @@
     "web_name": "Bindon"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "1.5",
     "form": "2.0",
     "id": 480,
     "now_cost": 80,
