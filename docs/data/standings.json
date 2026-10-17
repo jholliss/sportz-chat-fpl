@@ -1,74 +1,74 @@
 [
   {
-    "event_total": 68,
+    "event_total": 3,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 1,
     "team_name": "Hamann Overboard",
-    "total": 428
+    "total": 431
   },
   {
-    "event_total": 82,
+    "event_total": 1,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 2,
     "team_name": "Yoro Wizard Harry",
-    "total": 428
+    "total": 429
   },
   {
-    "event_total": 80,
+    "event_total": 1,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 3,
     "team_name": "Kloppafeel",
-    "total": 416
+    "total": 417
   },
   {
-    "event_total": 78,
+    "event_total": 4,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 4,
     "team_name": "ThunderStruijk",
-    "total": 407
+    "total": 411
   },
   {
-    "event_total": 86,
+    "event_total": 2,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 5,
     "team_name": "Jacquet Potato",
-    "total": 398
+    "total": 400
   },
   {
-    "event_total": 62,
+    "event_total": 2,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
     "rank": 6,
     "team_name": "Ballack Sabbath",
-    "total": 397
+    "total": 399
   },
   {
-    "event_total": 78,
+    "event_total": 2,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 7,
     "team_name": "Restart The Rutter",
-    "total": 394
+    "total": 396
   },
   {
-    "event_total": 72,
+    "event_total": 3,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 8,
     "team_name": "Careless Wissa",
-    "total": 387
+    "total": 390
   },
   {
-    "event_total": 71,
+    "event_total": 2,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
     "team_name": "All Hail Keylord",
-    "total": 350
+    "total": 352
   }
 ]
