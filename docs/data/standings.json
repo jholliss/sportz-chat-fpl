@@ -16,12 +16,12 @@
     "total": 458
   },
   {
-    "event_total": 30,
+    "event_total": 32,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 3,
     "team_name": "Kloppafeel",
-    "total": 446
+    "total": 448
   },
   {
     "event_total": 50,
@@ -56,19 +56,19 @@
     "total": 422
   },
   {
-    "event_total": 13,
+    "event_total": 15,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 8,
     "team_name": "Careless Wissa",
-    "total": 400
+    "total": 402
   },
   {
-    "event_total": 6,
+    "event_total": 7,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
     "team_name": "All Hail Keylord",
-    "total": 356
+    "total": 357
   }
 ]
