@@ -66,7 +66,7 @@
     "ep_next": "3.3",
     "form": "3.3",
     "id": 8,
-    "now_cost": 59,
+    "now_cost": 60,
     "team": 1,
     "total_points": 38,
     "web_name": "Calafiori"
@@ -288,12 +288,12 @@
     "web_name": "Cash"
   },
   {
-    "ep_next": "3.3",
-    "form": "3.3",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 33,
     "now_cost": 45,
     "team": 2,
-    "total_points": 17,
+    "total_points": 18,
     "web_name": "Mings"
   },
   {
@@ -324,12 +324,12 @@
     "web_name": "Maatsen"
   },
   {
-    "ep_next": "4.7",
-    "form": "4.7",
+    "ep_next": "4.3",
+    "form": "4.3",
     "id": 37,
     "now_cost": 45,
     "team": 2,
-    "total_points": 21,
+    "total_points": 20,
     "web_name": "Lindel\u00f6f"
   },
   {
@@ -444,7 +444,7 @@
     "ep_next": "7.3",
     "form": "9.7",
     "id": 53,
-    "now_cost": 59,
+    "now_cost": 60,
     "team": 2,
     "total_points": 30,
     "web_name": "Manzambi"
@@ -2667,7 +2667,7 @@
     "ep_next": "3.0",
     "form": "3.0",
     "id": 254,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 10,
     "total_points": 19,
     "web_name": "Robinson"
@@ -3270,7 +3270,7 @@
     "ep_next": "3.0",
     "form": "3.0",
     "id": 259,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 12,
     "total_points": 17,
     "web_name": "Diop"
@@ -4287,7 +4287,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 393,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 15,
     "total_points": 10,
     "web_name": "Khusanov"
@@ -4341,7 +4341,7 @@
     "ep_next": "6.0",
     "form": "6.0",
     "id": 399,
-    "now_cost": 79,
+    "now_cost": 80,
     "team": 15,
     "total_points": 44,
     "web_name": "Cherki"
@@ -4962,7 +4962,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 461,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 17,
     "total_points": 10,
     "web_name": "Tour\u00e9"
@@ -5178,7 +5178,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 473,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 18,
     "total_points": 8,
     "web_name": "Aina"
@@ -5583,7 +5583,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 514,
-    "now_cost": 57,
+    "now_cost": 56,
     "team": 19,
     "total_points": 8,
     "web_name": "Tel"
@@ -5601,7 +5601,7 @@
     "ep_next": "0.0",
     "form": "0.7",
     "id": 516,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 19,
     "total_points": 13,
     "web_name": "Bentancur"
