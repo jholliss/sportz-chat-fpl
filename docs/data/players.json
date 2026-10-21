@@ -99,7 +99,7 @@
     "web_name": "Mosquera"
   },
   {
-    "ep_next": "2.5",
+    "ep_next": "1.2",
     "form": "2.5",
     "id": 12,
     "now_cost": 96,
@@ -2385,7 +2385,7 @@
     "web_name": "Chilwell"
   },
   {
-    "ep_next": "4.0",
+    "ep_next": "3.0",
     "form": "4.0",
     "id": 644,
     "now_cost": 50,
@@ -2820,7 +2820,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 570,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 10,
     "total_points": 13,
     "web_name": "Palacios"
@@ -3765,7 +3765,7 @@
     "ep_next": "5.5",
     "form": "5.5",
     "id": 346,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 13,
     "total_points": 33,
     "web_name": "Calvert-Lewin"
