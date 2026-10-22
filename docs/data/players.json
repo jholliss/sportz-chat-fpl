@@ -1587,7 +1587,7 @@
     "ep_next": "5.0",
     "form": "5.0",
     "id": 154,
-    "now_cost": 97,
+    "now_cost": 98,
     "team": 6,
     "total_points": 38,
     "web_name": "Palmer"
@@ -3702,7 +3702,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 338,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 13,
     "total_points": 23,
     "web_name": "Ampadu"
@@ -4584,7 +4584,7 @@
     "ep_next": "3.0",
     "form": "3.0",
     "id": 418,
-    "now_cost": 48,
+    "now_cost": 47,
     "team": 16,
     "total_points": 16,
     "web_name": "Maguire"
@@ -4665,7 +4665,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 427,
-    "now_cost": 78,
+    "now_cost": 79,
     "team": 16,
     "total_points": 41,
     "web_name": "Mbeumo"
