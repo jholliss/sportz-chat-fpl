@@ -1,6 +1,28 @@
 {
   "1004578": [
     {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 10,
+      "player_in_name": "White",
+      "player_out": 8,
+      "player_out_name": "Calafiori",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-23T17:23:22.826908Z"
+    },
+    {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 480,
+      "player_in_name": "Gibbs-White",
+      "player_out": 368,
+      "player_out_name": "Szoboszlai",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-23T17:23:22.823198Z"
+    },
+    {
       "gw": 7,
       "net_points": -7,
       "player_in": 569,
@@ -757,6 +779,17 @@
   ],
   "4279888": [
     {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 53,
+      "player_in_name": "Manzambi",
+      "player_out": 98,
+      "player_out_name": "Janelt",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-18T16:06:32.645131Z"
+    },
+    {
       "gw": 7,
       "net_points": 2,
       "player_in": 124,
@@ -824,6 +857,17 @@
     }
   ],
   "6975918": [
+    {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 94,
+      "player_in_name": "Schade",
+      "player_out": 557,
+      "player_out_name": "Tzolis",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-23T07:13:20.596517Z"
+    },
     {
       "gw": 7,
       "net_points": 0,
@@ -949,6 +993,28 @@
     }
   ],
   "817501": [
+    {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 399,
+      "player_in_name": "Cherki",
+      "player_out": 12,
+      "player_out_name": "Saka",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-22T06:55:53.425667Z"
+    },
+    {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 330,
+      "player_in_name": "Bogle",
+      "player_out": 469,
+      "player_out_name": "N.Williams",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-22T06:55:53.420571Z"
+    },
     {
       "gw": 7,
       "net_points": 1,
@@ -1094,6 +1160,17 @@
     }
   ],
   "822375": [
+    {
+      "gw": 8,
+      "net_points": null,
+      "player_in": 68,
+      "player_in_name": "Tavernier",
+      "player_out": 397,
+      "player_out_name": "Semenyo",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-10-19T11:51:37.939211Z"
+    },
     {
       "gw": 7,
       "net_points": -7,

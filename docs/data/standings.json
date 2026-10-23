@@ -1,14 +1,14 @@
 [
   {
-    "event_total": 77,
+    "event_total": 0,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 1,
     "team_name": "Yoro Wizard Harry",
-    "total": 505
+    "total": 504
   },
   {
-    "event_total": 70,
+    "event_total": 0,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 2,
@@ -16,7 +16,7 @@
     "total": 498
   },
   {
-    "event_total": 97,
+    "event_total": 0,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 3,
@@ -24,7 +24,7 @@
     "total": 491
   },
   {
-    "event_total": 71,
+    "event_total": 0,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 4,
@@ -32,23 +32,23 @@
     "total": 487
   },
   {
-    "event_total": 74,
+    "event_total": 0,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 5,
     "team_name": "Jacquet Potato",
-    "total": 472
+    "total": 468
   },
   {
-    "event_total": 64,
+    "event_total": 0,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
     "rank": 6,
     "team_name": "Ballack Sabbath",
-    "total": 461
+    "total": 457
   },
   {
-    "event_total": 47,
+    "event_total": 0,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 7,
@@ -56,7 +56,7 @@
     "total": 454
   },
   {
-    "event_total": 49,
+    "event_total": 0,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 8,
@@ -64,7 +64,7 @@
     "total": 436
   },
   {
-    "event_total": 56,
+    "event_total": 0,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
