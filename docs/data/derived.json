@@ -974,8 +974,8 @@
         "value": 0
       },
       {
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "value": 0
       }
     ],
@@ -2781,14 +2781,14 @@
       },
       {
         "hit_points": 0,
-        "manager_id": "4177980",
-        "name": "James Petrie",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "transfer_count": 15
       },
       {
         "hit_points": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "4177980",
+        "name": "James Petrie",
         "transfer_count": 15
       },
       {
@@ -3276,20 +3276,20 @@
         "worst_vs_average": -5
       },
       {
-        "best_vs_average": 38,
-        "manager_id": "4177980",
-        "name": "James Petrie",
-        "weeks_beat_average": 4,
-        "weeks_lost_to_average": 4,
-        "worst_vs_average": -12
-      },
-      {
         "best_vs_average": 22,
         "manager_id": "817501",
         "name": "Andrew David",
         "weeks_beat_average": 7,
         "weeks_lost_to_average": 1,
         "worst_vs_average": -2
+      },
+      {
+        "best_vs_average": 38,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "weeks_beat_average": 4,
+        "weeks_lost_to_average": 4,
+        "worst_vs_average": -12
       },
       {
         "best_vs_average": 28,
@@ -3347,14 +3347,14 @@
       "weeks_on_podium": 7
     },
     {
-      "manager_id": "4177980",
-      "name": "James Petrie",
+      "manager_id": "817501",
+      "name": "Andrew David",
       "weeks_at_top": 0,
       "weeks_on_podium": 2
     },
     {
-      "manager_id": "817501",
-      "name": "Andrew David",
+      "manager_id": "4177980",
+      "name": "James Petrie",
       "weeks_at_top": 0,
       "weeks_on_podium": 2
     },
