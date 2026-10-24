@@ -3,7 +3,7 @@
     "ep_next": "4.0",
     "form": "4.0",
     "id": 1,
-    "now_cost": 61,
+    "now_cost": 62,
     "team": 1,
     "total_points": 42,
     "web_name": "Raya"
@@ -102,7 +102,7 @@
     "ep_next": "0.0",
     "form": "1.7",
     "id": 12,
-    "now_cost": 96,
+    "now_cost": 95,
     "team": 1,
     "total_points": 37,
     "web_name": "Saka"
@@ -282,7 +282,7 @@
     "ep_next": "2.7",
     "form": "2.7",
     "id": 32,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 2,
     "total_points": 14,
     "web_name": "Cash"
@@ -687,7 +687,7 @@
     "ep_next": "3.7",
     "form": "3.7",
     "id": 68,
-    "now_cost": 62,
+    "now_cost": 63,
     "team": 3,
     "total_points": 42,
     "web_name": "Tavernier"
@@ -786,7 +786,7 @@
     "ep_next": "6.3",
     "form": "6.3",
     "id": 79,
-    "now_cost": 61,
+    "now_cost": 62,
     "team": 3,
     "total_points": 37,
     "web_name": "Evanilson"
@@ -1335,7 +1335,7 @@
     "ep_next": "4.3",
     "form": "4.3",
     "id": 138,
-    "now_cost": 57,
+    "now_cost": 58,
     "team": 5,
     "total_points": 41,
     "web_name": "Kostoulas"
@@ -1497,7 +1497,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 142,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 6,
     "total_points": 3,
     "web_name": "James"
@@ -1515,7 +1515,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 144,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 6,
     "total_points": 5,
     "web_name": "Gusto"
@@ -1596,7 +1596,7 @@
     "ep_next": "6.7",
     "form": "6.7",
     "id": 156,
-    "now_cost": 65,
+    "now_cost": 66,
     "team": 6,
     "total_points": 34,
     "web_name": "Neto"
@@ -1650,7 +1650,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 164,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 6,
     "total_points": 3,
     "web_name": "Quenda"
@@ -2415,7 +2415,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 209,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 9,
     "total_points": 12,
     "web_name": "Johnson"
@@ -3432,7 +3432,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 316,
-    "now_cost": 56,
+    "now_cost": 55,
     "team": 12,
     "total_points": 31,
     "web_name": "Emersonn"
@@ -3531,7 +3531,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 564,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 12,
     "total_points": 7,
     "web_name": "Scherpen"
@@ -3990,7 +3990,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 363,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 14,
     "total_points": 0,
     "web_name": "Leoni"
@@ -4323,7 +4323,7 @@
     "ep_next": "0.0",
     "form": "1.3",
     "id": 397,
-    "now_cost": 83,
+    "now_cost": 82,
     "team": 15,
     "total_points": 37,
     "web_name": "Semenyo"
@@ -4629,7 +4629,7 @@
     "ep_next": "0.0",
     "form": "1.0",
     "id": 423,
-    "now_cost": 43,
+    "now_cost": 42,
     "team": 16,
     "total_points": 12,
     "web_name": "Shaw"
@@ -4656,7 +4656,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 426,
-    "now_cost": 118,
+    "now_cost": 117,
     "team": 16,
     "total_points": 33,
     "web_name": "B.Fernandes"
@@ -5139,7 +5139,7 @@
     "web_name": "John"
   },
   {
-    "ep_next": "4.0",
+    "ep_next": "3.0",
     "form": "4.0",
     "id": 469,
     "now_cost": 50,
@@ -5385,7 +5385,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 147,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 19,
     "total_points": 3,
     "web_name": "Tosin"
@@ -5439,7 +5439,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 496,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 19,
     "total_points": 23,
     "web_name": "Kinsky"
@@ -5484,7 +5484,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 502,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 19,
     "total_points": 22,
     "web_name": "Robertson"
@@ -5682,7 +5682,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 525,
-    "now_cost": 57,
+    "now_cost": 56,
     "team": 19,
     "total_points": 9,
     "web_name": "Fernandes"
@@ -5925,7 +5925,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 549,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 20,
     "total_points": 1,
     "web_name": "Talbi"
@@ -5961,7 +5961,7 @@
     "ep_next": "0.3",
     "form": "0.7",
     "id": 553,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 20,
     "total_points": 17,
     "web_name": "Isidor"
