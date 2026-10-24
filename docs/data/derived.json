@@ -4,71 +4,71 @@
       "adjusted_rank": 1,
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
-      "points_on_bench": 85,
-      "rank_change": 0,
-      "real_rank": 1,
-      "total_plus_bench": 590,
-      "total_points": 505
+      "points_on_bench": 96,
+      "rank_change": 3,
+      "real_rank": 4,
+      "total_plus_bench": 621,
+      "total_points": 525
     },
     {
       "adjusted_rank": 2,
       "manager_id": "4177980",
       "name": "James Petrie",
       "points_on_bench": 87,
-      "rank_change": 1,
-      "real_rank": 3,
-      "total_plus_bench": 578,
-      "total_points": 491
+      "rank_change": 0,
+      "real_rank": 2,
+      "total_plus_bench": 617,
+      "total_points": 530
     },
     {
       "adjusted_rank": 3,
       "manager_id": "6975918",
       "name": "James Cassidy",
-      "points_on_bench": 73,
-      "rank_change": 2,
-      "real_rank": 5,
-      "total_plus_bench": 545,
-      "total_points": 472
+      "points_on_bench": 82,
+      "rank_change": 3,
+      "real_rank": 6,
+      "total_plus_bench": 577,
+      "total_points": 495
     },
     {
       "adjusted_rank": 4,
-      "manager_id": "1212049",
-      "name": "James Holliss",
-      "points_on_bench": 37,
-      "rank_change": -2,
-      "real_rank": 2,
-      "total_plus_bench": 535,
-      "total_points": 498
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
+      "points_on_bench": 60,
+      "rank_change": 1,
+      "real_rank": 5,
+      "total_plus_bench": 574,
+      "total_points": 514
     },
     {
       "adjusted_rank": 5,
-      "manager_id": "822375",
-      "name": "Robbie Paton",
-      "points_on_bench": 95,
-      "rank_change": 3,
-      "real_rank": 8,
-      "total_plus_bench": 533,
-      "total_points": 438
+      "manager_id": "1212049",
+      "name": "James Holliss",
+      "points_on_bench": 37,
+      "rank_change": -4,
+      "real_rank": 1,
+      "total_plus_bench": 567,
+      "total_points": 530
     },
     {
       "adjusted_rank": 6,
       "manager_id": "817501",
       "name": "Andrew David",
-      "points_on_bench": 38,
-      "rank_change": -2,
-      "real_rank": 4,
-      "total_plus_bench": 527,
-      "total_points": 489
+      "points_on_bench": 40,
+      "rank_change": -3,
+      "real_rank": 3,
+      "total_plus_bench": 567,
+      "total_points": 527
     },
     {
       "adjusted_rank": 7,
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
-      "points_on_bench": 60,
-      "rank_change": -1,
-      "real_rank": 6,
-      "total_plus_bench": 521,
-      "total_points": 461
+      "manager_id": "822375",
+      "name": "Robbie Paton",
+      "points_on_bench": 111,
+      "rank_change": 1,
+      "real_rank": 8,
+      "total_plus_bench": 559,
+      "total_points": 448
     },
     {
       "adjusted_rank": 8,
@@ -77,40 +77,45 @@
       "points_on_bench": 39,
       "rank_change": -1,
       "real_rank": 7,
-      "total_plus_bench": 493,
-      "total_points": 454
+      "total_plus_bench": 512,
+      "total_points": 473
     },
     {
       "adjusted_rank": 9,
       "manager_id": "3457548",
       "name": "David Lewis",
-      "points_on_bench": 48,
+      "points_on_bench": 52,
       "rank_change": 0,
       "real_rank": 9,
-      "total_plus_bench": 454,
-      "total_points": 406
+      "total_plus_bench": 467,
+      "total_points": 415
     }
   ],
   "average_position": [
     {
-      "average_position": 1.62,
+      "average_position": 1.5,
       "manager_id": "1212049",
       "name": "James Holliss"
     },
     {
-      "average_position": 2,
+      "average_position": 2.38,
       "manager_id": "4279888",
       "name": "Oliver Dewdney"
     },
     {
-      "average_position": 4,
+      "average_position": 3.88,
       "manager_id": "1004578",
       "name": "Adam Beveridge"
     },
     {
-      "average_position": 4.75,
+      "average_position": 4.62,
       "manager_id": "817501",
       "name": "Andrew David"
+    },
+    {
+      "average_position": 5.25,
+      "manager_id": "4177980",
+      "name": "James Petrie"
     },
     {
       "average_position": 5.25,
@@ -118,12 +123,7 @@
       "name": "Tom Phillips"
     },
     {
-      "average_position": 5.38,
-      "manager_id": "4177980",
-      "name": "James Petrie"
-    },
-    {
-      "average_position": 6.88,
+      "average_position": 7,
       "manager_id": "6975918",
       "name": "James Cassidy"
     },
@@ -142,7 +142,12 @@
     {
       "manager_id": "822375",
       "name": "Robbie Paton",
-      "points_on_bench": 95
+      "points_on_bench": 111
+    },
+    {
+      "manager_id": "4279888",
+      "name": "Oliver Dewdney",
+      "points_on_bench": 96
     },
     {
       "manager_id": "4177980",
@@ -150,14 +155,9 @@
       "points_on_bench": 87
     },
     {
-      "manager_id": "4279888",
-      "name": "Oliver Dewdney",
-      "points_on_bench": 85
-    },
-    {
       "manager_id": "6975918",
       "name": "James Cassidy",
-      "points_on_bench": 73
+      "points_on_bench": 82
     },
     {
       "manager_id": "1004578",
@@ -167,17 +167,17 @@
     {
       "manager_id": "3457548",
       "name": "David Lewis",
-      "points_on_bench": 48
+      "points_on_bench": 52
+    },
+    {
+      "manager_id": "817501",
+      "name": "Andrew David",
+      "points_on_bench": 40
     },
     {
       "manager_id": "8011609",
       "name": "Tom Phillips",
       "points_on_bench": 39
-    },
-    {
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "points_on_bench": 38
     },
     {
       "manager_id": "1212049",
@@ -272,74 +272,50 @@
       {
         "gw": 8,
         "hits": 0,
-        "manager_id": "1212049",
-        "name": "James Holliss",
-        "points": 0,
-        "vs_average": -1
-      },
-      {
-        "gw": 8,
-        "hits": 0,
-        "manager_id": "4177980",
-        "name": "James Petrie",
-        "points": 0,
-        "vs_average": -1
-      },
-      {
-        "gw": 8,
-        "hits": 0,
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
-        "points": 0,
-        "vs_average": -1
-      },
-      {
-        "gw": 8,
-        "hits": 0,
-        "manager_id": "6975918",
-        "name": "James Cassidy",
-        "points": 0,
-        "vs_average": -1
-      },
-      {
-        "gw": 8,
-        "hits": 0,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "points": 0,
-        "vs_average": -1
-      },
-      {
-        "gw": 8,
-        "hits": 0,
         "manager_id": "3457548",
         "name": "David Lewis",
-        "points": 0,
-        "vs_average": -1
-      },
-      {
-        "gw": 8,
-        "hits": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "points": 2,
-        "vs_average": 1
-      },
-      {
-        "gw": 8,
-        "hits": -4,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "points": 2,
-        "vs_average": 1
+        "points": 9,
+        "vs_average": -18
       },
       {
         "gw": 8,
         "hits": 0,
         "manager_id": "822375",
         "name": "Robbie Paton",
-        "points": 2,
-        "vs_average": 1
+        "points": 12,
+        "vs_average": -15
+      },
+      {
+        "gw": 8,
+        "hits": 0,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "points": 19,
+        "vs_average": -8
+      },
+      {
+        "gw": 8,
+        "hits": 0,
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
+        "points": 20,
+        "vs_average": -7
+      },
+      {
+        "gw": 8,
+        "hits": 0,
+        "manager_id": "6975918",
+        "name": "James Cassidy",
+        "points": 23,
+        "vs_average": -4
+      },
+      {
+        "gw": 8,
+        "hits": 0,
+        "manager_id": "1212049",
+        "name": "James Holliss",
+        "points": 32,
+        "vs_average": 5
       },
       {
         "gw": 3,
@@ -348,6 +324,30 @@
         "name": "David Lewis",
         "points": 36,
         "vs_average": -15
+      },
+      {
+        "gw": 1,
+        "hits": 0,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "points": 38,
+        "vs_average": -12
+      },
+      {
+        "gw": 1,
+        "hits": 0,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "points": 38,
+        "vs_average": -12
+      },
+      {
+        "gw": 8,
+        "hits": 0,
+        "manager_id": "4177980",
+        "name": "James Petrie",
+        "points": 39,
+        "vs_average": 12
       }
     ]
   },
@@ -720,7 +720,7 @@
       },
       "8011609": {
         "chips": {
-          "Triple Captain": -1
+          "Triple Captain": -8
         },
         "name": "Tom Phillips"
       },
@@ -811,8 +811,8 @@
         "gw": 8,
         "manager_id": "8011609",
         "name": "Tom Phillips",
-        "points": 0,
-        "vs_average": -1
+        "points": 19,
+        "vs_average": -8
       }
     ],
     "triple_captain_points": [
@@ -849,64 +849,64 @@
         "gw": 8,
         "manager_id": "8011609",
         "name": "Tom Phillips",
-        "points": 0,
-        "vs_average": -1
+        "points": 19,
+        "vs_average": -8
       }
     ]
   },
   "consistency": [
     {
-      "consistency_stdev": 24.13,
-      "manager_id": "8011609",
-      "mean_points": 56.75,
-      "name": "Tom Phillips"
-    },
-    {
-      "consistency_stdev": 25.67,
+      "consistency_stdev": 15.97,
       "manager_id": "817501",
-      "mean_points": 61.12,
+      "mean_points": 65.88,
       "name": "Andrew David"
     },
     {
-      "consistency_stdev": 26.41,
-      "manager_id": "4279888",
-      "mean_points": 63.12,
-      "name": "Oliver Dewdney"
-    },
-    {
-      "consistency_stdev": 26.59,
+      "consistency_stdev": 16.41,
       "manager_id": "1004578",
-      "mean_points": 57.88,
+      "mean_points": 64.75,
       "name": "Adam Beveridge"
     },
     {
-      "consistency_stdev": 26.7,
-      "manager_id": "3457548",
-      "mean_points": 50.75,
-      "name": "David Lewis"
+      "consistency_stdev": 18.77,
+      "manager_id": "8011609",
+      "mean_points": 59.12,
+      "name": "Tom Phillips"
     },
     {
-      "consistency_stdev": 26.92,
+      "consistency_stdev": 20.63,
+      "manager_id": "4279888",
+      "mean_points": 65.62,
+      "name": "Oliver Dewdney"
+    },
+    {
+      "consistency_stdev": 21.05,
       "manager_id": "6975918",
-      "mean_points": 59,
+      "mean_points": 61.88,
       "name": "James Cassidy"
     },
     {
-      "consistency_stdev": 27.05,
+      "consistency_stdev": 24.65,
+      "manager_id": "3457548",
+      "mean_points": 51.88,
+      "name": "David Lewis"
+    },
+    {
+      "consistency_stdev": 24.71,
       "manager_id": "822375",
-      "mean_points": 54.75,
+      "mean_points": 56,
       "name": "Robbie Paton"
     },
     {
-      "consistency_stdev": 31.66,
+      "consistency_stdev": 24.82,
       "manager_id": "1212049",
-      "mean_points": 62.25,
+      "mean_points": 66.25,
       "name": "James Holliss"
     },
     {
-      "consistency_stdev": 32.6,
+      "consistency_stdev": 25.12,
       "manager_id": "4177980",
-      "mean_points": 61.38,
+      "mean_points": 66.25,
       "name": "James Petrie"
     }
   ],
@@ -915,51 +915,51 @@
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 301
+        "value": 339
       },
       {
         "manager_id": "4177980",
         "name": "James Petrie",
-        "value": 298
+        "value": 337
       },
       {
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
-        "value": 297
+        "value": 317
       }
     ],
     "in_freefall": [
       {
         "manager_id": "3457548",
         "name": "David Lewis",
-        "value": 218
+        "value": 227
       },
       {
         "manager_id": "822375",
         "name": "Robbie Paton",
-        "value": 244
+        "value": 254
       },
       {
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "value": 249
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "value": 277
       }
     ],
     "rotation_losers": [
       {
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
-        "value": 53
+        "value": 64
       },
       {
         "manager_id": "822375",
         "name": "Robbie Paton",
-        "value": 38
+        "value": 54
       },
       {
         "manager_id": "6975918",
         "name": "James Cassidy",
-        "value": 37
+        "value": 46
       }
     ],
     "sound_spenders": [
@@ -1010,7 +1010,7 @@
       {
         "manager_id": "817501",
         "name": "Andrew David",
-        "value": 24
+        "value": 26
       }
     ],
     "window_gws": [
@@ -1183,7 +1183,7 @@
       },
       {
         "gw": 8,
-        "position": 6
+        "position": 5
       }
     ],
     "1212049": [
@@ -1217,7 +1217,7 @@
       },
       {
         "gw": 8,
-        "position": 2
+        "position": 1
       }
     ],
     "3457548": [
@@ -1285,7 +1285,7 @@
       },
       {
         "gw": 8,
-        "position": 3
+        "position": 2
       }
     ],
     "4279888": [
@@ -1319,7 +1319,7 @@
       },
       {
         "gw": 8,
-        "position": 1
+        "position": 4
       }
     ],
     "6975918": [
@@ -1353,7 +1353,7 @@
       },
       {
         "gw": 8,
-        "position": 5
+        "position": 6
       }
     ],
     "8011609": [
@@ -1421,7 +1421,7 @@
       },
       {
         "gw": 8,
-        "position": 4
+        "position": 3
       }
     ],
     "822375": [
@@ -1491,7 +1491,7 @@
       },
       {
         "gw": 8,
-        "total_points": 459
+        "total_points": 514
       }
     ],
     "1212049": [
@@ -1525,7 +1525,7 @@
       },
       {
         "gw": 8,
-        "total_points": 498
+        "total_points": 530
       }
     ],
     "3457548": [
@@ -1559,7 +1559,7 @@
       },
       {
         "gw": 8,
-        "total_points": 406
+        "total_points": 415
       }
     ],
     "4177980": [
@@ -1593,7 +1593,7 @@
       },
       {
         "gw": 8,
-        "total_points": 491
+        "total_points": 530
       }
     ],
     "4279888": [
@@ -1627,7 +1627,7 @@
       },
       {
         "gw": 8,
-        "total_points": 505
+        "total_points": 525
       }
     ],
     "6975918": [
@@ -1661,7 +1661,7 @@
       },
       {
         "gw": 8,
-        "total_points": 472
+        "total_points": 495
       }
     ],
     "8011609": [
@@ -1695,7 +1695,7 @@
       },
       {
         "gw": 8,
-        "total_points": 454
+        "total_points": 473
       }
     ],
     "817501": [
@@ -1729,7 +1729,7 @@
       },
       {
         "gw": 8,
-        "total_points": 489
+        "total_points": 527
       }
     ],
     "822375": [
@@ -1763,7 +1763,7 @@
       },
       {
         "gw": 8,
-        "total_points": 438
+        "total_points": 448
       }
     ]
   },
@@ -1903,7 +1903,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 2043057
+        "overall_rank": 910469
       }
     ],
     "1212049": [
@@ -1937,7 +1937,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 461618
+        "overall_rank": 444008
       }
     ],
     "3457548": [
@@ -1971,7 +1971,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 5382350
+        "overall_rank": 6393624
       }
     ],
     "4177980": [
@@ -2005,7 +2005,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 650504
+        "overall_rank": 446882
       }
     ],
     "4279888": [
@@ -2039,7 +2039,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 329132
+        "overall_rank": 577486
       }
     ],
     "6975918": [
@@ -2073,7 +2073,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 1387227
+        "overall_rank": 1706420
       }
     ],
     "8011609": [
@@ -2107,7 +2107,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 2301158
+        "overall_rank": 2886842
       }
     ],
     "817501": [
@@ -2141,7 +2141,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 718681
+        "overall_rank": 520788
       }
     ],
     "822375": [
@@ -2175,7 +2175,7 @@
       },
       {
         "gw": 8,
-        "overall_rank": 3302339
+        "overall_rank": 4452004
       }
     ]
   },
@@ -2279,7 +2279,7 @@
       },
       {
         "gw": 8,
-        "points_on_bench": 0
+        "points_on_bench": 4
       }
     ],
     "4177980": [
@@ -2347,7 +2347,7 @@
       },
       {
         "gw": 8,
-        "points_on_bench": 0
+        "points_on_bench": 11
       }
     ],
     "6975918": [
@@ -2381,7 +2381,7 @@
       },
       {
         "gw": 8,
-        "points_on_bench": 1
+        "points_on_bench": 10
       }
     ],
     "8011609": [
@@ -2449,7 +2449,7 @@
       },
       {
         "gw": 8,
-        "points_on_bench": 0
+        "points_on_bench": 2
       }
     ],
     "822375": [
@@ -2483,7 +2483,7 @@
       },
       {
         "gw": 8,
-        "points_on_bench": 0
+        "points_on_bench": 16
       }
     ]
   },
@@ -2982,7 +2982,7 @@
         },
         {
           "gw": 8,
-          "vs_average": 1
+          "vs_average": 30
         }
       ],
       "1212049": [
@@ -3016,7 +3016,7 @@
         },
         {
           "gw": 8,
-          "vs_average": -1
+          "vs_average": 5
         }
       ],
       "3457548": [
@@ -3050,7 +3050,7 @@
         },
         {
           "gw": 8,
-          "vs_average": -1
+          "vs_average": -18
         }
       ],
       "4177980": [
@@ -3084,7 +3084,7 @@
         },
         {
           "gw": 8,
-          "vs_average": -1
+          "vs_average": 12
         }
       ],
       "4279888": [
@@ -3118,7 +3118,7 @@
         },
         {
           "gw": 8,
-          "vs_average": -1
+          "vs_average": -7
         }
       ],
       "6975918": [
@@ -3152,7 +3152,7 @@
         },
         {
           "gw": 8,
-          "vs_average": -1
+          "vs_average": -4
         }
       ],
       "8011609": [
@@ -3186,7 +3186,7 @@
         },
         {
           "gw": 8,
-          "vs_average": -1
+          "vs_average": -8
         }
       ],
       "817501": [
@@ -3220,7 +3220,7 @@
         },
         {
           "gw": 8,
-          "vs_average": 1
+          "vs_average": 13
         }
       ],
       "822375": [
@@ -3254,7 +3254,7 @@
         },
         {
           "gw": 8,
-          "vs_average": 1
+          "vs_average": -15
         }
       ]
     },
@@ -3263,16 +3263,16 @@
         "best_vs_average": 36,
         "manager_id": "1212049",
         "name": "James Holliss",
-        "weeks_beat_average": 6,
-        "weeks_lost_to_average": 2,
+        "weeks_beat_average": 7,
+        "weeks_lost_to_average": 1,
         "worst_vs_average": -5
       },
       {
         "best_vs_average": 38,
         "manager_id": "4177980",
         "name": "James Petrie",
-        "weeks_beat_average": 4,
-        "weeks_lost_to_average": 4,
+        "weeks_beat_average": 5,
+        "weeks_lost_to_average": 3,
         "worst_vs_average": -12
       },
       {
@@ -3289,10 +3289,10 @@
         "name": "Oliver Dewdney",
         "weeks_beat_average": 6,
         "weeks_lost_to_average": 2,
-        "worst_vs_average": -6
+        "worst_vs_average": -7
       },
       {
-        "best_vs_average": 24,
+        "best_vs_average": 30,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "weeks_beat_average": 8,
@@ -3305,7 +3305,7 @@
         "name": "James Cassidy",
         "weeks_beat_average": 4,
         "weeks_lost_to_average": 4,
-        "worst_vs_average": -3
+        "worst_vs_average": -4
       },
       {
         "best_vs_average": 20,
@@ -3319,9 +3319,9 @@
         "best_vs_average": 22,
         "manager_id": "822375",
         "name": "Robbie Paton",
-        "weeks_beat_average": 5,
-        "weeks_lost_to_average": 3,
-        "worst_vs_average": -12
+        "weeks_beat_average": 4,
+        "weeks_lost_to_average": 4,
+        "worst_vs_average": -15
       },
       {
         "best_vs_average": 18,
@@ -3329,7 +3329,7 @@
         "name": "David Lewis",
         "weeks_beat_average": 3,
         "weeks_lost_to_average": 5,
-        "worst_vs_average": -17
+        "worst_vs_average": -18
       }
     ]
   },
@@ -3337,7 +3337,7 @@
     {
       "manager_id": "1212049",
       "name": "James Holliss",
-      "weeks_at_top": 5,
+      "weeks_at_top": 6,
       "weeks_on_podium": 7
     },
     {
@@ -3350,13 +3350,13 @@
       "manager_id": "817501",
       "name": "Andrew David",
       "weeks_at_top": 0,
-      "weeks_on_podium": 2
+      "weeks_on_podium": 3
     },
     {
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
-      "weeks_at_top": 3,
-      "weeks_on_podium": 7
+      "weeks_at_top": 2,
+      "weeks_on_podium": 6
     },
     {
       "manager_id": "1004578",
