@@ -42,23 +42,23 @@
     },
     {
       "adjusted_rank": 5,
-      "manager_id": "1212049",
-      "name": "James Holliss",
-      "points_on_bench": 37,
-      "rank_change": -3,
-      "real_rank": 2,
-      "total_plus_bench": 567,
-      "total_points": 530
-    },
-    {
-      "adjusted_rank": 6,
       "manager_id": "817501",
       "name": "Andrew David",
       "points_on_bench": 40,
-      "rank_change": -3,
+      "rank_change": -2,
       "real_rank": 3,
       "total_plus_bench": 567,
       "total_points": 527
+    },
+    {
+      "adjusted_rank": 6,
+      "manager_id": "1212049",
+      "name": "James Holliss",
+      "points_on_bench": 37,
+      "rank_change": -4,
+      "real_rank": 2,
+      "total_plus_bench": 567,
+      "total_points": 530
     },
     {
       "adjusted_rank": 7,
@@ -93,7 +93,7 @@
   ],
   "average_position": [
     {
-      "average_position": 1.62,
+      "average_position": 1.75,
       "manager_id": "1212049",
       "name": "James Holliss"
     },
@@ -108,7 +108,7 @@
       "name": "Adam Beveridge"
     },
     {
-      "average_position": 4.62,
+      "average_position": 4.5,
       "manager_id": "817501",
       "name": "Andrew David"
     },
@@ -969,13 +969,13 @@
         "value": 0
       },
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "value": 0
       },
       {
-        "manager_id": "4279888",
-        "name": "Oliver Dewdney",
+        "manager_id": "1212049",
+        "name": "James Holliss",
         "value": 0
       }
     ],
@@ -1189,7 +1189,7 @@
     "1212049": [
       {
         "gw": 1,
-        "position": 4
+        "position": 5
       },
       {
         "gw": 2,
@@ -1393,7 +1393,7 @@
     "817501": [
       {
         "gw": 1,
-        "position": 5
+        "position": 4
       },
       {
         "gw": 2,
@@ -2720,13 +2720,13 @@
         "total_net_points": 23
       },
       {
-        "manager_id": "1212049",
-        "name": "James Holliss",
+        "manager_id": "817501",
+        "name": "Andrew David",
         "total_net_points": 21
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "1212049",
+        "name": "James Holliss",
         "total_net_points": 21
       },
       {
@@ -2775,6 +2775,12 @@
       },
       {
         "hit_points": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "transfer_count": 15
+      },
+      {
+        "hit_points": 0,
         "manager_id": "1212049",
         "name": "James Holliss",
         "transfer_count": 16
@@ -2784,12 +2790,6 @@
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "transfer_count": 7
-      },
-      {
-        "hit_points": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "transfer_count": 15
       },
       {
         "hit_points": 0,
@@ -3268,6 +3268,14 @@
         "worst_vs_average": -12
       },
       {
+        "best_vs_average": 22,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "weeks_beat_average": 7,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -2
+      },
+      {
         "best_vs_average": 36,
         "manager_id": "1212049",
         "name": "James Holliss",
@@ -3282,14 +3290,6 @@
         "weeks_beat_average": 6,
         "weeks_lost_to_average": 2,
         "worst_vs_average": -7
-      },
-      {
-        "best_vs_average": 22,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "weeks_beat_average": 7,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -2
       },
       {
         "best_vs_average": 30,
@@ -3341,6 +3341,12 @@
       "weeks_on_podium": 2
     },
     {
+      "manager_id": "817501",
+      "name": "Andrew David",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 3
+    },
+    {
       "manager_id": "1212049",
       "name": "James Holliss",
       "weeks_at_top": 5,
@@ -3351,12 +3357,6 @@
       "name": "Oliver Dewdney",
       "weeks_at_top": 2,
       "weeks_on_podium": 6
-    },
-    {
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 3
     },
     {
       "manager_id": "1004578",
