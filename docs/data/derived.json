@@ -974,8 +974,8 @@
         "value": 0
       },
       {
-        "manager_id": "817501",
-        "name": "Andrew David",
+        "manager_id": "4279888",
+        "name": "Oliver Dewdney",
         "value": 0
       }
     ],
@@ -2781,15 +2781,15 @@
       },
       {
         "hit_points": 0,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "transfer_count": 15
-      },
-      {
-        "hit_points": 0,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "transfer_count": 7
+      },
+      {
+        "hit_points": 0,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "transfer_count": 15
       },
       {
         "hit_points": 0,
@@ -3276,20 +3276,20 @@
         "worst_vs_average": -5
       },
       {
-        "best_vs_average": 22,
-        "manager_id": "817501",
-        "name": "Andrew David",
-        "weeks_beat_average": 7,
-        "weeks_lost_to_average": 1,
-        "worst_vs_average": -2
-      },
-      {
         "best_vs_average": 24,
         "manager_id": "4279888",
         "name": "Oliver Dewdney",
         "weeks_beat_average": 6,
         "weeks_lost_to_average": 2,
         "worst_vs_average": -7
+      },
+      {
+        "best_vs_average": 22,
+        "manager_id": "817501",
+        "name": "Andrew David",
+        "weeks_beat_average": 7,
+        "weeks_lost_to_average": 1,
+        "worst_vs_average": -2
       },
       {
         "best_vs_average": 30,
@@ -3347,16 +3347,16 @@
       "weeks_on_podium": 7
     },
     {
-      "manager_id": "817501",
-      "name": "Andrew David",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 3
-    },
-    {
       "manager_id": "4279888",
       "name": "Oliver Dewdney",
       "weeks_at_top": 2,
       "weeks_on_podium": 6
+    },
+    {
+      "manager_id": "817501",
+      "name": "Andrew David",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 3
     },
     {
       "manager_id": "1004578",
