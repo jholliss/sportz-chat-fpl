@@ -1,19 +1,19 @@
 [
   {
-    "event_total": 32,
-    "manager_id": "1212049",
-    "name": "James Holliss",
-    "rank": 1,
-    "team_name": "Hamann Overboard",
-    "total": 530
-  },
-  {
     "event_total": 39,
     "manager_id": "4177980",
     "name": "James Petrie",
-    "rank": 2,
+    "rank": 1,
     "team_name": "Restart The Rutter",
     "total": 530
+  },
+  {
+    "event_total": 31,
+    "manager_id": "1212049",
+    "name": "James Holliss",
+    "rank": 2,
+    "team_name": "Hamann Overboard",
+    "total": 529
   },
   {
     "event_total": 40,
@@ -32,12 +32,12 @@
     "total": 525
   },
   {
-    "event_total": 57,
+    "event_total": 56,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
     "rank": 5,
     "team_name": "Ballack Sabbath",
-    "total": 514
+    "total": 513
   },
   {
     "event_total": 23,
@@ -48,12 +48,12 @@
     "total": 495
   },
   {
-    "event_total": 19,
+    "event_total": 20,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 7,
     "team_name": "ThunderStruijk",
-    "total": 473
+    "total": 474
   },
   {
     "event_total": 12,

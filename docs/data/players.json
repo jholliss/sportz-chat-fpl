@@ -27,12 +27,12 @@
     "web_name": "Meslier"
   },
   {
-    "ep_next": "8.7",
-    "form": "8.7",
+    "ep_next": "9.0",
+    "form": "9.0",
     "id": 4,
     "now_cost": 79,
     "team": 1,
-    "total_points": 51,
+    "total_points": 52,
     "web_name": "Gabriel"
   },
   {
@@ -111,7 +111,7 @@
     "ep_next": "6.3",
     "form": "6.3",
     "id": 13,
-    "now_cost": 73,
+    "now_cost": 74,
     "team": 1,
     "total_points": 39,
     "web_name": "Rice"
@@ -234,12 +234,12 @@
     "web_name": "G.Jesus"
   },
   {
-    "ep_next": "9.3",
-    "form": "9.3",
+    "ep_next": "9.0",
+    "form": "9.0",
     "id": 31,
     "now_cost": 46,
     "team": 1,
-    "total_points": 40,
+    "total_points": 39,
     "web_name": "Konsa"
   },
   {
@@ -489,7 +489,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 166,
-    "now_cost": 66,
+    "now_cost": 67,
     "team": 2,
     "total_points": 34,
     "web_name": "N.Jackson"
@@ -2595,7 +2595,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 247,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 9,
     "total_points": 12,
     "web_name": "Hackney"
@@ -2820,7 +2820,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 569,
-    "now_cost": 61,
+    "now_cost": 60,
     "team": 10,
     "total_points": 20,
     "web_name": "Gonzalo"
@@ -3702,7 +3702,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 337,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 13,
     "total_points": 8,
     "web_name": "Aaronson"
@@ -4044,7 +4044,7 @@
     "ep_next": "0.0",
     "form": "0.3",
     "id": 368,
-    "now_cost": 68,
+    "now_cost": 67,
     "team": 14,
     "total_points": 21,
     "web_name": "Szoboszlai"
@@ -5313,7 +5313,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 488,
-    "now_cost": 48,
+    "now_cost": 47,
     "team": 18,
     "total_points": 6,
     "web_name": "I.Sangar\u00e9"
@@ -5799,7 +5799,7 @@
     "ep_next": "1.3",
     "form": "1.3",
     "id": 534,
-    "now_cost": 43,
+    "now_cost": 42,
     "team": 20,
     "total_points": 14,
     "web_name": "Hume"
