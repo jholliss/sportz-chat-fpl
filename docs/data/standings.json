@@ -1,35 +1,35 @@
 [
   {
-    "event_total": 44,
+    "event_total": 49,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 1,
     "team_name": "Restart The Rutter",
+    "total": 540
+  },
+  {
+    "event_total": 34,
+    "manager_id": "4279888",
+    "name": "Oliver Dewdney",
+    "rank": 2,
+    "team_name": "Yoro Wizard Harry",
+    "total": 539
+  },
+  {
+    "event_total": 48,
+    "manager_id": "817501",
+    "name": "Andrew David",
+    "rank": 3,
+    "team_name": "Kloppafeel",
     "total": 535
   },
   {
-    "event_total": 46,
-    "manager_id": "817501",
-    "name": "Andrew David",
-    "rank": 2,
-    "team_name": "Kloppafeel",
-    "total": 533
-  },
-  {
-    "event_total": 33,
+    "event_total": 35,
     "manager_id": "1212049",
     "name": "James Holliss",
-    "rank": 3,
-    "team_name": "Hamann Overboard",
-    "total": 531
-  },
-  {
-    "event_total": 25,
-    "manager_id": "4279888",
-    "name": "Oliver Dewdney",
     "rank": 4,
-    "team_name": "Yoro Wizard Harry",
-    "total": 530
+    "team_name": "Hamann Overboard",
+    "total": 533
   },
   {
     "event_total": 65,
@@ -48,27 +48,27 @@
     "total": 504
   },
   {
-    "event_total": 37,
+    "event_total": 42,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 7,
     "team_name": "ThunderStruijk",
-    "total": 491
+    "total": 496
   },
   {
-    "event_total": 36,
+    "event_total": 59,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 8,
     "team_name": "Careless Wissa",
-    "total": 472
+    "total": 495
   },
   {
-    "event_total": 14,
+    "event_total": 19,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
     "team_name": "All Hail Keylord",
-    "total": 420
+    "total": 425
   }
 ]
