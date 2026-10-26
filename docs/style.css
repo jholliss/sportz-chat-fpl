@@ -316,13 +316,36 @@ nav.pill-tabs button.active {
   border-color: var(--text-primary);
 }
 
-/* One-line summary of what's in the selected Statz sub-tab */
-.sub-intro {
-  margin: -4px 2px 12px;
-  color: var(--text-secondary);
-  font-size: 0.78rem;
-  line-height: 1.4;
+/* "In this section" jump-to chips, built in app.js from each Statz
+   sub-tab's cards. */
+.sub-contents { margin: -2px 0 14px; }
+.sub-contents h4 {
+  margin: 0 0 6px 2px;
+  color: var(--text-muted);
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
+.sub-contents .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.sub-contents button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: 999px;
+  padding: 5px 10px 5px 8px;
+  min-height: 28px;
+  background: color-mix(in srgb, var(--m1) 10%, transparent);
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sub-contents button svg { width: 13px; height: 13px; color: var(--m1); flex-shrink: 0; }
+.sub-contents button:active { background: color-mix(in srgb, var(--m1) 20%, transparent); }
 
 .sub-panel { display: none; }
 .sub-panel.active { display: block; }

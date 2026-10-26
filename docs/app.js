@@ -820,9 +820,13 @@ function scrollTargets() {
   );
 }
 
+// Land a card just below the up arrow (6px gap + 34px circle).
+function cardScrollOffset() {
+  return headerHeight() + 46;
+}
+
 function scrollToSection(direction) {
-  // Land each card just below the up arrow (6px gap + 34px circle).
-  const offset = headerHeight() + 46;
+  const offset = cardScrollOffset();
   const tops = scrollTargets().map((node) => node.getBoundingClientRect().top - offset);
   let delta;
   if (direction > 0) {
@@ -835,6 +839,32 @@ function scrollToSection(direction) {
     if (delta === undefined) delta = -window.scrollY;
   }
   window.scrollBy({ top: delta, behavior: "smooth" });
+}
+
+const CONTENTS_ICONS = {
+  chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8" /></svg>',
+  table: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16" /></svg>',
+};
+
+// "In this section" chips at the top of each Statz sub-tab: one per
+// card, chart or table icon, tap to scroll to that card.
+function buildSubContents() {
+  document.querySelectorAll(".sub-panel").forEach((panel) => {
+    const cards = [...panel.querySelectorAll(".card")].filter((c) => c.querySelector("h3"));
+    if (!cards.length) return;
+    const chips = el("div", { class: "chips" });
+    cards.forEach((card) => {
+      const btn = el("button", { type: "button" });
+      btn.innerHTML = card.querySelector("canvas") ? CONTENTS_ICONS.chart : CONTENTS_ICONS.table;
+      btn.appendChild(document.createTextNode(card.querySelector("h3").textContent));
+      btn.addEventListener("click", () => {
+        const top = card.getBoundingClientRect().top + window.scrollY - cardScrollOffset();
+        window.scrollTo({ top, behavior: "smooth" });
+      });
+      chips.appendChild(btn);
+    });
+    panel.prepend(el("div", { class: "sub-contents" }, [el("h4", { text: "In this section" }), chips]));
+  });
 }
 
 function updateScrollArrows() {
@@ -857,6 +887,7 @@ function initScrollArrows() {
 async function main() {
   initNav();
   initScrollArrows();
+  buildSubContents();
   try {
     await loadAll();
   } catch (err) {
