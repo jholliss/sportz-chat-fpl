@@ -916,17 +916,18 @@ const CONTENTS_ICONS = {
   table: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 9.5h18M3 14.8h18M9 9.5V20" /></svg>',
 };
 
-// "In this section" chips at the top of each Statz sub-tab: one per
-// card, chart or table icon, tap to scroll to that card.
+// "In this section" chips at the top of Home, All-Time and each Statz
+// sub-tab: one per card (its h3, or data-chip for untitled cards), with
+// a chart or table icon. Tap to scroll to that card.
 function buildSubContents() {
-  document.querySelectorAll(".sub-panel").forEach((panel) => {
-    const cards = [...panel.querySelectorAll(".card")].filter((c) => c.querySelector("h3"));
+  document.querySelectorAll("#tab-home, #tab-alltime, .sub-panel").forEach((panel) => {
+    const cards = [...panel.querySelectorAll(".card")].filter((c) => c.dataset.chip || c.querySelector("h3"));
     if (!cards.length) return;
     const chips = el("div", { class: "chips" });
     cards.forEach((card) => {
       const btn = el("button", { type: "button" });
       btn.innerHTML = card.querySelector("canvas") ? CONTENTS_ICONS.chart : CONTENTS_ICONS.table;
-      btn.appendChild(document.createTextNode(card.querySelector("h3").textContent));
+      btn.appendChild(document.createTextNode(card.dataset.chip || card.querySelector("h3").textContent));
       btn.addEventListener("click", () => {
         const top = card.getBoundingClientRect().top + window.scrollY - cardScrollOffset();
         window.scrollTo({ top, behavior: "smooth" });
