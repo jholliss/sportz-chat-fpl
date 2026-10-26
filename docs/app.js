@@ -658,13 +658,15 @@ function renderWinnerPercentile() {
 }
 
 // Final league table for a chosen past season, from historic.json --
-// bar length is that season's points, rows ordered by league rank.
+// bar length is that season's points. Ordered and numbered by points
+// rather than the stored league_rank, which disagrees with the points
+// for a few mid-table places in some seasons (2018/19, 2020/21, 2021/22).
 function renderSeasonStandings() {
   const picker = document.getElementById("season-standings-picker");
   const byYear = {};
   Object.entries(DATA.historic).forEach(([name, seasons]) => {
     seasons.forEach((s) => {
-      if (s.league_rank) (byYear[s.year] = byYear[s.year] || []).push({ name, ...s });
+      if (s.league_rank && s.points) (byYear[s.year] = byYear[s.year] || []).push({ name, ...s });
     });
   });
   const years = Object.keys(byYear).sort().reverse();
@@ -680,10 +682,12 @@ function renderSeasonStandings() {
   Object.entries(DATA.managers).forEach(([mid, m]) => (idByName[m.name] = mid));
 
   function draw() {
-    const rows = [...byYear[picker.value]].sort((a, b) => a.league_rank - b.league_rank);
+    const rows = [...byYear[picker.value]].sort((a, b) => b.points - a.points);
+    // Tied points share a position.
+    const positions = rows.map((r) => rows.findIndex((o) => o.points === r.points) + 1);
     makeHorizontalBarChart(
       "chart-season-standings",
-      rows.map((r) => `${r.league_rank}. ${r.name}`),
+      rows.map((r, i) => `${positions[i]}. ${r.name}`),
       rows.map((r) => r.points),
       rows.map((r) => colorFor(idByName[r.name])),
       (i) => {
