@@ -72,7 +72,6 @@
         </div>
         <div class="card">
           <h3>Total Transfers &amp; Hits</h3>
-          <p class="card-caption">Points lost to -4/-8 hits taken across the season</p>
           <ul class="rank-list" id="transfers-and-hits"></ul>
         </div>
         <div class="card">
@@ -93,7 +92,7 @@
         </div>
         <div class="card">
           <h3>Jammy</h3>
-          <p class="card-caption">Points scored by bench players who came on via an automatic substitution (a starter blanked, so a bench player you didn't intend to start got the nod)</p>
+          <p class="card-caption">Points scored by bench players who came on via an automatic substitution</p>
           <ul class="rank-list" id="jammy-leaderboard"></ul>
         </div>
         <div class="card">
@@ -111,7 +110,7 @@
         </div>
         <div class="card">
           <h3>Overall Rank by GW</h3>
-          <p class="card-caption">Whole-FPL rank (not just league rank), lower is better</p>
+          <p class="card-caption">Whole-FPL rank (not just league rank), lower is better. Log scale.</p>
           <select class="manager-picker" id="overallrank-manager-picker" style="margin-bottom:8px"></select>
           <div class="chart-wrap"><canvas id="chart-overall-rank"></canvas></div>
         </div>
@@ -166,10 +165,9 @@
     <!-- ============ ALL-TIME ============ -->
     <section class="tab-panel" id="tab-alltime">
       <div class="card">
-        <h3>League Progression</h3>
-        <p class="card-caption">Cumulative points this season</p>
-        <select class="manager-picker" id="progression-manager-picker" style="margin-bottom:8px"></select>
-        <div class="chart-wrap"><canvas id="chart-league-progression"></canvas></div>
+        <h3>League Winner vs the World</h3>
+        <p class="card-caption">Each season's league winner, as a top-% finish in overall rank (higher on the chart is better)</p>
+        <div class="chart-wrap"><canvas id="chart-winner-percentile"></canvas></div>
       </div>
       <div class="card">
         <h3>Top 10 All Time</h3>
@@ -199,6 +197,13 @@
       <div class="card" id="history-tables"></div>
     </section>
   </main>
+
+  <button class="scroll-arrow up" id="scroll-up" type="button" aria-label="Scroll to previous section">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6" /></svg>
+  </button>
+  <button class="scroll-arrow down" id="scroll-down" type="button" aria-label="Scroll to next section">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg>
+  </button>
 
   <nav class="bottom-tabs" id="tabs">
     <button data-tab="home" class="active">

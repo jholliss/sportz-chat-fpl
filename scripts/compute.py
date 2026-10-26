@@ -236,14 +236,6 @@ def compute_overall_rank_trend(gameweeks, managers):
     }
 
 
-def compute_league_progression(gameweeks, managers):
-    return {
-        mid: [{"gw": row["gw"], "total_points": row["total_points"]} for row in rows]
-        for mid, rows in gameweeks.items()
-        if ":chips" not in mid
-    }
-
-
 def compute_vs_average(gameweeks, managers, bootstrap_events):
     """Are You Average?: per-manager (points - global average) trended
     by gameweek, plus best/worst single-week margins and week-counts."""
@@ -553,7 +545,6 @@ def compute_all(fetched, historic):
         "weeks_at_top_and_podium": compute_weeks_at_top_and_podium(league_positions, managers),
         "league_position_trend": league_positions,
         "overall_rank_trend": compute_overall_rank_trend(gameweeks, managers),
-        "league_progression": compute_league_progression(gameweeks, managers),
         "vs_average": compute_vs_average(gameweeks, managers, bootstrap_events),
         "league_vs_global_average": compute_league_vs_global_average(
             gameweeks, bootstrap_events, finished_gws

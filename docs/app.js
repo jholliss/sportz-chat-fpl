@@ -49,6 +49,13 @@ function fmtSigned(n) {
   return `${sign}${Number(n).toLocaleString()}`;
 }
 
+// 1500000 -> "1.5M", 250000 -> "250k" -- compact axis labels for ranks.
+function fmtRank(n) {
+  if (n >= 1e6) return `${+(n / 1e6).toFixed(1)}M`;
+  if (n >= 1e3) return `${+(n / 1e3).toFixed(0)}k`;
+  return String(n);
+}
+
 function fmtPct(p) {
   if (p === null || p === undefined) return "–";
   return (p * 100).toFixed(2) + "%";
@@ -257,23 +264,30 @@ function makeLineChart(canvasId, labels, datasets, opts = {}) {
     options: {
       ...defaults,
       layout: opts.endLabels ? { padding: { right: 26 } } : defaults.layout,
-      scales: { ...defaults.scales, y: { ...defaults.scales.y, reverse: !!opts.reverseY } },
-      plugins: { ...defaults.plugins, legend },
+      scales: { ...defaults.scales, y: { ...defaults.scales.y, reverse: !!opts.reverseY, ...opts.y } },
+      plugins: { ...defaults.plugins, legend, ...opts.plugins },
     },
   });
 }
 
-function makeStackedBarChart(canvasId, labels, datasets) {
+// `tooltipTitles` (optional, same order as labels) lets the x-axis show
+// short labels (e.g. initials) while the tooltip still shows full names.
+function makeStackedBarChart(canvasId, labels, datasets, tooltipTitles) {
   const ctx = document.getElementById(canvasId);
   if (CHARTS[canvasId]) CHARTS[canvasId].destroy();
   const defaults = chartDefaults();
+  const tooltip = { ...defaults.plugins.tooltip };
+  if (tooltipTitles) tooltip.callbacks = { title: (items) => tooltipTitles[items[0].dataIndex] };
   CHARTS[canvasId] = new Chart(ctx, {
     type: "bar",
     data: { labels, datasets },
     options: {
       ...defaults,
+      plugins: { ...defaults.plugins, tooltip },
       scales: {
-        x: { ...defaults.scales.x, stacked: true },
+        // autoSkip off: every manager gets a label (initials are short
+        // enough to always fit).
+        x: { ...defaults.scales.x, stacked: true, ticks: { ...defaults.scales.x.ticks, autoSkip: false } },
         y: { ...defaults.scales.y, stacked: true },
       },
     },
@@ -285,7 +299,7 @@ function resizeAllCharts() {
 }
 
 /* ---------- manager-picker line chart (shared pattern) ---------- */
-function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey, reverseY, initialsLegend, endLabels }) {
+function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey, reverseY, initialsLegend, endLabels, y }) {
   const picker = document.getElementById(pickerId);
   const managerIds = sortedManagerIds().filter((mid) => seriesByManager[mid]);
   picker.innerHTML = '<option value="__all__">All managers</option>';
@@ -313,6 +327,7 @@ function setupManagerPickerChart({ pickerId, canvasId, seriesByManager, valueKey
       forceLegend: initialsLegend,
       legendInitials: initialsLegend,
       endLabels,
+      y,
     });
   }
   picker.addEventListener("change", draw);
@@ -331,6 +346,7 @@ function initNav() {
       document.getElementById(`tab-${btn.dataset.tab}`).classList.add("active");
       window.scrollTo({ top: 0 });
       resizeAllCharts();
+      updateScrollArrows();
     });
   });
 
@@ -342,6 +358,7 @@ function initNav() {
       btn.classList.add("active");
       document.getElementById(`sub-${btn.dataset.sub}`).classList.add("active");
       resizeAllCharts();
+      updateScrollArrows();
     });
   });
 }
@@ -430,8 +447,9 @@ function renderChips() {
     }));
     makeStackedBarChart(
       "chart-chip-usage",
-      managerIds.map((mid) => stacked[mid].name),
-      datasets
+      managerIds.map((mid) => initials(stacked[mid].name)),
+      datasets,
+      managerIds.map((mid) => stacked[mid].name)
     );
   } else {
     emptyChartMessage("chart-chip-usage", "No chips played yet.");
@@ -506,17 +524,25 @@ function renderRank() {
     valueKey: "overall_rank",
     reverseY: true,
     endLabels: true,
+    // Log scale: ranks run from the tens of thousands to the millions,
+    // so on a linear axis week-to-week moves near the top were flattened
+    // out and the chart looked like it wasn't changing.
+    y: {
+      type: "logarithmic",
+      ticks: {
+        color: cssVar("--text-muted"),
+        font: { size: 10 },
+        autoSkip: false,
+        // Only label 1/2/5 x 10^n -- Chart.js generates every 1-9 step.
+        callback: (v) => ([1, 2, 5].includes(Math.round(v / 10 ** Math.floor(Math.log10(v)))) ? fmtRank(v) : ""),
+      },
+    },
   });
 }
 
 /* ---------- All-Time ---------- */
 function renderAllTime() {
-  setupManagerPickerChart({
-    pickerId: "progression-manager-picker",
-    canvasId: "chart-league-progression",
-    seriesByManager: DATA.derived.league_progression,
-    valueKey: "total_points",
-  });
+  renderWinnerPercentile();
 
   renderRankList("top10-all-time", DATA.derived.top10_all_time, {
     numbered: true,
@@ -552,6 +578,56 @@ function renderAllTime() {
   });
 
   renderHistory();
+}
+
+// League winner's overall-rank percentile each season, from historic.json.
+// The winner is the manager with league_rank 1 that year.
+function renderWinnerPercentile() {
+  const winners = {};
+  Object.entries(DATA.historic).forEach(([name, seasons]) => {
+    seasons.forEach((s) => {
+      if (s.league_rank === 1 && s.overall_percentage !== null && s.overall_percentage !== undefined) {
+        winners[s.year] = { name, ...s };
+      }
+    });
+  });
+  const years = Object.keys(winners).sort();
+  if (!years.length) {
+    emptyChartMessage("chart-winner-percentile", "No historic data seeded.");
+    return;
+  }
+  const rows = years.map((y) => winners[y]);
+  makeLineChart(
+    "chart-winner-percentile",
+    years.map((y) => y.replace(/^20(\d\d)\/(\d\d)$/, "$1/$2")),
+    [
+      {
+        label: "League winner",
+        data: rows.map((r) => r.overall_percentage * 100),
+        borderColor: cssVar("--m1"),
+        backgroundColor: cssVar("--m1"),
+        borderWidth: 2,
+        pointRadius: 3,
+      },
+    ],
+    {
+      reverseY: true,
+      y: {
+        min: 0,
+        ticks: { color: cssVar("--text-muted"), font: { size: 10 }, callback: (v) => (v === 0 ? "" : `top ${v}%`) },
+      },
+      plugins: {
+        tooltip: {
+          mode: "index",
+          intersect: false,
+          callbacks: {
+            title: (items) => `${rows[items[0].dataIndex].year}: ${rows[items[0].dataIndex].name}`,
+            label: (item) => `Top ${fmtPct(rows[item.dataIndex].overall_percentage)} · rank ${fmtNum(rows[item.dataIndex].overall_rank)}`,
+          },
+        },
+      },
+    }
+  );
 }
 
 function renderHistory() {
@@ -641,8 +717,76 @@ function startQuoteRotation(quotes) {
   }
 }
 
+/* ---------- layout + scroll arrows ---------- */
+
+// Publishes the sticky header's and fixed bottom nav's real heights as
+// CSS vars, so the page's bottom padding always clears the nav (nothing
+// cut off at the end of a tab) and the arrows sit just inside both bars.
+function trackLayoutHeights() {
+  const root = document.documentElement;
+  const header = document.querySelector("header.site-header");
+  const nav = document.querySelector("nav.bottom-tabs");
+  const measure = () => {
+    root.style.setProperty("--header-h", `${header.offsetHeight}px`);
+    root.style.setProperty("--nav-h", `${nav.offsetHeight}px`);
+    updateScrollArrows();
+  };
+  new ResizeObserver(measure).observe(header);
+  new ResizeObserver(measure).observe(nav);
+  // Page height changes too (accordions opening, charts drawing).
+  new ResizeObserver(updateScrollArrows).observe(document.querySelector("main"));
+  measure();
+}
+
+function headerHeight() {
+  return document.querySelector("header.site-header").offsetHeight;
+}
+
+// The cards/section headings of whichever tab (and Statz sub-tab) is
+// showing -- these are the stops the arrows jump between.
+function scrollTargets() {
+  return [...document.querySelectorAll(".tab-panel.active .card, .tab-panel.active h2.section-title")].filter(
+    (node) => node.offsetParent !== null
+  );
+}
+
+function scrollToSection(direction) {
+  // Land each card just below the up arrow (6px gap + 34px circle).
+  const offset = headerHeight() + 46;
+  const tops = scrollTargets().map((node) => node.getBoundingClientRect().top - offset);
+  let delta;
+  if (direction > 0) {
+    // Skip a card that's already (nearly) lined up -- e.g. the first
+    // card at the top of a tab -- so every press visibly moves on.
+    delta = tops.find((t) => t > 40);
+    if (delta === undefined) delta = document.documentElement.scrollHeight;
+  } else {
+    delta = [...tops].reverse().find((t) => t < -40);
+    if (delta === undefined) delta = -window.scrollY;
+  }
+  window.scrollBy({ top: delta, behavior: "smooth" });
+}
+
+function updateScrollArrows() {
+  const up = document.getElementById("scroll-up");
+  const down = document.getElementById("scroll-down");
+  if (!up || !down) return;
+  const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+  up.classList.toggle("visible", window.scrollY > 4);
+  down.classList.toggle("visible", window.scrollY < maxScroll - 4);
+}
+
+function initScrollArrows() {
+  document.getElementById("scroll-up").addEventListener("click", () => scrollToSection(-1));
+  document.getElementById("scroll-down").addEventListener("click", () => scrollToSection(1));
+  window.addEventListener("scroll", updateScrollArrows, { passive: true });
+  window.addEventListener("resize", updateScrollArrows);
+  trackLayoutHeights();
+}
+
 async function main() {
   initNav();
+  initScrollArrows();
   try {
     await loadAll();
   } catch (err) {
