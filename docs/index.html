@@ -65,6 +65,7 @@
       </nav>
 
       <div class="sub-panel active" id="sub-transfers">
+        <p class="sub-intro">How each manager's transfers paid off: net points from swaps, transfer and hit totals, and the season's best and worst moves.</p>
         <div class="card">
           <h3>Net Points from Transfers</h3>
           <p class="card-caption">Points gained or lost from the actual player swaps</p>
@@ -85,6 +86,7 @@
       </div>
 
       <div class="sub-panel" id="sub-bench">
+        <p class="sub-intro">Bench points: the table as it would look if bench points counted, Jammy auto-sub points, and the best auto-sub moments.</p>
         <div class="card">
           <h3>Adjusted Table</h3>
           <p class="card-caption">Standings if bench points counted</p>
@@ -102,6 +104,7 @@
       </div>
 
       <div class="sub-panel" id="sub-rank">
+        <p class="sub-intro">Two weekly trend charts: position in this league, and overall FPL rank.</p>
         <div class="card">
           <h3>League Position by Week</h3>
           <p class="card-caption">This league's own rank (1-9) each gameweek</p>
@@ -117,6 +120,7 @@
       </div>
 
       <div class="sub-panel" id="sub-chips">
+        <p class="sub-intro">How chips performed: each manager's chip scores against the FPL average, the top 10 chip plays, and Triple Captain returns.</p>
         <div class="card">
           <h3>Chip Score v Average</h3>
           <p class="card-caption">Points above/below that week's global average, by chip</p>
@@ -133,6 +137,7 @@
       </div>
 
       <div class="sub-panel" id="sub-captaincy">
+        <p class="sub-intro">Captain points for each manager, how often they picked their best captain, and points won or lost against that best pick.</p>
         <div class="card">
           <h3>Can You Captain?</h3>
           <ul class="rank-list" id="captaincy-summary"></ul>
@@ -140,9 +145,10 @@
       </div>
 
       <div class="sub-panel" id="sub-average">
+        <p class="sub-intro">Who beats the overall FPL average score most weeks, and who falls below it most, with each manager's best and worst week.</p>
         <div class="card">
           <h3>Are You Average?</h3>
-          <p class="card-caption">Weeks beating/losing to this league's average score</p>
+          <p class="card-caption">Weeks beating/losing to the overall FPL average score</p>
           <div class="leaderboard-pair">
             <div class="good"><h4>Average Crusher</h4><ul class="rank-list" id="average-crusher"></ul></div>
             <div class="critical"><h4>Crushingly Average</h4><ul class="rank-list" id="crushingly-average"></ul></div>
@@ -151,6 +157,7 @@
       </div>
 
       <div class="sub-panel" id="sub-records">
+        <p class="sub-intro">The season's 10 highest and 10 lowest gameweek scores, with how each compared to the FPL average.</p>
         <div class="card">
           <h3>Best 10 Scores</h3>
           <ul class="rank-list" id="best-10-scores"></ul>
@@ -168,6 +175,12 @@
         <h3>League Winner vs the World</h3>
         <p class="card-caption">Each season's league winner, as a top-% finish in overall rank (higher on the chart is better)</p>
         <div class="chart-wrap"><canvas id="chart-winner-percentile"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Final Standings by Season</h3>
+        <p class="card-caption">Final league table for the chosen season</p>
+        <select class="manager-picker" id="season-standings-picker" style="margin-bottom:8px"></select>
+        <div class="chart-wrap tall"><canvas id="chart-season-standings"></canvas></div>
       </div>
       <div class="card">
         <h3>Top 10 All Time</h3>

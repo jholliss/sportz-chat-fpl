@@ -316,6 +316,14 @@ nav.pill-tabs button.active {
   border-color: var(--text-primary);
 }
 
+/* One-line summary of what's in the selected Statz sub-tab */
+.sub-intro {
+  margin: -4px 2px 12px;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
 .sub-panel { display: none; }
 .sub-panel.active { display: block; }
 

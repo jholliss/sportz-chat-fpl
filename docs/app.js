@@ -294,6 +294,32 @@ function makeStackedBarChart(canvasId, labels, datasets, tooltipTitles) {
   });
 }
 
+// Horizontal bars with a fixed per-bar color, one bar per row label.
+// `tooltipLabel(i)` returns the tooltip text for bar i.
+function makeHorizontalBarChart(canvasId, labels, values, colors, tooltipLabel, xMin) {
+  const ctx = document.getElementById(canvasId);
+  if (CHARTS[canvasId]) CHARTS[canvasId].destroy();
+  const defaults = chartDefaults();
+  CHARTS[canvasId] = new Chart(ctx, {
+    type: "bar",
+    data: { labels, datasets: [{ data: values, backgroundColor: colors, borderRadius: 4 }] },
+    options: {
+      ...defaults,
+      indexAxis: "y",
+      interaction: { mode: "nearest", axis: "y", intersect: false },
+      plugins: {
+        ...defaults.plugins,
+        legend: { display: false },
+        tooltip: { mode: "nearest", axis: "y", intersect: false, callbacks: { label: (item) => tooltipLabel(item.dataIndex) } },
+      },
+      scales: {
+        x: { min: xMin, grid: { color: cssVar("--gridline") }, ticks: { color: cssVar("--text-muted"), font: { size: 10 } } },
+        y: { grid: { display: false }, ticks: { color: cssVar("--text-secondary"), font: { size: 11 }, autoSkip: false } },
+      },
+    },
+  });
+}
+
 function resizeAllCharts() {
   Object.values(CHARTS).forEach((chart) => chart.resize());
 }
@@ -543,6 +569,7 @@ function renderRank() {
 /* ---------- All-Time ---------- */
 function renderAllTime() {
   renderWinnerPercentile();
+  renderSeasonStandings();
 
   renderRankList("top10-all-time", DATA.derived.top10_all_time, {
     numbered: true,
@@ -628,6 +655,49 @@ function renderWinnerPercentile() {
       },
     }
   );
+}
+
+// Final league table for a chosen past season, from historic.json --
+// bar length is that season's points, rows ordered by league rank.
+function renderSeasonStandings() {
+  const picker = document.getElementById("season-standings-picker");
+  const byYear = {};
+  Object.entries(DATA.historic).forEach(([name, seasons]) => {
+    seasons.forEach((s) => {
+      if (s.league_rank) (byYear[s.year] = byYear[s.year] || []).push({ name, ...s });
+    });
+  });
+  const years = Object.keys(byYear).sort().reverse();
+  if (!years.length) {
+    emptyChartMessage("chart-season-standings", "No historic data seeded.");
+    return;
+  }
+  years.forEach((y) => picker.appendChild(el("option", { value: y, text: y })));
+
+  // historic.json is keyed by name; map back to manager ids so each
+  // manager keeps their usual color.
+  const idByName = {};
+  Object.entries(DATA.managers).forEach(([mid, m]) => (idByName[m.name] = mid));
+
+  function draw() {
+    const rows = [...byYear[picker.value]].sort((a, b) => a.league_rank - b.league_rank);
+    makeHorizontalBarChart(
+      "chart-season-standings",
+      rows.map((r) => `${r.league_rank}. ${r.name}`),
+      rows.map((r) => r.points),
+      rows.map((r) => colorFor(idByName[r.name])),
+      (i) => {
+        const r = rows[i];
+        const overall = r.overall_rank ? ` · overall rank ${fmtNum(r.overall_rank)}` : "";
+        return `${fmtNum(r.points)} pts${overall}`;
+      },
+      // Season totals sit within a few hundred points of each other, so
+      // start the axis just below the lowest score to make the gaps visible.
+      Math.floor((Math.min(...rows.map((r) => r.points)) - 100) / 200) * 200
+    );
+  }
+  picker.addEventListener("change", draw);
+  draw();
 }
 
 function renderHistory() {
