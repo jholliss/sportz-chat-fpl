@@ -5,12 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Sportz Chat Fantasy Football</title>
   <link rel="stylesheet" href="style.css" />
+  <script>
+    // Apply a saved light/dark choice before first paint (no flash).
+    try {
+      const t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="header-main">
-      <h1>Sportz Chat</h1>
+      <div class="title-row">
+        <h1>Sportz Chat</h1>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Theme: auto"></button>
+      </div>
       <p class="subtitle" id="header-subtitle">Loading…</p>
     </div>
     <div class="quote-banner" id="quote-banner">

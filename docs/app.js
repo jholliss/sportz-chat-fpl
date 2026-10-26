@@ -787,6 +787,76 @@ function startQuoteRotation(quotes) {
   }
 }
 
+/* ---------- light / dark theme toggle ---------- */
+
+// Cycles Auto (follow the device) -> Light -> Dark. The choice is kept
+// in localStorage per device; index.html applies it before first paint.
+const THEMES = ["auto", "light", "dark"];
+const THEME_ICONS = {
+  auto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8" /><path d="M12 4a8 8 0 010 16z" fill="currentColor" /></svg>',
+  light: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>',
+  dark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z" /></svg>',
+};
+// Color tokens charts are drawn with -- swapped in place on theme change.
+const CHART_TOKENS = [
+  "--m1", "--m2", "--m3", "--m4", "--m5", "--m6", "--m7", "--m8", "--m9",
+  "--text-primary", "--text-secondary", "--text-muted", "--gridline",
+];
+
+function currentTheme() {
+  return document.documentElement.dataset.theme || "auto";
+}
+
+function showThemeIcon() {
+  const btn = document.getElementById("theme-toggle");
+  const theme = currentTheme();
+  btn.innerHTML = THEME_ICONS[theme];
+  btn.setAttribute("aria-label", `Theme: ${theme}`);
+  btn.title = `Theme: ${theme}`;
+}
+
+// Charts bake their colors in when drawn, so replace each old token
+// value with its new one throughout every chart's options and data.
+function recolorCharts(before) {
+  const swap = {};
+  CHART_TOKENS.forEach((t) => {
+    const now = cssVar(t);
+    if (before[t] !== now) swap[before[t]] = now;
+  });
+  const walk = (obj, depth) => {
+    if (!obj || typeof obj !== "object" || depth > 6) return;
+    Object.keys(obj).forEach((k) => {
+      const v = obj[k];
+      if (typeof v === "string" && swap[v]) obj[k] = swap[v];
+      else if (typeof v === "object") walk(v, depth + 1);
+    });
+  };
+  Object.values(CHARTS).forEach((chart) => {
+    walk(chart.config.options, 0);
+    walk(chart.config.data.datasets, 0);
+    chart.update("none");
+  });
+  Object.keys(MANAGER_COLORS).forEach((mid) => {
+    if (swap[MANAGER_COLORS[mid]]) MANAGER_COLORS[mid] = swap[MANAGER_COLORS[mid]];
+  });
+}
+
+function initThemeToggle() {
+  showThemeIcon();
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const before = Object.fromEntries(CHART_TOKENS.map((t) => [t, cssVar(t)]));
+    const next = THEMES[(THEMES.indexOf(currentTheme()) + 1) % THEMES.length];
+    if (next === "auto") delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = next;
+    try {
+      if (next === "auto") localStorage.removeItem("theme");
+      else localStorage.setItem("theme", next);
+    } catch (e) {}
+    showThemeIcon();
+    recolorCharts(before);
+  });
+}
+
 /* ---------- layout + scroll arrows ---------- */
 
 // Publishes the sticky header's and fixed bottom nav's real heights as
@@ -886,6 +956,7 @@ function initScrollArrows() {
 
 async function main() {
   initNav();
+  initThemeToggle();
   initScrollArrows();
   buildSubContents();
   try {

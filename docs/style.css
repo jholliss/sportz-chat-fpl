@@ -97,8 +97,32 @@ header.site-header {
   gap: 10px;
   background: color-mix(in srgb, var(--page-plane) 88%, transparent);
   backdrop-filter: blur(10px);
-  padding: 14px 16px 10px;
+  /* Clear the status bar / notch -- viewport-fit=cover lets the page
+     draw under it, so without the inset the header's top was hidden. */
+  padding: calc(14px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left));
 }
+
+header.site-header .title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button.theme-toggle {
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+button.theme-toggle svg { width: 15px; height: 15px; }
 
 header.site-header .header-main {
   flex-shrink: 0;
