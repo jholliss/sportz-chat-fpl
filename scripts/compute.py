@@ -515,11 +515,30 @@ def compute_top10_all_time(historic):
     return rows[:10]
 
 
+def _league_ranks_by_points(historic):
+    """{(name, year): position} -- each season's league position from
+    that season's points (ties share a place). Used instead of the
+    stored league_rank, which disagrees with the points for some
+    mid-table places in a few seasons."""
+    by_year = {}
+    for name, seasons in historic.items():
+        for s in seasons:
+            if s["points"]:
+                by_year.setdefault(s["year"], []).append((name, s["points"]))
+    ranks = {}
+    for year, rows in by_year.items():
+        for name, points in rows:
+            ranks[(name, year)] = 1 + sum(1 for _, other in rows if other > points)
+    return ranks
+
+
 def compute_wins_and_podiums_alltime(historic):
+    ranks = _league_ranks_by_points(historic)
     result = []
     for name, seasons in historic.items():
-        wins = sum(1 for s in seasons if s["league_rank"] == 1)
-        podiums = sum(1 for s in seasons if s["league_rank"] is not None and s["league_rank"] <= 3)
+        season_ranks = [ranks[(name, s["year"])] for s in seasons if (name, s["year"]) in ranks]
+        wins = sum(1 for r in season_ranks if r == 1)
+        podiums = sum(1 for r in season_ranks if r <= 3)
         result.append({"name": name, "wins": wins, "podiums": podiums})
     result.sort(key=lambda r: (-r["wins"], -r["podiums"]))
     return result

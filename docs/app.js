@@ -658,9 +658,8 @@ function renderWinnerPercentile() {
 }
 
 // Final league table for a chosen past season, from historic.json --
-// bar length is that season's points. Ordered and numbered by points
-// rather than the stored league_rank, which disagrees with the points
-// for a few mid-table places in some seasons (2018/19, 2020/21, 2021/22).
+// bar length is that season's points, rows in league-position order
+// (positions are by points, see rankHistoricByPoints).
 function renderSeasonStandings() {
   const picker = document.getElementById("season-standings-picker");
   const byYear = {};
@@ -682,12 +681,10 @@ function renderSeasonStandings() {
   Object.entries(DATA.managers).forEach(([mid, m]) => (idByName[m.name] = mid));
 
   function draw() {
-    const rows = [...byYear[picker.value]].sort((a, b) => b.points - a.points);
-    // Tied points share a position.
-    const positions = rows.map((r) => rows.findIndex((o) => o.points === r.points) + 1);
+    const rows = [...byYear[picker.value]].sort((a, b) => a.league_rank - b.league_rank);
     makeHorizontalBarChart(
       "chart-season-standings",
-      rows.map((r, i) => `${positions[i]}. ${r.name}`),
+      rows.map((r) => `${r.league_rank}. ${r.name}`),
       rows.map((r) => r.points),
       rows.map((r) => colorFor(idByName[r.name])),
       (i) => {
@@ -729,6 +726,22 @@ function renderHistory() {
   });
 }
 
+// Overwrite each historic season's league_rank with its position by
+// points (ties share a place). The stored ranks disagree with the
+// points for some mid-table places in a few seasons; points win.
+function rankHistoricByPoints(historic) {
+  const byYear = {};
+  Object.values(historic).forEach((seasons) =>
+    seasons.forEach((s) => {
+      if (s.points) (byYear[s.year] = byYear[s.year] || []).push(s);
+    })
+  );
+  Object.values(byYear).forEach((rows) =>
+    rows.forEach((s) => (s.league_rank = 1 + rows.filter((o) => o.points > s.points).length))
+  );
+  return historic;
+}
+
 /* ---------- boot ---------- */
 async function loadAll() {
   const [standings, managers, historic, derived] = await Promise.all([
@@ -739,7 +752,7 @@ async function loadAll() {
   ]);
   DATA.standings = standings;
   DATA.managers = managers;
-  DATA.historic = historic;
+  DATA.historic = rankHistoricByPoints(historic);
   DATA.derived = derived;
   assignManagerColors();
 }
