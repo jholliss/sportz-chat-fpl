@@ -237,7 +237,7 @@
     "ep_next": "9.0",
     "form": "9.0",
     "id": 31,
-    "now_cost": 46,
+    "now_cost": 47,
     "team": 1,
     "total_points": 39,
     "web_name": "Konsa"
@@ -2613,7 +2613,7 @@
     "ep_next": "3.3",
     "form": "3.3",
     "id": 249,
-    "now_cost": 57,
+    "now_cost": 56,
     "team": 9,
     "total_points": 30,
     "web_name": "Barry"
@@ -2739,7 +2739,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 263,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 10,
     "total_points": 5,
     "web_name": "Kevin"
@@ -2793,7 +2793,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 270,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 10,
     "total_points": 0,
     "web_name": "Reed"
@@ -2889,12 +2889,12 @@
     "web_name": "Affengruber"
   },
   {
-    "ep_next": "3.0",
-    "form": "3.0",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 240,
     "now_cost": 50,
     "team": 11,
-    "total_points": 11,
+    "total_points": 13,
     "web_name": "Iroegbunam"
   },
   {
@@ -3186,12 +3186,12 @@
     "web_name": "Hjert\u00f8-Dahl"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "2.7",
+    "form": "2.7",
     "id": 576,
     "now_cost": 49,
     "team": 11,
-    "total_points": 13,
+    "total_points": 15,
     "web_name": "Stroud"
   },
   {
@@ -3675,7 +3675,7 @@
     "ep_next": "5.3",
     "form": "5.3",
     "id": 334,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 13,
     "total_points": 43,
     "web_name": "Muharemovi\u0107"
@@ -3987,12 +3987,12 @@
     "web_name": "Lucky"
   },
   {
-    "ep_next": "4.0",
-    "form": "4.0",
+    "ep_next": "4.7",
+    "form": "4.7",
     "id": 362,
     "now_cost": 51,
     "team": 14,
-    "total_points": 36,
+    "total_points": 38,
     "web_name": "Jacquet"
   },
   {
@@ -4197,7 +4197,7 @@
     "ep_next": "4.0",
     "form": "4.0",
     "id": 627,
-    "now_cost": 80,
+    "now_cost": 81,
     "team": 14,
     "total_points": 19,
     "web_name": "Barcola"
@@ -4602,7 +4602,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 419,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 11,
     "web_name": "Martinez"
@@ -4890,7 +4890,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 450,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 17,
     "total_points": 4,
     "web_name": "Livramento"
@@ -5031,21 +5031,21 @@
     "web_name": "Bamba"
   },
   {
-    "ep_next": "3.7",
-    "form": "3.7",
+    "ep_next": "3.3",
+    "form": "3.3",
     "id": 567,
     "now_cost": 50,
     "team": 17,
-    "total_points": 25,
+    "total_points": 24,
     "web_name": "Horn\u00ed\u010dek"
   },
   {
-    "ep_next": "3.3",
-    "form": "3.3",
+    "ep_next": "3.7",
+    "form": "3.7",
     "id": 593,
     "now_cost": 45,
     "team": 17,
-    "total_points": 23,
+    "total_points": 24,
     "web_name": "Dedi\u0107"
   },
   {
@@ -5988,7 +5988,7 @@
     "ep_next": "0.3",
     "form": "0.3",
     "id": 613,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 20,
     "total_points": 1,
     "web_name": "Ahoka"
