@@ -1656,7 +1656,7 @@
     "web_name": "Quenda"
   },
   {
-    "ep_next": "3.5",
+    "ep_next": "0.0",
     "form": "4.7",
     "id": 165,
     "now_cost": 79,
@@ -2178,7 +2178,7 @@
     "web_name": "Mingueza"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 208,
     "now_cost": 62,
@@ -4950,7 +4950,7 @@
     "web_name": "Joelinton"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.8",
     "form": "1.0",
     "id": 459,
     "now_cost": 55,
