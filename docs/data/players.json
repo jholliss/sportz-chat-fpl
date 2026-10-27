@@ -129,7 +129,7 @@
     "ep_next": "2.3",
     "form": "2.3",
     "id": 15,
-    "now_cost": 68,
+    "now_cost": 67,
     "team": 1,
     "total_points": 36,
     "web_name": "\u00d8degaard"
@@ -687,7 +687,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 68,
-    "now_cost": 63,
+    "now_cost": 64,
     "team": 3,
     "total_points": 52,
     "web_name": "Tavernier"
@@ -696,7 +696,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 69,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 3,
     "total_points": 30,
     "web_name": "Scott"
@@ -2631,7 +2631,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 654,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 9,
     "total_points": 0,
     "web_name": "Graham"
@@ -3639,7 +3639,7 @@
     "ep_next": "2.7",
     "form": "2.7",
     "id": 330,
-    "now_cost": 47,
+    "now_cost": 48,
     "team": 13,
     "total_points": 50,
     "web_name": "Bogle"
@@ -4242,7 +4242,7 @@
     "ep_next": "2.3",
     "form": "2.3",
     "id": 387,
-    "now_cost": 63,
+    "now_cost": 62,
     "team": 15,
     "total_points": 13,
     "web_name": "O'Reilly"
@@ -4278,7 +4278,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 391,
-    "now_cost": 58,
+    "now_cost": 57,
     "team": 15,
     "total_points": 42,
     "web_name": "Gvardiol"
@@ -4539,7 +4539,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 412,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 17,
     "web_name": "Lammens"
@@ -4998,7 +4998,7 @@
     "ep_next": "1.3",
     "form": "1.3",
     "id": 464,
-    "now_cost": 61,
+    "now_cost": 60,
     "team": 17,
     "total_points": 19,
     "web_name": "Wissa"
@@ -5862,7 +5862,7 @@
     "ep_next": "0.2",
     "form": "0.3",
     "id": 541,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 20,
     "total_points": 15,
     "web_name": "Meunier"
