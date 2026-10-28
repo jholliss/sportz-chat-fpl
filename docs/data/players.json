@@ -108,7 +108,7 @@
     "web_name": "Saka"
   },
   {
-    "ep_next": "6.3",
+    "ep_next": "4.7",
     "form": "6.3",
     "id": 13,
     "now_cost": 74,
@@ -135,7 +135,7 @@
     "web_name": "\u00d8degaard"
   },
   {
-    "ep_next": "3.3",
+    "ep_next": "2.5",
     "form": "3.3",
     "id": 16,
     "now_cost": 62,
@@ -171,7 +171,7 @@
     "web_name": "Zubimendi"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 20,
     "now_cost": 53,
@@ -489,7 +489,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 166,
-    "now_cost": 67,
+    "now_cost": 68,
     "team": 2,
     "total_points": 34,
     "web_name": "N.Jackson"
@@ -1362,7 +1362,7 @@
     "ep_next": "6.7",
     "form": "6.7",
     "id": 504,
-    "now_cost": 51,
+    "now_cost": 52,
     "team": 5,
     "total_points": 52,
     "web_name": "Vuskovic"
@@ -1659,7 +1659,7 @@
     "ep_next": "0.0",
     "form": "4.7",
     "id": 165,
-    "now_cost": 79,
+    "now_cost": 78,
     "team": 6,
     "total_points": 47,
     "web_name": "Jo\u00e3o Pedro"
@@ -4143,7 +4143,7 @@
     "ep_next": "6.0",
     "form": "6.0",
     "id": 379,
-    "now_cost": 90,
+    "now_cost": 91,
     "team": 14,
     "total_points": 51,
     "web_name": "Isak"
@@ -4431,7 +4431,7 @@
     "ep_next": "9.0",
     "form": "9.0",
     "id": 411,
-    "now_cost": 157,
+    "now_cost": 158,
     "team": 15,
     "total_points": 66,
     "web_name": "Haaland"
@@ -4683,7 +4683,7 @@
     "ep_next": "4.0",
     "form": "4.0",
     "id": 428,
-    "now_cost": 79,
+    "now_cost": 78,
     "team": 16,
     "total_points": 38,
     "web_name": "Cunha"
@@ -4692,7 +4692,7 @@
     "ep_next": "0.2",
     "form": "0.3",
     "id": 429,
-    "now_cost": 69,
+    "now_cost": 68,
     "team": 16,
     "total_points": 11,
     "web_name": "Rashford"
@@ -5367,7 +5367,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 581,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 18,
     "total_points": 10,
     "web_name": "Diomande"
