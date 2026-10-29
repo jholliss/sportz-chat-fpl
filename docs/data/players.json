@@ -1800,7 +1800,7 @@
     "web_name": "Wilson"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "1.4",
     "form": "2.7",
     "id": 173,
     "now_cost": 40,
@@ -2178,7 +2178,7 @@
     "web_name": "Mingueza"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 208,
     "now_cost": 62,
@@ -2493,7 +2493,7 @@
     "web_name": "O'Brien"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.3",
     "form": "0.3",
     "id": 233,
     "now_cost": 46,
@@ -3204,7 +3204,7 @@
     "web_name": "Herrington"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "1.0",
     "form": "1.0",
     "id": 586,
     "now_cost": 41,
@@ -3681,7 +3681,7 @@
     "web_name": "Muharemovi\u0107"
   },
   {
-    "ep_next": "1.7",
+    "ep_next": "0.8",
     "form": "1.7",
     "id": 335,
     "now_cost": 60,
@@ -3816,7 +3816,7 @@
     "web_name": "Trafford"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "1.0",
     "form": "1.0",
     "id": 598,
     "now_cost": 45,
@@ -4716,7 +4716,7 @@
     "web_name": "Amad"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.3",
     "form": "1.3",
     "id": 432,
     "now_cost": 55,
@@ -5148,7 +5148,7 @@
     "web_name": "John"
   },
   {
-    "ep_next": "3.0",
+    "ep_next": "4.0",
     "form": "4.0",
     "id": 469,
     "now_cost": 50,
@@ -5265,7 +5265,7 @@
     "web_name": "Hudson-Odoi"
   },
   {
-    "ep_next": "4.0",
+    "ep_next": "2.0",
     "form": "4.0",
     "id": 483,
     "now_cost": 55,
@@ -5391,7 +5391,7 @@
     "web_name": "Van Hecke"
   },
   {
-    "ep_next": "0.7",
+    "ep_next": "0.5",
     "form": "0.7",
     "id": 147,
     "now_cost": 43,
@@ -5787,7 +5787,7 @@
     "web_name": "Ballard"
   },
   {
-    "ep_next": "2.3",
+    "ep_next": "1.7",
     "form": "2.3",
     "id": 533,
     "now_cost": 54,
