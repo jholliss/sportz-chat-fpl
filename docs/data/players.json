@@ -444,7 +444,7 @@
     "ep_next": "5.7",
     "form": "5.7",
     "id": 53,
-    "now_cost": 60,
+    "now_cost": 61,
     "team": 2,
     "total_points": 31,
     "web_name": "Manzambi"
@@ -1065,7 +1065,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 565,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 4,
     "total_points": 28,
     "web_name": "M.Sangar\u00e9"
@@ -1692,7 +1692,7 @@
     "web_name": "Emegha"
   },
   {
-    "ep_next": "3.7",
+    "ep_next": "2.8",
     "form": "3.7",
     "id": 200,
     "now_cost": 59,
