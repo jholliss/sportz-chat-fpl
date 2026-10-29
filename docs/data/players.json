@@ -1350,7 +1350,7 @@
     "web_name": "Ferguson"
   },
   {
-    "ep_next": "-0.3",
+    "ep_next": "0.0",
     "form": "-0.7",
     "id": 328,
     "now_cost": 49,
@@ -2880,7 +2880,7 @@
     "web_name": "\u00c1ngel"
   },
   {
-    "ep_next": "5.0",
+    "ep_next": "3.8",
     "form": "5.0",
     "id": 650,
     "now_cost": 45,
