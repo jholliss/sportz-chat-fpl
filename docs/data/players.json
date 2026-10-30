@@ -66,7 +66,7 @@
     "ep_next": "4.0",
     "form": "5.3",
     "id": 8,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 1,
     "total_points": 45,
     "web_name": "Calafiori"
@@ -219,7 +219,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 26,
-    "now_cost": 75,
+    "now_cost": 74,
     "team": 1,
     "total_points": 24,
     "web_name": "Havertz"
@@ -255,7 +255,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 557,
-    "now_cost": 62,
+    "now_cost": 61,
     "team": 1,
     "total_points": 16,
     "web_name": "Tzolis"
@@ -786,7 +786,7 @@
     "ep_next": "8.3",
     "form": "8.3",
     "id": 79,
-    "now_cost": 62,
+    "now_cost": 63,
     "team": 3,
     "total_points": 43,
     "web_name": "Evanilson"
@@ -1512,7 +1512,7 @@
     "web_name": "Chalobah"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 144,
     "now_cost": 48,
@@ -1539,7 +1539,7 @@
     "web_name": "B.Badiashile"
   },
   {
-    "ep_next": "5.7",
+    "ep_next": "4.3",
     "form": "5.7",
     "id": 148,
     "now_cost": 45,
@@ -1620,7 +1620,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "2.3",
+    "ep_next": "1.7",
     "form": "2.3",
     "id": 159,
     "now_cost": 53,
@@ -1692,7 +1692,7 @@
     "web_name": "Emegha"
   },
   {
-    "ep_next": "2.8",
+    "ep_next": "1.9",
     "form": "3.7",
     "id": 200,
     "now_cost": 59,
@@ -2352,7 +2352,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 577,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 8,
     "total_points": 3,
     "web_name": "Tomiyasu"
@@ -2529,7 +2529,7 @@
     "web_name": "Dewsbury-Hall"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "1.3",
     "form": "1.3",
     "id": 238,
     "now_cost": 65,
@@ -5004,7 +5004,7 @@
     "web_name": "Wissa"
   },
   {
-    "ep_next": "3.3",
+    "ep_next": "2.5",
     "form": "3.3",
     "id": 465,
     "now_cost": 58,
