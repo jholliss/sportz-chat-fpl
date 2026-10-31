@@ -30,7 +30,7 @@
     "ep_next": "9.0",
     "form": "9.0",
     "id": 4,
-    "now_cost": 79,
+    "now_cost": 80,
     "team": 1,
     "total_points": 52,
     "web_name": "Gabriel"
@@ -426,7 +426,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 51,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 2,
     "total_points": 9,
     "web_name": "George Hemmings"
@@ -489,7 +489,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 166,
-    "now_cost": 68,
+    "now_cost": 69,
     "team": 2,
     "total_points": 34,
     "web_name": "N.Jackson"
@@ -687,7 +687,7 @@
     "ep_next": "7.0",
     "form": "7.0",
     "id": 68,
-    "now_cost": 64,
+    "now_cost": 65,
     "team": 3,
     "total_points": 52,
     "web_name": "Tavernier"
@@ -1011,7 +1011,7 @@
     "ep_next": "0.0",
     "form": "2.0",
     "id": 102,
-    "now_cost": 48,
+    "now_cost": 47,
     "team": 4,
     "total_points": 15,
     "web_name": "Yarmoliuk"
@@ -1344,7 +1344,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 139,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 5,
     "total_points": 0,
     "web_name": "Ferguson"
@@ -1443,7 +1443,7 @@
     "ep_next": "0.0",
     "form": "3.7",
     "id": 28,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 6,
     "total_points": 20,
     "web_name": "Martinez"
@@ -1452,7 +1452,7 @@
     "ep_next": "4.0",
     "form": "4.0",
     "id": 40,
-    "now_cost": 80,
+    "now_cost": 81,
     "team": 6,
     "total_points": 41,
     "web_name": "Rogers"
@@ -2730,7 +2730,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 262,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 10,
     "total_points": 3,
     "web_name": "Smith Rowe"
@@ -5061,7 +5061,7 @@
     "ep_next": "0.8",
     "form": "1.0",
     "id": 634,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 17,
     "total_points": 7,
     "web_name": "Fernandez-Pardo"
@@ -5115,7 +5115,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 167,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 18,
     "total_points": 15,
     "web_name": "Delap"
@@ -5736,7 +5736,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 601,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 19,
     "total_points": 0,
     "web_name": "Williams-Barnett"
