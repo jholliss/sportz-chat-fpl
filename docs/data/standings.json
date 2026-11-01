@@ -40,19 +40,19 @@
     "total": 572
   },
   {
-    "event_total": 67,
-    "manager_id": "822375",
-    "name": "Robbie Paton",
-    "rank": 6,
-    "team_name": "Careless Wissa",
-    "total": 562
-  },
-  {
     "event_total": 58,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 6,
     "team_name": "Jacquet Potato",
+    "total": 562
+  },
+  {
+    "event_total": 67,
+    "manager_id": "822375",
+    "name": "Robbie Paton",
+    "rank": 6,
+    "team_name": "Careless Wissa",
     "total": 562
   },
   {
