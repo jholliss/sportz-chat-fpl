@@ -25,8 +25,8 @@
       "manager_id": "822375",
       "name": "Robbie Paton",
       "points_on_bench": 117,
-      "rank_change": 2,
-      "real_rank": 5,
+      "rank_change": 3,
+      "real_rank": 6,
       "total_plus_bench": 678,
       "total_points": 561
     },
@@ -45,8 +45,8 @@
       "manager_id": "1004578",
       "name": "Adam Beveridge",
       "points_on_bench": 73,
-      "rank_change": 1,
-      "real_rank": 6,
+      "rank_change": 0,
+      "real_rank": 5,
       "total_plus_bench": 634,
       "total_points": 561
     },
@@ -103,7 +103,7 @@
       "name": "James Holliss"
     },
     {
-      "average_position": 4.11,
+      "average_position": 4,
       "manager_id": "1004578",
       "name": "Adam Beveridge"
     },
@@ -128,7 +128,7 @@
       "name": "James Cassidy"
     },
     {
-      "average_position": 7.11,
+      "average_position": 7.22,
       "manager_id": "822375",
       "name": "Robbie Paton"
     },
@@ -1239,7 +1239,7 @@
       },
       {
         "gw": 9,
-        "position": 6
+        "position": 5
       }
     ],
     "1212049": [
@@ -1543,7 +1543,7 @@
       },
       {
         "gw": 9,
-        "position": 5
+        "position": 6
       }
     ]
   },
@@ -2789,19 +2789,6 @@
       },
       {
         "gw": 7,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "net_points": -7,
-        "player_in": 166,
-        "player_in_name": "N.Jackson",
-        "player_out": 346,
-        "player_out_name": "Calvert-Lewin",
-        "points_in": 2,
-        "points_out": 9,
-        "time": "2026-10-11T08:34:09.518593Z"
-      },
-      {
-        "gw": 7,
         "manager_id": "1004578",
         "name": "Adam Beveridge",
         "net_points": -7,
@@ -2812,6 +2799,19 @@
         "points_in": 2,
         "points_out": 9,
         "time": "2026-10-16T20:40:53.181955Z"
+      },
+      {
+        "gw": 4,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "net_points": -7,
+        "player_in": 496,
+        "player_in_name": "Kinsky",
+        "player_out": 1,
+        "player_out_name": "Raya",
+        "points_in": 7,
+        "points_out": 14,
+        "time": "2026-09-12T12:28:12.444220Z"
       }
     ]
   },
@@ -3186,6 +3186,14 @@
         "worst_vs_average": -10
       },
       {
+        "best_vs_average": 24,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "weeks_beat_average": 9,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
+      },
+      {
         "best_vs_average": 22,
         "manager_id": "817501",
         "name": "Andrew David",
@@ -3200,14 +3208,6 @@
         "weeks_beat_average": 6,
         "weeks_lost_to_average": 3,
         "worst_vs_average": -12
-      },
-      {
-        "best_vs_average": 24,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "weeks_beat_average": 9,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
       },
       {
         "best_vs_average": 28,
@@ -3255,6 +3255,12 @@
       "weeks_on_podium": 7
     },
     {
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 4
+    },
+    {
       "manager_id": "817501",
       "name": "Andrew David",
       "weeks_at_top": 0,
@@ -3265,12 +3271,6 @@
       "name": "Robbie Paton",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
-    },
-    {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 4
     },
     {
       "manager_id": "6975918",

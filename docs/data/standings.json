@@ -1,74 +1,74 @@
 [
   {
-    "event_total": 69,
+    "event_total": 77,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 1,
     "team_name": "Yoro Wizard Harry",
-    "total": 608
+    "total": 616
   },
   {
-    "event_total": 47,
+    "event_total": 60,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 2,
     "team_name": "Restart The Rutter",
-    "total": 587
+    "total": 600
   },
   {
-    "event_total": 47,
+    "event_total": 62,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 3,
     "team_name": "Hamann Overboard",
-    "total": 580
+    "total": 595
   },
   {
-    "event_total": 30,
-    "manager_id": "817501",
-    "name": "Andrew David",
-    "rank": 4,
-    "team_name": "Kloppafeel",
-    "total": 565
-  },
-  {
-    "event_total": 66,
-    "manager_id": "822375",
-    "name": "Robbie Paton",
-    "rank": 5,
-    "team_name": "Careless Wissa",
-    "total": 561
-  },
-  {
-    "event_total": 43,
+    "event_total": 56,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
-    "rank": 6,
+    "rank": 4,
     "team_name": "Ballack Sabbath",
-    "total": 561
+    "total": 574
   },
   {
-    "event_total": 50,
+    "event_total": 37,
+    "manager_id": "817501",
+    "name": "Andrew David",
+    "rank": 5,
+    "team_name": "Kloppafeel",
+    "total": 572
+  },
+  {
+    "event_total": 67,
+    "manager_id": "822375",
+    "name": "Robbie Paton",
+    "rank": 6,
+    "team_name": "Careless Wissa",
+    "total": 562
+  },
+  {
+    "event_total": 58,
     "manager_id": "6975918",
     "name": "James Cassidy",
-    "rank": 7,
+    "rank": 6,
     "team_name": "Jacquet Potato",
-    "total": 554
+    "total": 562
   },
   {
-    "event_total": 49,
+    "event_total": 55,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 8,
     "team_name": "ThunderStruijk",
-    "total": 545
+    "total": 551
   },
   {
-    "event_total": 39,
+    "event_total": 44,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
     "team_name": "All Hail Keylord",
-    "total": 464
+    "total": 469
   }
 ]
