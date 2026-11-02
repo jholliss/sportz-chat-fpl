@@ -1,19 +1,19 @@
 [
   {
-    "event_total": 77,
+    "event_total": 75,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 1,
     "team_name": "Yoro Wizard Harry",
-    "total": 616
+    "total": 614
   },
   {
-    "event_total": 60,
+    "event_total": 58,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 2,
     "team_name": "Restart The Rutter",
-    "total": 600
+    "total": 598
   },
   {
     "event_total": 62,
@@ -40,20 +40,20 @@
     "total": 572
   },
   {
-    "event_total": 58,
-    "manager_id": "6975918",
-    "name": "James Cassidy",
-    "rank": 6,
-    "team_name": "Jacquet Potato",
-    "total": 562
-  },
-  {
     "event_total": 67,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 6,
     "team_name": "Careless Wissa",
     "total": 562
+  },
+  {
+    "event_total": 56,
+    "manager_id": "6975918",
+    "name": "James Cassidy",
+    "rank": 7,
+    "team_name": "Jacquet Potato",
+    "total": 560
   },
   {
     "event_total": 55,
