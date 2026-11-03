@@ -4077,7 +4077,7 @@
     "web_name": "Chiesa"
   },
   {
-    "ep_next": "0.5",
+    "ep_next": "0.4",
     "form": "0.5",
     "id": 371,
     "now_cost": 58,
@@ -4716,7 +4716,7 @@
     "web_name": "Mount"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "1.8",
     "form": "1.8",
     "id": 431,
     "now_cost": 57,
