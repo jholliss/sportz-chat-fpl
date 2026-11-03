@@ -91,10 +91,10 @@
     {
       "bank": 0,
       "gw": 9,
-      "overall_rank": 1207678,
-      "points": 56,
+      "overall_rank": 1195537,
+      "points": 58,
       "points_on_bench": 8,
-      "total_points": 574,
+      "total_points": 576,
       "transfer_cost": 4,
       "transfers": 2,
       "value": 1014
@@ -192,7 +192,7 @@
     {
       "bank": 10,
       "gw": 9,
-      "overall_rank": 489792,
+      "overall_rank": 489794,
       "points": 68,
       "points_on_bench": 17,
       "total_points": 601,
@@ -293,10 +293,10 @@
     {
       "bank": 0,
       "gw": 9,
-      "overall_rank": 6601638,
-      "points": 44,
+      "overall_rank": 6364506,
+      "points": 51,
       "points_on_bench": 6,
-      "total_points": 469,
+      "total_points": 476,
       "transfer_cost": 0,
       "transfers": 3,
       "value": 1005
@@ -394,10 +394,10 @@
     {
       "bank": 19,
       "gw": 9,
-      "overall_rank": 478615,
-      "points": 60,
-      "points_on_bench": 3,
-      "total_points": 600,
+      "overall_rank": 553661,
+      "points": 58,
+      "points_on_bench": 5,
+      "total_points": 598,
       "transfer_cost": 0,
       "transfers": 2,
       "value": 1017
@@ -495,7 +495,7 @@
     {
       "bank": 24,
       "gw": 9,
-      "overall_rank": 271695,
+      "overall_rank": 271697,
       "points": 75,
       "points_on_bench": 23,
       "total_points": 614,
@@ -596,10 +596,10 @@
     {
       "bank": 13,
       "gw": 9,
-      "overall_rank": 1662089,
-      "points": 58,
+      "overall_rank": 1820997,
+      "points": 56,
       "points_on_bench": 24,
-      "total_points": 562,
+      "total_points": 560,
       "transfer_cost": 0,
       "transfers": 1,
       "value": 1013
@@ -697,10 +697,10 @@
     {
       "bank": 1,
       "gw": 9,
-      "overall_rank": 2128998,
-      "points": 55,
+      "overall_rank": 1932638,
+      "points": 61,
       "points_on_bench": 16,
-      "total_points": 551,
+      "total_points": 557,
       "transfer_cost": 0,
       "transfers": 0,
       "value": 1001
@@ -798,10 +798,10 @@
     {
       "bank": 9,
       "gw": 9,
-      "overall_rank": 1261859,
-      "points": 37,
-      "points_on_bench": 19,
-      "total_points": 572,
+      "overall_rank": 1110091,
+      "points": 43,
+      "points_on_bench": 17,
+      "total_points": 578,
       "transfer_cost": 0,
       "transfers": 1,
       "value": 1024
@@ -899,9 +899,9 @@
     {
       "bank": 68,
       "gw": 9,
-      "overall_rank": 1662089,
+      "overall_rank": 1733933,
       "points": 67,
-      "points_on_bench": 24,
+      "points_on_bench": 22,
       "total_points": 562,
       "transfer_cost": 0,
       "transfers": 1,
