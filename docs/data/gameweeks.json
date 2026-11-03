@@ -91,7 +91,7 @@
     {
       "bank": 0,
       "gw": 9,
-      "overall_rank": 1195537,
+      "overall_rank": 1244648,
       "points": 58,
       "points_on_bench": 8,
       "total_points": 576,
@@ -192,10 +192,10 @@
     {
       "bank": 10,
       "gw": 9,
-      "overall_rank": 489794,
-      "points": 68,
+      "overall_rank": 448675,
+      "points": 71,
       "points_on_bench": 17,
-      "total_points": 601,
+      "total_points": 604,
       "transfer_cost": 0,
       "transfers": 3,
       "value": 1023
@@ -293,7 +293,7 @@
     {
       "bank": 0,
       "gw": 9,
-      "overall_rank": 6364506,
+      "overall_rank": 6546321,
       "points": 51,
       "points_on_bench": 6,
       "total_points": 476,
@@ -394,10 +394,10 @@
     {
       "bank": 19,
       "gw": 9,
-      "overall_rank": 553661,
-      "points": 58,
-      "points_on_bench": 5,
-      "total_points": 598,
+      "overall_rank": 531123,
+      "points": 60,
+      "points_on_bench": 3,
+      "total_points": 600,
       "transfer_cost": 0,
       "transfers": 2,
       "value": 1017
@@ -495,7 +495,7 @@
     {
       "bank": 24,
       "gw": 9,
-      "overall_rank": 271697,
+      "overall_rank": 282843,
       "points": 75,
       "points_on_bench": 23,
       "total_points": 614,
@@ -596,7 +596,7 @@
     {
       "bank": 13,
       "gw": 9,
-      "overall_rank": 1820997,
+      "overall_rank": 1896611,
       "points": 56,
       "points_on_bench": 24,
       "total_points": 560,
@@ -697,7 +697,7 @@
     {
       "bank": 1,
       "gw": 9,
-      "overall_rank": 1932638,
+      "overall_rank": 2013495,
       "points": 61,
       "points_on_bench": 16,
       "total_points": 557,
@@ -798,7 +798,7 @@
     {
       "bank": 9,
       "gw": 9,
-      "overall_rank": 1110091,
+      "overall_rank": 1155824,
       "points": 43,
       "points_on_bench": 17,
       "total_points": 578,
@@ -899,7 +899,7 @@
     {
       "bank": 68,
       "gw": 9,
-      "overall_rank": 1733933,
+      "overall_rank": 1806040,
       "points": 67,
       "points_on_bench": 22,
       "total_points": 562,
