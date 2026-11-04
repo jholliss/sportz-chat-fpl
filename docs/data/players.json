@@ -237,7 +237,7 @@
     "ep_next": "9.2",
     "form": "9.2",
     "id": 31,
-    "now_cost": 47,
+    "now_cost": 48,
     "team": 1,
     "total_points": 49,
     "web_name": "Konsa"
@@ -813,7 +813,7 @@
     "ep_next": "6.0",
     "form": "6.0",
     "id": 566,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 3,
     "total_points": 37,
     "web_name": "Silva"
@@ -903,7 +903,7 @@
     "ep_next": "2.5",
     "form": "2.5",
     "id": 88,
-    "now_cost": 46,
+    "now_cost": 45,
     "team": 4,
     "total_points": 33,
     "web_name": "Kayode"
@@ -1452,7 +1452,7 @@
     "ep_next": "5.2",
     "form": "5.2",
     "id": 40,
-    "now_cost": 81,
+    "now_cost": 82,
     "team": 6,
     "total_points": 50,
     "web_name": "Rogers"
@@ -2100,7 +2100,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 42,
-    "now_cost": 54,
+    "now_cost": 53,
     "team": 8,
     "total_points": 2,
     "web_name": "Guessand"
@@ -3081,7 +3081,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 292,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 11,
     "total_points": 0,
     "web_name": "\u00d6m\u00fcr"
@@ -3513,7 +3513,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 323,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 12,
     "total_points": 3,
     "web_name": "McAteer"
@@ -4518,7 +4518,7 @@
     "web_name": "Tielemans"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "1.5",
     "form": "2.0",
     "id": 131,
     "now_cost": 49,
@@ -4854,7 +4854,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 445,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 17,
     "total_points": 16,
     "web_name": "Thiaw"
@@ -5196,7 +5196,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 473,
-    "now_cost": 43,
+    "now_cost": 42,
     "team": 18,
     "total_points": 9,
     "web_name": "Aina"
@@ -5421,7 +5421,7 @@
     "ep_next": "0.0",
     "form": "0.5",
     "id": 403,
-    "now_cost": 65,
+    "now_cost": 64,
     "team": 19,
     "total_points": 10,
     "web_name": "S\u00e1vio"
@@ -5583,7 +5583,7 @@
     "ep_next": "4.8",
     "form": "4.8",
     "id": 512,
-    "now_cost": 65,
+    "now_cost": 66,
     "team": 19,
     "total_points": 26,
     "web_name": "Kudus"
@@ -6006,7 +6006,7 @@
     "ep_next": "0.5",
     "form": "0.5",
     "id": 646,
-    "now_cost": 55,
+    "now_cost": 54,
     "team": 20,
     "total_points": 5,
     "web_name": "Fofana"
