@@ -3639,7 +3639,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 329,
-    "now_cost": 43,
+    "now_cost": 42,
     "team": 13,
     "total_points": 7,
     "web_name": "Rodon"
@@ -4602,7 +4602,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 418,
-    "now_cost": 47,
+    "now_cost": 46,
     "team": 16,
     "total_points": 16,
     "web_name": "Maguire"
@@ -5259,7 +5259,7 @@
     "ep_next": "1.5",
     "form": "1.5",
     "id": 480,
-    "now_cost": 79,
+    "now_cost": 78,
     "team": 18,
     "total_points": 34,
     "web_name": "Gibbs-White"
@@ -6024,7 +6024,7 @@
     "ep_next": "0.7",
     "form": "0.7",
     "id": 668,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 20,
     "total_points": 2,
     "web_name": "Tutierov"
