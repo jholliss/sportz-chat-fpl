@@ -2304,7 +2304,7 @@
     "web_name": "Drakes-Thomas"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "1.8",
     "form": "1.8",
     "id": 222,
     "now_cost": 60,
@@ -2403,7 +2403,7 @@
     "web_name": "Chilwell"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "2.0",
     "form": "2.0",
     "id": 644,
     "now_cost": 50,
@@ -2475,7 +2475,7 @@
     "web_name": "Tarkowski"
   },
   {
-    "ep_next": "3.2",
+    "ep_next": "2.4",
     "form": "3.2",
     "id": 230,
     "now_cost": 55,
@@ -3168,7 +3168,7 @@
     "web_name": "Targett"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "1.0",
     "id": 563,
     "now_cost": 49,
@@ -3690,7 +3690,7 @@
     "web_name": "Muharemovi\u0107"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "0.8",
     "form": "1.5",
     "id": 335,
     "now_cost": 60,
@@ -3699,7 +3699,7 @@
     "web_name": "Stach"
   },
   {
-    "ep_next": "0.9",
+    "ep_next": "0.6",
     "form": "1.2",
     "id": 336,
     "now_cost": 58,
@@ -3780,7 +3780,7 @@
     "web_name": "Tanaka"
   },
   {
-    "ep_next": "3.8",
+    "ep_next": "2.8",
     "form": "3.8",
     "id": 346,
     "now_cost": 61,
@@ -4950,7 +4950,7 @@
     "web_name": "J.Murphy"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "0.0",
     "form": "1.5",
     "id": 458,
     "now_cost": 54,
@@ -4959,7 +4959,7 @@
     "web_name": "Joelinton"
   },
   {
-    "ep_next": "0.6",
+    "ep_next": "0.4",
     "form": "0.8",
     "id": 459,
     "now_cost": 55,
@@ -5310,7 +5310,7 @@
     "web_name": "McAtee"
   },
   {
-    "ep_next": "0.6",
+    "ep_next": "0.0",
     "form": "0.8",
     "id": 487,
     "now_cost": 48,
@@ -5886,7 +5886,7 @@
     "web_name": "E.Le F\u00e9e"
   },
   {
-    "ep_next": "0.4",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 543,
     "now_cost": 53,
