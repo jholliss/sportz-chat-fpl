@@ -234,7 +234,7 @@
     "web_name": "G.Jesus"
   },
   {
-    "ep_next": "9.2",
+    "ep_next": "6.9",
     "form": "9.2",
     "id": 31,
     "now_cost": 48,
@@ -444,7 +444,7 @@
     "ep_next": "6.0",
     "form": "6.0",
     "id": 53,
-    "now_cost": 61,
+    "now_cost": 62,
     "team": 2,
     "total_points": 38,
     "web_name": "Manzambi"
@@ -615,7 +615,7 @@
     "ep_next": "6.5",
     "form": "6.5",
     "id": 60,
-    "now_cost": 55,
+    "now_cost": 56,
     "team": 3,
     "total_points": 38,
     "web_name": "Hill"
@@ -819,7 +819,7 @@
     "web_name": "Silva"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.0",
     "form": "0.2",
     "id": 573,
     "now_cost": 44,
@@ -2307,7 +2307,7 @@
     "ep_next": "1.8",
     "form": "1.8",
     "id": 222,
-    "now_cost": 60,
+    "now_cost": 59,
     "team": 8,
     "total_points": 21,
     "web_name": "Strand Larsen"
