@@ -234,7 +234,7 @@
     "web_name": "G.Jesus"
   },
   {
-    "ep_next": "6.9",
+    "ep_next": "9.2",
     "form": "9.2",
     "id": 31,
     "now_cost": 48,
@@ -540,7 +540,7 @@
     "web_name": "Lynch"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.9",
     "form": "1.8",
     "id": 611,
     "now_cost": 45,
@@ -1440,7 +1440,7 @@
     "web_name": "Ibrahim"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "2.1",
     "form": "2.8",
     "id": 28,
     "now_cost": 49,
@@ -1620,7 +1620,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "2.5",
+    "ep_next": "1.9",
     "form": "2.5",
     "id": 159,
     "now_cost": 53,
@@ -2772,7 +2772,7 @@
     "web_name": "Berge"
   },
   {
-    "ep_next": "0.5",
+    "ep_next": "0.0",
     "form": "0.5",
     "id": 266,
     "now_cost": 49,
@@ -4518,7 +4518,7 @@
     "web_name": "Tielemans"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "2.0",
     "id": 131,
     "now_cost": 49,
@@ -4698,7 +4698,7 @@
     "web_name": "Cunha"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.0",
     "form": "0.2",
     "id": 429,
     "now_cost": 68,
@@ -5400,7 +5400,7 @@
     "web_name": "Van Hecke"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.5",
     "form": "0.5",
     "id": 147,
     "now_cost": 43,
