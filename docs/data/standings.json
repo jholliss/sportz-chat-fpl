@@ -1,6 +1,6 @@
 [
   {
-    "event_total": 75,
+    "event_total": 0,
     "manager_id": "4279888",
     "name": "Oliver Dewdney",
     "rank": 1,
@@ -8,7 +8,7 @@
     "total": 614
   },
   {
-    "event_total": 71,
+    "event_total": 0,
     "manager_id": "1212049",
     "name": "James Holliss",
     "rank": 2,
@@ -16,23 +16,23 @@
     "total": 604
   },
   {
-    "event_total": 60,
+    "event_total": 0,
     "manager_id": "4177980",
     "name": "James Petrie",
     "rank": 3,
     "team_name": "Restart The Rutter",
-    "total": 600
+    "total": 592
   },
   {
-    "event_total": 43,
+    "event_total": 2,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 4,
     "team_name": "Kloppafeel",
-    "total": 578
+    "total": 580
   },
   {
-    "event_total": 58,
+    "event_total": 0,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
     "rank": 5,
@@ -40,7 +40,7 @@
     "total": 576
   },
   {
-    "event_total": 67,
+    "event_total": 0,
     "manager_id": "822375",
     "name": "Robbie Paton",
     "rank": 6,
@@ -48,7 +48,7 @@
     "total": 562
   },
   {
-    "event_total": 56,
+    "event_total": 0,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 7,
@@ -56,19 +56,19 @@
     "total": 560
   },
   {
-    "event_total": 61,
+    "event_total": 2,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 8,
     "team_name": "ThunderStruijk",
-    "total": 557
+    "total": 559
   },
   {
-    "event_total": 51,
+    "event_total": 2,
     "manager_id": "3457548",
     "name": "David Lewis",
     "rank": 9,
     "team_name": "All Hail Keylord",
-    "total": 476
+    "total": 470
   }
 ]
