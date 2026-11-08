@@ -102,7 +102,7 @@
     "ep_next": "0.0",
     "form": "1.0",
     "id": 12,
-    "now_cost": 95,
+    "now_cost": 94,
     "team": 1,
     "total_points": 37,
     "web_name": "Saka"
@@ -489,7 +489,7 @@
     "ep_next": "6.6",
     "form": "6.6",
     "id": 166,
-    "now_cost": 70,
+    "now_cost": 71,
     "team": 2,
     "total_points": 43,
     "web_name": "N.Jackson"
@@ -687,7 +687,7 @@
     "ep_next": "4.8",
     "form": "4.8",
     "id": 68,
-    "now_cost": 66,
+    "now_cost": 67,
     "team": 3,
     "total_points": 55,
     "web_name": "Tavernier"
@@ -1695,7 +1695,7 @@
     "ep_next": "0.0",
     "form": "2.2",
     "id": 200,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 6,
     "total_points": 24,
     "web_name": "Lacroix"
@@ -3207,7 +3207,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 585,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 11,
     "total_points": 10,
     "web_name": "Herrington"
@@ -3810,7 +3810,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 349,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 13,
     "total_points": 0,
     "web_name": "Mateo Joseph"
@@ -4257,7 +4257,7 @@
     "web_name": "O'Reilly"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "1.0",
     "form": "1.4",
     "id": 388,
     "now_cost": 60,
@@ -4284,7 +4284,7 @@
     "web_name": "R\u00faben"
   },
   {
-    "ep_next": "1.4",
+    "ep_next": "1.0",
     "form": "1.4",
     "id": 391,
     "now_cost": 57,
@@ -4593,7 +4593,7 @@
     "ep_next": "1.6",
     "form": "1.6",
     "id": 417,
-    "now_cost": 48,
+    "now_cost": 47,
     "team": 16,
     "total_points": 16,
     "web_name": "Dalot"
@@ -4674,7 +4674,7 @@
     "ep_next": "0.8",
     "form": "0.8",
     "id": 426,
-    "now_cost": 117,
+    "now_cost": 116,
     "team": 16,
     "total_points": 35,
     "web_name": "B.Fernandes"
@@ -4827,7 +4827,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 442,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 17,
     "total_points": 0,
     "web_name": "Pope"
@@ -5070,7 +5070,7 @@
     "ep_next": "0.8",
     "form": "0.8",
     "id": 634,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 17,
     "total_points": 8,
     "web_name": "Fernandez-Pardo"
@@ -5133,7 +5133,7 @@
     "ep_next": "2.4",
     "form": "2.4",
     "id": 201,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 18,
     "total_points": 17,
     "web_name": "Mu\u00f1oz"
@@ -5184,12 +5184,12 @@
     "web_name": "Milenkovi\u0107"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "2.4",
+    "form": "2.4",
     "id": 472,
     "now_cost": 55,
     "team": 18,
-    "total_points": 33,
+    "total_points": 35,
     "web_name": "Murillo"
   },
   {
