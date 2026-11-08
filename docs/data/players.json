@@ -3357,12 +3357,12 @@
     "web_name": "O'Shea"
   },
   {
-    "ep_next": "1.0",
-    "form": "1.0",
+    "ep_next": "0.6",
+    "form": "0.6",
     "id": 305,
     "now_cost": 40,
     "team": 12,
-    "total_points": 30,
+    "total_points": 28,
     "web_name": "Davis"
   },
   {
@@ -4581,12 +4581,12 @@
     "web_name": "Heaton"
   },
   {
-    "ep_next": "2.0",
-    "form": "2.0",
+    "ep_next": "2.2",
+    "form": "2.2",
     "id": 415,
     "now_cost": 57,
     "team": 16,
-    "total_points": 20,
+    "total_points": 21,
     "web_name": "Dorgu"
   },
   {
