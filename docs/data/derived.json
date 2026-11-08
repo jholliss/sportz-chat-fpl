@@ -1148,6 +1148,13 @@
         "points_in": 8
       },
       {
+        "gw": 5,
+        "manager_id": "822375",
+        "name": "Robbie Paton",
+        "player_in_name": "Isak",
+        "points_in": 8
+      },
+      {
         "gw": 3,
         "manager_id": "8011609",
         "name": "Tom Phillips",
@@ -1159,13 +1166,6 @@
         "manager_id": "8011609",
         "name": "Tom Phillips",
         "player_in_name": "Van Hecke",
-        "points_in": 8
-      },
-      {
-        "gw": 5,
-        "manager_id": "822375",
-        "name": "Robbie Paton",
-        "player_in_name": "Isak",
         "points_in": 8
       },
       {
@@ -2673,19 +2673,6 @@
         "time": "2026-09-12T10:14:12.158178Z"
       },
       {
-        "gw": 9,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "net_points": 10,
-        "player_in": 31,
-        "player_in_name": "Konsa",
-        "player_out": 649,
-        "player_out_name": "Maitland-Niles",
-        "points_in": 10,
-        "points_out": 0,
-        "time": "2026-10-31T10:40:20.483349Z"
-      },
-      {
         "gw": 8,
         "manager_id": "822375",
         "name": "Robbie Paton",
@@ -2697,6 +2684,19 @@
         "points_in": 10,
         "points_out": 0,
         "time": "2026-10-19T11:51:37.939211Z"
+      },
+      {
+        "gw": 9,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "net_points": 10,
+        "player_in": 31,
+        "player_in_name": "Konsa",
+        "player_out": 649,
+        "player_out_name": "Maitland-Niles",
+        "points_in": 10,
+        "points_out": 0,
+        "time": "2026-10-31T10:40:20.483349Z"
       },
       {
         "gw": 6,
@@ -2830,15 +2830,15 @@
       },
       {
         "hit_points": 0,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "transfer_count": 16
-      },
-      {
-        "hit_points": 0,
         "manager_id": "822375",
         "name": "Robbie Paton",
         "transfer_count": 9
+      },
+      {
+        "hit_points": 0,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "transfer_count": 16
       }
     ],
     "worst_transfers": [
@@ -2869,19 +2869,6 @@
         "time": "2026-09-12T11:23:03.885078Z"
       },
       {
-        "gw": 9,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "net_points": -9,
-        "player_in": 250,
-        "player_in_name": "Leno",
-        "player_out": 109,
-        "player_out_name": "Verbruggen",
-        "points_in": 2,
-        "points_out": 11,
-        "time": "2026-10-31T10:41:47.374633Z"
-      },
-      {
         "gw": 3,
         "manager_id": "822375",
         "name": "Robbie Paton",
@@ -2893,6 +2880,19 @@
         "points_in": 1,
         "points_out": 10,
         "time": "2026-08-29T18:30:11.639679Z"
+      },
+      {
+        "gw": 9,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "net_points": -9,
+        "player_in": 250,
+        "player_in_name": "Leno",
+        "player_out": 109,
+        "player_out_name": "Verbruggen",
+        "points_in": 2,
+        "points_out": 11,
+        "time": "2026-10-31T10:41:47.374633Z"
       },
       {
         "gw": 4,
@@ -3405,20 +3405,20 @@
         "worst_vs_average": -13
       },
       {
-        "best_vs_average": 20,
-        "manager_id": "8011609",
-        "name": "Tom Phillips",
-        "weeks_beat_average": 6,
-        "weeks_lost_to_average": 3,
-        "worst_vs_average": -12
-      },
-      {
         "best_vs_average": 22,
         "manager_id": "822375",
         "name": "Robbie Paton",
         "weeks_beat_average": 6,
         "weeks_lost_to_average": 4,
         "worst_vs_average": -17
+      },
+      {
+        "best_vs_average": 20,
+        "manager_id": "8011609",
+        "name": "Tom Phillips",
+        "weeks_beat_average": 6,
+        "weeks_lost_to_average": 3,
+        "worst_vs_average": -12
       },
       {
         "best_vs_average": 18,
@@ -3468,16 +3468,16 @@
       "weeks_on_podium": 0
     },
     {
-      "manager_id": "8011609",
-      "name": "Tom Phillips",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 1
-    },
-    {
       "manager_id": "822375",
       "name": "Robbie Paton",
       "weeks_at_top": 0,
       "weeks_on_podium": 0
+    },
+    {
+      "manager_id": "8011609",
+      "name": "Tom Phillips",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 1
     },
     {
       "manager_id": "3457548",
