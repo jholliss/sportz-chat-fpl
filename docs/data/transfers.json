@@ -2,13 +2,13 @@
   "1004578": [
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": -1,
       "player_in": 566,
       "player_in_name": "Silva",
       "player_out": 449,
       "player_out_name": "Hall",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 3,
+      "points_out": 4,
       "time": "2026-11-06T18:21:44.874231Z"
     },
     {
@@ -534,35 +534,35 @@
   "3457548": [
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 3,
       "player_in": 68,
       "player_in_name": "Tavernier",
       "player_out": 12,
       "player_out_name": "Saka",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 3,
+      "points_out": 0,
       "time": "2026-11-05T03:55:50.366928Z"
     },
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 6,
       "player_in": 8,
       "player_in_name": "Calafiori",
       "player_out": 418,
       "player_out_name": "Maguire",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 6,
+      "points_out": 0,
       "time": "2026-11-05T03:55:50.366718Z"
     },
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 9,
       "player_in": 166,
       "player_in_name": "N.Jackson",
       "player_out": 464,
       "player_out_name": "Wissa",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 11,
+      "points_out": 2,
       "time": "2026-11-05T03:55:50.364720Z"
     },
     {
@@ -745,35 +745,35 @@
   "4177980": [
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 3,
       "player_in": 112,
       "player_in_name": "Van Hecke",
       "player_out": 282,
       "player_out_name": "Giles",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 4,
+      "points_out": 1,
       "time": "2026-11-06T16:53:03.438521Z"
     },
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 8,
       "player_in": 31,
       "player_in_name": "Konsa",
       "player_out": 10,
       "player_out_name": "White",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": 0,
       "time": "2026-11-06T16:53:03.438294Z"
     },
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 2,
       "player_in": 496,
       "player_in_name": "Kinsky",
       "player_out": 497,
       "player_out_name": "Dubravka",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 2,
+      "points_out": 0,
       "time": "2026-11-06T16:53:03.434873Z"
     },
     {
@@ -1580,13 +1580,13 @@
   "822375": [
     {
       "gw": 10,
-      "net_points": null,
+      "net_points": 6,
       "player_in": 379,
       "player_in_name": "Isak",
       "player_out": 138,
       "player_out_name": "Kostoulas",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": 2,
       "time": "2026-11-06T07:25:59.853743Z"
     },
     {
