@@ -1119,7 +1119,7 @@
     "ep_next": "6.2",
     "form": "6.2",
     "id": 109,
-    "now_cost": 46,
+    "now_cost": 47,
     "team": 5,
     "total_points": 57,
     "web_name": "Verbruggen"
@@ -2541,7 +2541,7 @@
     "ep_next": "4.2",
     "form": "4.2",
     "id": 236,
-    "now_cost": 66,
+    "now_cost": 67,
     "team": 9,
     "total_points": 50,
     "web_name": "Dewsbury-Hall"
@@ -4608,7 +4608,7 @@
     "web_name": "Dalot"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.8",
     "form": "1.0",
     "id": 418,
     "now_cost": 46,
@@ -4665,7 +4665,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 424,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 16,
     "total_points": 0,
     "web_name": "Amass"
