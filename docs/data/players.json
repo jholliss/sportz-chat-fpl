@@ -237,7 +237,7 @@
     "ep_next": "10.2",
     "form": "10.2",
     "id": 31,
-    "now_cost": 48,
+    "now_cost": 49,
     "team": 1,
     "total_points": 57,
     "web_name": "Konsa"
@@ -1128,7 +1128,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 111,
-    "now_cost": 40,
+    "now_cost": 39,
     "team": 5,
     "total_points": 0,
     "web_name": "Steele"
@@ -3963,7 +3963,7 @@
     "ep_next": "0.0",
     "form": "0.2",
     "id": 357,
-    "now_cost": 52,
+    "now_cost": 51,
     "team": 14,
     "total_points": 4,
     "web_name": "Frimpong"
@@ -5760,7 +5760,7 @@
     "web_name": "Williams-Barnett"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "1.2",
     "form": "0.0",
     "id": 671,
     "now_cost": 40,
