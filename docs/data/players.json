@@ -723,7 +723,7 @@
     "ep_next": "2.5",
     "form": "2.5",
     "id": 71,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 3,
     "total_points": 19,
     "web_name": "Cook"
@@ -2190,7 +2190,7 @@
     "ep_next": "0.2",
     "form": "0.2",
     "id": 207,
-    "now_cost": 43,
+    "now_cost": 42,
     "team": 8,
     "total_points": 3,
     "web_name": "Mingueza"
@@ -4755,7 +4755,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 434,
-    "now_cost": 49,
+    "now_cost": 48,
     "team": 16,
     "total_points": 0,
     "web_name": "J.Fletcher"
