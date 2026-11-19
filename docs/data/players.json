@@ -372,7 +372,7 @@
     "ep_next": "5.3",
     "form": "5.3",
     "id": 45,
-    "now_cost": 54,
+    "now_cost": 55,
     "team": 2,
     "total_points": 44,
     "web_name": "McGinn"
@@ -516,7 +516,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 597,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 2,
     "total_points": 31,
     "web_name": "Suzuki"
@@ -1245,7 +1245,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 125,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 5,
     "total_points": 14,
     "web_name": "Georginio"
@@ -1263,7 +1263,7 @@
     "ep_next": "4.7",
     "form": "4.7",
     "id": 127,
-    "now_cost": 50,
+    "now_cost": 51,
     "team": 5,
     "total_points": 51,
     "web_name": "Gomez"
@@ -2838,7 +2838,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 569,
-    "now_cost": 59,
+    "now_cost": 58,
     "team": 10,
     "total_points": 24,
     "web_name": "Gonzalo"
@@ -4152,7 +4152,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 378,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 14,
     "total_points": 0,
     "web_name": "McConnell"
