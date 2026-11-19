@@ -1629,7 +1629,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "2.7",
+    "ep_next": "2.0",
     "form": "2.7",
     "id": 159,
     "now_cost": 53,
@@ -1782,7 +1782,7 @@
     "web_name": "Pinnock"
   },
   {
-    "ep_next": "0.1",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 104,
     "now_cost": 48,
@@ -1818,7 +1818,7 @@
     "web_name": "Wilson"
   },
   {
-    "ep_next": "0.1",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 173,
     "now_cost": 40,
@@ -1935,7 +1935,7 @@
     "web_name": "Sakamoto"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 186,
     "now_cost": 53,
@@ -2052,7 +2052,7 @@
     "web_name": "Awoniyi"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "1.5",
     "form": "2.0",
     "id": 575,
     "now_cost": 48,
@@ -3663,7 +3663,7 @@
     "web_name": "Bogle"
   },
   {
-    "ep_next": "2.2",
+    "ep_next": "3.0",
     "form": "3.0",
     "id": 331,
     "now_cost": 45,
@@ -3699,7 +3699,7 @@
     "web_name": "Muharemovi\u0107"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.7",
     "form": "0.7",
     "id": 335,
     "now_cost": 60,
@@ -5274,7 +5274,7 @@
     "web_name": "Gibbs-White"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 482,
     "now_cost": 57,
@@ -5913,7 +5913,7 @@
     "web_name": "Diarra"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "0.0",
     "form": "2.7",
     "id": 544,
     "now_cost": 53,
@@ -5985,7 +5985,7 @@
     "web_name": "N.Angulo"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "0.0",
     "form": "2.7",
     "id": 552,
     "now_cost": 57,
