@@ -279,7 +279,7 @@
     "web_name": "Digne"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.0",
     "form": "1.3",
     "id": 32,
     "now_cost": 43,
@@ -441,7 +441,7 @@
     "web_name": "Alysson"
   },
   {
-    "ep_next": "2.5",
+    "ep_next": "3.3",
     "form": "3.3",
     "id": 53,
     "now_cost": 62,
@@ -873,7 +873,7 @@
     "web_name": "Valdimarsson"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 84,
     "now_cost": 54,
@@ -927,7 +927,7 @@
     "web_name": "Henry"
   },
   {
-    "ep_next": "0.5",
+    "ep_next": "0.0",
     "form": "0.7",
     "id": 90,
     "now_cost": 45,
@@ -1422,7 +1422,7 @@
     "web_name": "Cozier-Duberry"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "1.0",
     "form": "1.0",
     "id": 639,
     "now_cost": 55,
@@ -1575,7 +1575,7 @@
     "web_name": "M.Sarr"
   },
   {
-    "ep_next": "2.5",
+    "ep_next": "3.3",
     "form": "3.3",
     "id": 151,
     "now_cost": 45,
@@ -1629,7 +1629,7 @@
     "web_name": "Gittens"
   },
   {
-    "ep_next": "2.0",
+    "ep_next": "2.7",
     "form": "2.7",
     "id": 159,
     "now_cost": 53,
@@ -2781,7 +2781,7 @@
     "web_name": "Berge"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "0.3",
     "form": "0.3",
     "id": 266,
     "now_cost": 49,
@@ -3033,7 +3033,7 @@
     "web_name": "McNair"
   },
   {
-    "ep_next": "2.2",
+    "ep_next": "3.0",
     "form": "3.0",
     "id": 286,
     "now_cost": 53,
@@ -3222,7 +3222,7 @@
     "web_name": "Herrington"
   },
   {
-    "ep_next": "1.5",
+    "ep_next": "2.0",
     "form": "2.0",
     "id": 586,
     "now_cost": 41,
@@ -3951,7 +3951,7 @@
     "web_name": "Davies"
   },
   {
-    "ep_next": "3.5",
+    "ep_next": "4.7",
     "form": "4.7",
     "id": 356,
     "now_cost": 64,
@@ -4275,7 +4275,7 @@
     "web_name": "Gu\u00e9hi"
   },
   {
-    "ep_next": "1.0",
+    "ep_next": "0.5",
     "form": "1.0",
     "id": 389,
     "now_cost": 59,
@@ -4293,7 +4293,7 @@
     "web_name": "R\u00faben"
   },
   {
-    "ep_next": "0.8",
+    "ep_next": "1.0",
     "form": "1.0",
     "id": 391,
     "now_cost": 56,
@@ -4311,7 +4311,7 @@
     "web_name": "A\u00eft-Nouri"
   },
   {
-    "ep_next": "2.7",
+    "ep_next": "1.4",
     "form": "2.7",
     "id": 393,
     "now_cost": 53,
@@ -5607,7 +5607,7 @@
     "web_name": "Xavi"
   },
   {
-    "ep_next": "3.8",
+    "ep_next": "0.0",
     "form": "5.0",
     "id": 514,
     "now_cost": 56,
