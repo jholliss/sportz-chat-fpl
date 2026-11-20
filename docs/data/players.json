@@ -489,7 +489,7 @@
     "ep_next": "11.0",
     "form": "11.0",
     "id": 166,
-    "now_cost": 71,
+    "now_cost": 72,
     "team": 2,
     "total_points": 54,
     "web_name": "N.Jackson"
@@ -2163,7 +2163,7 @@
     "ep_next": "1.7",
     "form": "1.7",
     "id": 204,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 8,
     "total_points": 33,
     "web_name": "Mitchell"
@@ -2847,7 +2847,7 @@
     "ep_next": "2.0",
     "form": "2.0",
     "id": 570,
-    "now_cost": 53,
+    "now_cost": 52,
     "team": 10,
     "total_points": 19,
     "web_name": "Palacios"
@@ -3504,7 +3504,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 321,
-    "now_cost": 45,
+    "now_cost": 44,
     "team": 12,
     "total_points": 2,
     "web_name": "Walle Egeli"
