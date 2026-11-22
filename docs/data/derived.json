@@ -3576,20 +3576,20 @@
         "worst_vs_average": -12
       },
       {
-        "best_vs_average": 24,
-        "manager_id": "1004578",
-        "name": "Adam Beveridge",
-        "weeks_beat_average": 11,
-        "weeks_lost_to_average": 0,
-        "worst_vs_average": 0
-      },
-      {
         "best_vs_average": 22,
         "manager_id": "817501",
         "name": "Andrew David",
         "weeks_beat_average": 9,
         "weeks_lost_to_average": 2,
         "worst_vs_average": -4
+      },
+      {
+        "best_vs_average": 24,
+        "manager_id": "1004578",
+        "name": "Adam Beveridge",
+        "weeks_beat_average": 11,
+        "weeks_lost_to_average": 0,
+        "worst_vs_average": 0
       },
       {
         "best_vs_average": 20,
@@ -3645,16 +3645,16 @@
       "weeks_on_podium": 5
     },
     {
-      "manager_id": "1004578",
-      "name": "Adam Beveridge",
-      "weeks_at_top": 0,
-      "weeks_on_podium": 4
-    },
-    {
       "manager_id": "817501",
       "name": "Andrew David",
       "weeks_at_top": 0,
       "weeks_on_podium": 3
+    },
+    {
+      "manager_id": "1004578",
+      "name": "Adam Beveridge",
+      "weeks_at_top": 0,
+      "weeks_on_podium": 4
     },
     {
       "manager_id": "8011609",
