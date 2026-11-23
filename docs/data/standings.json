@@ -24,12 +24,12 @@
     "total": 698
   },
   {
-    "event_total": 32,
+    "event_total": 29,
     "manager_id": "817501",
     "name": "Andrew David",
     "rank": 4,
     "team_name": "Kloppafeel",
-    "total": 677
+    "total": 674
   },
   {
     "event_total": 38,
@@ -40,20 +40,20 @@
     "total": 674
   },
   {
-    "event_total": 50,
-    "manager_id": "8011609",
-    "name": "Tom Phillips",
-    "rank": 6,
-    "team_name": "ThunderStruijk",
-    "total": 667
-  },
-  {
     "event_total": 46,
     "manager_id": "822375",
     "name": "Robbie Paton",
-    "rank": 7,
+    "rank": 6,
     "team_name": "Careless Wissa",
     "total": 665
+  },
+  {
+    "event_total": 47,
+    "manager_id": "8011609",
+    "name": "Tom Phillips",
+    "rank": 7,
+    "team_name": "ThunderStruijk",
+    "total": 664
   },
   {
     "event_total": 30,
