@@ -24,20 +24,20 @@
     "total": 698
   },
   {
-    "event_total": 29,
-    "manager_id": "817501",
-    "name": "Andrew David",
-    "rank": 4,
-    "team_name": "Kloppafeel",
-    "total": 674
-  },
-  {
     "event_total": 38,
     "manager_id": "1004578",
     "name": "Adam Beveridge",
-    "rank": 5,
+    "rank": 4,
     "team_name": "Ballack Sabbath",
     "total": 674
+  },
+  {
+    "event_total": 28,
+    "manager_id": "817501",
+    "name": "Andrew David",
+    "rank": 5,
+    "team_name": "Kloppafeel",
+    "total": 673
   },
   {
     "event_total": 46,
@@ -48,20 +48,20 @@
     "total": 665
   },
   {
-    "event_total": 47,
+    "event_total": 46,
     "manager_id": "8011609",
     "name": "Tom Phillips",
     "rank": 7,
     "team_name": "ThunderStruijk",
-    "total": 664
+    "total": 663
   },
   {
-    "event_total": 30,
+    "event_total": 31,
     "manager_id": "6975918",
     "name": "James Cassidy",
     "rank": 8,
     "team_name": "Jacquet Potato",
-    "total": 651
+    "total": 652
   },
   {
     "event_total": 29,
