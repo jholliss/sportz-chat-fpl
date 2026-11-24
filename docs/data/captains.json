@@ -16,6 +16,14 @@
       "captain_points": 4,
       "picked_best_captain": 0
     },
+    "11": {
+      "best_element": 566,
+      "best_possible_points": 16,
+      "captain_delta": -12,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
     "2": {
       "best_element": 426,
       "best_possible_points": 46,
@@ -94,6 +102,14 @@
       "best_element": 166,
       "best_possible_points": 22,
       "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
       "captain_element": 411,
       "captain_points": 4,
       "picked_best_captain": 0
@@ -180,6 +196,14 @@
       "captain_points": 4,
       "picked_best_captain": 0
     },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
     "2": {
       "best_element": 426,
       "best_possible_points": 46,
@@ -258,6 +282,14 @@
       "best_element": 166,
       "best_possible_points": 22,
       "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
       "captain_element": 411,
       "captain_points": 4,
       "picked_best_captain": 0
@@ -344,6 +376,14 @@
       "captain_points": 4,
       "picked_best_captain": 0
     },
+    "11": {
+      "best_element": 60,
+      "best_possible_points": 28,
+      "captain_delta": -24,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
     "2": {
       "best_element": 411,
       "best_possible_points": 26,
@@ -422,6 +462,14 @@
       "best_element": 166,
       "best_possible_points": 22,
       "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
       "captain_element": 411,
       "captain_points": 4,
       "picked_best_captain": 0
@@ -508,6 +556,14 @@
       "captain_points": 4,
       "picked_best_captain": 0
     },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
     "2": {
       "best_element": 426,
       "best_possible_points": 46,
@@ -586,6 +642,14 @@
       "best_element": 166,
       "best_possible_points": 22,
       "captain_delta": -18,
+      "captain_element": 411,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
       "captain_element": 411,
       "captain_points": 4,
       "picked_best_captain": 0
@@ -669,6 +733,14 @@
       "best_possible_points": 22,
       "captain_delta": -18,
       "captain_element": 40,
+      "captain_points": 4,
+      "picked_best_captain": 0
+    },
+    "11": {
+      "best_element": 68,
+      "best_possible_points": 16,
+      "captain_delta": -12,
+      "captain_element": 166,
       "captain_points": 4,
       "picked_best_captain": 0
     },

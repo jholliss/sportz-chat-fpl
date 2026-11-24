@@ -323,13 +323,13 @@
   "1212049": [
     {
       "gw": 11,
-      "net_points": null,
+      "net_points": 4,
       "player_in": 112,
       "player_in_name": "Van Hecke",
       "player_out": 230,
       "player_out_name": "Branthwaite",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 6,
+      "points_out": 2,
       "time": "2026-11-18T16:28:55.685203Z"
     },
     {
@@ -545,13 +545,13 @@
   "3457548": [
     {
       "gw": 11,
-      "net_points": null,
+      "net_points": 0,
       "player_in": 399,
       "player_in_name": "Cherki",
       "player_out": 427,
       "player_out_name": "Mbeumo",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 1,
+      "points_out": 1,
       "time": "2026-11-20T13:55:59.447254Z"
     },
     {
@@ -1156,13 +1156,13 @@
   "6975918": [
     {
       "gw": 11,
-      "net_points": null,
+      "net_points": 6,
       "player_in": 68,
       "player_in_name": "Tavernier",
       "player_out": 154,
       "player_out_name": "Palmer",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 8,
+      "points_out": 2,
       "time": "2026-11-21T10:24:54.693407Z"
     },
     {
@@ -1257,24 +1257,24 @@
   "8011609": [
     {
       "gw": 11,
-      "net_points": null,
+      "net_points": 3,
       "player_in": 15,
       "player_in_name": "\u00d8degaard",
       "player_out": 400,
       "player_out_name": "Doku",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 5,
+      "points_out": 2,
       "time": "2026-11-21T08:36:42.872248Z"
     },
     {
       "gw": 11,
-      "net_points": null,
+      "net_points": 0,
       "player_in": 109,
       "player_in_name": "Verbruggen",
       "player_out": 250,
       "player_out_name": "Leno",
-      "points_in": null,
-      "points_out": null,
+      "points_in": 2,
+      "points_out": 2,
       "time": "2026-11-21T08:36:42.868473Z"
     },
     {
