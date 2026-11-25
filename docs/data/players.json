@@ -147,7 +147,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 17,
-    "now_cost": 57,
+    "now_cost": 56,
     "team": 1,
     "total_points": 12,
     "web_name": "Merino"
@@ -624,7 +624,7 @@
     "ep_next": "8.0",
     "form": "8.0",
     "id": 60,
-    "now_cost": 56,
+    "now_cost": 57,
     "team": 3,
     "total_points": 56,
     "web_name": "Hill"
@@ -921,7 +921,7 @@
     "ep_next": "0.0",
     "form": "0.0",
     "id": 89,
-    "now_cost": 44,
+    "now_cost": 43,
     "team": 4,
     "total_points": 1,
     "web_name": "Henry"
@@ -1920,7 +1920,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 184,
-    "now_cost": 48,
+    "now_cost": 47,
     "team": 7,
     "total_points": 20,
     "web_name": "Grimes"
@@ -4548,7 +4548,7 @@
     "ep_next": "1.0",
     "form": "1.0",
     "id": 162,
-    "now_cost": 47,
+    "now_cost": 46,
     "team": 16,
     "total_points": 11,
     "web_name": "Andrey Santos"
@@ -4635,7 +4635,7 @@
     "web_name": "Martinez"
   },
   {
-    "ep_next": "0.0",
+    "ep_next": "-0.3",
     "form": "-0.3",
     "id": 420,
     "now_cost": 48,
@@ -5385,7 +5385,7 @@
     "ep_next": "3.0",
     "form": "3.0",
     "id": 558,
-    "now_cost": 50,
+    "now_cost": 49,
     "team": 18,
     "total_points": 32,
     "web_name": "Schlager"
