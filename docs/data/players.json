@@ -1,6 +1,6 @@
 [
   {
-    "ep_next": "2.0",
+    "ep_next": "3.0",
     "form": "4.0",
     "id": 1,
     "now_cost": 62,
@@ -279,7 +279,7 @@
     "web_name": "Digne"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.3",
     "form": "0.3",
     "id": 32,
     "now_cost": 43,
@@ -729,7 +729,7 @@
     "web_name": "Cook"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 72,
     "now_cost": 48,
@@ -3366,7 +3366,7 @@
     "web_name": "O'Shea"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.3",
     "form": "0.3",
     "id": 305,
     "now_cost": 40,
@@ -4689,7 +4689,7 @@
     "web_name": "Fredricson"
   },
   {
-    "ep_next": "4.7",
+    "ep_next": "3.5",
     "form": "4.7",
     "id": 426,
     "now_cost": 116,
@@ -5436,7 +5436,7 @@
     "web_name": "Marmoush"
   },
   {
-    "ep_next": "0.2",
+    "ep_next": "0.0",
     "form": "0.3",
     "id": 403,
     "now_cost": 64,
@@ -5670,7 +5670,7 @@
     "web_name": "Gallagher"
   },
   {
-    "ep_next": "0.3",
+    "ep_next": "0.2",
     "form": "0.3",
     "id": 520,
     "now_cost": 53,
