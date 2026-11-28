@@ -1,6 +1,39 @@
 {
   "1004578": [
     {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 115,
+      "player_in_name": "De Cuyper",
+      "player_out": 10,
+      "player_out_name": "White",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-27T18:24:09.974127Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 504,
+      "player_in_name": "Vuskovic",
+      "player_out": 31,
+      "player_out_name": "Konsa",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-27T18:24:09.973904Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 346,
+      "player_in_name": "Calvert-Lewin",
+      "player_out": 165,
+      "player_out_name": "Jo\u00e3o Pedro",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-27T18:24:09.970805Z"
+    },
+    {
       "gw": 10,
       "net_points": -1,
       "player_in": 566,
@@ -321,6 +354,28 @@
     }
   ],
   "1212049": [
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 109,
+      "player_in_name": "Verbruggen",
+      "player_out": 1,
+      "player_out_name": "Raya",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-26T08:52:27.611840Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 366,
+      "player_in_name": "Wirtz",
+      "player_out": 94,
+      "player_out_name": "Schade",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-26T08:52:27.608127Z"
+    },
     {
       "gw": 11,
       "net_points": 4,
@@ -766,6 +821,28 @@
   ],
   "4177980": [
     {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 346,
+      "player_in_name": "Calvert-Lewin",
+      "player_out": 138,
+      "player_out_name": "Kostoulas",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-27T18:20:51.663953Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 504,
+      "player_in_name": "Vuskovic",
+      "player_out": 449,
+      "player_out_name": "Hall",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-27T18:20:51.661883Z"
+    },
+    {
       "gw": 10,
       "net_points": 3,
       "player_in": 112,
@@ -987,6 +1064,39 @@
     }
   ],
   "4279888": [
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 336,
+      "player_in_name": "Okafor",
+      "player_out": 512,
+      "player_out_name": "Kudus",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-21T19:09:50.364703Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 15,
+      "player_in_name": "\u00d8degaard",
+      "player_out": 400,
+      "player_out_name": "Doku",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-21T19:09:50.364496Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 109,
+      "player_in_name": "Verbruggen",
+      "player_out": 1,
+      "player_out_name": "Raya",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-21T19:09:50.360790Z"
+    },
     {
       "gw": 9,
       "net_points": 9,
@@ -1456,6 +1566,39 @@
   ],
   "817501": [
     {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 60,
+      "player_in_name": "Hill",
+      "player_out": 229,
+      "player_out_name": "Tarkowski",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-26T11:01:08.469895Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 109,
+      "player_in_name": "Verbruggen",
+      "player_out": 111,
+      "player_out_name": "Steele",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-26T11:01:08.469667Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 366,
+      "player_in_name": "Wirtz",
+      "player_out": 399,
+      "player_out_name": "Cherki",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-26T11:01:08.464350Z"
+    },
+    {
       "gw": 9,
       "net_points": 2,
       "player_in": 379,
@@ -1633,6 +1776,28 @@
     }
   ],
   "822375": [
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 127,
+      "player_in_name": "Gomez",
+      "player_out": 480,
+      "player_out_name": "Gibbs-White",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-27T16:09:18.206254Z"
+    },
+    {
+      "gw": 12,
+      "net_points": null,
+      "player_in": 366,
+      "player_in_name": "Wirtz",
+      "player_out": 154,
+      "player_out_name": "Palmer",
+      "points_in": null,
+      "points_out": null,
+      "time": "2026-11-21T16:29:09.021641Z"
+    },
     {
       "gw": 10,
       "net_points": 6,
